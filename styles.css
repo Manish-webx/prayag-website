@@ -682,7 +682,7 @@ a {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-1px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -1070,31 +1070,21 @@ a {
    SPECIALITIES SECTION
    ================================================ */
 .specialities-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    padding: 40px 0;
+    background-color: #daede67a;
 }
 
 .section-header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .section-title {
     font-size: 32px;
     font-weight: 700;
-    color: var(--prayag-teal);
+    color: #000;
     margin: 0;
     position: relative;
     display: inline-block;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background-color: var(--prayag-orange);
 }
 
 /* Specialities Grid */
@@ -1147,7 +1137,7 @@ a {
 }
 
 .speciality-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-1px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     border-color: var(--prayag-teal);
 }
@@ -1200,7 +1190,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
 }
 
 .view-all-btn {
@@ -1285,7 +1274,7 @@ a {
 
 @media (max-width: 767px) {
     .specialities-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     .specialities-grid {
@@ -1320,6 +1309,90 @@ a {
     }
 }
 
+/* ================================================
+   SPECIALITY BRIEF (NEWS SECTION STYLE)
+   ================================================ */
+.speciality-brief {
+    flex: 0 0 350px;
+    background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-light) 100%);
+    padding: 50px 40px;
+    border-radius: 12px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.speciality-brief-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.speciality-brief-description {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.btn-view-all-specialities {
+    background-color: var(--prayag-orange);
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-start;
+    box-shadow: 0 4px 15px rgba(232, 150, 79, 0.3);
+}
+
+.btn-view-all-specialities:hover {
+    background-color: var(--prayag-orange-dark);
+    transform: translateX(5px);
+    box-shadow: 0 6px 20px rgba(232, 150, 79, 0.4);
+}
+
+.btn-view-all-specialities i {
+    transition: transform 0.3s ease;
+}
+
+.btn-view-all-specialities:hover i {
+    transform: translateX(5px);
+}
+
+/* Responsive Design for Speciality Brief */
+@media (max-width: 991px) {
+    .speciality-brief {
+        flex: 0 0 auto;
+        padding: 40px 30px;
+        margin-bottom: 30px;
+    }
+
+    .speciality-brief-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .speciality-brief {
+        padding: 30px 25px;
+    }
+
+    .speciality-brief-title {
+        font-size: 24px;
+    }
+}
+
 /* Placeholder Content Styling */
 .placeholder-content {
     background-color: var(--white);
@@ -1337,7 +1410,7 @@ a {
    WHY CHOOSE US SECTION
    ================================================ */
 .why-choose-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background-color: #ffffff;
 }
 
@@ -1486,7 +1559,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .why-choose-card-static {
@@ -1610,8 +1683,8 @@ a {
    WORLD CLASS INFRASTRUCTURE SECTION
    ================================================ */
 .infrastructure-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    padding: 40px 0;
+    background-color: #daede67a;
 }
 
 .section-header-left {
@@ -1621,7 +1694,7 @@ a {
 .section-title-orange {
     font-size: 32px;
     font-weight: 700;
-    color: var(--prayag-orange);
+    color: #000;
     margin-bottom: 10px;
     line-height: 1.2;
 }
@@ -1728,7 +1801,7 @@ a {
    PRAYAG IN NEWS SECTION
    ================================================ */
 .news-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background-color: #ffffff;
     overflow: hidden;
 }
@@ -1742,7 +1815,7 @@ a {
 /* Left Side: Brief */
 .news-brief {
     flex: 0 0 350px;
-    background: linear-gradient(135deg, #003d7a 0%, #005aa7 100%);
+    background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-light) 100%);
     padding: 50px 40px;
     border-radius: 12px;
     color: #ffffff;
@@ -1767,11 +1840,11 @@ a {
 }
 
 .btn-view-all {
-    background-color: rgba(74, 143, 115, 0.9);
+    background-color: var(--prayag-orange);
     color: #ffffff;
     border: none;
     padding: 14px 28px;
-    border-radius: 6px;
+    border-radius: 30px;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -1780,11 +1853,13 @@ a {
     align-items: center;
     gap: 10px;
     align-self: flex-start;
+    box-shadow: 0 4px 15px rgba(232, 150, 79, 0.3);
 }
 
 .btn-view-all:hover {
-    background-color: var(--prayag-teal);
+    background-color: var(--prayag-orange-dark);
     transform: translateX(5px);
+    box-shadow: 0 6px 20px rgba(232, 150, 79, 0.4);
 }
 
 .btn-view-all i {
@@ -1966,8 +2041,8 @@ a {
    BLOG SECTION
    ================================================ */
 .blog-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    padding: 40px 0;
+    background-color: #daede67a;
 }
 
 /* Large Blog Cards */
@@ -1990,7 +2065,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: #e74c3c;
+    background-color: var(--prayag-orange);
     color: #ffffff;
     padding: 8px 18px;
     border-radius: 25px;
@@ -2052,7 +2127,7 @@ a {
     align-items: center;
     gap: 8px;
     color: #ffffff;
-    background-color: #e74c3c;
+    background-color: var(--prayag-teal);
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 13px;
@@ -2062,7 +2137,7 @@ a {
 }
 
 .blog-read-more:hover {
-    background-color: #c0392b;
+    background-color: var(--prayag-orange);
     transform: translateX(3px);
 }
 
@@ -2100,7 +2175,7 @@ a {
     position: absolute;
     top: 12px;
     right: 12px;
-    background-color: #e74c3c;
+    background-color: var(--prayag-orange);
     color: #ffffff;
     padding: 6px 14px;
     border-radius: 20px;
@@ -2173,7 +2248,7 @@ a {
     align-items: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #e74c3c;
+    background-color: var(--prayag-teal);
     padding: 7px 14px;
     border-radius: 20px;
     font-size: 11px;
@@ -2183,7 +2258,7 @@ a {
 }
 
 .blog-read-more-compact:hover {
-    background-color: #c0392b;
+    background-color: var(--prayag-orange);
     transform: translateX(2px);
 }
 
@@ -2231,7 +2306,7 @@ a {
    CTA SECTION WITH DOCTOR IMAGE
    ================================================ */
 .cta-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background-color: #ffffff;
 }
 
@@ -2348,16 +2423,345 @@ a {
 }
 
 /* ================================================
+   VIEW ALL CONTENT BUTTON (BLOG & TESTIMONIALS)
+   ================================================ */
+.btn-view-all-content {
+    background-color: var(--prayag-orange);
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(232, 150, 79, 0.3);
+}
+
+.btn-view-all-content:hover {
+    background-color: var(--prayag-teal);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 143, 115, 0.4);
+}
+
+.btn-view-all-content i {
+    transition: transform 0.3s ease;
+}
+
+.btn-view-all-content:hover i {
+    transform: translateX(5px);
+}
+
+/* ================================================
+   DOCTORS SECTION
+   ================================================ */
+.doctors-section {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.doctors-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.doctors-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 15px;
+}
+
+.doctors-slider-wrapper {
+    position: relative;
+    padding: 0 60px;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Doctor Card */
+.doctor-card {
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Ensure all cards have the same height */
+}
+
+.doctor-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: var(--prayag-teal);
+}
+
+.doctor-card-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.doctor-card-top {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    flex: 1;
+}
+
+.doctor-image-container {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.doctor-image {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--prayag-teal);
+}
+
+.doctor-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doctor-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.doctor-designation {
+    font-size: 13px;
+    color: var(--light-text);
+    margin-bottom: 12px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 36px;
+    /* Ensure consistent height */
+}
+
+.doctor-experience {
+    font-size: 13px;
+    color: var(--dark-text);
+    margin-top: auto;
+}
+
+.experience-label {
+    font-weight: 600;
+    color: var(--prayag-teal);
+}
+
+.experience-value {
+    font-weight: 500;
+    color: var(--dark-text);
+}
+
+/* Doctor Actions */
+.doctor-actions {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    border-top: 1px solid #f0f0f0;
+    background-color: #f8f9fa;
+}
+
+.btn-view-profile,
+.btn-book-appointment-doc {
+    flex: 1;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    text-align: center;
+}
+
+.btn-view-profile {
+    background-color: #ffffff;
+    color: var(--prayag-teal);
+    border: 2px solid var(--prayag-teal);
+}
+
+.btn-view-profile:hover {
+    background-color: var(--prayag-teal);
+    color: #ffffff;
+}
+
+.btn-book-appointment-doc {
+    background-color: var(--prayag-orange);
+    color: #ffffff;
+}
+
+.btn-book-appointment-doc:hover {
+    background-color: var(--prayag-orange-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(232, 150, 79, 0.3);
+}
+
+/* Doctor Navigation */
+.doctor-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e0e0e0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-nav:hover {
+    background-color: var(--prayag-teal);
+    color: #ffffff;
+    border-color: var(--prayag-teal);
+}
+
+.doctor-nav-prev {
+    left: 0;
+}
+
+.doctor-nav-next {
+    right: 0;
+}
+
+.doctor-nav i {
+    font-size: 16px;
+}
+
+/* Doctors Footer */
+.doctors-footer {
+    margin-top: 40px;
+}
+
+.btn-view-all-doctors {
+    background-color: var(--prayag-orange);
+    color: #ffffff;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(232, 150, 79, 0.3);
+}
+
+.btn-view-all-doctors:hover {
+    background-color: var(--prayag-teal);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 143, 115, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .doctors-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .doctors-slider-wrapper {
+        padding: 0 50px;
+    }
+
+    .doctors-main-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .doctors-section {
+        padding: 30px 0;
+    }
+
+    .doctors-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .doctors-slider-wrapper {
+        padding: 0 15px;
+    }
+
+    .doctor-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .doctor-nav-prev {
+        left: -5px;
+    }
+
+    .doctor-nav-next {
+        right: -5px;
+    }
+
+    .doctors-main-title {
+        font-size: 28px;
+    }
+
+    .doctor-card-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .doctor-info {
+        align-items: center;
+    }
+
+    .doctor-actions {
+        flex-direction: column;
+    }
+
+    .btn-view-profile,
+    .btn-book-appointment-doc {
+        width: 100%;
+    }
+}
+
+/* ================================================
    PATIENT TESTIMONIALS SECTION
    ================================================ */
 .testimonials-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    padding: 40px 0;
+    background-color: #daede67a;
 }
 
 .section-header-center {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section-title-dark {
@@ -2370,7 +2774,7 @@ a {
 .section-subtitle-gray {
     font-size: 16px;
     color: var(--light-text);
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -2402,7 +2806,7 @@ a {
 }
 
 .testimonial-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-1px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
 
@@ -2949,7 +3353,7 @@ a {
 /* Responsive Design */
 @media (max-width: 991px) {
     .contact-section {
-        padding: 60px 0;
+        padding: 40px 0;
     }
 
     .contact-info-container {
@@ -3043,26 +3447,16 @@ a {
    DOCTORS SECTION STYLES
    ================================================ */
 .doctors-section {
-    padding: 80px 0;
-    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 40px 0;
     position: relative;
     overflow: hidden;
 }
 
-.doctors-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, var(--prayag-teal) 0%, var(--prayag-orange) 100%);
-}
 
 /* Header */
 .doctors-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .doctors-main-title {
@@ -3072,18 +3466,6 @@ a {
     margin-bottom: 15px;
     position: relative;
     display: inline-block;
-}
-
-.doctors-main-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 3px;
-    background: linear-gradient(90deg, var(--prayag-teal) 0%, var(--prayag-orange) 100%);
-    border-radius: 2px;
 }
 
 /* Doctors Grid */
@@ -3167,7 +3549,7 @@ a {
 }
 
 .doctor-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-1px);
     box-shadow: 0 12px 30px rgba(74, 143, 115, 0.2);
     border-color: var(--prayag-teal);
 }
@@ -3195,8 +3577,8 @@ a {
 }
 
 .doctor-image {
-    width: 140px;
-    height: 160px;
+    width: 100px;
+    height: 120px;
     object-fit: cover;
     border-radius: 8px;
     border: 3px solid var(--prayag-teal);
@@ -3292,7 +3674,7 @@ a {
     font-size: 13px;
     font-weight: 600;
     padding: 10px 16px;
-    border-radius: 6px;
+    border-radius: 30px;
     transition: all 0.3s ease;
     cursor: pointer;
     text-transform: capitalize;
@@ -3313,7 +3695,7 @@ a {
     font-size: 13px;
     font-weight: 600;
     padding: 10px 16px;
-    border-radius: 6px;
+    border-radius: 30px;
     transition: all 0.3s ease;
     cursor: pointer;
     text-transform: capitalize;
