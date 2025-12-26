@@ -124,8 +124,79 @@ a {
 }
 
 .top-utility-bar .dropdown-item:hover {
-    background-color: var(--prayag-orange);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ================================================
+   TOP NAVIGATION BAR (Green Background)
+   ================================================ */
+.top-nav-bar {
+    background-color: var(--prayag-teal);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-nav-bar .nav-row-first {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px
+}
+
+.top-nav-bar .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.top-nav-bar .nav-item {
+    position: relative;
+}
+
+.top-nav-bar .nav-link {
     color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.top-nav-bar .nav-link:hover {
+    color: var(--prayag-orange);
+}
+
+.top-nav-bar .nav-link.dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-nav-bar .nav-link.dropdown-toggle::after {
+    border-top-color: var(--white);
+}
+
+.top-nav-bar .dropdown-menu {
+    background-color: var(--white);
+    border: none;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.top-nav-bar .dropdown-item {
+    color: var(--dark-text);
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.top-nav-bar .dropdown-item:hover {
+    background-color: rgba(74, 143, 115, 0.1);
+    color: var(--prayag-teal);
 }
 
 /* ================================================
@@ -738,10 +809,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg,
-            rgba(74, 143, 115, 0.7) 0%,
-            rgba(74, 143, 115, 0.5) 50%,
-            rgba(232, 150, 79, 0.6) 100%);
+    background: #0000005e;
     z-index: 2;
 }
 
