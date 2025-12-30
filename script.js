@@ -216,16 +216,7 @@ $(document).ready(function () {
         });
     }
 
-    // ================================================
-    // ACCESSIBILITY IMPROVEMENTS
-    // ================================================
-    // Skip to main content link
-    $('<a href="#main-content" class="skip-to-main">Skip to main content</a>')
-        .prependTo('body')
-        .on('click', function (e) {
-            e.preventDefault();
-            $('#main-content').attr('tabindex', '-1').focus();
-        });
+
 
     // ================================================
     // CONSOLE WELCOME MESSAGE

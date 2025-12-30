@@ -1189,23 +1189,13 @@ a {
     min-width: 0;
 }
 
-.speciality-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(90deg, var(--prayag-teal), var(--prayag-orange));
-    transition: left 0.3s ease;
-}
+
 
 .speciality-card:hover::before {
     left: 0;
 }
 
 .speciality-card:hover {
-    transform: translateY(-1px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     border-color: var(--prayag-teal);
 }
@@ -3188,17 +3178,6 @@ a {
     padding-bottom: 15px;
 }
 
-.contact-main-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--prayag-teal) 0%, var(--prayag-orange) 100%);
-    border-radius: 2px;
-}
-
 .contact-info-item {
     display: flex;
     align-items: flex-start;
@@ -3226,7 +3205,6 @@ a {
 
 .contact-info-item:hover .contact-icon {
     background: linear-gradient(135deg, var(--prayag-orange) 0%, var(--prayag-orange-dark) 100%);
-    transform: rotate(360deg);
     box-shadow: 0 6px 20px rgba(232, 150, 79, 0.4);
 }
 
@@ -4026,5 +4004,107 @@ a {
 
     .doctor-nav i {
         font-size: 12px;
+    }
+}
+
+/* ================================================
+   YOUTUBE VIDEO MODAL
+   ================================================ */
+.youtube-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.youtube-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.youtube-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.youtube-modal-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10001;
+}
+
+.youtube-modal-close:hover,
+.youtube-modal-close:focus {
+    color: var(--prayag-orange);
+    transform: rotate(90deg);
+}
+
+.youtube-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.youtube-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .youtube-modal-content {
+        width: 95%;
+    }
+
+    .youtube-modal-close {
+        top: -35px;
+        font-size: 30px;
+        width: 35px;
+        height: 35px;
     }
 }
