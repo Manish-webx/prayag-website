@@ -1,0 +1,2758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiac Care - Best Cardiology Hospital in India | Prayag Hospital</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Embedded CSS -->
+    <style>
+        /* ================================================
+           PRAYAG HOSPITAL - CARDIAC CARE PAGE
+           Embedded Styles
+           ================================================ */
+
+        /* CSS Variables - Prayag Color Palette */
+        :root {
+            --prayag-teal: #4A8F73;
+            --prayag-teal-dark: #3D7A62;
+            --prayag-teal-light: #5FA988;
+            --prayag-orange: #E8964F;
+            --prayag-orange-dark: #D67E3E;
+            --light-bg: #F0F0F0;
+            --white: #FFFFFF;
+            --dark-text: #333333;
+            --light-text: #666666;
+            --font-primary: "Inter", "Proxima Nova", Arial, Helvetica, sans-serif;
+        }
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--dark-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* ================================================
+           HERO SECTION STYLES
+           ================================================ */
+        .hero-section {
+            position: relative;
+            background-color: #f8f9fa;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .breadcrumb-wrapper {
+            background-color: var(--white);
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .breadcrumb {
+            margin-bottom: 0;
+            background: transparent;
+            padding: 0;
+            font-size: 13px;
+        }
+
+        .breadcrumb-item {
+            color: var(--light-text);
+        }
+
+        .breadcrumb-item a {
+            color: var(--prayag-teal);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--prayag-orange);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--prayag-orange);
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            content: ">";
+            color: var(--light-text);
+            padding-right: 8px;
+        }
+
+        .hero-content-wrapper {
+            padding: 40px 0;
+        }
+
+        .hero-main-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #001529;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--dark-text);
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .hero-cta-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn-book-appointment {
+            background-color: var(--prayag-orange);
+            color: var(--white);
+            font-size: 14px;
+            font-weight: 600;
+            padding: 10px 24px;
+            border-radius: 25px;
+            border: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .btn-book-appointment:hover {
+            background-color: var(--prayag-orange-dark);
+            color: var(--white);
+            box-shadow: 0 4px 12px rgba(232, 150, 79, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .btn-request-callback {
+            background-color: transparent;
+            color: var(--prayag-teal);
+            font-size: 14px;
+            font-weight: 600;
+            padding: 10px 24px;
+            border-radius: 25px;
+            border: 2px solid var(--prayag-teal);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .btn-request-callback:hover {
+            background-color: var(--prayag-teal);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .hero-stat-item {
+            font-size: 13px;
+            color: var(--dark-text);
+            line-height: 1.4;
+        }
+
+        .hero-stat-item strong {
+            display: block;
+            font-size: 15px;
+            font-weight: 600;
+            color: #001529;
+            margin-bottom: 2px;
+        }
+
+        .hero-stat-divider {
+            width: 1px;
+            height: 30px;
+            background-color: #ddd;
+        }
+
+        /* Hero Image Section */
+        .hero-image-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-image-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 991px) {
+            .hero-content-wrapper {
+                padding: 40px 0;
+            }
+
+            .hero-main-title {
+                font-size: 28px;
+            }
+
+            .hero-subtitle {
+                font-size: 14px;
+            }
+
+            .hero-cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn-book-appointment,
+            .btn-request-callback {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+
+            .hero-stat-divider {
+                display: none;
+            }
+
+            .hero-image-wrapper {
+                margin-top: 30px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .hero-main-title {
+                font-size: 24px;
+            }
+
+            .hero-subtitle {
+                font-size: 13px;
+            }
+
+            .btn-book-appointment,
+            .btn-request-callback {
+                font-size: 13px;
+                padding: 10px 20px;
+            }
+        }
+
+        /* Utility Classes */
+        .text-dark-blue {
+            color: #001529;
+        }
+
+        .text-teal {
+            color: var(--prayag-teal);
+        }
+
+        .text-orange {
+            color: var(--prayag-orange);
+        }
+
+        /* ================================================
+           FEATURE BOXES SECTION STYLES
+           ================================================ */
+        .features-section {
+            background-color: var(--white);
+            padding: 50px 0;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .feature-box {
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px 25px;
+            text-align: left;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            border: 1px solid #e8e8e8;
+        }
+
+        .feature-box:hover {
+            background-color: var(--white);
+            box-shadow: 0 4px 15px rgba(74, 143, 115, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: #e8f5f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-box:hover .feature-icon {
+            background-color: var(--prayag-teal);
+        }
+
+        .feature-icon i {
+            font-size: 24px;
+            color: var(--prayag-teal);
+            transition: all 0.3s ease;
+        }
+
+        .feature-box:hover .feature-icon i {
+            color: var(--white);
+            transform: scale(1.1);
+        }
+
+        .feature-content {
+            flex: 1;
+        }
+
+        .feature-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .feature-description {
+            font-size: 14px;
+            color: var(--light-text);
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        /* Responsive Styles for Features */
+        @media (max-width: 991px) {
+            .features-section {
+                padding: 40px 0;
+            }
+
+            .feature-box {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .feature-box {
+                padding: 20px;
+                gap: 15px;
+            }
+
+            .feature-icon {
+                width: 50px;
+                height: 50px;
+            }
+
+            .feature-icon i {
+                font-size: 20px;
+            }
+
+            .feature-title {
+                font-size: 16px;
+            }
+
+            .feature-description {
+                font-size: 13px;
+            }
+        }
+
+        /* ================================================
+           TABLE OF CONTENTS NAVIGATION STRIP
+           ================================================ */
+        .toc-section {
+            background-color: #EDF6F3;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 2px solid var(--prayag-teal);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .toc-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .toc-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .toc-nav-item {
+            flex: 0 0 auto;
+        }
+
+        .toc-nav-link {
+            display: block;
+            padding: 18px 24px;
+            color: var(--dark-text);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+            position: relative;
+        }
+
+        .toc-nav-link:hover {
+            color: var(--prayag-teal);
+            background-color: rgba(74, 143, 115, 0.05);
+        }
+
+        .toc-nav-link.active {
+            color: var(--prayag-teal);
+            border-bottom-color: var(--prayag-orange);
+            background-color: rgba(74, 143, 115, 0.08);
+        }
+
+        /* Responsive Styles for TOC */
+        @media (max-width: 991px) {
+            .toc-nav {
+                justify-content: flex-start;
+                padding: 0 15px;
+            }
+
+            .toc-nav-link {
+                padding: 15px 20px;
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .toc-nav-link {
+                padding: 12px 16px;
+                font-size: 12px;
+            }
+        }
+
+        /* ================================================
+           OVERVIEW SECTION
+           ================================================ */
+        .overview-section {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        .overview-content {
+            margin-bottom: 30px;
+        }
+
+        .overview-heading {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .overview-text {
+            font-size: 15px;
+            color: var(--dark-text);
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .overview-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .overview-image-wrapper {
+            position: relative;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .overview-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+        }
+
+        .overview-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .overview-highlight {
+            padding: 15px;
+            background: linear-gradient(135deg, #f8fffe 0%, #e8f5f0 100%);
+            border-left: 4px solid var(--prayag-teal);
+            border-radius: 8px;
+        }
+
+        .overview-highlight i {
+            color: var(--prayag-orange);
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .overview-highlight h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark-text);
+            margin-bottom: 5px;
+        }
+
+        .overview-highlight p {
+            font-size: 13px;
+            color: var(--light-text);
+            margin-bottom: 0;
+            line-height: 1.5;
+        }
+
+        /* Responsive Styles for Overview Section */
+        @media (max-width: 991px) {
+            .overview-heading {
+                font-size: 24px;
+            }
+
+            .overview-text {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .overview-heading {
+                font-size: 22px;
+            }
+
+            .overview-highlights {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ================================================
+           CONDITIONS WE TREAT SECTION
+           ================================================ */
+        .conditions-section {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        .condition-card {
+            background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
+            border-radius: 15px;
+            padding: 20px 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80px;
+            box-shadow: 0 2px 8px rgba(74, 143, 115, 0.2);
+        }
+
+        .condition-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(74, 143, 115, 0.4);
+            background: linear-gradient(135deg, var(--prayag-orange) 0%, #d67f3a 100%);
+        }
+
+        .condition-name {
+            color: var(--white);
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* Responsive Styles for Conditions Section */
+        @media (max-width: 991px) {
+            .condition-card {
+                padding: 18px 12px;
+                min-height: 75px;
+            }
+
+            .condition-name {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .condition-card {
+                padding: 15px 10px;
+                min-height: 70px;
+            }
+
+            .condition-name {
+                font-size: 13px;
+            }
+        }
+
+        /* ================================================
+           TYPES OF TREATMENT SECTION
+           ================================================ */
+        .treatment-section {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: var(--light-text);
+            max-width: 700px;
+            margin: 0px auto 0;
+            line-height: 1.6;
+        }
+
+        .treatment-card {
+            background-color: var(--white);
+            border: 1px solid #e8e8e8;
+            border-radius: 12px;
+            padding: 30px 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .treatment-card:hover {
+            box-shadow: 0 8px 24px rgba(74, 143, 115, 0.15);
+            transform: translateY(-5px);
+            border-color: var(--prayag-teal);
+        }
+
+        .treatment-card-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #e8f5f0, #d4ede3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .treatment-card:hover .treatment-card-icon {
+            background: linear-gradient(135deg, var(--prayag-teal), var(--prayag-teal-dark));
+            transform: scale(1.1);
+        }
+
+        .treatment-card-icon i {
+            font-size: 32px;
+            color: var(--prayag-teal);
+            transition: all 0.3s ease;
+        }
+
+        .treatment-card:hover .treatment-card-icon i {
+            color: var(--white);
+        }
+
+        .treatment-card-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .treatment-card-description {
+            font-size: 14px;
+            color: var(--light-text);
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .treatment-card-link {
+            color: var(--prayag-teal);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .treatment-card-link:hover {
+            color: var(--prayag-orange);
+            gap: 10px;
+        }
+
+        .treatment-card-link i {
+            font-size: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .treatment-card-link:hover i {
+            transform: translateX(3px);
+        }
+
+        /* Responsive Styles for Treatment Section */
+        @media (max-width: 991px) {
+            .treatment-section {
+                padding: 50px 0;
+            }
+
+            .section-header {
+                margin-bottom: 40px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .section-subtitle {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .treatment-section {
+                padding: 40px 0;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .section-subtitle {
+                font-size: 14px;
+            }
+
+            .treatment-card {
+                padding: 25px 20px;
+                margin-bottom: 20px;
+            }
+
+            .treatment-card-icon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .treatment-card-icon i {
+                font-size: 28px;
+            }
+
+            .treatment-card-title {
+                font-size: 17px;
+            }
+        }
+
+        /* ================================================
+           WHY CHOOSE US SECTION
+           ================================================ */
+        .why-choose-section {
+            background: linear-gradient(135deg, #f8fffe 0%, #e8f5f0 100%);
+            padding: 40px 0;
+        }
+
+        .why-choose-content {
+            margin-bottom: 40px;
+        }
+
+
+
+        .why-points-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .why-point {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+            background-color: var(--white);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .why-point:hover {
+            box-shadow: 0 4px 15px rgba(74, 143, 115, 0.1);
+            transform: translateX(5px);
+        }
+
+        .why-point-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #e8f5f0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .why-point:hover .why-point-icon {
+            background-color: var(--prayag-teal);
+        }
+
+        .why-point-icon i {
+            font-size: 22px;
+            color: var(--prayag-teal);
+            transition: all 0.3s ease;
+        }
+
+        .why-point:hover .why-point-icon i {
+            color: var(--white);
+        }
+
+        .why-point-content h4 {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 8px;
+        }
+
+        .why-point-content p {
+            font-size: 14px;
+            color: var(--light-text);
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        /* Responsive Styles for Why Choose Us */
+        @media (max-width: 991px) {
+            .why-choose-section {
+                padding: 50px 0;
+            }
+
+            .why-points-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .why-choose-section {
+                padding: 40px 0;
+            }
+
+            .why-point {
+                padding: 15px;
+                gap: 15px;
+            }
+
+            .why-point-icon {
+                width: 45px;
+                height: 45px;
+            }
+
+            .why-point-icon i {
+                font-size: 20px;
+            }
+        }
+
+        /* ================================================
+           DOCTORS SECTION
+           ================================================ */
+        .doctors-section {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        .doctor-card {
+            background: #ffffff;
+            border: 1px solid #e8e8e8;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .doctor-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-color: var(--prayag-teal);
+        }
+
+        .doctor-card-inner {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .doctor-card-top {
+            display: flex;
+            padding: 20px;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .doctor-image-container {
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .doctor-image {
+            width: 100px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid var(--prayag-teal);
+        }
+
+        .doctor-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .doctor-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .doctor-designation {
+            font-size: 13px;
+            color: var(--light-text);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .doctor-experience {
+            font-size: 13px;
+            color: var(--dark-text);
+            margin-top: auto;
+        }
+
+        .experience-label {
+            font-weight: 600;
+            color: var(--prayag-teal);
+        }
+
+        .experience-value {
+            font-weight: 500;
+            color: var(--dark-text);
+        }
+
+        .doctor-actions {
+            display: flex;
+            gap: 10px;
+            padding: 15px 20px;
+            border-top: 1px solid #f0f0f0;
+            background-color: #f8f9fa;
+        }
+
+        .btn-view-profile,
+        .btn-book-appointment-doc {
+            flex: 1;
+            padding: 10px 16px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-view-profile {
+            background-color: #ffffff;
+            color: var(--prayag-teal);
+            border: 2px solid var(--prayag-teal);
+        }
+
+        .btn-view-profile:hover {
+            background-color: var(--prayag-teal);
+            color: #ffffff;
+        }
+
+        .btn-book-appointment-doc {
+            background-color: var(--prayag-orange);
+            color: #ffffff;
+        }
+
+        .btn-book-appointment-doc:hover {
+            background-color: var(--prayag-orange-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(232, 150, 79, 0.3);
+        }
+
+        /* Responsive Styles for Doctors Section */
+        @media (max-width: 991px) {
+            .doctors-section {
+                padding: 50px 0;
+            }
+
+            .doctor-name {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .doctors-section {
+                padding: 40px 0;
+            }
+
+            .doctor-card {
+                margin-bottom: 20px;
+            }
+
+            .doctor-card-top {
+                padding: 15px;
+            }
+
+            .doctor-image {
+                width: 80px;
+                height: 100px;
+            }
+
+            .doctor-name {
+                font-size: 14px;
+            }
+
+            .doctor-designation {
+                font-size: 12px;
+            }
+
+            .doctor-actions {
+                padding: 12px 15px;
+            }
+        }
+
+        /* ================================================
+           PATIENT SPEAK SECTION (VIDEO TESTIMONIALS)
+           ================================================ */
+        .patient-speak-section {
+            padding: 40px 0;
+            background-color: #daede67a;
+        }
+
+        .section-header-center {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-title-dark {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle-gray {
+            font-size: 14px;
+            color: var(--light-text);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonials-slider-wrapper {
+            position: relative;
+            padding: 0 60px;
+        }
+
+        .testimonials-slider-container {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .testimonials-slider {
+            display: flex;
+            gap: 25px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .testimonial-card {
+            flex: 0 0 calc(33.333% - 17px);
+            min-width: calc(33.333% - 17px);
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+        }
+
+        .testimonial-thumbnail {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .testimonial-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover .testimonial-thumbnail img {
+            transform: scale(1.1);
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .play-button i {
+            font-size: 28px;
+            color: var(--prayag-teal);
+            margin-left: 5px;
+        }
+
+        .testimonial-card:hover .play-button {
+            background-color: var(--prayag-teal);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        .testimonial-card:hover .play-button i {
+            color: #ffffff;
+        }
+
+        .testimonial-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 70%, transparent 100%);
+            padding: 25px 20px 20px;
+            color: #ffffff;
+        }
+
+        .testimonial-text {
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            line-clamp: 3;
+            overflow: hidden;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .testimonial-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+
+        .testimonial-procedure {
+            font-size: 12px;
+            color: var(--prayag-teal);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .testimonial-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #e0e0e0;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 10;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .testimonial-nav:hover {
+            background-color: var(--prayag-teal);
+            color: #ffffff;
+            border-color: var(--prayag-teal);
+        }
+
+        .testimonial-nav i {
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .testimonial-nav:hover i {
+            color: #ffffff;
+        }
+
+        .testimonial-nav-prev {
+            left: 0;
+        }
+
+        .testimonial-nav-next {
+            right: 0;
+        }
+
+        .testimonial-nav:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Responsive Styles for Patient Speak */
+        @media (max-width: 991px) {
+            .patient-speak-section {
+                padding: 50px 0;
+            }
+
+            .testimonial-card {
+                flex: 0 0 calc(50% - 12.5px);
+                min-width: calc(50% - 12.5px);
+            }
+
+            .testimonials-slider-wrapper {
+                padding: 0 50px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .patient-speak-section {
+                padding: 40px 0;
+            }
+
+            .testimonial-card {
+                flex: 0 0 100%;
+                min-width: 100%;
+            }
+
+            .testimonials-slider-wrapper {
+                padding: 0 40px;
+            }
+
+            .testimonial-thumbnail {
+                height: 250px;
+            }
+
+            .play-button {
+                width: 60px;
+                height: 60px;
+            }
+
+            .play-button i {
+                font-size: 24px;
+            }
+        }
+
+        /* ================================================
+           BLOG SECTION
+           ================================================ */
+        .blog-section {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        .blog-card {
+            background-color: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e8e8e8;
+        }
+
+        .blog-card:hover {
+            box-shadow: 0 8px 24px rgba(74, 143, 115, 0.15);
+            transform: translateY(-5px);
+            border-color: var(--prayag-teal);
+        }
+
+        .blog-image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 60%;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+
+        .blog-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-card:hover .blog-image {
+            transform: scale(1.05);
+        }
+
+        .blog-category {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: var(--prayag-teal);
+            color: var(--white);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .blog-content {
+            padding: 25px 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 12px;
+            font-size: 13px;
+            color: var(--light-text);
+        }
+
+        .blog-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog-meta-item i {
+            color: var(--prayag-orange);
+            font-size: 12px;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin-bottom: 12px;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .blog-excerpt {
+            font-size: 14px;
+            color: var(--light-text);
+            line-height: 1.6;
+            margin-bottom: 15px;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            line-clamp: 3;
+            overflow: hidden;
+        }
+
+        .blog-read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--prayag-teal);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .blog-read-more i {
+            font-size: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-read-more:hover {
+            color: var(--prayag-teal-dark);
+        }
+
+        .blog-read-more:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Responsive Styles for Blog Section */
+        @media (max-width: 991px) {
+            .blog-section {
+                padding: 50px 0;
+            }
+
+            .blog-card {
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .blog-section {
+                padding: 40px 0;
+            }
+
+            .blog-content {
+                padding: 20px 15px;
+            }
+
+            .blog-title {
+                font-size: 16px;
+            }
+
+            .blog-excerpt {
+                font-size: 13px;
+            }
+        }
+
+        /* ================================================
+           FAQ SECTION
+           ================================================ */
+        .faq-section {
+            background: linear-gradient(135deg, #f8fffe 0%, #e8f5f0 100%);
+            padding: 40px 0;
+        }
+
+        .accordion-item {
+            background-color: var(--white);
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-item:hover {
+            border-color: var(--prayag-teal);
+            box-shadow: 0 4px 12px rgba(74, 143, 115, 0.1);
+        }
+
+        .accordion-button {
+            background-color: var(--white);
+            color: var(--dark-text);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 20px 25px;
+            border: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: var(--prayag-teal);
+            color: var(--white);
+            box-shadow: none;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        .accordion-button::after {
+            background-image: none;
+            content: "\f067";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 14px;
+            color: var(--prayag-teal);
+            width: auto;
+            height: auto;
+            background-size: auto;
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            content: "\f068";
+            color: var(--white);
+            transform: none;
+        }
+
+        .accordion-body {
+            padding: 20px 25px;
+            font-size: 15px;
+            color: var(--dark-text);
+            line-height: 1.7;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .accordion-body ul {
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+
+        .accordion-body li {
+            margin-bottom: 8px;
+            color: var(--light-text);
+        }
+
+        /* Responsive Styles for FAQ Section */
+        @media (max-width: 991px) {
+            .faq-section {
+                padding: 50px 0;
+            }
+
+            .accordion-button {
+                font-size: 15px;
+                padding: 18px 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .faq-section {
+                padding: 40px 0;
+            }
+
+            .accordion-button {
+                font-size: 14px;
+                padding: 15px 18px;
+            }
+
+            .accordion-body {
+                padding: 15px 18px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-wrapper">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#departments">Departments</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Cardiac Care
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content-wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left Column: Text Content -->
+                    <div class="col-lg-7 col-md-12">
+                        <h1 class="hero-main-title">
+                            Best Cardiology Hospital in India | Top Heart Hospital - Prayag Heart Institute
+                        </h1>
+                        <p class="hero-subtitle">
+                            Prayag Hospital offers comprehensive cardiac care with state-of-the-art facilities,
+                            experienced cardiologists, and advanced treatment options. From preventive cardiology to
+                            complex heart surgeries, we provide compassionate and expert heart care.
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-cta-buttons">
+                            <a href="#appointment" class="btn-book-appointment">
+                                Book Appointment
+                            </a>
+                            <a href="#callback" class="btn-request-callback">
+                                Request Callback
+                            </a>
+                        </div>
+
+                        <!-- Hero Stats -->
+                        <div class="hero-stats">
+                            <div class="hero-stat-item">
+                                <strong>Excellence in Heart Care</strong>
+                                Prayag Hospital delivers world-class cardiac care with cutting-edge technology, highly
+                                skilled cardiologists, and a patient-first approach for comprehensive heart health
+                                solutions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Hero Image -->
+                    <div class="col-lg-5 col-md-12">
+                        <div class="hero-image-wrapper">
+                            <div class="hero-image-container">
+                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+                                    alt="Cardiac Care at Prayag Hospital" class="hero-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table of Contents Navigation Strip -->
+    <section class="toc-section">
+        <div class="container-fluid px-0">
+            <ul class="toc-nav">
+                <li class="toc-nav-item">
+                    <a href="#overview" class="toc-nav-link active">Overview</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#types-of-treatment" class="toc-nav-link">Types of Treatment</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#blog" class="toc-nav-link">Blog</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#faq" class="toc-nav-link">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Feature 1: Advanced Technology -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Advanced Technology</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Expert Cardiologists -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Expert Cardiologists</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Comprehensive Care -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Comprehensive Care</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Insurance Covered -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Insurance Covered</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview-section" id="overview">
+        <div class="container">
+            <div class="overview-content">
+                <h2 class="overview-heading">Comprehensive Cardiac Care at Prayag Hospital</h2>
+                <p class="overview-text">
+                    Prayag Hospital's Cardiac Care Center stands as a beacon of excellence in cardiovascular medicine,
+                    offering comprehensive diagnostic, therapeutic, and preventive cardiac services. Our
+                    state-of-the-art facility combines cutting-edge technology with compassionate care to deliver
+                    world-class treatment for all heart-related conditions.
+                </p>
+                <p class="overview-text">
+                    With over 15,000 successful cardiac procedures performed annually, our team of highly skilled
+                    cardiologists, cardiac surgeons, and specialized nursing staff are dedicated to providing
+                    personalized care tailored to each patient's unique needs. From routine cardiac checkups to complex
+                    interventional procedures and cardiac surgeries, we offer a complete spectrum of cardiac care
+                    services under one roof.
+                </p>
+                <p class="overview-text">
+                    Our commitment to excellence is reflected in our advanced diagnostic capabilities including 3D
+                    echocardiography, cardiac MRI, CT angiography, and our fully equipped catheterization labs. We
+                    provide 24/7 emergency cardiac care, ensuring that critical heart conditions receive immediate
+                    attention. At Prayag Hospital, your heart health is our highest priority, and we strive to deliver
+                    outcomes that exceed expectations while maintaining the highest standards of patient safety and care
+                    quality.
+                </p>
+            </div>
+
+            <div class="overview-image-wrapper">
+                <img src="https://www.prayaghospital.in/images/banner1.jpg" alt="Prayag Hospital Cardiac Care Center"
+                    class="overview-image">
+            </div>
+
+            <div class="overview-highlights">
+                <div class="overview-highlight">
+                    <i class="fas fa-hospital"></i>
+                    <h4>Advanced Infrastructure</h4>
+                    <p>State-of-the-art catheterization labs, ICU, and surgical facilities equipped with the latest
+                        cardiac technology</p>
+                </div>
+                <div class="overview-highlight">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Expert Team</h4>
+                    <p>50+ experienced cardiologists and cardiac surgeons with expertise in complex cardiac procedures
+                    </p>
+                </div>
+                <div class="overview-highlight">
+                    <i class="fas fa-heartbeat"></i>
+                    <h4>Comprehensive Services</h4>
+                    <p>Complete cardiac care from preventive cardiology to interventions, surgery, and rehabilitation
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conditions We Treat Section -->
+    <section class="conditions-section" id="conditions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conditions We Treat</h2>
+                <p class="section-subtitle">
+                    Our expert cardiac team provides specialized treatment for a comprehensive range of heart and
+                    vascular conditions
+                </p>
+            </div>
+
+            <div class="row g-3">
+                <!-- Condition 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Atherosclerosis</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">High Blood Pressure</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">High Cholesterol</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Angina (Chest Pain)</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 5 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Sudden Cardiac Arrest</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 6 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Heart Failure</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 7 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Heart Attack</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 8 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Blood Clotting</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 9 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Atrial Fibrillation</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 10 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Heart Rhythm Disorders</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 11 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Endocarditis</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 12 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Cardiogenic Shock</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 13 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Heart Valve Problems</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 14 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Heart Abnormalities</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 15 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Cardiomyopathy</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 16 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Myocarditis</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 17 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Congenital Heart Disease</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 18 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Aortic Problems</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 19 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Peripheral Artery Disease</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 20 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Coronary Artery Disease</h3>
+                    </div>
+                </div>
+
+                <!-- Condition 21 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Stroke</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Treatment Section -->
+    <section class="treatment-section" id="types-of-treatment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Types of Cardiac Treatments</h2>
+                <p class="section-subtitle">
+                    At Prayag Hospital, we offer a comprehensive range of advanced cardiac treatments and procedures to
+                    address various heart conditions with precision and care.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Treatment Card 1: Angioplasty -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-heart-pulse"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Coronary Angioplasty & Stenting</h3>
+                        <p class="treatment-card-description">
+                            Minimally invasive procedure to open blocked coronary arteries and restore blood flow to the
+                            heart using advanced stent technology.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 2: Bypass Surgery -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Coronary Artery Bypass Surgery</h3>
+                        <p class="treatment-card-description">
+                            Advanced surgical procedure to create new pathways for blood flow around blocked coronary
+                            arteries using graft vessels.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 3: Pacemaker -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Pacemaker Implantation</h3>
+                        <p class="treatment-card-description">
+                            Implantation of advanced pacemakers and defibrillators to regulate heart rhythm and prevent
+                            life-threatening arrhythmias.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 4: Valve Replacement -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Heart Valve Replacement</h3>
+                        <p class="treatment-card-description">
+                            Surgical and minimally invasive procedures to repair or replace damaged heart valves,
+                            restoring
+                            proper blood flow.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 5: Arrhythmia Treatment -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Arrhythmia Treatment</h3>
+                        <p class="treatment-card-description">
+                            Advanced catheter ablation and electrophysiology procedures to diagnose and treat irregular
+                            heart rhythms effectively.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 6: Heart Failure Management -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-notes-medical"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Heart Failure Management</h3>
+                        <p class="treatment-card-description">
+                            Comprehensive medical and interventional therapies for managing chronic heart failure and
+                            improving quality of life.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section" id="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Prayag for Cardiac Care?</h2>
+                <p class="section-subtitle">
+                    Prayag Hospital stands as a leader in cardiac care, combining advanced technology, expert
+                    cardiologists, and patient-centered care to deliver exceptional heart health outcomes.
+                </p>
+            </div>
+
+            <!-- Why Points Grid -->
+            <div class="why-points-grid">
+                <!-- Point 1 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Advanced Diagnostic Technology</h4>
+                        <p>State-of-the-art cardiac imaging including 3D echocardiography, cardiac MRI, and CT
+                            angiography for precise diagnosis.</p>
+                    </div>
+                </div>
+
+                <!-- Point 2 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Experienced Cardiac Surgeons</h4>
+                        <p>Team of renowned cardiologists and cardiac surgeons with expertise in complex procedures and
+                            minimally invasive techniques.</p>
+                    </div>
+                </div>
+
+                <!-- Point 3 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Comprehensive Cardiac Care</h4>
+                        <p>Complete heart care from preventive cardiology to complex interventions and rehabilitation
+                            under one roof.</p>
+                    </div>
+                </div>
+
+                <!-- Point 4 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>NABH Accredited Facility</h4>
+                        <p>Nationally accredited hospital maintaining highest standards of patient safety, quality, and
+                            infection control.</p>
+                    </div>
+                </div>
+
+                <!-- Point 5 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-heart-circle-check"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Personalized Treatment Plans</h4>
+                        <p>Customized cardiac care programs tailored to each patient's unique condition and health
+                            requirements.</p>
+                    </div>
+                </div>
+
+                <!-- Point 6 -->
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Patient-Centric Approach</h4>
+                        <p>Compassionate care with dedicated cardiac care coordinators supporting patients throughout
+                            their treatment journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="doctors-section" id="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Expert Cardiologists</h2>
+                <p class="section-subtitle">
+                    Meet our team of highly qualified and experienced cardiac specialists dedicated to providing
+                    world-class heart care at Prayag Hospital.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Doctor Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="doctor-card">
+                        <div class="doctor-card-inner">
+                            <div class="doctor-card-top">
+                                <div class="doctor-image-container">
+                                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop"
+                                        alt="Dr. Rajesh Kumar" class="doctor-image">
+                                </div>
+                                <div class="doctor-info">
+                                    <h3 class="doctor-name">Dr. Rajesh Kumar</h3>
+                                    <p class="doctor-designation">Senior Interventional Cardiologist</p>
+                                    <p class="doctor-experience">
+                                        <span class="experience-label">Experience:</span>
+                                        <span class="experience-value">25 Years</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="doctor-actions">
+                                <button class="btn-view-profile">View Profile</button>
+                                <button class="btn-book-appointment-doc">Book Apt.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="doctor-card">
+                        <div class="doctor-card-inner">
+                            <div class="doctor-card-top">
+                                <div class="doctor-image-container">
+                                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop"
+                                        alt="Dr. Priya Sharma" class="doctor-image">
+                                </div>
+                                <div class="doctor-info">
+                                    <h3 class="doctor-name">Dr. Priya Sharma</h3>
+                                    <p class="doctor-designation">Cardiothoracic & Vascular Surgeon</p>
+                                    <p class="doctor-experience">
+                                        <span class="experience-label">Experience:</span>
+                                        <span class="experience-value">18 Years</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="doctor-actions">
+                                <button class="btn-view-profile">View Profile</button>
+                                <button class="btn-book-appointment-doc">Book Apt.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="doctor-card">
+                        <div class="doctor-card-inner">
+                            <div class="doctor-card-top">
+                                <div class="doctor-image-container">
+                                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop"
+                                        alt="Dr. Amit Verma" class="doctor-image">
+                                </div>
+                                <div class="doctor-info">
+                                    <h3 class="doctor-name">Dr. Amit Verma</h3>
+                                    <p class="doctor-designation">Cardiac Electrophysiologist</p>
+                                    <p class="doctor-experience">
+                                        <span class="experience-label">Experience:</span>
+                                        <span class="experience-value">15 Years</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="doctor-actions">
+                                <button class="btn-view-profile">View Profile</button>
+                                <button class="btn-book-appointment-doc">Book Apt.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Speak Section (Testimonials) -->
+    <section class="patient-speak-section" id="patient-speak">
+        <div class="container">
+            <div class="section-header-center">
+                <h2 class="section-title-dark">Real Patients, Real Stories</h2>
+                <p class="section-subtitle-gray">
+                    Hear from our patients about their transformational cardiac care journey at Prayag Hospital
+                </p>
+            </div>
+
+            <div class="testimonials-slider-wrapper">
+                <button class="testimonial-nav testimonial-nav-prev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="testimonials-slider-container">
+                    <div class="testimonials-slider">
+                        <!-- Testimonial Video 1 -->
+                        <div class="testimonial-card" data-video-id="fE7axQE9K7A">
+                            <div class="testimonial-thumbnail">
+                                <img src="https://img.youtube.com/vi/fE7axQE9K7A/mqdefault.jpg"
+                                    alt="Bypass Surgery Patient">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-overlay">
+                                <p class="testimonial-text">"After my bypass surgery at Prayag Hospital, my life changed
+                                    completely. The cardiac team's expertise and care were exceptional..."</p>
+                                <h4 class="testimonial-name">Mr. Rajesh Kumar</h4>
+                                <p class="testimonial-procedure">Bypass Surgery</p>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Video 2 -->
+                        <div class="testimonial-card" data-video-id="UZAOjYmsWgA">
+                            <div class="testimonial-thumbnail">
+                                <img src="https://img.youtube.com/vi/UZAOjYmsWgA/mqdefault.jpg"
+                                    alt="Angioplasty Patient">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-overlay">
+                                <p class="testimonial-text">"The angioplasty procedure was smooth and the recovery was
+                                    quick. Dr. Sharma and team gave me a new lease on life..."</p>
+                                <h4 class="testimonial-name">Mrs. Sunita Mehta</h4>
+                                <p class="testimonial-procedure">Angioplasty</p>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Video 3 -->
+                        <div class="testimonial-card" data-video-id="PxdxqQl_auQ">
+                            <div class="testimonial-thumbnail">
+                                <img src="https://img.youtube.com/vi/PxdxqQl_auQ/mqdefault.jpg" alt="Pacemaker Patient">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-overlay">
+                                <p class="testimonial-text">"My father's pacemaker implantation at Prayag Hospital was
+                                    life-changing. The cardiac specialists were incredibly skilled..."</p>
+                                <h4 class="testimonial-name">Ms. Anita Patel</h4>
+                                <p class="testimonial-procedure">Pacemaker Implantation</p>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Video 4 -->
+                        <div class="testimonial-card" data-video-id="fE7axQE9K7A">
+                            <div class="testimonial-thumbnail">
+                                <img src="https://img.youtube.com/vi/fE7axQE9K7A/mqdefault.jpg"
+                                    alt="Heart Valve Patient">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-overlay">
+                                <p class="testimonial-text">"Heart valve replacement surgery gave me my life back. The
+                                    post-operative care and follow-up at Prayag Hospital was excellent..."</p>
+                                <h4 class="testimonial-name">Mr. Anil Sharma</h4>
+                                <p class="testimonial-procedure">Valve Replacement</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="testimonial-nav testimonial-nav-next" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Cardiac Health Articles</h2>
+                <p class="section-subtitle">
+                    Stay informed with expert insights and latest updates on cardiac health and wellness from Prayag
+                    Hospital
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Blog Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=600&h=400&fit=crop"
+                                alt="Heart healthy diet" class="blog-image">
+                            <span class="blog-category">Nutrition</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Dec 20, 2024</span>
+                                </div>
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dr. Rajesh Kumar</span>
+                                </div>
+                            </div>
+                            <h3 class="blog-title">Heart-Healthy Diet: Foods That Protect Your Cardiovascular System
+                            </h3>
+                            <p class="blog-excerpt">
+                                Discover the essential nutrients and foods that can significantly reduce your risk of
+                                heart disease. Learn about the Mediterranean diet, omega-3 fatty acids, and practical
+                                meal planning tips.
+                            </p>
+                            <a href="#" class="blog-read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955?w=600&h=400&fit=crop"
+                                alt="Exercise and heart health" class="blog-image">
+                            <span class="blog-category">Prevention</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Dec 15, 2024</span>
+                                </div>
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dr. Priya Sharma</span>
+                                </div>
+                            </div>
+                            <h3 class="blog-title">Understanding Heart Attack Warning Signs: Early Detection Saves Lives
+                            </h3>
+                            <p class="blog-excerpt">
+                                Recognizing the early warning signs of a heart attack can be life-saving. Learn about
+                                the symptoms, risk factors, and when to seek immediate medical attention at Prayag
+                                Hospital.
+                            </p>
+                            <a href="#" class="blog-read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop"
+                                alt="Cardiac surgery recovery" class="blog-image">
+                            <span class="blog-category">Recovery</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Dec 10, 2024</span>
+                                </div>
+                                <div class="blog-meta-item">
+                                    <i class="fas fa-user"></i>
+                                    <span>Dr. Amit Verma</span>
+                                </div>
+                            </div>
+                            <h3 class="blog-title">Post-Cardiac Surgery Care: Essential Tips for a Smooth Recovery</h3>
+                            <p class="blog-excerpt">
+                                A comprehensive guide to cardiac surgery recovery including medication management,
+                                lifestyle modifications, physical rehabilitation, and follow-up care protocols at Prayag
+                                Hospital.
+                            </p>
+                            <a href="#" class="blog-read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">
+                    Find answers to common questions about cardiac care, treatments, and procedures at Prayag Hospital
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                    What are the warning signs of a heart attack?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse1" class="accordion-collapse collapse show"
+                                aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Common warning signs of a heart attack include chest pain or discomfort, shortness
+                                    of
+                                    breath, pain or discomfort in the jaw, neck, back, arm, or shoulder, and feeling
+                                    nauseous, light-headed, or unusually tired. If you experience these symptoms, call
+                                    emergency services immediately. Time is critical in treating heart attacks.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                    How long does recovery take after bypass surgery?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Recovery from bypass surgery typically takes 6-12 weeks. Most patients spend 5-7
+                                    days
+                                    in the hospital after surgery. Full recovery includes cardiac rehabilitation, which
+                                    usually lasts 3 months. During this time, you'll gradually increase your physical
+                                    activity under medical supervision. Our cardiac team at Prayag Hospital provides
+                                    comprehensive post-operative care and rehabilitation programs.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                    What is the difference between angioplasty and bypass surgery?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Angioplasty is a minimally invasive procedure where a balloon catheter is used to
+                                    open
+                                    blocked arteries, often followed by stent placement. Bypass surgery is a more
+                                    extensive
+                                    procedure that creates a new route for blood flow around blocked coronary arteries.
+                                    The
+                                    choice between procedures depends on the number and location of blockages, overall
+                                    health, and other factors. Our cardiologists will recommend the best option for your
+                                    specific condition.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Does Prayag Hospital offer 24/7 emergency cardiac care?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, Prayag Hospital provides round-the-clock emergency cardiac care services. Our
+                                    cardiac emergency team is available 24/7 to handle heart attacks, severe chest pain,
+                                    arrhythmias, and other cardiac emergencies. We have state-of-the-art catheterization
+                                    labs and ICU facilities ready at all times to provide immediate life-saving
+                                    treatment.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    What diagnostic tests are used to evaluate heart health?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Prayag Hospital offers comprehensive cardiac diagnostic services including:
+                                    <ul>
+                                        <li>Electrocardiogram (ECG/EKG)</li>
+                                        <li>Echocardiography (2D & 3D)</li>
+                                        <li>Stress tests (Treadmill & Pharmacological)</li>
+                                        <li>Holter monitoring</li>
+                                        <li>Cardiac CT and MRI</li>
+                                        <li>Coronary angiography</li>
+                                        <li>Blood tests for cardiac markers</li>
+                                    </ul>
+                                    Our cardiologists will determine which tests are appropriate based on your symptoms
+                                    and
+                                    medical history.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    How can I reduce my risk of heart disease?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can reduce your risk of heart disease by adopting a heart-healthy lifestyle:
+                                    <ul>
+                                        <li>Maintain a balanced diet rich in fruits, vegetables, and whole grains</li>
+                                        <li>Exercise regularly (at least 150 minutes of moderate activity per week)</li>
+                                        <li>Quit smoking and avoid secondhand smoke</li>
+                                        <li>Manage stress through relaxation techniques</li>
+                                        <li>Control blood pressure, cholesterol, and blood sugar levels</li>
+                                        <li>Maintain a healthy weight</li>
+                                        <li>Get regular checkups and screenings</li>
+                                    </ul>
+                                    Our preventive cardiology program at Prayag Hospital can help you develop a
+                                    personalized risk reduction plan.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Embedded JavaScript -->
+    <script>
+        // ================================================
+        // PRAYAG HOSPITAL - CARDIAC CARE PAGE
+        // Embedded Scripts
+        // ================================================
+
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Cardiac Care page loaded successfully!');
+
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        // Calculate offset for sticky TOC
+                        const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - tocHeight - 20;
+
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+
+                        // Update active state in TOC
+                        updateTOCActiveState(this);
+                    }
+                });
+            });
+
+            // Function to update TOC active state
+            function updateTOCActiveState(clickedLink) {
+                if (clickedLink.classList.contains('toc-nav-link')) {
+                    document.querySelectorAll('.toc-nav-link').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    clickedLink.classList.add('active');
+                }
+            }
+
+            // Track scroll position and update TOC active state
+            let ticking = false;
+            window.addEventListener('scroll', function () {
+                if (!ticking) {
+                    window.requestAnimationFrame(function () {
+                        updateActiveNavOnScroll();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            });
+
+            function updateActiveNavOnScroll() {
+                const sections = document.querySelectorAll('section[id]');
+                const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
+                const scrollPosition = window.pageYOffset + tocHeight + 100;
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        document.querySelectorAll('.toc-nav-link').forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === '#' + sectionId) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Add animation on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe elements for animation
+            document.querySelectorAll('.hero-main-title, .hero-subtitle, .hero-cta-buttons, .hero-stats, .feature-box').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+
+            // Button click tracking (for analytics purposes)
+            document.querySelectorAll('.btn-book-appointment, .btn-request-callback').forEach(button => {
+                button.addEventListener('click', function (e) {
+                    const buttonText = this.textContent.trim();
+                    console.log(`Button clicked: ${buttonText}`);
+                    // Add your analytics tracking code here
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
