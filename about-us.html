@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Prayag Hospital</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts - Proxima Nova Alternative (Using Inter as fallback) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* About Us Page Specific Styles */
+        .about-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.prayaghospital.in/images/banner1.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0 80px;
+            color: white;
+            text-align: center;
+        }
+
+        .about-hero-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .breadcrumb-custom {
+            justify-content: center;
+            background: transparent;
+            padding: 0;
+        }
+
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: var(--prayag-orange);
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Introduction Section */
+        .intro-section {
+            padding: 80px 0;
+        }
+
+        .intro-content h2 {
+            color: var(--prayag-teal);
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .intro-content p {
+            font-size: 16px;
+            color: var(--light-text);
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .intro-image {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Mission Vision Section */
+        .mission-vision-section {
+            background-color: #ffffff;
+            padding: 80px 0;
+        }
+
+        .mission-card,
+        .vision-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            height: 100%;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            border-top: 5px solid var(--prayag-teal);
+        }
+
+        .vision-card {
+            border-top-color: var(--prayag-orange);
+        }
+
+        .mv-icon {
+            font-size: 48px;
+            margin-bottom: 25px;
+            color: var(--prayag-teal);
+        }
+
+        .vision-card .mv-icon {
+            color: var(--prayag-orange);
+        }
+
+        .mv-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--dark-text);
+        }
+
+        .mv-text {
+            color: var(--light-text);
+            line-height: 1.6;
+        }
+
+        /* Values Section */
+        .values-section {
+            padding: 80px 0;
+            background-color: #daede67a;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .value-card {
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            background: white;
+            border: 1px solid #eee;
+            transition: all 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--prayag-teal);
+        }
+
+        .value-icon {
+            width: 70px;
+            height: 70px;
+            background: rgba(74, 143, 115, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: var(--prayag-teal);
+            font-size: 28px;
+            transition: all 0.3s ease;
+        }
+
+        .value-card:hover .value-icon {
+            background: var(--prayag-teal);
+            color: white;
+        }
+
+        .value-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--dark-text);
+        }
+
+        /* Infrastructure Teaser */
+        .infra-teaser {
+            background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .infra-teaser h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .infra-teaser p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .btn-outline-light-custom {
+            border: 2px solid white;
+            color: white;
+            padding: 12px 35px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-light-custom:hover {
+            background: white;
+            color: var(--prayag-teal);
+        }
+
+        /* Chairman Message Section */
+        .chairman-section {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+        }
+
+        .chairman-img-wrapper {
+            position: relative;
+            padding: 20px;
+        }
+
+        .chairman-img-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            border-top: 5px solid var(--prayag-orange);
+            border-left: 5px solid var(--prayag-orange);
+            z-index: 1;
+        }
+
+        .chairman-img-wrapper::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            border-bottom: 5px solid var(--prayag-teal);
+            border-right: 5px solid var(--prayag-teal);
+            z-index: 1;
+        }
+
+        .chairman-img {
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .chairman-content h3 {
+            color: var(--prayag-teal);
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .chairman-content h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: var(--dark-text);
+        }
+
+        .chairman-quote {
+            font-size: 18px;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid var(--prayag-orange);
+            padding-left: 20px;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+
+        .chairman-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--prayag-teal);
+            margin-bottom: 5px;
+        }
+
+        .chairman-title {
+            color: #777;
+            font-size: 16px;
+        }
+
+        /* Journey Timeline Section */
+        .journey-section {
+            padding: 80px 0;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 50px auto 0;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: var(--prayag-teal);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1px;
+            /* opacity: 0.3; */
+        }
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -10px;
+            background-color: white;
+            border: 4px solid var(--prayag-orange);
+            top: 25px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-left {
+            left: 0;
+        }
+
+        .timeline-right {
+            left: 50%;
+        }
+
+        .timeline-left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 25px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid white;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent white;
+        }
+
+        .timeline-right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 25px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+        }
+
+        .timeline-right::after {
+            left: -10px;
+        }
+
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-bottom: 3px solid var(--prayag-teal);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .year-badge {
+            background-color: var(--prayag-teal);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--dark-text);
+        }
+
+        .timeline-content p {
+            margin-bottom: 0;
+            color: var(--light-text);
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .timeline::after {
+                left: 31px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+
+            .timeline-item::before {
+                left: 60px;
+                border: medium solid white;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent white transparent transparent;
+            }
+
+            .timeline-left::after,
+            .timeline-right::after {
+                left: 21px;
+            }
+
+            .timeline-right {
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header removed as per request -->
+
+    <!-- MOBILE BOTTOM NAVIGATION BAR -->
+    <div class="mobile-bottom-nav d-lg-none">
+        <div class="bottom-nav-item">
+            <a href="#find-doctor">
+                <div class="nav-icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <span class="nav-label">Find a Doctor</span>
+            </a>
+        </div>
+        <div class="bottom-nav-item">
+            <a href="#appointment">
+                <div class="nav-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <span class="nav-label">Appointment</span>
+            </a>
+        </div>
+        <div class="bottom-nav-item">
+            <a href="#lab-report">
+                <div class="nav-icon">
+                    <i class="fas fa-file-medical"></i>
+                </div>
+                <span class="nav-label">Lab Report</span>
+            </a>
+        </div>
+        <div class="bottom-nav-item">
+            <a href="#international">
+                <div class="nav-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <span class="nav-label">International</span>
+            </a>
+        </div>
+        <div class="bottom-nav-item">
+            <a href="tel:18003131414">
+                <div class="nav-icon emergency-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <span class="nav-label">24Hrs Help</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Search</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search-box">
+                        <input type="text" class="form-control"
+                            placeholder="Search for doctors, services, departments...">
+                        <button class="btn btn-search-submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <div class="container">
+                <h1 class="about-hero-title">About Prayag Hospital</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb breadcrumb-custom">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="intro-image">
+                            <!-- Placeholder for Hospital Building Image -->
+                            <img src="https://www.prayaghospital.in/images/banner1.jpg" alt="Prayag Hospital Building"
+                                class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="intro-content ps-lg-4">
+                            <h2>A Legacy of Healing and Hope</h2>
+                            <p>Established in 1985, Prayag Hospital has emerged as a beacon of hope and healing in the
+                                healthcare landscape. With a steadfast commitment to delivering world-class medical
+                                care, we have grown from a modest facility to a state-of-the-art multi-specialty
+                                hospital, trusted by thousands of patients.</p>
+                            <p>Driven by the philosophy of "Patient First," we combine advanced medical technology with
+                                human compassion to provide holistic treatment. Our team of renowned doctors, dedicated
+                                nurses, and support staff work round-the-clock to ensure the best possible clinical
+                                outcomes.</p>
+                            <p>We are proud to be pioneers in bringing cutting-edge healthcare solutions, including
+                                robotic surgery, advanced organ transplants, and precision oncology, accessible to all
+                                strata of society.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chairman Message Section -->
+        <section class="chairman-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="chairman-img-wrapper">
+                            <!-- Placeholder for Chairman Image -->
+                            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&h=700&fit=crop"
+                                alt="Chairman - Prayag Hospital" class="chairman-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="chairman-content ps-lg-5">
+                            <h3>Leadership Speak</h3>
+                            <h2>Message from the Chairman</h2>
+                            <blockquote class="chairman-quote">
+                                "At Prayag Hospital, we believe that healthcare is not just a profession but a sacred
+                                duty. Our journey began with a simple yet powerful dream: to bring world-class medical
+                                excellence within the reach of every individual. Today, as we stand at the forefront of
+                                healthcare innovation, our core values of compassion, integrity, and excellence remain
+                                our guiding light. We are committed to healing lives, touching hearts, and building a
+                                healthier tomorrow for our community."
+                            </blockquote>
+                            <p style="color: var(--light-text); margin-bottom: 30px;">
+                                We are constantly upgrading our infrastructure and clinical capabilities to ensure that
+                                our patients receive the best possible care. Our team of dedicated doctors and staff
+                                work tirelessly to uphold the trust you place in us. Thank you for choosing Prayag
+                                Hospital as your partner in health.
+                            </p>
+                            <div class="chairman-signature">
+                                <h4 class="chairman-name">Dr. [Chairman Name]</h4>
+                                <p class="chairman-title">Founder & Chairman, Prayag Group</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission Section -->
+        <section class="mission-vision-section">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="mission-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="mv-title">Our Mission</h3>
+                            <p class="mv-text">To provide accessible, affordable, and high-quality healthcare services
+                                to the community with compassion and integrity. We aim to continuously improve our
+                                clinical standards and patient care through innovation and education.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="vision-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3 class="mv-title">Our Vision</h3>
+                            <p class="mv-text">To be a globally recognized healthcare institution known for clinical
+                                excellence, state-of-the-art infrastructure, and ethical medical practices. We envision
+                                a society where quality healthcare is a right, not a privilege.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="values-section">
+            <div class="container">
+                <div class="section-header-center text-center">
+                    <h2 class="section-title" style="color: var(--prayag-teal); font-weight: 700;">Our Core Values</h2>
+                    <p style="color: var(--light-text); max-width: 600px; margin: 0 auto;">The pillars that uphold our
+                        commitment to excellence</p>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 class="value-title">Compassion</h4>
+                        <p class="value-text">We treat every patient with kindness, empathy, and respect, understanding
+                            their physical and emotional needs.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="value-title">Excellence</h4>
+                        <p class="value-text">We strive for the highest standards in clinical care, safety, and service
+                            delivery, never settling for anything less than the best.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h4 class="value-title">Integrity</h4>
+                        <p class="value-text">We conduct ourselves with transparency, honesty, and ethical practices in
+                            all our interactions.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="value-title">Innovation</h4>
+                        <p class="value-text">We embrace new technologies and advancements in medical science to provide
+                            better treatment outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prayag Journey Section -->
+        <section class="journey-section">
+            <div class="container">
+                <div class="section-header-center text-center">
+                    <h2 class="section-title" style="color: var(--prayag-teal); font-weight: 700;">Our Journey</h2>
+                    <p style="color: var(--light-text); max-width: 600px; margin: 0 auto;">A timeline of milestones and
+                        medical excellence</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item timeline-left">
+                        <div class="timeline-content">
+                            <span class="year-badge">1985</span>
+                            <h4>Inception</h4>
+                            <p>Prayag Hospital was founded with a modest 20-bed facility, driven by a vision to serve
+                                the community.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="timeline-item timeline-right">
+                        <div class="timeline-content">
+                            <span class="year-badge">1995</span>
+                            <h4>Expansion Phase I</h4>
+                            <p>Expanded to 100 beds and introduced 24/7 emergency services and comprehensive trauma
+                                care.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="timeline-item timeline-left">
+                        <div class="timeline-content">
+                            <span class="year-badge">2005</span>
+                            <h4>Multi-Specialty Status</h4>
+                            <p>Inaugurated advanced cardiology and modular operation theaters, becoming a full-fledged
+                                multi-specialty hub.</p>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="timeline-item timeline-right">
+                        <div class="timeline-content">
+                            <span class="year-badge">2015</span>
+                            <h4>Technological Leap</h4>
+                            <p>Introduced robotic surgery and advanced MRI diagnostics, setting new benchmarks in
+                                precision medicine.</p>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="timeline-item timeline-left">
+                        <div class="timeline-content">
+                            <span class="year-badge">2023</span>
+                            <h4>Global Recognition</h4>
+                            <p>Achieved NABH accreditation and recognized as a center of excellence for medical tourism.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="timeline-item timeline-right">
+                        <div class="timeline-content">
+                            <span class="year-badge">2025</span>
+                            <h4>Future Ready</h4>
+                            <p>Launch of the new Cancer Care Wing and AI-driven diagnostic center for personalized
+                                patient care.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infrastructure Teaser Link -->
+        <section class="infra-teaser">
+            <div class="container">
+                <h2>World-Class Infrastructure</h2>
+                <p>Experience healthcare in a facility designed for comfort, safety, and advanced medical care.</p>
+                <a href="#" class="btn btn-outline-light-custom">View Our Infrastructure</a>
+            </div>
+        </section>
+
+        <!-- Contact Us Section (Footer) -->
+        <section class="contact-section" id="contact">
+            <div class="contact-background-overlay"></div>
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="row">
+                        <!-- Left Column: Contact Information -->
+                        <div class="col-md-6">
+                            <div class="contact-info-container">
+                                <h2 class="contact-main-title">Get in Touch</h2>
+
+                                <!-- Location -->
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-info-title">Our Location</h4>
+                                        <p class="contact-info-text">Ground Floor, SupremaWork Co-working Space, Plot
+                                            No. 84,<br>
+                                            Institutional Area, Sector 32, Gurugram, Haryana 122001</p>
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-info-title">Email Us</h4>
+                                        <p class="contact-info-text">
+                                            <a href="mailto:info@prayaghospital.com">info@prayaghospital.com</a><br>
+                                            <a href="mailto:support@prayaghospital.com">support@prayaghospital.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Phone -->
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-info-title">Call Us</h4>
+                                        <p class="contact-info-text">
+                                            <a href="tel:+918811780937">+91 8811780937</a><br>
+                                            <a href="tel:18003131414">1800 313 1414 (24x7 Helpline)</a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Follow Us -->
+                                <div class="contact-social">
+                                    <h4 class="contact-info-title">Follow Us</h4>
+                                    <div class="social-icons">
+                                        <a href="#" class="social-icon" aria-label="Facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#" class="social-icon" aria-label="Twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="social-icon" aria-label="Instagram">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="#" class="social-icon" aria-label="YouTube">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Contact Form -->
+                        <div class="col-md-6">
+                            <div class="contact-form-container">
+                                <h3 class="contact-form-title">Send us a message</h3>
+                                <p class="contact-form-subtitle">We'd love to hear from you. Fill out the form below and
+                                    we'll get back to you as soon as possible.</p>
+
+                                <form class="contact-form" id="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control contact-input" id="fullName"
+                                                placeholder="Full Name*" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="email" class="form-control contact-input" id="emailAddress"
+                                                placeholder="Email Address*" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="tel" class="form-control contact-input" id="phoneNumber"
+                                                placeholder="Phone Number*" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control contact-input" id="subject"
+                                                placeholder="Subject">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <textarea class="form-control contact-input contact-textarea" id="message"
+                                            rows="5" placeholder="Your Message*" required></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn-contact-submit">
+                                        Send Message
+                                        <i class="fas fa-paper-plane ms-2"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

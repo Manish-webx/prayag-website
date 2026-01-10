@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Doctor - Expert Medical Professionals | Prayag Hospital</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="find-doctor-hero">
+        <div class="container">
+            <div class="hero-content-center">
+                <h1 class="find-doctor-title">Find a Doctor</h1>
+                <p class="find-doctor-subtitle">Connect with our team of highly qualified and experienced medical
+                    professionals</p>
+
+                <!-- Search Bar -->
+                <div class="doctor-search-bar">
+                    <div class="search-input-wrapper">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="doctorSearch" class="search-input"
+                            placeholder="Search by doctor name, specialty, or department...">
+                    </div>
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter and Results Section -->
+    <section class="doctors-listing-section">
+        <div class="container">
+            <div class="row">
+                <!-- Filters Sidebar -->
+                <div class="col-lg-3 col-md-4">
+                    <div class="filters-sidebar">
+                        <div class="filter-header">
+                            <h3><i class="fas fa-filter"></i> Filters</h3>
+                            <button class="btn-clear-filters" id="clearFilters">Clear All</button>
+                        </div>
+
+                        <!-- Specialty Filter -->
+                        <div class="filter-group">
+                            <h4 class="filter-title">Specialty</h4>
+                            <div class="filter-options">
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="cardiology" checked>
+                                    <span>Cardiology</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="neurology">
+                                    <span>Neurology</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="orthopedics">
+                                    <span>Orthopedics</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="pediatrics">
+                                    <span>Pediatrics</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="oncology">
+                                    <span>Oncology</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="gastroenterology">
+                                    <span>Gastroenterology</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="pulmonology">
+                                    <span>Pulmonology</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="specialty-filter" value="nephrology">
+                                    <span>Nephrology</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Experience Filter -->
+                        <div class="filter-group">
+                            <h4 class="filter-title">Experience</h4>
+                            <div class="filter-options">
+                                <label class="filter-option">
+                                    <input type="checkbox" class="experience-filter" value="0-5">
+                                    <span>0-5 Years</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="experience-filter" value="5-10">
+                                    <span>5-10 Years</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="experience-filter" value="10-20">
+                                    <span>10-20 Years</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="experience-filter" value="20+">
+                                    <span>20+ Years</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Gender Filter -->
+                        <div class="filter-group">
+                            <h4 class="filter-title">Gender</h4>
+                            <div class="filter-options">
+                                <label class="filter-option">
+                                    <input type="radio" name="gender" class="gender-filter" value="all" checked>
+                                    <span>All</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="radio" name="gender" class="gender-filter" value="male">
+                                    <span>Male</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="radio" name="gender" class="gender-filter" value="female">
+                                    <span>Female</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Availability Filter -->
+                        <div class="filter-group">
+                            <h4 class="filter-title">Availability</h4>
+                            <div class="filter-options">
+                                <label class="filter-option">
+                                    <input type="checkbox" class="availability-filter" value="today">
+                                    <span>Available Today</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="availability-filter" value="tomorrow">
+                                    <span>Available Tomorrow</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" class="availability-filter" value="week">
+                                    <span>Available This Week</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctors Grid -->
+                <div class="col-lg-9 col-md-8">
+                    <!-- Results Info -->
+                    <div class="results-header">
+                        <div class="results-count">
+                            <h3>Showing <span id="doctorCount">12</span> Doctors</h3>
+                        </div>
+                        <div class="sort-options">
+                            <label>Sort by:</label>
+                            <select id="sortDoctors" class="sort-select">
+                                <option value="name">Name (A-Z)</option>
+                                <option value="experience">Experience (High to Low)</option>
+                                <option value="rating">Rating (High to Low)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Doctors Grid -->
+                    <div class="doctors-grid" id="doctorsGrid">
+                        <!-- Doctor Card 1 -->
+                        <div class="find-doctor-card" data-specialty="cardiology" data-experience="15"
+                            data-gender="male" data-availability="today">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Rajesh+Kumar"
+                                    alt="Dr. Rajesh Kumar">
+                                <div class="doctor-status-badge available">Available Today</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Rajesh Kumar</h3>
+                                <p class="doctor-card-specialty">Senior Cardiologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 15+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.9/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Interventional Cardiology, Heart Failure, Angioplasty
+                                </p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 2 -->
+                        <div class="find-doctor-card" data-specialty="neurology" data-experience="12"
+                            data-gender="female" data-availability="tomorrow">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Priya+Sharma"
+                                    alt="Dr. Priya Sharma">
+                                <div class="doctor-status-badge tomorrow">Available Tomorrow</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Priya Sharma</h3>
+                                <p class="doctor-card-specialty">Neurologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 12+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.8/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Stroke Care, Epilepsy, Headache Management</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 3 -->
+                        <div class="find-doctor-card" data-specialty="orthopedics" data-experience="18"
+                            data-gender="male" data-availability="week">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Amit+Patel"
+                                    alt="Dr. Amit Patel">
+                                <div class="doctor-status-badge week">Available This Week</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Amit Patel</h3>
+                                <p class="doctor-card-specialty">Orthopedic Surgeon</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 18+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.9/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Joint Replacement, Sports Injuries, Arthroscopy</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 4 -->
+                        <div class="find-doctor-card" data-specialty="pediatrics" data-experience="10"
+                            data-gender="female" data-availability="today">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Sneha+Reddy"
+                                    alt="Dr. Sneha Reddy">
+                                <div class="doctor-status-badge available">Available Today</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Sneha Reddy</h3>
+                                <p class="doctor-card-specialty">Pediatrician</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 10+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.9/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Child Healthcare, Vaccination, Growth Monitoring</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 5 -->
+                        <div class="find-doctor-card" data-specialty="oncology" data-experience="20" data-gender="male"
+                            data-availability="week">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Vikram+Singh"
+                                    alt="Dr. Vikram Singh">
+                                <div class="doctor-status-badge week">Available This Week</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Vikram Singh</h3>
+                                <p class="doctor-card-specialty">Oncologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 20+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.8/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Cancer Treatment, Chemotherapy, Radiation Therapy</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 6 -->
+                        <div class="find-doctor-card" data-specialty="gastroenterology" data-experience="14"
+                            data-gender="female" data-availability="tomorrow">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Anjali+Mehta"
+                                    alt="Dr. Anjali Mehta">
+                                <div class="doctor-status-badge tomorrow">Available Tomorrow</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Anjali Mehta</h3>
+                                <p class="doctor-card-specialty">Gastroenterologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 14+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.7/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Digestive Disorders, Endoscopy, Liver Diseases</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 7 -->
+                        <div class="find-doctor-card" data-specialty="pulmonology" data-experience="16"
+                            data-gender="male" data-availability="today">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Rahul+Gupta"
+                                    alt="Dr. Rahul Gupta">
+                                <div class="doctor-status-badge available">Available Today</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Rahul Gupta</h3>
+                                <p class="doctor-card-specialty">Pulmonologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 16+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.8/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Respiratory Care, Asthma, Sleep Disorders</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 8 -->
+                        <div class="find-doctor-card" data-specialty="nephrology" data-experience="13"
+                            data-gender="female" data-availability="week">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Divya+Verma"
+                                    alt="Dr. Divya Verma">
+                                <div class="doctor-status-badge week">Available This Week</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Divya Verma</h3>
+                                <p class="doctor-card-specialty">Nephrologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 13+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.9/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Kidney Care, Dialysis, Transplant Medicine</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 9 -->
+                        <div class="find-doctor-card" data-specialty="cardiology" data-experience="11"
+                            data-gender="male" data-availability="tomorrow">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Sanjay+Joshi"
+                                    alt="Dr. Sanjay Joshi">
+                                <div class="doctor-status-badge tomorrow">Available Tomorrow</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Sanjay Joshi</h3>
+                                <p class="doctor-card-specialty">Cardiologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 11+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.7/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Preventive Cardiology, Echocardiography, Hypertension
+                                </p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 10 -->
+                        <div class="find-doctor-card" data-specialty="neurology" data-experience="9"
+                            data-gender="female" data-availability="today">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Kavita+Rao"
+                                    alt="Dr. Kavita Rao">
+                                <div class="doctor-status-badge available">Available Today</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Kavita Rao</h3>
+                                <p class="doctor-card-specialty">Neurologist</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 9+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.8/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Movement Disorders, Parkinson's, Memory Clinic</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 11 -->
+                        <div class="find-doctor-card" data-specialty="orthopedics" data-experience="22"
+                            data-gender="male" data-availability="week">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Arun+Nair"
+                                    alt="Dr. Arun Nair">
+                                <div class="doctor-status-badge week">Available This Week</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Arun Nair</h3>
+                                <p class="doctor-card-specialty">Orthopedic Surgeon</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 22+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.9/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Spine Surgery, Trauma Care, Joint Disorders</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Doctor Card 12 -->
+                        <div class="find-doctor-card" data-specialty="pediatrics" data-experience="8"
+                            data-gender="female" data-availability="tomorrow">
+                            <div class="doctor-card-image">
+                                <img src="https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Meera+Das"
+                                    alt="Dr. Meera Das">
+                                <div class="doctor-status-badge tomorrow">Available Tomorrow</div>
+                            </div>
+                            <div class="doctor-card-content">
+                                <h3 class="doctor-card-name">Dr. Meera Das</h3>
+                                <p class="doctor-card-specialty">Pediatrician</p>
+                                <div class="doctor-card-info">
+                                    <span class="info-item">
+                                        <i class="fas fa-briefcase"></i> 8+ Years
+                                    </span>
+                                    <span class="info-item">
+                                        <i class="fas fa-star"></i> 4.8/5
+                                    </span>
+                                </div>
+                                <p class="doctor-card-expertise">Newborn Care, Infectious Diseases, Nutrition</p>
+                                <div class="doctor-card-actions">
+                                    <a href="doctor-profile.html" class="btn-view-profile">View Profile</a>
+                                    <a href="#" class="btn-book-now">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- No Results Message -->
+                    <div class="no-results" id="noResults" style="display: none;">
+                        <i class="fas fa-user-md"></i>
+                        <h3>No Doctors Found</h3>
+                        <p>Try adjusting your filters or search terms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Find Doctor Filtering and Search Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const doctorCards = document.querySelectorAll('.find-doctor-card');
+            const searchInput = document.getElementById('doctorSearch');
+            const specialtyFilters = document.querySelectorAll('.specialty-filter');
+            const experienceFilters = document.querySelectorAll('.experience-filter');
+            const genderFilters = document.querySelectorAll('.gender-filter');
+            const availabilityFilters = document.querySelectorAll('.availability-filter');
+            const clearFiltersBtn = document.getElementById('clearFilters');
+            const sortSelect = document.getElementById('sortDoctors');
+            const doctorCount = document.getElementById('doctorCount');
+            const noResults = document.getElementById('noResults');
+
+            function filterDoctors() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedSpecialties = Array.from(specialtyFilters)
+                    .filter(cb => cb.checked)
+                    .map(cb => cb.value);
+                const selectedExperience = Array.from(experienceFilters)
+                    .filter(cb => cb.checked)
+                    .map(cb => cb.value);
+                const selectedGender = document.querySelector('.gender-filter:checked').value;
+                const selectedAvailability = Array.from(availabilityFilters)
+                    .filter(cb => cb.checked)
+                    .map(cb => cb.value);
+
+                let visibleCount = 0;
+
+                doctorCards.forEach(card => {
+                    const specialty = card.dataset.specialty;
+                    const experience = parseInt(card.dataset.experience);
+                    const gender = card.dataset.gender;
+                    const availability = card.dataset.availability;
+                    const name = card.querySelector('.doctor-card-name').textContent.toLowerCase();
+                    const cardSpecialty = card.querySelector('.doctor-card-specialty').textContent.toLowerCase();
+                    const expertise = card.querySelector('.doctor-card-expertise').textContent.toLowerCase();
+
+                    // Search filter
+                    const matchesSearch = searchTerm === '' ||
+                        name.includes(searchTerm) ||
+                        cardSpecialty.includes(searchTerm) ||
+                        expertise.includes(searchTerm);
+
+                    // Specialty filter
+                    const matchesSpecialty = selectedSpecialties.length === 0 ||
+                        selectedSpecialties.includes(specialty);
+
+                    // Experience filter
+                    let matchesExperience = selectedExperience.length === 0;
+                    if (!matchesExperience) {
+                        selectedExperience.forEach(range => {
+                            if (range === '0-5' && experience <= 5) matchesExperience = true;
+                            if (range === '5-10' && experience > 5 && experience <= 10) matchesExperience = true;
+                            if (range === '10-20' && experience > 10 && experience <= 20) matchesExperience = true;
+                            if (range === '20+' && experience > 20) matchesExperience = true;
+                        });
+                    }
+
+                    // Gender filter
+                    const matchesGender = selectedGender === 'all' || selectedGender === gender;
+
+                    // Availability filter
+                    const matchesAvailability = selectedAvailability.length === 0 ||
+                        selectedAvailability.includes(availability);
+
+                    // Show/hide card
+                    if (matchesSearch && matchesSpecialty && matchesExperience && matchesGender && matchesAvailability) {
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                // Update count and show/hide no results message
+                doctorCount.textContent = visibleCount;
+                noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+            }
+
+            // Event listeners
+            searchInput.addEventListener('input', filterDoctors);
+            specialtyFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
+            experienceFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
+            genderFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
+            availabilityFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
+
+            // Clear filters
+            clearFiltersBtn.addEventListener('click', function () {
+                searchInput.value = '';
+                specialtyFilters.forEach(cb => cb.checked = false);
+                experienceFilters.forEach(cb => cb.checked = false);
+                availabilityFilters.forEach(cb => cb.checked = false);
+                document.querySelector('.gender-filter[value="all"]').checked = true;
+                filterDoctors();
+            });
+
+            // Sort functionality
+            sortSelect.addEventListener('change', function () {
+                const sortValue = this.value;
+                const grid = document.getElementById('doctorsGrid');
+                const cardsArray = Array.from(doctorCards);
+
+                cardsArray.sort((a, b) => {
+                    if (sortValue === 'name') {
+                        const nameA = a.querySelector('.doctor-card-name').textContent;
+                        const nameB = b.querySelector('.doctor-card-name').textContent;
+                        return nameA.localeCompare(nameB);
+                    } else if (sortValue === 'experience') {
+                        return parseInt(b.dataset.experience) - parseInt(a.dataset.experience);
+                    } else if (sortValue === 'rating') {
+                        const ratingA = parseFloat(a.querySelector('.info-item:last-child').textContent);
+                        const ratingB = parseFloat(b.querySelector('.info-item:last-child').textContent);
+                        return ratingB - ratingA;
+                    }
+                });
+
+                cardsArray.forEach(card => grid.appendChild(card));
+            });
+
+            // Initial count
+            filterDoctors();
+        });
+    </script>
+
+</body>
+
+</html>
