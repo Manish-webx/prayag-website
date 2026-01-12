@@ -14,18 +14,26 @@
 
     <?php include 'header.php'; ?>
 
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb-wrapper">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
     <!-- MAIN CONTENT -->
     <main>
         <!-- Hero Section -->
-        <section class="about-hero">
+        <section class="blog-hero-section">
             <div class="container">
-                <h1 class="about-hero-title">About Prayag Hospital</h1>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb breadcrumb-custom">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                    </ol>
-                </nav>
+                <div class="blog-hero-content">
+                    <h1 class="blog-hero-title">About Prayag Hospital</h1>
+                </div>
             </div>
         </section>
 

@@ -1,10 +1,31 @@
+<?php
+include 'doctors-data.php';
+
+$doctor_id = isset($_GET['id']) ? $_GET['id'] : '';
+$doctor = null;
+
+if ($doctor_id) {
+    foreach ($doctors as $d) {
+        if ($d['id'] === $doctor_id) {
+            $doctor = $d;
+            break;
+        }
+    }
+}
+
+// Redirect if doctor not found
+if (!$doctor) {
+    header("Location: find-doctor.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. [Doctor Name] - Cardiologist | Prayag Hospital</title>
+    <title><?php echo $doctor['name']; ?> - <?php echo $doctor['specialty']; ?> | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -15,14 +36,27 @@
 
     <?php include 'header.php'; ?>
 
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb-wrapper">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i></a></li>
+                    <li class="breadcrumb-item"><a href="find-doctor.php">Find a Doctor</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><?php echo $doctor['name']; ?></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
     <!-- Doctor Profile Hero Section -->
     <section class="doctor-profile-hero">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-5">
                     <div class="doctor-profile-image-container">
-                        <img src="https://via.placeholder.com/400x500/4A8F73/ffffff?text=Doctor+Photo"
-                            alt="Dr. [Doctor Name]" class="doctor-profile-image">
+                        <img src="<?php echo $doctor['image']; ?>"
+                            alt="<?php echo $doctor['name']; ?>" class="doctor-profile-image">
                         <div class="doctor-verification-badge">
                             <i class="fas fa-check-circle"></i>
                             <span>Verified</span>
@@ -31,29 +65,23 @@
                 </div>
                 <div class="col-lg-8 col-md-7">
                     <div class="doctor-profile-header">
-                        <h1 class="doctor-profile-name">Dr. Rajesh Kumar</h1>
-                        <p class="doctor-profile-designation">Senior Cardiologist & Interventional Specialist</p>
+                        <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
+                        <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
+                        <p class="doctor-profile-department" style="color: var(--prayag-teal); font-weight: 500; margin-bottom: 20px;"><?php echo $doctor['department']; ?></p>
 
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
                                 <i class="fas fa-user-md"></i>
                                 <div>
-                                    <strong>15+ Years</strong>
+                                    <strong><?php echo $doctor['experience']; ?>+ Years</strong>
                                     <span>Experience</span>
                                 </div>
                             </div>
                             <div class="profile-stat-item">
                                 <i class="fas fa-procedures"></i>
                                 <div>
-                                    <strong>5000+</strong>
-                                    <span>Surgeries</span>
-                                </div>
-                            </div>
-                            <div class="profile-stat-item">
-                                <i class="fas fa-award"></i>
-                                <div>
-                                    <strong>12+</strong>
-                                    <span>Awards</span>
+                                    <strong>500+</strong>
+                                    <span>Surgeries/Cases</span>
                                 </div>
                             </div>
                             <div class="profile-stat-item">
@@ -69,14 +97,11 @@
                             <a href="#book-appointment" class="btn btn-primary-prayag">
                                 <i class="fas fa-calendar-check"></i> Book Appointment
                             </a>
-                            <a href="#contact" class="btn btn-outline-prayag">
-                                <i class="fas fa-phone"></i> Request Callback
-                            </a>
                         </div>
 
                         <div class="doctor-availability">
                             <i class="fas fa-clock"></i>
-                            <span><strong>Available:</strong> Mon - Sat, 10:00 AM - 6:00 PM</span>
+                            <span><strong>Availability:</strong> <?php echo $doctor['availability_text']; ?></span>
                         </div>
                     </div>
                 </div>
@@ -90,30 +115,17 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="content-section">
-                        <h2 class="section-heading">About Dr. Rajesh Kumar</h2>
+                        <h2 class="section-heading">About <?php echo $doctor['name']; ?></h2>
                         <p class="lead-text">
-                            Dr. Rajesh Kumar is a highly experienced Senior Cardiologist with over 15 years of expertise
-                            in
-                            treating complex cardiac conditions and performing advanced interventional procedures.
+                            <?php echo $doctor['name']; ?> is a highly experienced <?php echo $doctor['specialty']; ?> with over <?php echo $doctor['experience']; ?> years of expertise in
+                            <?php echo $doctor['department']; ?>.
                         </p>
                         <p>
-                            With a proven track record of successfully managing more than 5,000 cardiac procedures, Dr.
-                            Kumar
-                            specializes in interventional cardiology, coronary angioplasty, and the management of heart
-                            failure.
-                            He is known for his patient-centric approach, combining cutting-edge medical technology with
-                            compassionate care.
-                        </p>
-                        <p>
-                            Dr. Kumar has been instrumental in establishing state-of-the-art cardiac care facilities and
-                            has
-                            trained numerous young cardiologists. His commitment to continuous learning and research has
-                            led
-                            to several publications in prestigious medical journals.
+                            Dedicated to providing the highest quality of care, <?php echo $doctor['name']; ?> specializes in patient-focused treatments and has a proven track record of successful medical outcomes. Known for compassionate care and clinical excellence, patients trust <?php echo $doctor['name']; ?> for their medical needs.
                         </p>
                     </div>
 
-                    <!-- Education & Qualifications -->
+                    <!-- Education & Qualifications (Generic Placeholder) -->
                     <div class="content-section">
                         <h2 class="section-heading">Education & Qualifications</h2>
                         <div class="education-timeline">
@@ -122,31 +134,8 @@
                                     <i class="fas fa-graduation-cap"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MBBS</h4>
-                                    <p class="institution">All India Institute of Medical Sciences (AIIMS), New Delhi
-                                    </p>
-                                    <span class="year">2003 - 2008</span>
-                                </div>
-                            </div>
-                            <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>MD - General Medicine</h4>
-                                    <p class="institution">Post Graduate Institute of Medical Education & Research,
-                                        Chandigarh</p>
-                                    <span class="year">2009 - 2012</span>
-                                </div>
-                            </div>
-                            <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DM - Cardiology</h4>
-                                    <p class="institution">King George's Medical University, Lucknow</p>
-                                    <span class="year">2013 - 2016</span>
+                                    <h4>Medical Degree</h4>
+                                    <p class="institution">Reputed Medical Institution</p>
                                 </div>
                             </div>
                             <div class="education-item">
@@ -154,9 +143,8 @@
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>Fellowship - Interventional Cardiology</h4>
-                                    <p class="institution">Cleveland Clinic, USA</p>
-                                    <span class="year">2017 - 2018</span>
+                                    <h4>Specialization in <?php echo $doctor['department']; ?></h4>
+                                    <p class="institution">Certified Board of Specialists</p>
                                 </div>
                             </div>
                         </div>
@@ -167,120 +155,18 @@
                         <h2 class="section-heading">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Coronary Angioplasty</h4>
-                                <p>Advanced minimally invasive procedures for blocked arteries</p>
-                            </div>
-                            <div class="expertise-card">
-                                <i class="fas fa-heart"></i>
-                                <h4>Heart Failure Management</h4>
-                                <p>Comprehensive treatment plans for chronic heart conditions</p>
-                            </div>
-                            <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Preventive Cardiology</h4>
-                                <p>Risk assessment and prevention strategies</p>
-                            </div>
-                            <div class="expertise-card">
                                 <i class="fas fa-user-md"></i>
-                                <h4>Echocardiography</h4>
-                                <p>Advanced cardiac imaging and diagnostics</p>
+                                <h4><?php echo $doctor['department']; ?></h4>
+                                <p>Specialized care in <?php echo $doctor['specialty']; ?></p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Pacemaker Implantation</h4>
-                                <p>Permanent and temporary pacemaker procedures</p>
-                            </div>
-                            <div class="expertise-card">
-                                <i class="fas fa-laptop-medical"></i>
-                                <h4>Cardiac Rehabilitation</h4>
-                                <p>Post-surgery recovery and lifestyle management</p>
+                                <i class="fas fa-notes-medical"></i>
+                                <h4>Patient Consultation</h4>
+                                <p>Comprehensive diagnosis and treatment planning</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Awards & Achievements -->
-                    <div class="content-section">
-                        <h2 class="section-heading">Awards & Achievements</h2>
-                        <div class="awards-list">
-                            <div class="award-item">
-                                <div class="award-year">2023</div>
-                                <div class="award-details">
-                                    <h4>Excellence in Cardiac Care Award</h4>
-                                    <p>Recognized by the Indian Medical Association for outstanding contribution to
-                                        cardiology</p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <div class="award-year">2021</div>
-                                <div class="award-details">
-                                    <h4>Best Interventional Cardiologist</h4>
-                                    <p>Healthcare Excellence Awards, National Level</p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <div class="award-year">2019</div>
-                                <div class="award-details">
-                                    <h4>Research Publication Award</h4>
-                                    <p>Best research paper on "Advanced Coronary Interventions" - Journal of Cardiology
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <div class="award-year">2018</div>
-                                <div class="award-details">
-                                    <h4>Young Cardiologist Award</h4>
-                                    <p>Cardiological Society of India Annual Conference</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Publications & Research -->
-                    <div class="content-section">
-                        <h2 class="section-heading">Publications & Research</h2>
-                        <ul class="publications-list">
-                            <li>
-                                <strong>"Minimally Invasive Cardiac Interventions: A 5-Year Study"</strong>
-                                <span>Indian Heart Journal, 2023</span>
-                            </li>
-                            <li>
-                                <strong>"Outcomes of Primary Angioplasty in STEMI Patients"</strong>
-                                <span>Journal of Interventional Cardiology, 2022</span>
-                            </li>
-                            <li>
-                                <strong>"Role of Echocardiography in Heart Failure Management"</strong>
-                                <span>Circulation India, 2021</span>
-                            </li>
-                            <li>
-                                <strong>"Preventive Cardiology: A Comprehensive Approach"</strong>
-                                <span>Cardiology Today, 2020</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Professional Memberships -->
-                    <div class="content-section">
-                        <h2 class="section-heading">Professional Memberships</h2>
-                        <div class="memberships-grid">
-                            <div class="membership-badge">
-                                <i class="fas fa-certificate"></i>
-                                <span>Cardiological Society of India (CSI)</span>
-                            </div>
-                            <div class="membership-badge">
-                                <i class="fas fa-certificate"></i>
-                                <span>Indian Medical Association (IMA)</span>
-                            </div>
-                            <div class="membership-badge">
-                                <i class="fas fa-certificate"></i>
-                                <span>American College of Cardiology (ACC)</span>
-                            </div>
-                            <div class="membership-badge">
-                                <i class="fas fa-certificate"></i>
-                                <span>European Society of Cardiology (ESC)</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Sidebar -->
@@ -288,7 +174,7 @@
                     <div class="sidebar-sticky">
                         <!-- Quick Appointment Form -->
                         <div class="appointment-sidebar-card" id="book-appointment">
-                            <h3>Book an Appointment</h3>
+                            <h3>Book an Appointment with <?php echo $doctor['name']; ?></h3>
                             <form class="appointment-quick-form">
                                 <div class="form-group">
                                     <label>Your Name</label>
@@ -324,7 +210,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div>
                                     <strong>Location</strong>
-                                    <p>Prayag Hospital, Cardiac Wing<br>Second Floor, OPD Block</p>
+                                    <p>Prayag Hospital<br><?php echo $doctor['department']; ?> Wing</p>
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -334,37 +220,8 @@
                                     <p><a href="tel:+911234567890">+91 123 456 7890</a></p>
                                 </div>
                             </div>
-                            <div class="contact-item">
-                                <i class="fas fa-envelope"></i>
-                                <div>
-                                    <strong>Email</strong>
-                                    <p><a href="mailto:dr.rajesh@prayaghospital.com">dr.rajesh@prayaghospital.com</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <i class="fas fa-clock"></i>
-                                <div>
-                                    <strong>Timings</strong>
-                                    <p>Mon - Sat: 10:00 AM - 6:00 PM<br>Sunday: Closed</p>
-                                </div>
-                            </div>
                         </div>
 
-                        <!-- Services Offered Card -->
-                        <div class="services-offered-card">
-                            <h3>Services Offered</h3>
-                            <ul class="services-list">
-                                <li><i class="fas fa-check-circle"></i> Comprehensive Cardiac Evaluation</li>
-                                <li><i class="fas fa-check-circle"></i> 2D Echo & Stress Test</li>
-                                <li><i class="fas fa-check-circle"></i> Coronary Angiography</li>
-                                <li><i class="fas fa-check-circle"></i> Angioplasty & Stenting</li>
-                                <li><i class="fas fa-check-circle"></i> Pacemaker Implantation</li>
-                                <li><i class="fas fa-check-circle"></i> Heart Failure Clinic</li>
-                                <li><i class="fas fa-check-circle"></i> Post-Surgery Follow-up</li>
-                                <li><i class="fas fa-check-circle"></i> Cardiac Rehabilitation</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -375,8 +232,6 @@
 
 
     <?php include 'footer-links.php'; ?>
-
-
 
 </body>
 

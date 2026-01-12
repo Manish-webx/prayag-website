@@ -8,6 +8,12 @@
 
     <?php include 'header-links.php'; ?>
 
+    <style>
+        .why-choose-section {
+            background-color: #fff !important;
+        }
+    </style>
+
 </head>
 
 <body>

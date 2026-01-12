@@ -205,7 +205,7 @@ a {
 .main-header {
     background-color: var(--white);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
-    padding: 10px 0;
+    padding: 5px 0;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -1048,7 +1048,7 @@ a {
     }
 
     .main-header {
-        padding: 12px 0;
+        padding: 5px 0;
     }
 
     .header-wrapper {
@@ -1471,7 +1471,7 @@ a {
    ================================================ */
 .why-choose-section {
     padding: 40px 0;
-    background-color: #ffffff;
+    background-color: #daede67a;
 }
 
 .section-description {
@@ -2007,6 +2007,7 @@ a {
     line-height: 1.5;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -2166,6 +2167,7 @@ a {
     line-height: 1.4;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -2286,6 +2288,7 @@ a {
     line-height: 1.4;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -2954,6 +2957,7 @@ a {
     margin-top: auto;
 }
 
+.btn-view-profile,
 .btn-book-now {
     flex: 1;
     background: var(--prayag-teal);
@@ -3323,7 +3327,7 @@ a {
    ================================================ */
 .contact-section {
     position: relative;
-    padding: 80px 0;
+    padding: 40px 0;
     background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1920&q=80');
     background-size: cover;
     background-position: center;
@@ -4272,7 +4276,7 @@ body {
 
 .breadcrumb-item+.breadcrumb-item::before {
     content: ">";
-    color: var(--light-text);
+    color: #000;
     padding-right: 8px;
 }
 
@@ -4754,7 +4758,7 @@ body {
            CONDITIONS WE TREAT SECTION
            ================================================ */
 .conditions-section {
-    background-color: var(--white);
+    background-color: #daede67a;
     padding: 40px 0;
 }
 
@@ -5781,7 +5785,7 @@ body {
 /* Doctor Profile Hero Section */
 .doctor-profile-hero {
     background: linear-gradient(135deg, #f8fffe 0%, #e8f5f0 100%);
-    padding: 60px 0 40px;
+    padding: 40px 0;
 }
 
 .doctor-profile-image-container {
@@ -5947,7 +5951,7 @@ body {
 
 /* About Doctor Section */
 .doctor-about-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background: #ffffff;
 }
 
@@ -6415,7 +6419,7 @@ body {
 /* Hero Section */
 .find-doctor-hero {
     background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
-    padding: 80px 0;
+    padding: 40px 0;
     position: relative;
     overflow: hidden;
 }
@@ -6518,7 +6522,7 @@ body {
 
 /* Doctors Listing Section */
 .doctors-listing-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background: #f8f9fa;
 }
 
@@ -6828,7 +6832,7 @@ body {
 /* No Results */
 .no-results {
     text-align: center;
-    padding: 60px 20px;
+    padding: 40px 20px;
     background: #ffffff;
     border-radius: 15px;
 }
@@ -6946,7 +6950,7 @@ body {
 /* Blog Hero Section */
 .blog-hero-section {
     background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
-    padding: 80px 0 60px;
+    padding: 40px 0;
     position: relative;
     overflow: hidden;
 }
@@ -7041,7 +7045,7 @@ body {
 
 /* Blog Content Section */
 .blog-content-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background: #f8f9fa;
 }
 
@@ -7149,7 +7153,7 @@ body {
 
 .blog-post-image {
     position: relative;
-    width: 300px;
+    width: 250px;
     flex-shrink: 0;
     overflow: hidden;
 }
@@ -7878,6 +7882,7 @@ body {
 .footer-contact-box>ul {
     list-style-type: none !important;
     padding-left: 0px !important;
+    margin-bottom: 0px;
 }
 
 .footer-contact-box .footer-contact i {
@@ -8375,7 +8380,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.prayaghospital.in/images/banner1.jpg');
     background-size: cover;
     background-position: center;
-    padding: 120px 0 80px;
+    padding: 40px 0;
     color: white;
     text-align: center;
 }
@@ -8393,7 +8398,7 @@ body {
 }
 
 .breadcrumb-item a {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--prayag-teal-dark);
     text-decoration: none;
 }
 
@@ -8402,12 +8407,12 @@ body {
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    color: rgba(255, 255, 255, 0.6);
+    color: #000
 }
 
 /* Introduction Section */
 .intro-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .intro-content h2 {
@@ -8433,7 +8438,7 @@ body {
 /* Mission Vision Section */
 .mission-vision-section {
     background-color: #ffffff;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .mission-card,
@@ -8476,7 +8481,7 @@ body {
 
 /* Values Section */
 .values-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: #daede67a;
 }
 
@@ -8531,7 +8536,7 @@ body {
 /* Infrastructure Teaser */
 .infra-teaser {
     background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
-    padding: 80px 0;
+    padding: 40px 0;
     color: white;
     text-align: center;
 }
@@ -8565,7 +8570,7 @@ body {
 
 /* Chairman Message Section */
 .chairman-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: #f8f9fa;
 }
 
@@ -8646,7 +8651,7 @@ body {
 
 /* Journey Timeline Section */
 .journey-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .timeline {
@@ -8796,7 +8801,7 @@ body {
 /* Page-Specific Styles */
 .patient-portal-hero {
     background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
-    padding: 100px 0 80px;
+    padding: 40px 0;
     position: relative;
     overflow: hidden;
 }
@@ -8855,7 +8860,7 @@ body {
 
 /* Portal Cards */
 .portal-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .portal-card {
@@ -8962,7 +8967,7 @@ body {
 /* Quick Access Section */
 .quick-access-section {
     background: #f8f9fa;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .section-heading {
@@ -8971,10 +8976,11 @@ body {
 }
 
 .section-title {
-    color: var(--prayag-teal);
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
-    margin-bottom: 15px;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1.2;
 }
 
 .section-description {
@@ -9030,7 +9036,7 @@ body {
 
 /* Login Section */
 .login-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background: white;
 }
 

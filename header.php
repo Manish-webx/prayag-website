@@ -4,17 +4,17 @@
             <nav class="nav-row-first">
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#health-checkups" class="nav-link">Health Check-Ups</a>
+                        <a href="#" class="nav-link">Health Check-Ups</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             News & Media
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Press Releases</a></li>
+                            <li><a class="dropdown-item" href="press-release.php">Press Releases</a></li>
                             <li><a class="dropdown-item" href="#">Media Coverage</a></li>
-                            <li><a class="dropdown-item" href="#">Events</a></li>
-                            <li><a class="dropdown-item" href="blog.html">Health Blog</a></li>
+                            <li><a class="dropdown-item" href="events.php">Events</a></li>
+                            <li><a class="dropdown-item" href="blog.php">Health Blog</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact Us</a>
+                        <a href="contact-us.php" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -44,9 +44,9 @@
             <div class="header-wrapper">
                 <!-- Logo Section -->
                 <div class="logo-section">
-                    <a href="index.html" class="brand-logo">
+                    <a href="index.php" class="brand-logo">
                         <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" class="img-fluid"
-                            style="width: 120px;">
+                            style="width: 160px;">
                     </a>
                 </div>
 
@@ -60,15 +60,15 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Our Hospitals</a></li>
-                                    <li><a class="dropdown-item" href="about-us.html">Organization</a></li>
+                                    <li><a class="dropdown-item" href="about-us.php">Organization</a></li>
                                     <li><a class="dropdown-item" href="#">Infrastructure</a></li>
-                                    <li><a class="dropdown-item" href="corporate-services.html">Corporate Services</a>
+                                    <li><a class="dropdown-item" href="corporate-services.php">Corporate Services</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                                    <li><a class="dropdown-item" href="careers.php">Careers</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#doctors" class="nav-link">Doctors</a>
+                                <a href="find-doctor.php" class="nav-link">Doctors</a>
                             </li>
                             <li class="nav-item dropdown mega-menu-wrapper">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -81,43 +81,43 @@
                                             <h6 class="mega-menu-title">Centres of Excellence</h6>
                                             <ul class="mega-menu-list">
                                                 <li>
-                                                    <a href="cardiac-sciences.html" class="mega-menu-item">
+                                                    <a href="cardiac-care.php" class="mega-menu-item">
                                                         <i class="fas fa-heartbeat"></i>
                                                         <span>Cardiac Sciences</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="neurosciences.html" class="mega-menu-item">
+                                                    <a href="neurosciences.php" class="mega-menu-item">
                                                         <i class="fas fa-brain"></i>
                                                         <span>Neurosciences</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="orthopedics.html" class="mega-menu-item">
+                                                    <a href="orthopedics.php" class="mega-menu-item">
                                                         <i class="fas fa-bone"></i>
                                                         <span>Orthopedics & Joint Replacement</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="obstetrics-gynecology.html" class="mega-menu-item">
+                                                    <a href="obstetrics-gynecology.php" class="mega-menu-item">
                                                         <i class="fas fa-baby"></i>
                                                         <span>Mother & Child Care</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="medical-gastroenterology.html" class="mega-menu-item">
+                                                    <a href="medical-gastroenterology.php" class="mega-menu-item">
                                                         <i class="fas fa-stomach"></i>
                                                         <span>Gastroenterology & Hepatology</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="nephrology-dialysis.html" class="mega-menu-item">
+                                                    <a href="nephrology-dialysis.php" class="mega-menu-item">
                                                         <i class="fas fa-kidneys"></i>
                                                         <span>Renal Sciences (Kidney Care)</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="medical-oncology.html" class="mega-menu-item">
+                                                    <a href="medical-oncology.php" class="mega-menu-item">
                                                         <i class="fas fa-ribbon"></i>
                                                         <span>Oncology (Cancer Care)</span>
                                                     </a>
@@ -129,36 +129,36 @@
                                         <div class="mega-menu-column">
                                             <h6 class="mega-menu-title">Clinical Departments</h6>
                                             <ul class="mega-menu-list">
-                                                <li><a href="internal-medicine.html" class="mega-menu-item"><i
+                                                <li><a href="internal-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-user-md"></i> <span>Internal & Family
                                                             Medicine</span></a></li>
-                                                <li><a href="critical-care.html" class="mega-menu-item"><i
+                                                <li><a href="critical-care.php" class="mega-menu-item"><i
                                                             class="fas fa-procedures"></i> <span>Critical Care &
                                                             ICU</span></a></li>
-                                                <li><a href="emergency-medicine.html" class="mega-menu-item"><i
+                                                <li><a href="emergency-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-ambulance"></i> <span>Emergency
                                                             Medicine</span></a></li>
-                                                <li><a href="general-surgery.html" class="mega-menu-item"><i
+                                                <li><a href="general-surgery.php" class="mega-menu-item"><i
                                                             class="fas fa-scalpel"></i> <span>General & Laparoscopic
                                                             Surgery</span></a></li>
-                                                <li><a href="respiratory-medicine.html" class="mega-menu-item"><i
+                                                <li><a href="respiratory-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-lungs"></i> <span>Respiratory
                                                             Medicine</span></a></li>
-                                                <li><a href="ent.html" class="mega-menu-item"><i
+                                                <li><a href="ent.php" class="mega-menu-item"><i
                                                             class="fas fa-ear-listen"></i> <span>ENT (Ear, Nose,
                                                             Throat)</span></a></li>
-                                                <li><a href="dermatology.html" class="mega-menu-item"><i
+                                                <li><a href="dermatology.php" class="mega-menu-item"><i
                                                             class="fas fa-allergies"></i> <span>Dermatology</span></a>
                                                 </li>
-                                                <li><a href="plastic-surgery.html" class="mega-menu-item"><i
+                                                <li><a href="plastic-surgery.php" class="mega-menu-item"><i
                                                             class="fas fa-magic"></i> <span>Plastic Surgery</span></a>
                                                 </li>
-                                                <li><a href="psychiatry.html" class="mega-menu-item"><i
+                                                <li><a href="psychiatry.php" class="mega-menu-item"><i
                                                             class="fas fa-brain"></i> <span>Psychiatry</span></a></li>
-                                                <li><a href="dental-science.html" class="mega-menu-item"><i
+                                                <li><a href="dental-science.php" class="mega-menu-item"><i
                                                             class="fas fa-tooth"></i> <span>Dental Science</span></a>
                                                 </li>
-                                                <li><a href="urology-urodynamics.html" class="mega-menu-item"><i
+                                                <li><a href="urology-urodynamics.php" class="mega-menu-item"><i
                                                             class="fas fa-file-medical-alt"></i>
                                                         <span>Urology</span></a>
                                                 </li>
@@ -169,27 +169,27 @@
                                         <div class="mega-menu-column">
                                             <h6 class="mega-menu-title">Diagnostics & Support</h6>
                                             <ul class="mega-menu-list">
-                                                <li><a href="ophthalmology.html" class="mega-menu-item"><i
+                                                <li><a href="ophthalmology.php" class="mega-menu-item"><i
                                                             class="fas fa-eye"></i> <span>Ophthalmology</span></a></li>
-                                                <li><a href="anesthesiology.html" class="mega-menu-item"><i
+                                                <li><a href="anesthesiology.php" class="mega-menu-item"><i
                                                             class="fas fa-syringe"></i> <span>Anesthesiology</span></a>
                                                 </li>
-                                                <li><a href="radiology.html" class="mega-menu-item"><i
+                                                <li><a href="radiology.php" class="mega-menu-item"><i
                                                             class="fas fa-x-ray"></i> <span>Radiology &
                                                             Imaging</span></a></li>
-                                                <li><a href="pathology.html" class="mega-menu-item"><i
+                                                <li><a href="pathology.php" class="mega-menu-item"><i
                                                             class="fas fa-vial"></i> <span>Laboratory
                                                             Services</span></a></li>
-                                                <li><a href="physiotherapy.html" class="mega-menu-item"><i
+                                                <li><a href="physiotherapy.php" class="mega-menu-item"><i
                                                             class="fas fa-walking"></i> <span>Physiotherapy &
                                                             Rehab</span></a></li>
-                                                <li><a href="support-services.html" class="mega-menu-item"><i
+                                                <li><a href="support-services.php" class="mega-menu-item"><i
                                                             class="fas fa-hands-helping"></i> <span>Support
                                                             Services</span></a></li>
-                                                <li><a href="dietetics.html" class="mega-menu-item"><i
+                                                <li><a href="dietetics.php" class="mega-menu-item"><i
                                                             class="fas fa-apple-alt"></i> <span>Dietetics &
                                                             Nutrition</span></a></li>
-                                                <li><a href="health-checkup.html" class="mega-menu-item"><i
+                                                <li><a href="health-checkup.php" class="mega-menu-item"><i
                                                             class="fas fa-notes-medical"></i> <span>Preventive Health
                                                             Checkups</span></a></li>
                                             </ul>
@@ -202,11 +202,11 @@
                                     Patient Guide
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="admission-discharge.html">Admission Guide</a>
+                                    <li><a class="dropdown-item" href="admission-guide.php">Admission Guide</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="tpa-insurance.html">TPA & Insurance</a></li>
-                                    <li><a class="dropdown-item" href="visiting-hours.html">Visiting Hours</a></li>
-                                    <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                                    <li><a class="dropdown-item" href="tpa-insurance.php">TPA & Insurance</a></li>
+                                    <li><a class="dropdown-item" href="visiting-hours.php">Visiting Hours</a></li>
+                                    <li><a class="dropdown-item" href="feedback.php">Feedback</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -220,7 +220,7 @@
                                 </button>
                             </li>
                             <li class="nav-item">
-                                <a href="#appointment" class="btn btn-appointment">
+                                <a href="#" class="btn btn-appointment">
                                     Book Appointment
                                 </a>
                             </li>
@@ -248,10 +248,10 @@
                             News & Media
                         </a>
                         <ul class="collapse mobile-submenu" id="mobileNews">
-                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="press-release.php">Press Releases</a></li>
                             <li><a href="#">Media Coverage</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="blog.html">Health Blog</a></li>
+                            <li><a href="events.php">Events</a></li>
+                            <li><a href="blog.php">Health Blog</a></li>
                         </ul>
                     </li>
 
@@ -272,7 +272,7 @@
                     </li>
 
                     <!-- Contact Us -->
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
 
                     <li class="divider"></li>
 
@@ -284,10 +284,10 @@
                         </a>
                         <ul class="collapse mobile-submenu" id="mobileGroup">
                             <li><a href="#">Our Hospitals</a></li>
-                            <li><a href="about-us.html">Organization</a></li>
+                            <li><a href="about-us.php">Organization</a></li>
                             <li><a href="#">Infrastructure</a></li>
-                            <li><a href="corporate-services.html">Corporate Services</a></li>
-                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="corporate-services.php">Corporate Services</a></li>
+                            <li><a href="careers.php">Careers</a></li>
                         </ul>
                     </li>
 
@@ -304,42 +304,42 @@
                             <!-- Centres of Excellence -->
                             <div class="mobile-menu-heading">Centres of Excellence</div>
                             <ul class="mobile-submenu">
-                                <li><a href="cardiac-sciences.html">Cardiac Sciences</a></li>
-                                <li><a href="neurosciences.html">Neurosciences</a></li>
-                                <li><a href="orthopedics.html">Orthopedics & Joint Replacement</a></li>
-                                <li><a href="obstetrics-gynecology.html">Mother & Child Care</a></li>
-                                <li><a href="medical-gastroenterology.html">Gastroenterology & Hepatology</a></li>
-                                <li><a href="nephrology-dialysis.html">Renal Sciences (Kidney Care)</a></li>
-                                <li><a href="medical-oncology.html">Oncology (Cancer Care)</a></li>
+                                <li><a href="cardiac-care.php">Cardiac Sciences</a></li>
+                                <li><a href="neurosciences.php">Neurosciences</a></li>
+                                <li><a href="orthopedics.php">Orthopedics & Joint Replacement</a></li>
+                                <li><a href="obstetrics-gynecology.php">Mother & Child Care</a></li>
+                                <li><a href="medical-gastroenterology.php">Gastroenterology & Hepatology</a></li>
+                                <li><a href="nephrology-dialysis.php">Renal Sciences (Kidney Care)</a></li>
+                                <li><a href="medical-oncology.php">Oncology (Cancer Care)</a></li>
                             </ul>
 
                             <!-- Clinical Departments -->
                             <div class="mobile-menu-heading">Clinical Departments</div>
                             <ul class="mobile-submenu">
-                                <li><a href="internal-medicine.html">Internal & Family Medicine</a></li>
-                                <li><a href="critical-care.html">Critical Care & ICU</a></li>
-                                <li><a href="emergency-medicine.html">Emergency Medicine</a></li>
-                                <li><a href="general-surgery.html">General & Laparoscopic Surgery</a></li>
-                                <li><a href="respiratory-medicine.html">Respiratory Medicine</a></li>
-                                <li><a href="ent.html">ENT (Ear, Nose, Throat)</a></li>
-                                <li><a href="dermatology.html">Dermatology</a></li>
-                                <li><a href="plastic-surgery.html">Plastic Surgery</a></li>
-                                <li><a href="psychiatry.html">Psychiatry</a></li>
-                                <li><a href="dental-science.html">Dental Science</a></li>
-                                <li><a href="urology-urodynamics.html">Urology</a></li>
+                                <li><a href="internal-medicine.php">Internal & Family Medicine</a></li>
+                                <li><a href="critical-care.php">Critical Care & ICU</a></li>
+                                <li><a href="emergency-medicine.php">Emergency Medicine</a></li>
+                                <li><a href="general-surgery.php">General & Laparoscopic Surgery</a></li>
+                                <li><a href="respiratory-medicine.php">Respiratory Medicine</a></li>
+                                <li><a href="ent.php">ENT (Ear, Nose, Throat)</a></li>
+                                <li><a href="dermatology.php">Dermatology</a></li>
+                                <li><a href="plastic-surgery.php">Plastic Surgery</a></li>
+                                <li><a href="psychiatry.php">Psychiatry</a></li>
+                                <li><a href="dental-science.php">Dental Science</a></li>
+                                <li><a href="urology-urodynamics.php">Urology</a></li>
                             </ul>
 
                             <!-- Diagnostics & Support -->
                             <div class="mobile-menu-heading">Diagnostics & Support</div>
                             <ul class="mobile-submenu">
-                                <li><a href="ophthalmology.html">Ophthalmology</a></li>
-                                <li><a href="anesthesiology.html">Anesthesiology</a></li>
-                                <li><a href="radiology.html">Radiology & Imaging</a></li>
-                                <li><a href="pathology.html">Laboratory Services</a></li>
-                                <li><a href="physiotherapy.html">Physiotherapy & Rehab</a></li>
-                                <li><a href="support-services.html">Support Services</a></li>
-                                <li><a href="dietetics.html">Dietetics & Nutrition</a></li>
-                                <li><a href="health-checkup.html">Preventive Health Checkups</a></li>
+                                <li><a href="ophthalmology.php">Ophthalmology</a></li>
+                                <li><a href="anesthesiology.php">Anesthesiology</a></li>
+                                <li><a href="radiology.php">Radiology & Imaging</a></li>
+                                <li><a href="pathology.php">Laboratory Services</a></li>
+                                <li><a href="physiotherapy.php">Physiotherapy & Rehab</a></li>
+                                <li><a href="support-services.php">Support Services</a></li>
+                                <li><a href="dietetics.php">Dietetics & Nutrition</a></li>
+                                <li><a href="health-checkup.php">Preventive Health Checkups</a></li>
                             </ul>
                         </div>
                     </li>
@@ -351,10 +351,10 @@
                             Patient Guide
                         </a>
                         <ul class="collapse mobile-submenu" id="mobilePatientGuide">
-                            <li><a href="admission-discharge.html">Admission Guide</a></li>
-                            <li><a href="tpa-insurance.html">TPA & Insurance</a></li>
-                            <li><a href="visiting-hours.html">Visiting Hours</a></li>
-                            <li><a href="feedback.html">Feedback</a></li>
+                            <li><a href="admission-guide.php">Admission Guide</a></li>
+                            <li><a href="tpa-insurance.php">TPA & Insurance</a></li>
+                            <li><a href="visiting-hours.php">Visiting Hours</a></li>
+                            <li><a href="feedback.php">Feedback</a></li>
                         </ul>
                     </li>
 

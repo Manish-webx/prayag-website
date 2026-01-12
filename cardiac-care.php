@@ -27,7 +27,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <i class="fas fa-home"></i>
                             </a>
                         </li>
@@ -51,7 +51,7 @@
                         <h1 class="hero-main-title">
                             Best Cardiology Hospital in India | Top Heart Hospital - Prayag Heart Institute
                         </h1>
-                        <p class="hero-subtitle">
+                        <p class="hero-subtitle" style="color:#000 !important">
                             Prayag Hospital offers comprehensive cardiac care with state-of-the-art facilities,
                             experienced cardiologists, and advanced treatment options. From preventive cardiology to
                             complex heart surgeries, we provide compassionate and expert heart care.
@@ -100,6 +100,9 @@
                     <a href="#overview" class="toc-nav-link active">Overview</a>
                 </li>
                 <li class="toc-nav-item">
+                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                </li>
+                <li class="toc-nav-item">
                     <a href="#types-of-treatment" class="toc-nav-link">Types of Treatment</a>
                 </li>
                 <li class="toc-nav-item">
@@ -110,9 +113,6 @@
                 </li>
                 <li class="toc-nav-item">
                     <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
-                </li>
-                <li class="toc-nav-item">
-                    <a href="#blog" class="toc-nav-link">Blog</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#faq" class="toc-nav-link">FAQ</a>
@@ -613,83 +613,39 @@
             </div>
 
             <div class="row g-4">
-                <!-- Doctor Card 1 -->
+                <?php include 'doctors-data.php'; ?>
+                <?php 
+                $cardiac_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'cardiology';
+                });
+                foreach ($cardiac_doctors as $doctor): 
+                ?>
+                <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="doctor-card">
                         <div class="doctor-card-inner">
                             <div class="doctor-card-top">
                                 <div class="doctor-image-container">
-                                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop"
-                                        alt="Dr. Rajesh Kumar" class="doctor-image">
+                                    <img src="<?php echo $doctor['image']; ?>"
+                                        alt="<?php echo $doctor['name']; ?>" class="doctor-image">
                                 </div>
                                 <div class="doctor-info">
-                                    <h3 class="doctor-name">Dr. Rajesh Kumar</h3>
-                                    <p class="doctor-designation">Senior Interventional Cardiologist</p>
+                                    <h3 class="doctor-name"><?php echo $doctor['name']; ?></h3>
+                                    <p class="doctor-designation"><?php echo $doctor['specialty']; ?></p>
                                     <p class="doctor-experience">
                                         <span class="experience-label">Experience:</span>
-                                        <span class="experience-value">25 Years</span>
+                                        <span class="experience-value"><?php echo $doctor['experience']; ?> Years</span>
                                     </p>
                                 </div>
                             </div>
                             <div class="doctor-actions">
-                                <button class="btn-view-profile">View Profile</button>
-                                <button class="btn-book-appointment-doc">Book Apt.</button>
+                                <a href="doctor-profile.php?id=<?php echo $doctor['id']; ?>" class="btn-view-profile">View Profile</a>
+                                <a href="#" class="btn-book-appointment-doc">Book Apt.</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Doctor Card 2 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="doctor-card">
-                        <div class="doctor-card-inner">
-                            <div class="doctor-card-top">
-                                <div class="doctor-image-container">
-                                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop"
-                                        alt="Dr. Priya Sharma" class="doctor-image">
-                                </div>
-                                <div class="doctor-info">
-                                    <h3 class="doctor-name">Dr. Priya Sharma</h3>
-                                    <p class="doctor-designation">Cardiothoracic & Vascular Surgeon</p>
-                                    <p class="doctor-experience">
-                                        <span class="experience-label">Experience:</span>
-                                        <span class="experience-value">18 Years</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="doctor-actions">
-                                <button class="btn-view-profile">View Profile</button>
-                                <button class="btn-book-appointment-doc">Book Apt.</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Doctor Card 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="doctor-card">
-                        <div class="doctor-card-inner">
-                            <div class="doctor-card-top">
-                                <div class="doctor-image-container">
-                                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop"
-                                        alt="Dr. Amit Verma" class="doctor-image">
-                                </div>
-                                <div class="doctor-info">
-                                    <h3 class="doctor-name">Dr. Amit Verma</h3>
-                                    <p class="doctor-designation">Cardiac Electrophysiologist</p>
-                                    <p class="doctor-experience">
-                                        <span class="experience-label">Experience:</span>
-                                        <span class="experience-value">15 Years</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="doctor-actions">
-                                <button class="btn-view-profile">View Profile</button>
-                                <button class="btn-book-appointment-doc">Book Apt.</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
@@ -787,118 +743,7 @@
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section class="blog-section" id="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Latest Cardiac Health Articles</h2>
-                <p class="section-subtitle">
-                    Stay informed with expert insights and latest updates on cardiac health and wellness from Prayag
-                    Hospital
-                </p>
-            </div>
 
-            <div class="row g-4">
-                <!-- Blog Card 1 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="blog-card">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=600&h=400&fit=crop"
-                                alt="Heart healthy diet" class="blog-image">
-                            <span class="blog-category">Nutrition</span>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    <span>Dec 20, 2024</span>
-                                </div>
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-user"></i>
-                                    <span>Dr. Rajesh Kumar</span>
-                                </div>
-                            </div>
-                            <h3 class="blog-title">Heart-Healthy Diet: Foods That Protect Your Cardiovascular System
-                            </h3>
-                            <p class="blog-excerpt">
-                                Discover the essential nutrients and foods that can significantly reduce your risk of
-                                heart disease. Learn about the Mediterranean diet, omega-3 fatty acids, and practical
-                                meal planning tips.
-                            </p>
-                            <a href="#" class="blog-read-more">
-                                Read More <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Card 2 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="blog-card">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955?w=600&h=400&fit=crop"
-                                alt="Exercise and heart health" class="blog-image">
-                            <span class="blog-category">Prevention</span>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    <span>Dec 15, 2024</span>
-                                </div>
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-user"></i>
-                                    <span>Dr. Priya Sharma</span>
-                                </div>
-                            </div>
-                            <h3 class="blog-title">Understanding Heart Attack Warning Signs: Early Detection Saves Lives
-                            </h3>
-                            <p class="blog-excerpt">
-                                Recognizing the early warning signs of a heart attack can be life-saving. Learn about
-                                the symptoms, risk factors, and when to seek immediate medical attention at Prayag
-                                Hospital.
-                            </p>
-                            <a href="#" class="blog-read-more">
-                                Read More <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Card 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="blog-card">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop"
-                                alt="Cardiac surgery recovery" class="blog-image">
-                            <span class="blog-category">Recovery</span>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    <span>Dec 10, 2024</span>
-                                </div>
-                                <div class="blog-meta-item">
-                                    <i class="fas fa-user"></i>
-                                    <span>Dr. Amit Verma</span>
-                                </div>
-                            </div>
-                            <h3 class="blog-title">Post-Cardiac Surgery Care: Essential Tips for a Smooth Recovery</h3>
-                            <p class="blog-excerpt">
-                                A comprehensive guide to cardiac surgery recovery including medication management,
-                                lifestyle modifications, physical rehabilitation, and follow-up care protocols at Prayag
-                                Hospital.
-                            </p>
-                            <a href="#" class="blog-read-more">
-                                Read More <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- FAQ Section -->
     <section class="faq-section" id="faq">
