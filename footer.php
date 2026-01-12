@@ -1,0 +1,145 @@
+ <!-- Footer Section -->
+        <footer class="main-footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-grid">
+                        <!-- Column 1: Patient Support -->
+                        <div class="footer-col">
+                            <h4 class="footer-title">Patient Support</h4>
+                            <ul class="footer-links">
+                                <li><a href="admission-discharge.html">Admission Guide</a></li>
+                                <li><a href="tpa-insurance.html">TPA & Insurance</a></li>
+                                <li><a href="visiting-hours.html">Visiting Hours</a></li>
+                                <li><a href="feedback.html">Feedback</a></li>
+                                <li><a href="#international">International Patients</a></li>
+                                <li><a href="health-checkup.html">Preventive Health</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 2: Centres of Excellence -->
+                        <div class="footer-col">
+                            <h4 class="footer-title">Centres of Excellence</h4>
+                            <ul class="footer-links">
+                                <li><a href="cardiac-sciences.html">Cardiac Sciences</a></li>
+                                <li><a href="neurosciences.html">Neurosciences</a></li>
+                                <li><a href="orthopedics.html">Orthopedics</a></li>
+                                <li><a href="obstetrics-gynecology.html">Mother & Child Care</a></li>
+                                <li><a href="medical-gastroenterology.html">Gastroenterology</a></li>
+                                <li><a href="nephrology-dialysis.html">Renal Sciences</a></li>
+                                <li><a href="medical-oncology.html">Cancer Care</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 3: Clinical Departments -->
+                        <div class="footer-col">
+                            <h4 class="footer-title">Clinical Departments</h4>
+                            <ul class="footer-links">
+                                <li><a href="internal-medicine.html">Internal Medicine</a></li>
+                                <li><a href="critical-care.html">Critical Care & ICU</a></li>
+                                <li><a href="emergency-medicine.html">Emergency Medicine</a></li>
+                                <li><a href="general-surgery.html">General Surgery</a></li>
+                                <li><a href="respiratory-medicine.html">Respiratory Medicine</a></li>
+                                <li><a href="ent.html">ENT</a></li>
+                                <li><a href="dental-science.html">Dental Science</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 4: Diagnostics & Support -->
+                        <div class="footer-col">
+                            <h4 class="footer-title">Diagnostics & Support</h4>
+                            <ul class="footer-links">
+                                <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                                <li><a href="radiology.html">Radiology & Imaging</a></li>
+                                <li><a href="pathology.html">Laboratory Services</a></li>
+                                <li><a href="physiotherapy.html">Physiotherapy</a></li>
+                                <li><a href="support-services.html">Support Services</a></li>
+                                <li><a href="dietetics.html">Dietetics</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 5: Corporate & Info -->
+                        <div class="footer-col">
+                            <h4 class="footer-title">Corporate</h4>
+                            <ul class="footer-links">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="about-us.html">Leadership</a></li>
+                                <li><a href="corporate-services.html">Corporate Services</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="blog.html">Health Blog</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact & Map Section -->
+                    <div class="row pt-4 border-top border-secondary">
+                        <!-- Left Column: Contact Details -->
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <h4 class="footer-title">Reach Us</h4>
+                            <div class="footer-contact-box">
+                                <ul class="footer-contact">
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>
+                                            <strong>Prayag Hospital & Research Centre</strong><br>
+                                            J-Block, Sector 38, Near Huda City Centre,<br>
+                                            Gurugram, Haryana 122001
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-phone-alt"></i>
+                                        <span>
+                                            <strong>Emergency:</strong> <a href="tel:+918811780937">+91
+                                                8811780937</a><br>
+                                            <strong>Reception:</strong> <a href="tel:01244086666">0124-4086666</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <span><a
+                                                href="mailto:info@prayaghospital.com">info@prayaghospital.com</a></span>
+                                    </li>
+                                </ul>
+
+                                <div class="footer-social mt-4">
+                                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Google Map -->
+                        <div class="col-md-8">
+                            <div class="footer-map-container"
+                                style="border-radius: 10px; overflow: hidden; height: 100%; min-height: 250px;">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.6698665046276!2d77.03964431507873!3d28.46014698248611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18f77363f03b%3A0x867332204b4c5222!2sPrayag%20Hospital%20%26%20Research%20Centre!5e0!3m2!1sen!2sin!4v1672345678901!5m2!1sen!2sin"
+                                    width="100%" height="100%" style="border:0; min-height: 250px;" allowfullscreen=""
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <p class="copyright-text">&copy; 2026 Prayag Hospital. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <ul class="footer-legal">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>

@@ -1,8 +1,5 @@
-class PrayagHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-    <!-- Top Navigation Bar (Green Background) -->
-    <div class="top-nav-bar">
+ <!-- Top Navigation Bar (Green Background) -->
+    <div class="top-nav-bar d-none d-lg-block">
         <div class="container-fluid">
             <nav class="nav-row-first">
                 <ul class="nav-menu">
@@ -83,27 +80,48 @@ class PrayagHeader extends HTMLElement {
                                         <div class="mega-menu-column">
                                             <h6 class="mega-menu-title">Centres of Excellence</h6>
                                             <ul class="mega-menu-list">
-                                                <li><a href="cardiac-sciences.html" class="mega-menu-item"><i
-                                                            class="fas fa-heartbeat"></i> <span>Cardiac
-                                                            Sciences</span></a></li>
-                                                <li><a href="neurosciences.html" class="mega-menu-item"><i
-                                                            class="fas fa-brain"></i> <span>Neurosciences</span></a>
+                                                <li>
+                                                    <a href="cardiac-sciences.html" class="mega-menu-item">
+                                                        <i class="fas fa-heartbeat"></i>
+                                                        <span>Cardiac Sciences</span>
+                                                    </a>
                                                 </li>
-                                                <li><a href="orthopedics.html" class="mega-menu-item"><i
-                                                            class="fas fa-bone"></i> <span>Orthopedics & Joint
-                                                            Replacement</span></a></li>
-                                                <li><a href="obstetrics-gynecology.html" class="mega-menu-item"><i
-                                                            class="fas fa-baby"></i> <span>Mother & Child
-                                                            Care</span></a></li>
-                                                <li><a href="medical-gastroenterology.html" class="mega-menu-item"><i
-                                                            class="fas fa-stomach"></i> <span>Gastroenterology &
-                                                            Hepatology</span></a></li>
-                                                <li><a href="nephrology-dialysis.html" class="mega-menu-item"><i
-                                                            class="fas fa-kidneys"></i> <span>Renal Sciences (Kidney
-                                                            Care)</span></a></li>
-                                                <li><a href="medical-oncology.html" class="mega-menu-item"><i
-                                                            class="fas fa-ribbon"></i> <span>Oncology (Cancer
-                                                            Care)</span></a></li>
+                                                <li>
+                                                    <a href="neurosciences.html" class="mega-menu-item">
+                                                        <i class="fas fa-brain"></i>
+                                                        <span>Neurosciences</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="orthopedics.html" class="mega-menu-item">
+                                                        <i class="fas fa-bone"></i>
+                                                        <span>Orthopedics & Joint Replacement</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="obstetrics-gynecology.html" class="mega-menu-item">
+                                                        <i class="fas fa-baby"></i>
+                                                        <span>Mother & Child Care</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="medical-gastroenterology.html" class="mega-menu-item">
+                                                        <i class="fas fa-stomach"></i>
+                                                        <span>Gastroenterology & Hepatology</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="nephrology-dialysis.html" class="mega-menu-item">
+                                                        <i class="fas fa-kidneys"></i>
+                                                        <span>Renal Sciences (Kidney Care)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="medical-oncology.html" class="mega-menu-item">
+                                                        <i class="fas fa-ribbon"></i>
+                                                        <span>Oncology (Cancer Care)</span>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
 
@@ -142,7 +160,8 @@ class PrayagHeader extends HTMLElement {
                                                 </li>
                                                 <li><a href="urology-urodynamics.html" class="mega-menu-item"><i
                                                             class="fas fa-file-medical-alt"></i>
-                                                        <span>Urology</span></a></li>
+                                                        <span>Urology</span></a>
+                                                </li>
                                             </ul>
                                         </div>
 
@@ -413,7 +432,3 @@ class PrayagHeader extends HTMLElement {
             </div>
         </div>
     </div>
-        `;
-    }
-}
-customElements.define('prayag-header', PrayagHeader);
