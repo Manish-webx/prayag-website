@@ -309,12 +309,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const grid = carousel.querySelector('.specialities-grid');
     const cards = grid.querySelectorAll('.speciality-card');
-    const prevBtn = document.querySelector('.nav-prev');
-    const nextBtn = document.querySelector('.nav-next');
+    // Correct selectors based on updated HTML
+    const prevBtn = document.querySelector('.speciality-nav-prev');
+    const nextBtn = document.querySelector('.speciality-nav-next');
 
-    const itemsPerPage = 8; // Show 8 cards (2 rows x 4 columns) at a time
+    // Make sure buttons exist before proceeding
+    if (!prevBtn || !nextBtn) return;
+
     const totalCards = cards.length;
-    const totalPages = Math.ceil(totalCards / itemsPerPage);
     let currentPage = 0;
     let isTransitioning = false;
 
@@ -324,46 +326,37 @@ document.addEventListener('DOMContentLoaded', function () {
         grid.appendChild(clone);
     });
 
-    // Calculate card width dynamically
-    function getCardWidth() {
+    // Calculate card width dynamically with high precision
+    function getCardSlotWidth() {
         const allCards = grid.querySelectorAll('.speciality-card');
         if (allCards[0]) {
-            const cardStyle = window.getComputedStyle(allCards[0]);
-            const cardWidth = allCards[0].offsetWidth;
-            const marginRight = parseFloat(cardStyle.marginRight) || 0;
-            return cardWidth + marginRight;
+            // Use getBoundingClientRect for sub-pixel precision
+            const rect = allCards[0].getBoundingClientRect();
+            const gap = getGap();
+            // The slot width is card width + the gap
+            return rect.width + gap;
         }
         return 0;
     }
 
-    // Calculate gap between cards
+    // Calculate gap between cards from CSS
     function getGap() {
         const gridStyle = window.getComputedStyle(grid);
         return parseFloat(gridStyle.columnGap) || 20;
     }
 
     function updateCarousel(smooth = true) {
-        const cardWidth = getCardWidth();
-        const gap = getGap();
-        const columnsToMove = 1; // Move by 1 column
-        const translateX = -currentPage * columnsToMove * (cardWidth + gap);
+        // Recalculate basic metrics
+        const slotWidth = getCardSlotWidth();
+
+        // Current translate calculation
+        // IMPORTANT: We shift by (slotWidth) * currentPage
+        // This ensures precise pixel-perfect alignment
+        let translateX = -(currentPage * slotWidth);
 
         // Enable or disable transition
-        if (smooth) {
-            grid.style.transition = 'transform 0.5s ease-in-out';
-        } else {
-            grid.style.transition = 'none';
-        }
-
+        grid.style.transition = smooth ? 'transform 0.5s ease-in-out' : 'none';
         grid.style.transform = `translateX(${translateX}px)`;
-
-        // Arrows are always enabled for infinite loop
-        prevBtn.disabled = false;
-        nextBtn.disabled = false;
-        prevBtn.style.opacity = '1';
-        nextBtn.style.opacity = '1';
-        prevBtn.style.cursor = 'pointer';
-        nextBtn.style.cursor = 'pointer';
     }
 
     // Next button click
@@ -375,7 +368,11 @@ document.addEventListener('DOMContentLoaded', function () {
         updateCarousel(true);
 
         // Check if we've reached the cloned section
-        if (currentPage >= totalCards) {
+        // Note: Logic allows seamless scroll across the cloned buffer
+        // Since we have 2 rows, we only have totalCards/2 columns
+        const limit = Math.ceil(totalCards / 2);
+
+        if (currentPage >= limit) {
             setTimeout(() => {
                 currentPage = 0;
                 updateCarousel(false); // Jump back instantly without animation
@@ -399,7 +396,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // If going below 0, jump to the end of cloned section first
         if (currentPage < 0) {
-            currentPage = totalCards - 1;
+            const limit = Math.ceil(totalCards / 2);
+            currentPage = limit - 1;
             updateCarousel(false); // Jump instantly without animation
             setTimeout(() => {
                 currentPage--;
@@ -417,7 +415,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Initialize
-    updateCarousel(false);
+    // Use setTimeout to ensure layout is fully rendered before initial calculation
+    setTimeout(() => {
+        updateCarousel(false);
+    }, 100);
 
     // Update on window resize
     window.addEventListener('resize', debounce(() => updateCarousel(false), 250));
@@ -489,8 +490,7 @@ document.addEventListener('DOMContentLoaded', function () {
         nextBtn.style.cursor = 'pointer';
     }
 
-    // Next button click
-    nextBtn.addEventListener('click', function () {
+    function handleNext() {
         if (isTransitioning) return;
         isTransitioning = true;
 
@@ -511,10 +511,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 isTransitioning = false;
             }, 500);
         }
-    });
+    }
 
-    // Previous button click
-    prevBtn.addEventListener('click', function () {
+    function handlePrev() {
         if (isTransitioning) return;
         isTransitioning = true;
 
@@ -537,7 +536,38 @@ document.addEventListener('DOMContentLoaded', function () {
                 isTransitioning = false;
             }, 500);
         }
-    });
+    }
+
+    // Next button click
+    nextBtn.addEventListener('click', handleNext);
+
+    // Previous button click
+    prevBtn.addEventListener('click', handlePrev);
+
+    // Touch Swipe Support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    grid.addEventListener('touchstart', function (e) {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    grid.addEventListener('touchend', function (e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+        const threshold = 50; // min distance for swipe
+        if (touchEndX < touchStartX - threshold) {
+            // Swipe Left (Next)
+            handleNext();
+        }
+        if (touchEndX > touchStartX + threshold) {
+            // Swipe Right (Prev)
+            handlePrev();
+        }
+    }
 
     // Initialize
     updateCarousel(false);
@@ -547,7 +577,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // ================================================
-// NEWS SLIDER FUNCTIONALITY - SHOW 3 ITEMS, SLIDE 1 AT A TIME
+// ================================================
+// NEWS SLIDER FUNCTIONALITY - SEAMLESS INFINITE LOOP
 // ================================================
 document.addEventListener('DOMContentLoaded', function () {
     const newsSliderContainer = document.querySelector('.news-slider-container');
@@ -558,17 +589,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const prevBtn = document.querySelector('.news-nav-prev');
     const nextBtn = document.querySelector('.news-nav-next');
 
-    const visibleItems = 3; // Show 3 items at a time
+    // Number of items to clone for seamless loop
     const totalItems = newsItems.length;
-    const maxIndex = totalItems - visibleItems;
     let currentIndex = 0;
     let isTransitioning = false;
 
+    // Clone all items and append to slider for seamless infinite loop
+    newsItems.forEach(item => {
+        const clone = item.cloneNode(true);
+        newsSlider.appendChild(clone);
+    });
+
     // Calculate item width dynamically
     function getItemWidth() {
-        if (newsItems[0]) {
-            const itemStyle = window.getComputedStyle(newsItems[0]);
-            const itemWidth = newsItems[0].offsetWidth;
+        const allItems = newsSlider.querySelectorAll('.news-item');
+        if (allItems[0]) {
+            const itemStyle = window.getComputedStyle(allItems[0]);
+            const itemWidth = allItems[0].offsetWidth;
             const marginRight = parseFloat(itemStyle.marginRight) || 0;
             return itemWidth + marginRight;
         }
@@ -581,62 +618,92 @@ document.addEventListener('DOMContentLoaded', function () {
         return parseFloat(sliderStyle.gap) || 25;
     }
 
-    function updateSlider() {
+    function updateSlider(smooth = true) {
         const itemWidth = getItemWidth();
         const gap = getGap();
         const translateX = -currentIndex * (itemWidth + gap);
 
+        // Enable or disable transition
+        if (smooth) {
+            newsSlider.style.transition = 'transform 0.5s ease-in-out';
+        } else {
+            newsSlider.style.transition = 'none';
+        }
+
         newsSlider.style.transform = `translateX(${translateX}px)`;
 
-        // Update button states
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex >= maxIndex;
-
-        prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
-        nextBtn.style.opacity = currentIndex >= maxIndex ? '0.5' : '1';
-
-        prevBtn.style.cursor = currentIndex === 0 ? 'not-allowed' : 'pointer';
-        nextBtn.style.cursor = currentIndex >= maxIndex ? 'not-allowed' : 'pointer';
+        // Arrows are always enabled for infinite loop
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
+        prevBtn.style.opacity = '1';
+        nextBtn.style.opacity = '1';
+        prevBtn.style.cursor = 'pointer';
+        nextBtn.style.cursor = 'pointer';
     }
 
-    // Next button click - slide 1 item at a time
-    nextBtn.addEventListener('click', function () {
-        if (isTransitioning || currentIndex >= maxIndex) return;
+    function handleNext() {
+        if (isTransitioning) return;
         isTransitioning = true;
 
         currentIndex++;
-        updateSlider();
+        updateSlider(true);
 
-        setTimeout(() => {
-            isTransitioning = false;
-        }, 500);
-    });
+        // Check if we've reached the cloned section
+        if (currentIndex >= totalItems) {
+            setTimeout(() => {
+                currentIndex = 0;
+                updateSlider(false); // Jump back instantly without animation
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 50);
+            }, 500); // Wait for transition to complete
+        } else {
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 500);
+        }
+    }
 
-    // Previous button click - slide 1 item at a time
-    prevBtn.addEventListener('click', function () {
-        if (isTransitioning || currentIndex === 0) return;
+    function handlePrev() {
+        if (isTransitioning) return;
         isTransitioning = true;
 
         currentIndex--;
-        updateSlider();
 
-        setTimeout(() => {
-            isTransitioning = false;
-        }, 500);
-    });
+        // If going below 0, jump to the end of cloned section first
+        if (currentIndex < 0) {
+            currentIndex = totalItems - 1;
+            updateSlider(false); // Jump instantly without animation
+            setTimeout(() => {
+                currentIndex--;
+                updateSlider(true);
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 500);
+            }, 50);
+        } else {
+            updateSlider(true);
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 500);
+        }
+    }
+
+    // Next button click
+    nextBtn.addEventListener('click', handleNext);
+
+    // Previous button click
+    prevBtn.addEventListener('click', handlePrev);
 
     // Initialize
-    updateSlider();
+    updateSlider(false);
 
     // Update on window resize
-    window.addEventListener('resize', debounce(() => {
-        currentIndex = Math.min(currentIndex, maxIndex);
-        updateSlider();
-    }, 250));
+    window.addEventListener('resize', debounce(() => updateSlider(false), 250));
 });
 
 // ================================================
-// PATIENT TESTIMONIALS SLIDER
+// PATIENT TESTIMONIALS SLIDER - SEAMLESS INFINITE LOOP
 // ================================================
 document.addEventListener('DOMContentLoaded', function () {
     const testimonialSlider = document.querySelector('.testimonials-slider');
@@ -645,60 +712,139 @@ document.addEventListener('DOMContentLoaded', function () {
     const testimonialCards = document.querySelectorAll('.testimonial-card');
 
     if (testimonialSlider && prevBtn && nextBtn && testimonialCards.length > 0) {
-        let currentIndex = 0;
+        // Number of items to clone for seamless loop
         const totalItems = testimonialCards.length;
-        const visibleItems = getVisibleItems();
-        const maxIndex = Math.max(0, totalItems - visibleItems);
+        let currentIndex = 0;
+        let isTransitioning = false;
 
-        function getVisibleItems() {
-            if (window.innerWidth >= 992) return 3;
-            if (window.innerWidth >= 768) return 2;
-            return 1;
-        }
+        // Clone all items and append to slider for seamless infinite loop
+        testimonialCards.forEach(item => {
+            const clone = item.cloneNode(true);
+            testimonialSlider.appendChild(clone);
+        });
 
-        function updateSlider() {
-            const itemWidth = testimonialCards[0].offsetWidth;
-            const gap = 25;
-            const offset = currentIndex * (itemWidth + gap);
-            testimonialSlider.style.transform = `translateX(-${offset}px)`;
-            updateButtons();
-        }
-
-        function updateButtons() {
-            prevBtn.disabled = currentIndex === 0;
-            nextBtn.disabled = currentIndex >= maxIndex;
-        }
-
-        prevBtn.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateSlider();
+        // Calculate item width dynamically
+        function getItemWidth() {
+            const allItems = testimonialSlider.querySelectorAll('.testimonial-card');
+            if (allItems[0]) {
+                const itemWidth = allItems[0].offsetWidth;
+                return itemWidth;
             }
-        });
+            return 0;
+        }
 
-        nextBtn.addEventListener('click', () => {
-            if (currentIndex < maxIndex) {
-                currentIndex++;
-                updateSlider();
+        // Calculate gap between items
+        function getGap() {
+            return 25; // Fixed gap as per original code
+        }
+
+        function updateSlider(smooth = true) {
+            const itemWidth = getItemWidth();
+            const gap = getGap();
+            const translateX = -currentIndex * (itemWidth + gap);
+
+            // Enable or disable transition
+            if (smooth) {
+                testimonialSlider.style.transition = 'transform 0.5s ease-in-out';
+            } else {
+                testimonialSlider.style.transition = 'none';
             }
-        });
 
-        // Handle window resize
-        let resizeTimeout;
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(() => {
-                const newVisibleItems = getVisibleItems();
-                const newMaxIndex = Math.max(0, totalItems - newVisibleItems);
-                if (currentIndex > newMaxIndex) {
-                    currentIndex = newMaxIndex;
-                }
-                updateSlider();
-            }, 250);
-        });
+            testimonialSlider.style.transform = `translateX(${translateX}px)`;
 
-        // Initial update
-        updateButtons();
+            // Arrows are always enabled for infinite loop
+            prevBtn.disabled = false;
+            nextBtn.disabled = false;
+            prevBtn.style.opacity = '1';
+            nextBtn.style.opacity = '1';
+            prevBtn.style.cursor = 'pointer';
+            nextBtn.style.cursor = 'pointer';
+        }
+
+        function handleNext() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            currentIndex++;
+            updateSlider(true);
+
+            // Check if we've reached the cloned section
+            if (currentIndex >= totalItems) {
+                setTimeout(() => {
+                    currentIndex = 0;
+                    updateSlider(false); // Jump back instantly without animation
+                    setTimeout(() => {
+                        isTransitioning = false;
+                    }, 50);
+                }, 500); // Wait for transition to complete
+            } else {
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 500);
+            }
+        }
+
+        function handlePrev() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            currentIndex--;
+
+            // If going below 0, jump to the end of cloned section first
+            if (currentIndex < 0) {
+                currentIndex = totalItems - 1;
+                updateSlider(false); // Jump instantly without animation
+                setTimeout(() => {
+                    currentIndex--;
+                    updateSlider(true);
+                    setTimeout(() => {
+                        isTransitioning = false;
+                    }, 500);
+                }, 50);
+            } else {
+                updateSlider(true);
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 500);
+            }
+        }
+
+        // Next button click
+        nextBtn.addEventListener('click', handleNext);
+
+        // Previous button click
+        prevBtn.addEventListener('click', handlePrev);
+
+        // Touch Swipe Support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        testimonialSlider.addEventListener('touchstart', function (e) {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        testimonialSlider.addEventListener('touchend', function (e) {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+
+        function handleSwipe() {
+            const threshold = 50; // min distance for swipe
+            if (touchEndX < touchStartX - threshold) {
+                // Swipe Left (Next)
+                handleNext();
+            }
+            if (touchEndX > touchStartX + threshold) {
+                // Swipe Right (Prev)
+                handlePrev();
+            }
+        }
+
+        // Initialize
+        updateSlider(false);
+
+        // Update on window resize
+        window.addEventListener('resize', debounce(() => updateSlider(false), 250));
     }
 });
 
@@ -752,7 +898,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // ================================================
-// DOCTORS SLIDER FUNCTIONALITY - SHOW 3 ITEMS, SLIDE 1 AT A TIME
+// DOCTORS SLIDER FUNCTIONALITY - SEAMLESS INFINITE LOOP
 // ================================================
 document.addEventListener('DOMContentLoaded', function () {
     const doctorsSliderWrapper = document.querySelector('.doctors-slider-wrapper');
@@ -763,16 +909,22 @@ document.addEventListener('DOMContentLoaded', function () {
     const prevBtn = document.querySelector('.doctor-nav-prev');
     const nextBtn = document.querySelector('.doctor-nav-next');
 
-    const visibleItems = 3; // Show 3 items at a time
-    const totalItems = doctorCards.length;
-    const maxIndex = totalItems - visibleItems;
+    // Number of items to clone for seamless loop
+    const totalCards = doctorCards.length;
     let currentIndex = 0;
     let isTransitioning = false;
 
+    // Clone all cards and append to grid for seamless infinite loop
+    doctorCards.forEach(card => {
+        const clone = card.cloneNode(true);
+        doctorsGrid.appendChild(clone);
+    });
+
     // Calculate card width dynamically
     function getCardWidth() {
-        if (doctorCards[0]) {
-            const cardWidth = doctorCards[0].offsetWidth;
+        const allCards = doctorsGrid.querySelectorAll('.doctor-card');
+        if (allCards[0]) {
+            const cardWidth = allCards[0].offsetWidth;
             return cardWidth;
         }
         return 0;
@@ -784,51 +936,312 @@ document.addEventListener('DOMContentLoaded', function () {
         return parseFloat(gridStyle.gap) || 30;
     }
 
-    function updateSlider() {
+    function updateSlider(smooth = true) {
         const cardWidth = getCardWidth();
         const gap = getGap();
         const translateX = -currentIndex * (cardWidth + gap);
 
+        // Enable or disable transition
+        if (smooth) {
+            doctorsGrid.style.transition = 'transform 0.5s ease-in-out';
+        } else {
+            doctorsGrid.style.transition = 'none';
+        }
+
         doctorsGrid.style.transform = `translateX(${translateX}px)`;
 
-        // Update button states
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex >= maxIndex;
+        // Arrows are always enabled for infinite loop
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
+        prevBtn.style.opacity = '1';
+        nextBtn.style.opacity = '1';
+        prevBtn.style.cursor = 'pointer';
+        nextBtn.style.cursor = 'pointer';
     }
 
-    // Next button click - slide 1 card at a time
-    nextBtn.addEventListener('click', function () {
-        if (isTransitioning || currentIndex >= maxIndex) return;
+    function handleNext() {
+        if (isTransitioning) return;
         isTransitioning = true;
 
         currentIndex++;
-        updateSlider();
+        updateSlider(true);
 
-        setTimeout(() => {
-            isTransitioning = false;
-        }, 400);
-    });
+        // Check if we've reached the cloned section
+        if (currentIndex >= totalCards) {
+            setTimeout(() => {
+                currentIndex = 0;
+                updateSlider(false); // Jump back instantly without animation
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 50);
+            }, 500); // Wait for transition to complete
+        } else {
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 500);
+        }
+    }
 
-    // Previous button click - slide 1 card at a time
-    prevBtn.addEventListener('click', function () {
-        if (isTransitioning || currentIndex === 0) return;
+    function handlePrev() {
+        if (isTransitioning) return;
         isTransitioning = true;
 
         currentIndex--;
-        updateSlider();
 
-        setTimeout(() => {
-            isTransitioning = false;
-        }, 400);
-    });
+        // If going below 0, jump to the end of cloned section first
+        if (currentIndex < 0) {
+            currentIndex = totalCards - 1;
+            updateSlider(false); // Jump instantly without animation
+            setTimeout(() => {
+                currentIndex--;
+                updateSlider(true);
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 500);
+            }, 50);
+        } else {
+            updateSlider(true);
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 500);
+        }
+    }
+
+    // Next button click
+    nextBtn.addEventListener('click', handleNext);
+
+    // Previous button click
+    prevBtn.addEventListener('click', handlePrev);
+
+    // Touch Swipe Support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    doctorsGrid.addEventListener('touchstart', function (e) {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    doctorsGrid.addEventListener('touchend', function (e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+        const threshold = 50; // min distance for swipe
+        if (touchEndX < touchStartX - threshold) {
+            // Swipe Left (Next)
+            handleNext();
+        }
+        if (touchEndX > touchStartX + threshold) {
+            // Swipe Right (Prev)
+            handlePrev();
+        }
+    }
 
     // Initialize
-    updateSlider();
+    updateSlider(false);
 
     // Update on window resize
-    window.addEventListener('resize', debounce(() => {
-        currentIndex = Math.min(currentIndex, maxIndex);
-        updateSlider();
-    }, 250));
+    window.addEventListener('resize', debounce(() => updateSlider(false), 250));
+});
+
+
+// ================================================
+// SPECIALITIES SLIDER FUNCTIONALITY - SEAMLESS INFINITE LOOP
+// ================================================
+document.addEventListener('DOMContentLoaded', function () {
+    // ================================================
+    // SPECIALITIES SLIDER - 2-ROW COLUMN-BASED LOGIC
+    // ================================================
+    const specialitiesCarousel = document.querySelector('.specialities-carousel');
+    if (!specialitiesCarousel) return;
+
+    const specialitiesGrid = specialitiesCarousel.querySelector('.specialities-grid');
+    const specialityCards = specialitiesGrid.querySelectorAll('.speciality-card');
+
+    // Inject navigation buttons if they don't exist
+    let prevBtn = specialitiesCarousel.querySelector('.speciality-nav-prev');
+    let nextBtn = specialitiesCarousel.querySelector('.speciality-nav-next');
+
+    if (!prevBtn) {
+        const navContainer = document.createElement('div');
+        navContainer.className = 'speciality-nav-container';
+        navContainer.innerHTML = `
+            <button class="speciality-nav-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="speciality-nav-next"><i class="fas fa-chevron-right"></i></button>
+        `;
+        specialitiesCarousel.appendChild(navContainer);
+        prevBtn = navContainer.querySelector('.speciality-nav-prev');
+        nextBtn = navContainer.querySelector('.speciality-nav-next');
+    }
+
+    // Number of columns in original set (2 items per column)
+    // We calculate this BEFORE cloning
+    const totalCols = Math.ceil(specialityCards.length / 2);
+    let currentCol = 0; // Use column index instead of item index
+    let isTransitioning = false;
+
+    // Double Clone for safety buffer to prevent blank space
+    // Set 1 (Original) -> Set 2 (Clone 1) -> Set 3 (Clone 2)
+    specialityCards.forEach(item => {
+        const clone = item.cloneNode(true);
+        specialitiesGrid.appendChild(clone);
+    });
+    specialityCards.forEach(item => {
+        const clone = item.cloneNode(true);
+        specialitiesGrid.appendChild(clone);
+    });
+
+    // Calculate Column Width dynamically based on CSS logic
+    function getColWidth() {
+        const windowWidth = window.innerWidth;
+        const style = window.getComputedStyle(specialitiesGrid);
+
+        // Grid Container Content Width (clientWidth - padding)
+        const paddingLeft = parseFloat(style.paddingLeft) || 0;
+        const paddingRight = parseFloat(style.paddingRight) || 0;
+        const availableWidth = specialitiesGrid.clientWidth - paddingLeft - paddingRight;
+
+        // Match the CSS grid-auto-columns rules:
+        // Mobile (<768px): calc(50% - 4px)
+        // Tablet (<991px): calc(33.333% - 10px)
+        // Desktop: calc(25% - 15px)
+
+        if (windowWidth <= 768) {
+            return (availableWidth * 0.5) - 4;
+        } else if (windowWidth <= 991) {
+            return (availableWidth * 0.33333) - 10;
+        } else {
+            return (availableWidth * 0.25) - 15;
+        }
+    }
+
+    // Calculate gap between items
+    function getGap() {
+        const gridStyle = window.getComputedStyle(specialitiesGrid);
+        return parseFloat(gridStyle.columnGap) || parseFloat(gridStyle.gap) || 20;
+    }
+
+    function updateSlider(smooth = true) {
+        const colWidth = getColWidth();
+        const gap = getGap();
+        const translateX = -currentCol * (colWidth + gap);
+
+        if (smooth) {
+            specialitiesGrid.style.transition = 'transform 0.5s ease-in-out';
+        } else {
+            specialitiesGrid.style.transition = 'none';
+        }
+
+        specialitiesGrid.style.transform = `translateX(${translateX}px)`;
+
+        // Improve button state handling
+        setTimeout(() => {
+            if (!isTransitioning) {
+                prevBtn.disabled = false;
+                nextBtn.disabled = false;
+            }
+        }, 50);
+    }
+
+    function handleNext() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        nextBtn.disabled = true;
+        prevBtn.disabled = true;
+
+        currentCol++;
+        updateSlider(true);
+
+        // Infinite Loop Reset:
+        // Reset when we've scrolled past the Original Set (totalCols)
+        if (currentCol >= totalCols) {
+            setTimeout(() => {
+                currentCol = 0;
+                updateSlider(false); // Jump back instantly
+                setTimeout(() => {
+                    isTransitioning = false;
+                    nextBtn.disabled = false;
+                    prevBtn.disabled = false;
+                }, 50);
+            }, 500);
+        } else {
+            setTimeout(() => {
+                isTransitioning = false;
+                nextBtn.disabled = false;
+                prevBtn.disabled = false;
+            }, 500);
+        }
+    }
+
+    function handlePrev() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        nextBtn.disabled = true;
+        prevBtn.disabled = true;
+
+        currentCol--;
+
+        // If going below 0, jump to end of Clone 1
+        if (currentCol < 0) {
+            // Jump to the equivalent position in the buffer (Start of Clone 1)
+            currentCol = totalCols;
+            updateSlider(false); // Jump instantly
+
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    currentCol--;
+                    updateSlider(true);
+                    setTimeout(() => {
+                        isTransitioning = false;
+                        nextBtn.disabled = false;
+                        prevBtn.disabled = false;
+                    }, 500);
+                });
+            });
+        } else {
+            updateSlider(true);
+            setTimeout(() => {
+                isTransitioning = false;
+                nextBtn.disabled = false;
+                prevBtn.disabled = false;
+            }, 500);
+        }
+    }
+
+    // Next button click
+    nextBtn.addEventListener('click', handleNext);
+
+    // Previous button click
+    prevBtn.addEventListener('click', handlePrev);
+
+    // Touch Swipe Support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    specialitiesGrid.addEventListener('touchstart', function (e) {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    specialitiesGrid.addEventListener('touchend', function (e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+        const threshold = 50; // min distance for swipe
+        if (touchEndX < touchStartX - threshold) {
+            handleNext();
+        }
+        if (touchEndX > touchStartX + threshold) {
+            handlePrev();
+        }
+    }
+
+    // Initialize
+    updateSlider(false);
+
+    // Update on window resize (debounce included in listener above)
+    window.addEventListener('resize', debounce(() => updateSlider(false), 250));
 });
 
