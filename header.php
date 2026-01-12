@@ -18,7 +18,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#social" class="nav-link">Social Initiatives</a>
+                        <a href="social-initiatives.php" class="nav-link">Social Initiatives</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -210,15 +210,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#international" class="nav-link">International Patients</a>
+                                <a href="international-patients.php" class="nav-link">International Patients</a>
                             </li>
 
-                            <li class="nav-item">
-                                <button class="btn-search" type="button" data-bs-toggle="modal"
-                                    data-bs-target="#searchModal">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </li>
+
                             <li class="nav-item">
                                 <a href="#" class="btn btn-appointment">
                                     Book Appointment
@@ -256,7 +251,7 @@
                     </li>
 
                     <!-- Social Initiatives -->
-                    <li><a href="#social">Social Initiatives</a></li>
+                    <li><a href="social-initiatives.php">Social Initiatives</a></li>
 
                     <!-- Academics (Dropdown) -->
                     <li>
@@ -359,7 +354,7 @@
                     </li>
 
                     <!-- International Patients -->
-                    <li><a href="#international">International Patients</a></li>
+                    <li><a href="international-patients.php">International Patients</a></li>
 
                     <!-- CTA Buttons -->
                     <li><a href="#appointment" class="btn btn-appointment w-100 mt-3">Book Appointment</a></li>
@@ -395,7 +390,7 @@
             </a>
         </div>
         <div class="bottom-nav-item">
-            <a href="#international">
+            <a href="international-patients.php">
                 <div class="nav-icon">
                     <i class="fas fa-globe"></i>
                 </div>

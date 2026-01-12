@@ -1,3 +1,37 @@
+<!-- Trust & CTA Section -->
+        <section class="trust-cta-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Column (5) -->
+                    <div class="col-md-5">
+                        <div class="trust-cta-content">
+                            <h3 class="trust-heading">World-Class Healthcare, Right Here.</h3>
+                            <p class="trust-subtext">Partnering with you for a healthier tomorrow.</p>
+                        </div>
+                    </div>
+
+                    <!-- Logos Column (4) -->
+                    <div class="col-md-4">
+                        <div class="trust-logos d-flex align-items-center gap-4">
+                            <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Prayag Hospital"
+                                class="trust-logo" style="max-height: 50px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/NABH_Logo.png"
+                                alt="NABH Accredited" class="trust-logo" style="max-height: 50px;">
+                        </div>
+                    </div>
+
+                    <!-- Buttons Column (3) -->
+                    <div class="col-md-3">
+                        <div class="trust-actions d-flex flex-column gap-2">
+                            <a href="#doctors" class="btn btn-outline-teal w-100">Find a Doctor</a>
+                            <a href="#appointment" class="btn btn-primary-orange w-100">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+ 
  <!-- Footer Section -->
         <footer class="main-footer">
             <div class="footer-top">
@@ -77,7 +111,7 @@
                     <div class="row pt-4 border-top border-secondary">
                         <!-- Left Column: Contact Details -->
                         <div class="col-md-4 mb-4 mb-md-0">
-                            <h4 class="footer-title">Reach Us</h4>
+                            <h4 class="footer-title" style="margin-bottom: 5px;">Reach Us</h4>
                             <div class="footer-contact-box">
                                 <ul class="footer-contact">
                                     <li>
