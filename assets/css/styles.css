@@ -2083,7 +2083,7 @@ a {
    ================================================ */
 .blog-section {
     padding: 40px 0;
-    background-color: #daede67a;
+    background-color: #daede67a !important;
 }
 
 /* Large Blog Cards */
@@ -5484,7 +5484,7 @@ body {
            BLOG SECTION
            ================================================ */
 .blog-section {
-    background-color: var(--white);
+    background-color: #daede67a !important;
     padding: 40px 0;
 }
 
