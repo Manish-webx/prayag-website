@@ -73,7 +73,7 @@
                     <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="International Patients" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="mb-4 text-teal fw-bold">Welcome to Prayag Hospital</h2>
+                    <h2 class="mb-4 fw-bold">Welcome to Prayag Hospital</h2>
                     <p class="mb-4">Prayag Hospital is a preferred destination for international patients seeking affordable, world-class medical treatment in India. We understand that travelling for medical care can be overwhelming, which is why we have a dedicated International Patient Services team to make your journey smooth and comfortable.</p>
                     <p>From initial inquiry to treatment and follow-up, we are with you every step of the way.</p>
                 </div>
@@ -84,7 +84,7 @@
     <!-- Services Section -->
     <section class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-5 text-teal fw-bold">Our Services for International Patients</h2>
+            <h2 class="text-center mb-5 fw-bold">Our Services for International Patients</h2>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center p-4">
@@ -135,7 +135,7 @@
     <!-- Process Section -->
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5 text-teal fw-bold">Admission Process</h2>
+            <h2 class="text-center mb-5 fw-bold">Admission Process</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
@@ -183,7 +183,7 @@
     <!-- Testimonials Section -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5 text-teal fw-bold">Patient Success Stories</h2>
+            <h2 class="text-center mb-5 fw-bold">Patient Success Stories</h2>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow card-hover">
@@ -243,7 +243,7 @@
     <!-- FAQ Section -->
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5 text-teal fw-bold">Frequently Asked Questions</h2>
+            <h2 class="text-center mb-5 fw-bold">Frequently Asked Questions</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="accordion" id="faqAccordion">

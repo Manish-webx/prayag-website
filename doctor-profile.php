@@ -115,7 +115,7 @@ if (!$doctor) {
             <div class="row">
                 <div class="col-lg-8">
                     <div class="content-section">
-                        <h2 class="section-heading">About <?php echo $doctor['name']; ?></h2>
+                        <h2 class="section-title">About <?php echo $doctor['name']; ?></h2>
                         <p class="lead-text">
                             <?php echo $doctor['name']; ?> is a highly experienced <?php echo $doctor['specialty']; ?> with over <?php echo $doctor['experience']; ?> years of expertise in
                             <?php echo $doctor['department']; ?>.
@@ -127,7 +127,7 @@ if (!$doctor) {
 
                     <!-- Education & Qualifications (Generic Placeholder) -->
                     <div class="content-section">
-                        <h2 class="section-heading">Education & Qualifications</h2>
+                        <h2 class="section-title">Education & Qualifications</h2>
                         <div class="education-timeline">
                             <div class="education-item">
                                 <div class="education-icon">
@@ -152,7 +152,7 @@ if (!$doctor) {
 
                     <!-- Areas of Expertise -->
                     <div class="content-section">
-                        <h2 class="section-heading">Areas of Expertise</h2>
+                        <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
                                 <i class="fas fa-user-md"></i>

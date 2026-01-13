@@ -141,7 +141,7 @@
         <section class="values-section">
             <div class="container">
                 <div class="section-header-center text-center">
-                    <h2 class="section-title" style="color: var(--prayag-teal); font-weight: 700;">Our Core Values</h2>
+                    <h2 class="section-title" style="font-weight: 700;">Our Core Values</h2>
                     <p style="color: var(--light-text); max-width: 600px; margin: 0 auto;">The pillars that uphold our
                         commitment to excellence</p>
                 </div>
@@ -187,7 +187,7 @@
         <section class="journey-section">
             <div class="container">
                 <div class="section-header-center text-center">
-                    <h2 class="section-title" style="color: var(--prayag-teal); font-weight: 700;">Our Journey</h2>
+                    <h2 class="section-title" style="font-weight: 700;">Our Journey</h2>
                     <p style="color: var(--light-text); max-width: 600px; margin: 0 auto;">A timeline of milestones and
                         medical excellence</p>
                 </div>

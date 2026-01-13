@@ -4803,7 +4803,7 @@ body {
 
 .section-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section-title {
@@ -4919,7 +4919,7 @@ body {
     }
 
     .section-header {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .section-title {
@@ -5652,7 +5652,6 @@ body {
            FAQ SECTION
            ================================================ */
 .faq-section {
-    background: linear-gradient(135deg, #f8fffe 0%, #e8f5f0 100%);
     padding: 40px 0;
 }
 
@@ -6962,7 +6961,7 @@ body {
 .blog-hero-subtitle {
     font-size: 19px;
     color: rgba(255, 255, 255, 0.95);
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -8396,8 +8395,8 @@ body {
 }
 
 .intro-content h2 {
-    color: var(--prayag-teal);
-    font-size: 36px;
+    color: #000;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -8522,7 +8521,7 @@ body {
 }
 
 .infra-teaser h2 {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -8601,7 +8600,7 @@ body {
 }
 
 .chairman-content h2 {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 30px;
     color: var(--dark-text);
@@ -9337,5 +9336,473 @@ body {
     .help-btn {
         width: 100%;
         justify-content: center;
+    }
+}
+
+/* ================================================
+   ADMISSION GUIDE STYLES
+   ================================================ */
+.admission-process-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.process-timeline {
+    position: relative;
+    padding-left: 40px;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e0e0e0;
+}
+
+.timeline-step {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-color: var(--prayag-teal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    z-index: 1;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 2px var(--prayag-teal);
+}
+
+.step-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease;
+}
+
+.step-content:hover {
+    transform: translateX(5px);
+    border-color: var(--prayag-teal);
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--dark-text);
+}
+
+.step-desc {
+    color: #666;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.checklist-section {
+    padding: 0px 0;
+    background-color: #fff;
+}
+
+.checklist-card {
+    background-color: #e8f5f0;
+    border-radius: 12px;
+    padding: 30px;
+    height: 100%;
+}
+
+.checklist-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--prayag-teal);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.custom-list li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    color: var(--prayag-teal);
+}
+
+.info-box {
+    background: #fff5eb;
+    border-radius: 12px;
+    padding: 25px;
+    border-left: 4px solid var(--prayag-orange);
+    margin-top: 30px;
+}
+
+.info-box h4 {
+    color: var(--prayag-orange);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* ================================================
+   CAREER PAGE STYLES
+   ================================================ */
+.career-benefit-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.career-benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon {
+    width: 70px;
+    height: 70px;
+    background: rgba(46, 204, 113, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+    color: var(--prayag-green);
+}
+
+.job-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job-card:hover {
+    border-color: var(--prayag-teal);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.job-info h4 {
+    color: var(--prayag-teal);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.job-meta {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.job-meta span {
+    margin-right: 20px;
+}
+
+.job-meta i {
+    color: var(--prayag-green);
+    margin-right: 5px;
+}
+
+.apply-btn {
+    background: var(--prayag-teal);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.apply-btn:hover {
+    background: var(--prayag-green);
+    color: #fff;
+}
+
+.application-form-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.application-form-section .form-control:focus {
+    border-color: var(--prayag-green);
+    box-shadow: none;
+}
+
+/* ================================================
+   TPA & INSURANCE PAGE STYLES
+   ================================================ */
+.tpa-content-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.process-step {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+    border-left: 4px solid var(--prayag-teal);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+}
+
+.step-number {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(74, 143, 115, 0.2);
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--dark-text);
+}
+
+.step-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.tpa-grid-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.tpa-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+    min-height: 100px;
+}
+
+.tpa-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: var(--prayag-teal);
+    transform: scale(1.02);
+}
+
+.tpa-name {
+    font-weight: 600;
+    color: #444;
+    font-size: 15px;
+    margin: 0;
+}
+
+.documents-box {
+    background-color: #e8f5f0;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(74, 143, 115, 0.2);
+}
+
+.documents-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.documents-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    color: #555;
+    font-size: 15px;
+}
+
+.documents-list li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--prayag-teal);
+}
+
+/* ================================================
+   VISITING HOURS PAGE STYLES
+   ================================================ */
+.visiting-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.hours-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    border-top: 5px solid var(--prayag-teal);
+}
+
+.hours-header {
+    padding: 25px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.hours-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hours-subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+.time-slot {
+    padding: 20px 25px;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.time-slot:last-child {
+    border-bottom: none;
+}
+
+.slot-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e8f5f0;
+    color: var(--prayag-teal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.slot-details h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #444;
+}
+
+.slot-details p {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.guidelines-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
+.guideline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guideline-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.guideline-list li::before {
+    content: '\f058';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    color: var(--prayag-teal);
+}
+
+.pass-info-card {
+    background: linear-gradient(135deg, var(--prayag-teal) 0%, #2c5c4b 100%);
+    color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.pass-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+@media (min-width: 1200px) {
+
+    .h2,
+    h2 {
+        font-size: 1.6rem;
     }
 }

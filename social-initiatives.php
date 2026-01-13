@@ -44,7 +44,7 @@
                     <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Community Outreach" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="mb-4 text-teal fw-bold">Our Commitment to Society</h2>
+                    <h2 class="mb-4 fw-bold">Our Commitment to Society</h2>
                     <p class="mb-4">At Prayag Hospital, healthcare is more than just a profession; it is a mission to serve humanity. We believe that quality healthcare should be accessible to everyone, regardless of their socio-economic status.</p>
                     <p>Through our dedicated Corporate Social Responsibility (CSR) initiatives, we strive to make a tangible difference in the lives of the underprivileged, promoting health awareness, and building a healthier community for tomorrow.</p>
                 </div>
@@ -55,7 +55,7 @@
     <!-- Key Initiatives Section -->
     <section class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-5 text-teal fw-bold">Our Key Initiatives</h2>
+            <h2 class="text-center mb-5 fw-bold">Our Key Initiatives</h2>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow card-hover">
@@ -147,7 +147,7 @@
     <!-- Partner CTA -->
     <section class="py-5 text-center">
         <div class="container">
-            <h2 class="mb-4 text-teal fw-bold">Partner With Us</h2>
+            <h2 class="mb-4 fw-bold">Partner With Us</h2>
             <p class="lead mb-4 col-md-8 mx-auto">Are you an NGO, Corporate, or Volunteer? Join hands with Prayag Hospital to amplify our impact and serve the community better.</p>
             <a href="contact-us.php" class="btn btn-primary-orange btn-lg fw-bold">Contact Our CSR Team</a>
         </div>
