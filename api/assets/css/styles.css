@@ -359,7 +359,18 @@ a {
     animation: slideDown 0.3s ease;
     min-width: 200px;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    transition-delay: 0.1s;
+    transition-delay: 0.3s;
+}
+
+/* Transparent bridge to cover the gap */
+.nav-item .dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: transparent;
 }
 
 .nav-item:hover .dropdown-menu,
@@ -2634,7 +2645,7 @@ a {
 .btn-view-profile,
 .btn-book-appointment-doc {
     flex: 1;
-    padding: 10px 16px;
+    padding: 4px 16px;
     border-radius: 30px;
     font-size: 13px;
     font-weight: 600;
@@ -2661,7 +2672,6 @@ a {
 }
 
 .btn-book-appointment-doc:hover {
-    background-color: var(--prayag-orange-dark);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(232, 150, 79, 0.3);
 }
@@ -2943,7 +2953,7 @@ a {
     background: var(--prayag-teal);
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 3px 10px;
     border-radius: 6px;
     font-size: 14px;
     font-weight: 600;
@@ -3800,7 +3810,7 @@ a {
 
 .btn-book-appointment-doc {
     flex: 1;
-    background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%);
+    /* background: linear-gradient(135deg, var(--prayag-teal) 0%, var(--prayag-teal-dark) 100%); */
     color: var(--white);
     border: none;
     font-size: 13px;
@@ -4450,19 +4460,19 @@ body {
            ================================================ */
 .features-section {
     background-color: var(--white);
-    padding: 40px 0;
+    padding-top: 40px;
     border-top: 1px solid #e0e0e0;
 }
 
 .feature-box {
     background-color: #f8f9fa;
     border-radius: 12px;
-    padding: 30px 25px;
+    padding: 10px 15px;
     text-align: left;
     transition: all 0.3s ease;
     height: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     border: 1px solid #e8e8e8;
 }
@@ -5073,7 +5083,7 @@ body {
            DOCTORS SECTION
            ================================================ */
 .doctors-section {
-    background-color: var(--white);
+    background-color: #ededed;
     padding: 40px 0;
 }
 
@@ -5199,8 +5209,8 @@ body {
 }
 
 .btn-book-appointment-doc:hover {
-    background-color: var(--prayag-orange-dark);
     transform: translateY(-1px);
+    color: #fff !important;
     box-shadow: 0 4px 12px rgba(232, 150, 79, 0.3);
 }
 
@@ -6773,7 +6783,7 @@ body {
 
 .btn-view-profile,
 .btn-book-now {
-    padding: 12px 20px;
+    padding: 3px 20px;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
@@ -8010,15 +8020,7 @@ body {
     color: #fff;
 }
 
-.btn-book-appointment-doc {
-    background: var(--prayag-teal);
-    border: 1px solid var(--prayag-teal);
-    color: #fff;
-}
 
-.btn-book-appointment-doc:hover {
-    background: var(--prayag-teal-dark);
-}
 
 /* Nav Buttons for Doctor Slider */
 .doctor-nav-prev,
@@ -8283,7 +8285,7 @@ body {
    TRUST & CTA SECTION
    ================================================ */
 .trust-cta-section {
-    background-color: #f9f9f9;
+    background-color: #ededed;
     padding: 30px 0;
     border-top: 1px solid #e0e0e0;
 }
@@ -8810,7 +8812,7 @@ body {
 
 .hero-subtitle {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
@@ -9804,5 +9806,78 @@ body {
     .h2,
     h2 {
         font-size: 1.6rem;
+    }
+}
+
+/* ================================================
+   DEPARTMENT PAGE STYLES (TOC)
+   ================================================ */
+.toc-section {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 68px;
+    /* Adjust based on header height */
+    z-index: 1010;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: top 0.3s ease;
+}
+
+.toc-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.toc-nav::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
+}
+
+.toc-nav-item {
+    margin: 0 15px;
+}
+
+.toc-nav-link {
+    color: var(--dark-text);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.toc-nav-link:hover,
+.toc-nav-link.active {
+    color: var(--prayag-teal);
+    border-bottom-color: var(--prayag-teal);
+}
+
+@media (max-width: 991px) {
+    .toc-section {
+        top: 65px;
+        /* Slightly smaller sticky offset for mobile if needed */
+    }
+
+    .toc-nav {
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .toc-nav-item {
+        margin: 0 12px;
+        flex-shrink: 0;
     }
 }

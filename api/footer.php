@@ -55,12 +55,12 @@
                             <h4 class="footer-title">Centres of Excellence</h4>
                             <ul class="footer-links">
                                 <li><a href="cardiac-care.php">Cardiac Sciences</a></li>
-                                <li><a href="neurosciences.php">Neurosciences</a></li>
+                                <li><a href="neuroscience.php">Neurosciences</a></li>
                                 <li><a href="orthopedics.php">Orthopedics</a></li>
                                 <li><a href="obstetrics-gynecology.php">Mother & Child Care</a></li>
-                                <li><a href="medical-gastroenterology.php">Gastroenterology</a></li>
+                                <li><a href="gastroenterology.php">Gastroenterology</a></li>
                                 <li><a href="nephrology-dialysis.php">Renal Sciences</a></li>
-                                <li><a href="medical-oncology.php">Cancer Care</a></li>
+                                <li><a href="oncology.php">Cancer Care</a></li>
                             </ul>
                         </div>
 
@@ -117,8 +117,8 @@
                                     <li>
                                         <i class="fas fa-map-marker-alt"></i>
                                         <span>
-                                            <strong>Prayag Hospital & Research Centre</strong><br>
-                                            J-Block, Sector 38, Near Huda City Centre,<br>
+                                            <strong>Prayag Hospital & Research Centre</strong>
+                                            J-Block, Sector 38, Near Huda City Centre,
                                             Gurugram, Haryana 122001
                                         </span>
                                     </li>
@@ -126,7 +126,7 @@
                                         <i class="fas fa-phone-alt"></i>
                                         <span>
                                             <strong>Emergency:</strong> <a href="tel:+918811780937">+91
-                                                8811780937</a><br>
+                                                8811780937</a>
                                             <strong>Reception:</strong> <a href="tel:01244086666">0124-4086666</a>
                                         </span>
                                     </li>

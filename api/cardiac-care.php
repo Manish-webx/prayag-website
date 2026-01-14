@@ -97,7 +97,7 @@
         <div class="container-fluid px-0">
             <ul class="toc-nav">
                 <li class="toc-nav-item">
-                    <a href="#overview" class="toc-nav-link active">Overview</a>
+                    <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
@@ -612,7 +612,7 @@
                 </p>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
                 $cardiac_doctors = array_filter($doctors, function($doctor) {

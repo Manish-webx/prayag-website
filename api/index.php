@@ -401,7 +401,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_11.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. Aditi" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -425,7 +425,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_12.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. Alok" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -449,7 +449,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_13.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. Prakhar" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -473,7 +473,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_14.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. Suresh" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -498,7 +498,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_15.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. B. P" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -522,7 +522,7 @@
                             <div class="doctor-card-inner">
                                 <div class="doctor-card-top">
                                     <div class="doctor-image-container">
-                                        <img src="https://www.prayaghospital.in/uploaded_files/doctors/pi_image1_16.png"
+                                        <img src="https://i.ibb.co/xnzC6pM/Untitled.webp"
                                             alt="Dr. Ankur" class="doctor-image">
                                     </div>
                                     <div class="doctor-info">
@@ -544,7 +544,7 @@
                 </div>
 
                 <div class="text-center mt-4">
-                    <a href="#all-doctors" class="btn-view-all-content">
+                    <a href="find-doctor.php" class="btn-view-all-content">
                         View All Doctors
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -806,7 +806,7 @@
 
                 <!-- View All Testimonials Button -->
                 <div class="text-center mt-5">
-                    <a href="#all-testimonials" class="btn-view-all-content">
+                    <a href="#" class="btn-view-all-content">
                         View All Testimonials
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -987,7 +987,7 @@
 
                 <!-- View All Blogs Button -->
                 <div class="text-center mt-4">
-                    <a href="#all-blogs" class="btn-view-all-content">
+                    <a href="#" class="btn-view-all-content">
                         View All Blogs
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>

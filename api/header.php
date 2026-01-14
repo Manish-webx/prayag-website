@@ -62,8 +62,7 @@
                                     <li><a class="dropdown-item" href="#">Our Hospitals</a></li>
                                     <li><a class="dropdown-item" href="about-us.php">Organization</a></li>
                                     <li><a class="dropdown-item" href="#">Infrastructure</a></li>
-                                    <li><a class="dropdown-item" href="corporate-services.php">Corporate Services</a>
-                                    </li>
+                                   
                                     <li><a class="dropdown-item" href="careers.php">Careers</a></li>
                                 </ul>
                             </li>
@@ -87,7 +86,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="neurosciences.php" class="mega-menu-item">
+                                                    <a href="neuroscience.php" class="mega-menu-item">
                                                         <i class="fas fa-brain"></i>
                                                         <span>Neurosciences</span>
                                                     </a>
@@ -105,7 +104,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="medical-gastroenterology.php" class="mega-menu-item">
+                                                    <a href="gastroenterology.php" class="mega-menu-item">
                                                         <i class="fas fa-stomach"></i>
                                                         <span>Gastroenterology & Hepatology</span>
                                                     </a>
@@ -117,7 +116,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="medical-oncology.php" class="mega-menu-item">
+                                                    <a href="oncology.php" class="mega-menu-item">
                                                         <i class="fas fa-ribbon"></i>
                                                         <span>Oncology (Cancer Care)</span>
                                                     </a>
@@ -280,8 +279,7 @@
                         <ul class="collapse mobile-submenu" id="mobileGroup">
                             <li><a href="#">Our Hospitals</a></li>
                             <li><a href="about-us.php">Organization</a></li>
-                            <li><a href="#">Infrastructure</a></li>
-                            <li><a href="corporate-services.php">Corporate Services</a></li>
+                            <li><a href="#">Infrastructure</a></li>                           
                             <li><a href="careers.php">Careers</a></li>
                         </ul>
                     </li>
@@ -300,12 +298,12 @@
                             <div class="mobile-menu-heading">Centres of Excellence</div>
                             <ul class="mobile-submenu">
                                 <li><a href="cardiac-care.php">Cardiac Sciences</a></li>
-                                <li><a href="neurosciences.php">Neurosciences</a></li>
+                                <li><a href="neuroscience.php">Neurosciences</a></li>
                                 <li><a href="orthopedics.php">Orthopedics & Joint Replacement</a></li>
                                 <li><a href="obstetrics-gynecology.php">Mother & Child Care</a></li>
-                                <li><a href="medical-gastroenterology.php">Gastroenterology & Hepatology</a></li>
+                                <li><a href="gastroenterology.php">Gastroenterology & Hepatology</a></li>
                                 <li><a href="nephrology-dialysis.php">Renal Sciences (Kidney Care)</a></li>
-                                <li><a href="medical-oncology.php">Oncology (Cancer Care)</a></li>
+                                <li><a href="oncology.php">Oncology (Cancer Care)</a></li>
                             </ul>
 
                             <!-- Clinical Departments -->

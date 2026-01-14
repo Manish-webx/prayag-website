@@ -10,7 +10,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Ayushi'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ashish-srivastava',
@@ -22,7 +22,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ashish'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-suresh-babu',
@@ -34,7 +34,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Suresh'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-sunil-kumar-sharma',
@@ -46,7 +46,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Sunil'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-arun-garg',
@@ -58,7 +58,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Arun'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-divya-jyoti-sharma',
@@ -70,7 +70,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Divya'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-nupur-rajoriya',
@@ -82,7 +82,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Nupur'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-sp-sharma',
@@ -94,7 +94,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+S.P.'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-bp-singh',
@@ -106,7 +106,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+B.P.'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-sachin-kumar',
@@ -118,7 +118,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Sachin'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-naveen-kumar',
@@ -130,7 +130,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Naveen'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-kamna-saxena',
@@ -142,7 +142,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Kamna'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-manju-sinha',
@@ -154,7 +154,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Manju'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-bayya-sampath-akhila',
@@ -166,7 +166,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Bayya'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-uma-sharma',
@@ -178,7 +178,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Uma'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-soni-singh',
@@ -190,7 +190,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Soni'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-pallavi-panda',
@@ -202,7 +202,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Pallavi'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-anuradha',
@@ -214,7 +214,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Anuradha'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-harekrishna-pattra',
@@ -226,7 +226,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Harekrishna'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-rajeev-rahi',
@@ -238,7 +238,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Rajeev'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-vikram-singh-solanki',
@@ -250,7 +250,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Vikram'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-alok-krishna-shahay',
@@ -262,7 +262,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Alok'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-prakhar-gupta',
@@ -274,7 +274,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Prakhar'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ankur-upadhayay',
@@ -286,7 +286,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ankur'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-anuj-tripathi',
@@ -298,7 +298,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Anuj'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-vipin-jain',
@@ -310,7 +310,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Vipin'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ranjan',
@@ -322,7 +322,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ranjan'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-shabeer-ahmad',
@@ -334,7 +334,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Shabeer'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-jata-shankar-kumar',
@@ -346,7 +346,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Jata'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-prasad-dandekar',
@@ -358,7 +358,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Prasad'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-rk-saxena',
@@ -370,7 +370,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Saxena'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ajay-garg',
@@ -382,7 +382,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ajay'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ravi-agarwal',
@@ -394,7 +394,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ravi'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-lalit-harswarup-agrawal',
@@ -406,7 +406,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Lalit'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-aditi-wadhwa',
@@ -418,7 +418,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Aditi'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ashish-kumar-shah',
@@ -430,7 +430,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Ashish'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-nrapendra-sharma',
@@ -442,7 +442,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Nrapendra'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-saurav-bhagat',
@@ -454,7 +454,7 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://via.placeholder.com/300x350/4A8F73/ffffff?text=Dr.+Saurav'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-alka-kapoor',
@@ -466,7 +466,7 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Alka'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ],
     [
         'id' => 'dr-ruchika-butola',
@@ -478,7 +478,43 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/300x350/E8964F/ffffff?text=Dr.+Ruchika'
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+    ],
+    [
+        'id' => 'dr-anand-kumar',
+        'name' => 'Dr. Anand Kumar',
+        'specialty' => 'Surgical Oncologist',
+        'department' => 'Oncology (Cancer Care)',
+        'specialty_code' => 'oncology',
+        'experience' => 18,
+        'gender' => 'male',
+        'availability' => 'tomorrow',
+        'availability_text' => 'Available Tomorrow',
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+    ],
+    [
+        'id' => 'dr-priya-sharma',
+        'name' => 'Dr. Priya Sharma',
+        'specialty' => 'Medical Oncologist',
+        'department' => 'Oncology (Cancer Care)',
+        'specialty_code' => 'oncology',
+        'experience' => 12,
+        'gender' => 'female',
+        'availability' => 'today',
+        'availability_text' => 'Available Today',
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+    ],
+    [
+        'id' => 'dr-vikram-mehta',
+        'name' => 'Dr. Vikram Mehta',
+        'specialty' => 'Radiation Oncologist',
+        'department' => 'Oncology (Cancer Care)',
+        'specialty_code' => 'oncology',
+        'experience' => 15,
+        'gender' => 'male',
+        'availability' => 'week',
+        'availability_text' => 'Available This Week',
+        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
     ]
 ];
 ?>

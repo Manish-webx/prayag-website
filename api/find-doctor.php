@@ -167,24 +167,7 @@
                             </div>
                         </div>
 
-                        <!-- Availability Filter -->
-                        <div class="filter-group">
-                            <h4 class="filter-title">Availability</h4>
-                            <div class="filter-options">
-                                <label class="filter-option">
-                                    <input type="checkbox" class="availability-filter" value="today">
-                                    <span>Available Today</span>
-                                </label>
-                                <label class="filter-option">
-                                    <input type="checkbox" class="availability-filter" value="tomorrow">
-                                    <span>Available Tomorrow</span>
-                                </label>
-                                <label class="filter-option">
-                                    <input type="checkbox" class="availability-filter" value="week">
-                                    <span>Available This Week</span>
-                                </label>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -212,13 +195,10 @@
                         <div class="find-doctor-card" 
                              data-specialty="<?php echo $doctor['specialty_code']; ?>" 
                              data-experience="<?php echo $doctor['experience']; ?>" 
-                             data-gender="<?php echo $doctor['gender']; ?>" 
-                             data-availability="<?php echo $doctor['availability']; ?>">
+                             data-gender="<?php echo $doctor['gender']; ?>">
                             <div class="doctor-card-image">
                                 <img src="<?php echo $doctor['image']; ?>" alt="<?php echo $doctor['name']; ?>">
-                                <div class="doctor-status-badge <?php echo $doctor['availability'] == 'today' ? 'available' : ($doctor['availability'] == 'tomorrow' ? 'tomorrow' : 'week'); ?>">
-                                    <?php echo $doctor['availability_text']; ?>
-                                </div>
+
                             </div>
                             <div class="doctor-card-content">
                                 <h3 class="doctor-card-name"><?php echo $doctor['name']; ?></h3>
@@ -254,7 +234,7 @@
             const specialtyFilters = document.querySelectorAll('.specialty-filter');
             const experienceFilters = document.querySelectorAll('.experience-filter');
             const genderFilters = document.querySelectorAll('.gender-filter');
-            const availabilityFilters = document.querySelectorAll('.availability-filter');
+
             const clearFiltersBtn = document.getElementById('clearFilters');
             const sortSelect = document.getElementById('sortDoctors');
             const doctorCount = document.getElementById('doctorCount');
@@ -269,9 +249,7 @@
                     .filter(cb => cb.checked)
                     .map(cb => cb.value);
                 const selectedGender = document.querySelector('.gender-filter:checked').value;
-                const selectedAvailability = Array.from(availabilityFilters)
-                    .filter(cb => cb.checked)
-                    .map(cb => cb.value);
+
 
                 let visibleCount = 0;
 
@@ -279,7 +257,7 @@
                     const specialty = card.dataset.specialty;
                     const experience = parseInt(card.dataset.experience);
                     const gender = card.dataset.gender;
-                    const availability = card.dataset.availability;
+
                     const name = card.querySelector('.doctor-card-name').textContent.toLowerCase();
                     const cardSpecialty = card.querySelector('.doctor-card-specialty').textContent.toLowerCase();
                     const expertise = card.querySelector('.doctor-card-expertise').textContent.toLowerCase();
@@ -308,12 +286,10 @@
                     // Gender filter
                     const matchesGender = selectedGender === 'all' || selectedGender === gender;
 
-                    // Availability filter
-                    const matchesAvailability = selectedAvailability.length === 0 ||
-                        selectedAvailability.includes(availability);
+
 
                     // Show/hide card
-                    if (matchesSearch && matchesSpecialty && matchesExperience && matchesGender && matchesAvailability) {
+                    if (matchesSearch && matchesSpecialty && matchesExperience && matchesGender) {
                         card.style.display = 'block';
                         visibleCount++;
                     } else {
@@ -331,14 +307,14 @@
             specialtyFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
             experienceFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
             genderFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
-            availabilityFilters.forEach(filter => filter.addEventListener('change', filterDoctors));
+
 
             // Clear filters
             clearFiltersBtn.addEventListener('click', function () {
                 searchInput.value = '';
                 specialtyFilters.forEach(cb => cb.checked = false);
                 experienceFilters.forEach(cb => cb.checked = false);
-                availabilityFilters.forEach(cb => cb.checked = false);
+
                 document.querySelector('.gender-filter[value="all"]').checked = true;
                 filterDoctors();
             });

@@ -99,10 +99,7 @@ if (!$doctor) {
                             </a>
                         </div>
 
-                        <div class="doctor-availability">
-                            <i class="fas fa-clock"></i>
-                            <span><strong>Availability:</strong> <?php echo $doctor['availability_text']; ?></span>
-                        </div>
+
                     </div>
                 </div>
             </div>
