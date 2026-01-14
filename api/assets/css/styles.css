@@ -9881,3 +9881,22 @@ body {
         flex-shrink: 0;
     }
 }
+
+/* Footer Contact Alignment Fix */
+.footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.footer-contact li i {
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+.footer-contact li span {
+    flex: 1;
+}

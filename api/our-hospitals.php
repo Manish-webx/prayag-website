@@ -115,9 +115,9 @@
             <div class="row g-4 justify-content-center">
                 
                 <!-- Noida Branch -->
-                <div class="col-lg-6 col-md-10">
+                <div class="col-lg-6 col-md-6">
                     <div class="hospital-card">
-                        <img src="https://images.unsplash.com/photo-1587351021759-3e566b9af923?w=800&h=450&fit=crop" 
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=450&fit=crop" 
                              alt="Prayag Hospital Noida" class="hospital-image">
                         <div class="hospital-details">
                             <h2 class="hospital-name">Prayag Hospital, Noida</h2>
@@ -153,7 +153,7 @@
 
                             <div class="hospital-actions">
                                 <a href="https://goo.gl/maps/placeholder" target="_blank" class="btn btn-outline-teal flex-grow-1">
-                                    <i class="fas fa-location-arrow"></i> Get Directions
+                                    <i class="fas fa-location-arrow"></i> Directions
                                 </a>
                                 <a href="tel:+911202570111" class="btn btn-primary-orange flex-grow-1">
                                     <i class="fas fa-phone"></i> Call Now
@@ -161,50 +161,50 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>             
 
-                <!-- Gurugram Branch -->
-                <div class="col-lg-6 col-md-10">
+                <!-- Greater Noida Branch -->
+                <div class="col-lg-6 col-md-6">
                     <div class="hospital-card">
-                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop" 
-                             alt="Prayag Hospital Gurugram" class="hospital-image">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=450&fit=crop" 
+                             alt="Prayag Hospital Greater Noida" class="hospital-image">
                         <div class="hospital-details">
-                            <h2 class="hospital-name">Prayag Hospital, Gurugram</h2>
+                            <h2 class="hospital-name">Prayag Hospital, Greater Noida</h2>
                             
                             <div class="hospital-info-item">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span>
                                     Prayag Hospital & Research Centre<br>
-                                    J-Block, Sector 38, Near Huda City Centre,<br>
-                                    Gurugram, Haryana 122001
+                                    NH-021, Block M, Delta III,<br>
+                                    Greater Noida, UP 201310
                                 </span>
                             </div>
                             
                             <div class="hospital-info-item">
                                 <i class="fas fa-phone-alt"></i>
                                 <span>
-                                    0124-4086666, +91 8811780937<br>
+                                    +91 92896 62853<br>
                                     <small class="text-muted">(Emergency 24/7)</small>
                                 </span>
                             </div>
 
                             <div class="hospital-info-item">
                                 <i class="fas fa-envelope"></i>
-                                <span>info.ggn@prayaghospital.in</span>
+                                <span>info.gn@prayaghospital.in</span>
                             </div>
 
                             <div class="features-grid">
-                                <div class="feature-item"><i class="fas fa-check-circle"></i> 150+ Beds</div>
-                                <div class="feature-item"><i class="fas fa-check-circle"></i> Advanced ICU</div>
-                                <div class="feature-item"><i class="fas fa-check-circle"></i> Kidney Transplant</div>
-                                <div class="feature-item"><i class="fas fa-check-circle"></i> Onco-Surgery</div>
+                                <div class="feature-item"><i class="fas fa-check-circle"></i> 100+ Beds</div>
+                                <div class="feature-item"><i class="fas fa-check-circle"></i> Modular High-Tech OT</div>
+                                <div class="feature-item"><i class="fas fa-check-circle"></i> 24/7 Pharmacy</div>
+                                <div class="feature-item"><i class="fas fa-check-circle"></i> Diagnostics</div>
                             </div>
 
                             <div class="hospital-actions">
-                                <a href="https://goo.gl/maps/placeholder" target="_blank" class="btn btn-outline-teal flex-grow-1">
-                                    <i class="fas fa-location-arrow"></i> Get Directions
+                                <a href="https://maps.app.goo.gl/ZpgoC2Si63ecqSXh9" target="_blank" class="btn btn-outline-teal flex-grow-1">
+                                    <i class="fas fa-location-arrow"></i> Directions
                                 </a>
-                                <a href="tel:+918811780937" class="btn btn-primary-orange flex-grow-1">
+                                <a href="tel:+919289662853" class="btn btn-primary-orange flex-grow-1">
                                     <i class="fas fa-phone"></i> Call Now
                                 </a>
                             </div>
@@ -228,10 +228,11 @@
                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
+                
                 <div class="col-md-6">
-                    <h4 class="text-center mb-3">Gurugram</h4>
+                    <h4 class="text-center mb-3">Greater Noida</h4>
                     <div style="height: 300px; width: 100%;">
-                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.840798154676!2d77.04354531508244!3d28.43447598249646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d187295555555%3A0x1234567890abcdef!2sPrayag%20Hospital%20Gurugram!5e0!3m2!1sen!2sin!4v1645000000000!5m2!1sen!2sin" 
+                         <iframe src="https://maps.google.com/maps?q=Prayag+Hospital+Greater+Noida&t=&z=13&ie=UTF8&iwloc=&output=embed"
                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
