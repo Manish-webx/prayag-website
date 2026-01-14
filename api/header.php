@@ -59,7 +59,7 @@
                                     Prayag Group
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Our Hospitals</a></li>
+                                    <li><a class="dropdown-item" href="our-hospitals.php">Our Hospitals</a></li>
                                     <li><a class="dropdown-item" href="about-us.php">Organization</a></li>
                                     <li><a class="dropdown-item" href="#">Infrastructure</a></li>
                                    
