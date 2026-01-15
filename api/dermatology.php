@@ -57,9 +57,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -646,6 +644,54 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    What causes skin allergies and how are they treated?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Skin allergies can be caused by food, environmental factors, or contact with irritants. Treatment involves identifying the trigger through allergy testing and using antihistamines or topical creams to relieve symptoms.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    What anti-aging treatments are available?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We offer a range of anti-aging solutions including chemical peels, dermabrasion, laser toning, Botox, and dermal fillers to reduce wrinkles, fine lines, and age spots, giving you a youthful appearance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    Are Botox and fillers safe?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, when performed by qualified dermatologists, Botox and fillers are very safe. We use FDA-approved products and follow strict safety protocols to ensure natural-looking results with minimal downtime.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -678,3 +724,4 @@
 </body>
 
 </html>
+

@@ -59,9 +59,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -340,13 +338,6 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
                         <h3 class="condition-name">Heart Abnormalities</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 15 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Cardiomyopathy</h3>
                     </div>
                 </div>
 
@@ -910,106 +901,106 @@
         // Embedded Scripts
         // ================================================
 
-        document.addEventListener('DOMContentLoaded', function () {
-            console.log('Cardiac Care page loaded successfully!');
+    //     document.addEventListener('DOMContentLoaded', function () {
+    //         console.log('Cardiac Care page loaded successfully!');
 
-            // Smooth scroll for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        // Calculate offset for sticky TOC
-                        const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
-                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - tocHeight - 20;
+    //         // Smooth scroll for anchor links
+    //         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    //             anchor.addEventListener('click', function (e) {
+    //                 e.preventDefault();
+    //                 const target = document.querySelector(this.getAttribute('href'));
+    //                 if (target) {
+    //                     // Calculate offset for sticky TOC
+    //                     const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
+    //                     const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - tocHeight - 20;
 
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
+    //                     window.scrollTo({
+    //                         top: targetPosition,
+    //                         behavior: 'smooth'
+    //                     });
 
-                        // Update active state in TOC
-                        updateTOCActiveState(this);
-                    }
-                });
-            });
+    //                     // Update active state in TOC
+    //                     updateTOCActiveState(this);
+    //                 }
+    //             });
+    //         });
 
-            // Function to update TOC active state
-            function updateTOCActiveState(clickedLink) {
-                if (clickedLink.classList.contains('toc-nav-link')) {
-                    document.querySelectorAll('.toc-nav-link').forEach(link => {
-                        link.classList.remove('active');
-                    });
-                    clickedLink.classList.add('active');
-                }
-            }
+    //         // Function to update TOC active state
+    //         function updateTOCActiveState(clickedLink) {
+    //             if (clickedLink.classList.contains('toc-nav-link')) {
+    //                 document.querySelectorAll('.toc-nav-link').forEach(link => {
+    //                     link.classList.remove('active');
+    //                 });
+    //                 clickedLink.classList.add('active');
+    //             }
+    //         }
 
-            // Track scroll position and update TOC active state
-            let ticking = false;
-            window.addEventListener('scroll', function () {
-                if (!ticking) {
-                    window.requestAnimationFrame(function () {
-                        updateActiveNavOnScroll();
-                        ticking = false;
-                    });
-                    ticking = true;
-                }
-            });
+    //         // Track scroll position and update TOC active state
+    //         let ticking = false;
+    //         window.addEventListener('scroll', function () {
+    //             if (!ticking) {
+    //                 window.requestAnimationFrame(function () {
+    //                     updateActiveNavOnScroll();
+    //                     ticking = false;
+    //                 });
+    //                 ticking = true;
+    //             }
+    //         });
 
-            function updateActiveNavOnScroll() {
-                const sections = document.querySelectorAll('section[id]');
-                const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
-                const scrollPosition = window.pageYOffset + tocHeight + 100;
+    //         function updateActiveNavOnScroll() {
+    //             const sections = document.querySelectorAll('section[id]');
+    //             const tocHeight = document.querySelector('.toc-section')?.offsetHeight || 0;
+    //             const scrollPosition = window.pageYOffset + tocHeight + 100;
 
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.offsetHeight;
-                    const sectionId = section.getAttribute('id');
+    //             sections.forEach(section => {
+    //                 const sectionTop = section.offsetTop;
+    //                 const sectionHeight = section.offsetHeight;
+    //                 const sectionId = section.getAttribute('id');
 
-                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                        document.querySelectorAll('.toc-nav-link').forEach(link => {
-                            link.classList.remove('active');
-                            if (link.getAttribute('href') === '#' + sectionId) {
-                                link.classList.add('active');
-                            }
-                        });
-                    }
-                });
-            }
+    //                 if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+    //                     document.querySelectorAll('.toc-nav-link').forEach(link => {
+    //                         link.classList.remove('active');
+    //                         if (link.getAttribute('href') === '#' + sectionId) {
+    //                             link.classList.add('active');
+    //                         }
+    //                     });
+    //                 }
+    //             });
+    //         }
 
-            // Add animation on scroll
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
+    //         // Add animation on scroll
+    //         const observerOptions = {
+    //             threshold: 0.1,
+    //             rootMargin: '0px 0px -50px 0px'
+    //         };
 
-            const observer = new IntersectionObserver(function (entries) {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, observerOptions);
+    //         const observer = new IntersectionObserver(function (entries) {
+    //             entries.forEach(entry => {
+    //                 if (entry.isIntersecting) {
+    //                     entry.target.style.opacity = '1';
+    //                     entry.target.style.transform = 'translateY(0)';
+    //                 }
+    //             });
+    //         }, observerOptions);
 
-            // Observe elements for animation
-            document.querySelectorAll('.hero-main-title, .hero-subtitle, .hero-cta-buttons, .hero-stats, .feature-box').forEach(el => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(20px)';
-                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-                observer.observe(el);
-            });
+    //         // Observe elements for animation
+    //         document.querySelectorAll('.hero-main-title, .hero-subtitle, .hero-cta-buttons, .hero-stats, .feature-box').forEach(el => {
+    //             el.style.opacity = '0';
+    //             el.style.transform = 'translateY(20px)';
+    //             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    //             observer.observe(el);
+    //         });
 
-            // Button click tracking (for analytics purposes)
-            document.querySelectorAll('.btn-book-appointment, .btn-request-callback').forEach(button => {
-                button.addEventListener('click', function (e) {
-                    const buttonText = this.textContent.trim();
-                    console.log(`Button clicked: ${buttonText}`);
-                    // Add your analytics tracking code here
-                });
-            });
-        });
-    </script>
+    //         // Button click tracking (for analytics purposes)
+    //         document.querySelectorAll('.btn-book-appointment, .btn-request-callback').forEach(button => {
+    //             button.addEventListener('click', function (e) {
+    //                 const buttonText = this.textContent.trim();
+    //                 console.log(`Button clicked: ${buttonText}`);
+    //                 // Add your analytics tracking code here
+    //             });
+    //         });
+    //     });
+    // </script>
 
     <?php include 'footer-links.php'; ?>
 

@@ -57,9 +57,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -646,6 +644,54 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Is teeth whitening safe?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, professional teeth whitening performed by a dentist is effective and safe. We use approved bleaching agents that protect your enamel while removing stubborn stains.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Why do my gums bleed when I brush?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Bleeding gums are a common sign of gum disease (gingivitis). It is usually caused by plaque buildup. Regular professional cleaning and good oral hygiene can reverse this condition.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    Do I need to remove my wisdom teeth?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Wisdom teeth extraction is necessary if they are impacted (stuck), causing pain, crowd other teeth, or leading to infection. If they erupt normally and are healthy, they may not need removal.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -678,3 +724,4 @@
 </body>
 
 </html>
+

@@ -57,8 +57,8 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Home Collection
+                            <a href="find-doctor.php" class="btn-book-appointment">
+                                Find Doctor
                             </a>
                             <a href="#callback" class="btn-request-callback">
                                 Get Reports Online
@@ -645,6 +645,54 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Yes, we offer home sample collection services within the city limits. You can book a home collection by calling our helpline number or through our website.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    What is a biopsy?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    A biopsy is a procedure to remove a small piece of tissue or a sample of cells from your body so that it can be examined under a microscope. It is the most accurate way to diagnose cancer and other conditions.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Why is it important to know my blood type?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Knowing your blood type is crucial if you ever need a blood transfusion or if you want to donate blood. It is also important during pregnancy to prevent complications related to Rh incompatibility.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    How accurate are the test results?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our pathology lab is NABL accredited and uses state-of-the-art automated analyzers. We follow strict quality control measures to ensure that every test result is highly accurate and reliable.
                                 </div>
                             </div>
                         </div>

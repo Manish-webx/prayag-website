@@ -58,9 +58,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -675,6 +673,54 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    What are common asthma triggers?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Triggers vary by person but often include allergens (pollen, dust mites, pet dander), smoke, air pollution, cold air, exercise, and respiratory infections. Identifying and avoiding your triggers is key to management.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Does the hospital offer help with quitting smoking?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we have a smoking cessation clinic where our specialists provide counseling and medication to help you quit smoking effectively and manage withdrawal symptoms.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    How long is the treatment for Tuberculosis?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    TB treatment typically lasts for 6 to 9 months, depending on the type and severity. It is crucial to complete the full course of medication exactly as prescribed to prevent drug-resistant TB.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -707,3 +753,4 @@
 </body>
 
 </html>
+

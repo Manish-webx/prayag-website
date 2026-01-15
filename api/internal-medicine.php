@@ -59,9 +59,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -703,6 +701,38 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    How often should I monitor my blood sugar levels?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Frequency depends on whether you have type 1 or type 2 diabetes and your treatment plan. Generally, patients on insulin may need to check multiple times a day, while others may check less frequently. Consult your doctor for a personalized schedule.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    What vaccinations are recommended for adults?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Common recommendations include the annual flu shot, Tdap (tetanus, diphtheria, pertussis) booster every 10 years, and vaccines for shingles, pneumonia, and hepatitis B depending on age and risk factors.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -715,3 +745,4 @@
 </body>
 
 </html>
+

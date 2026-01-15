@@ -57,8 +57,8 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Consult Dietician
+                            <a href="find-doctor.php" class="btn-book-appointment">
+                                Find Doctor
                             </a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Diet Chart
@@ -642,6 +642,54 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Yes, nutrition is crucial for healing. We provide high-protein, energy-rich diet plans specifically designed to help patients recover strength and heal wounds faster after surgery.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Can diet control diabetes?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, a balanced diet low in sugar and refined carbs is key to managing diabetes. Our nutritionists can create a customized meal plan to help keep your blood sugar levels stable.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    My child is a fussy eater, what should I do?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Fussy eating is common in children. Try to make food visually appealing, establish a routine, and avoid forcing them to eat. Consult our pediatric nutritionist for creative and healthy solutions.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    What should I eat during pregnancy?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    A balanced diet rich in iron, calcium, folic acid, and protein is essential. Eat plenty of fruits, vegetables, whole grains, and dairy. Avoid raw foods and limit caffeine. Our dieticians can guide you through each trimester.
                                 </div>
                             </div>
                         </div>

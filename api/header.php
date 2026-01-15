@@ -4,7 +4,7 @@
             <nav class="nav-row-first">
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Health Check-Ups</a>
+                        <a href="health-checkup.php" class="nav-link">Health Check-Ups</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -61,8 +61,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="our-hospitals.php">Our Hospitals</a></li>
                                     <li><a class="dropdown-item" href="about-us.php">Organization</a></li>
-                                    <li><a class="dropdown-item" href="#">Infrastructure</a></li>
-                                   
+                                    <li><a class="dropdown-item" href="infrastructure.php">Infrastructure</a></li>
                                     <li><a class="dropdown-item" href="careers.php">Careers</a></li>
                                 </ul>
                             </li>
@@ -232,44 +231,7 @@
             <!-- Mobile Navigation Menu -->
             <div class="collapse mobile-nav" id="mobileNav">
                 <ul class="mobile-menu">
-                    <!-- Health Checkups -->
-                    <li><a href="#health-checkups">Health Check-Ups</a></li>
-
-                    <!-- News & Media (Dropdown) -->
-                    <li>
-                        <a href="#mobileNews" data-bs-toggle="collapse" role="button" aria-expanded="false"
-                            aria-controls="mobileNews">
-                            News & Media
-                        </a>
-                        <ul class="collapse mobile-submenu" id="mobileNews">
-                            <li><a href="press-release.php">Press Releases</a></li>
-                            <li><a href="#">Media Coverage</a></li>
-                            <li><a href="events.php">Events</a></li>
-                            <li><a href="blog.php">Health Blog</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Social Initiatives -->
-                    <li><a href="social-initiatives.php">Social Initiatives</a></li>
-
-                    <!-- Academics (Dropdown) -->
-                    <li>
-                        <a href="#mobileAcademics" data-bs-toggle="collapse" role="button" aria-expanded="false"
-                            aria-controls="mobileAcademics">
-                            Academics
-                        </a>
-                        <ul class="collapse mobile-submenu" id="mobileAcademics">
-                            <li><a href="#">Medical Education</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="#">Training Programs</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Contact Us -->
-                    <li><a href="contact-us.php">Contact Us</a></li>
-
-                    <li class="divider"></li>
-
+                    
                     <!-- Prayag Group (Dropdown) -->
                     <li>
                         <a href="#mobileGroup" data-bs-toggle="collapse" role="button" aria-expanded="false"
@@ -277,15 +239,15 @@
                             Prayag Group
                         </a>
                         <ul class="collapse mobile-submenu" id="mobileGroup">
-                            <li><a href="#">Our Hospitals</a></li>
+                            <li><a href="our-hospitals.php">Our Hospitals</a></li>
                             <li><a href="about-us.php">Organization</a></li>
-                            <li><a href="#">Infrastructure</a></li>                           
+                            <li><a href="infrastructure.php">Infrastructure</a></li>                           
                             <li><a href="careers.php">Careers</a></li>
                         </ul>
                     </li>
 
                     <!-- Doctors -->
-                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="find-doctor.php">Doctors</a></li>
 
                     <!-- Specialities (Mega Menu converted to Accordion) -->
                     <li>
@@ -354,8 +316,46 @@
                     <!-- International Patients -->
                     <li><a href="international-patients.php">International Patients</a></li>
 
+                    <!-- Contact Us -->
+                    <li><a href="contact-us.php">Contact Us</a></li>
+
+                    <li class="divider"></li>
+
+                    <!-- Health Checkups -->
+                    <li><a href="health-checkup.php">Health Check-Ups</a></li>
+
+                    <!-- News & Media (Dropdown) -->
+                    <li>
+                        <a href="#mobileNews" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="mobileNews">
+                            News & Media
+                        </a>
+                        <ul class="collapse mobile-submenu" id="mobileNews">
+                            <li><a href="press-release.php">Press Releases</a></li>
+                            <li><a href="#">Media Coverage</a></li>
+                            <li><a href="events.php">Events</a></li>
+                            <li><a href="blog.php">Health Blog</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Social Initiatives -->
+                    <li><a href="social-initiatives.php">Social Initiatives</a></li>
+
+                    <!-- Academics (Dropdown) -->
+                    <li>
+                        <a href="#mobileAcademics" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="mobileAcademics">
+                            Academics
+                        </a>
+                        <ul class="collapse mobile-submenu" id="mobileAcademics">
+                            <li><a href="#">Medical Education</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Training Programs</a></li>
+                        </ul>
+                    </li>                    
+
                     <!-- CTA Buttons -->
-                    <li><a href="#appointment" class="btn btn-appointment w-100 mt-3">Book Appointment</a></li>
+                    <li><a href="#appointment" class="btn btn-appointment w-100 mt-3 mob-cta-btn">Book Appointment</a></li>
                 </ul>
             </div>
         </div>

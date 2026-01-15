@@ -59,9 +59,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -659,7 +657,7 @@
                         </div>
 
                         <!-- FAQ 4 -->
-                        <div class="accordion-item">
+                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
@@ -670,6 +668,38 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     ERCP can remove stones from the bile duct without surgery. However, stones in the gallbladder usually require laparoscopic cholecystectomy (gallbladder removal) to prevent recurrence and complications.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    At what age should I get a colonoscopy?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Guidelines suggest starting regular screening for colorectal cancer at age 45. However, if you have a family history or specific symptoms, your doctor may recommend starting earlier.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    What is the difference between IBS and IBD?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    IBS (Irritable Bowel Syndrome) is a functional disorder affecting the bowel's muscle contractions, causing pain and bowel changes but no damage. IBD (Inflammatory Bowel Disease), like Crohn's or Colitis, involves chronic inflammation and damage to the digestive tract.
                                 </div>
                             </div>
                         </div>
@@ -685,3 +715,4 @@
 </body>
 
 </html>
+

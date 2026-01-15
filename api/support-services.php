@@ -57,8 +57,8 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#ambulance" class="btn-book-appointment">
-                                Call Ambulance
+                            <a href="find-doctor.php" class="btn-book-appointment">
+                                Find Doctor
                             </a>
                             <a href="#tpa" class="btn-request-callback">
                                 TPA Assistance
@@ -493,6 +493,54 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     We have tie-ups with most major public and private insurance providers and TPAs. Please visit our TPA assistance desk in the lobby or check the TPA & Insurance page on our website for a complete list.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    What are the visiting hours for patients?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    General ward visiting hours are from 5:00 PM to 7:00 PM daily. For ICU patients, visiting is restricted to one family member for a short duration during specified hours. Please check with the reception for current timings.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Can I bring food from outside for the patient?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    To ensure hygiene and proper nutrition, we generally do not allow outside food for in-patients. Our dietary department provides customized, healthy meals prescribed by the dietician.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    Is parking available at the hospital?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we have ample parking space available for patients and visitors within the hospital premises. Valet parking services are also available during peak hours.
                                 </div>
                             </div>
                         </div>

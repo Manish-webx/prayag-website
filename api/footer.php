@@ -47,6 +47,7 @@
                                 <li><a href="feedback.php">Feedback</a></li>
                                 <li><a href="#international">International Patients</a></li>
                                 <li><a href="health-checkup.php">Preventive Health</a></li>
+                                <li><a href="blog.php">Health Blog</a></li>
                             </ul>
                         </div>
 
@@ -97,13 +98,12 @@
                             <h4 class="footer-title">Corporate</h4>
                             <ul class="footer-links">
                                 <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="infrastructure.php">Infrastructure</a></li>
                                 <li><a href="about-us.php">Leadership</a></li>
                                 <li><a href="press-release.php">Press Releases</a></li>
                                 <li><a href="events.php">Events</a></li>
                                 <li><a href="corporate-services.php">Corporate Services</a></li>
                                 <li><a href="careers.php">Careers</a></li>
-                                <li><a href="blog.php">Health Blog</a></li>
-                                <li><a href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                                         <i class="fas fa-phone-alt"></i>
                                         <span>
                                             <strong>Emergency:</strong> <a href="tel:+918811780937">+91
-                                                8811780937</a>
+                                                8811780937</a><br>
                                             <strong>Reception:</strong> <a href="tel:01244086666">0124-4086666</a>
                                         </span>
                                     </li>

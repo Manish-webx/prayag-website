@@ -58,8 +58,8 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="tel:+918811780937" class="btn-book-appointment">
-                                Call Emergency
+                            <a href="find-doctor.php" class="btn-book-appointment">
+                                Find Doctor
                             </a>
                             <a href="#appointment" class="btn-request-callback">
                                 Book Appointment
@@ -660,6 +660,54 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Yes, we accept all major health insurance providers. In emergency cases, treatment is prioritized over paperwork. Our TPA desk will assist with the insurance claim process once the patient fails stabilized.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Is Prayag Hospital a designated Trauma Center?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we are a Level 1 Trauma Center equipped to handle severe injuries from accidents, falls, and violence. We have a dedicated trauma team including surgeons, anesthesiologists, and critical care specialists available 24/7.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Do you handle pediatric emergencies?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely. We have specialized pediatric emergency protocols and a team of pediatricians on call to handle medical emergencies for infants, children, and adolescents.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    Why do wait times vary in the ER?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    In the ER, patients are seen based on the severity of their condition (triage), not first-come-first-served. Life-threatening cases are treated immediately, which may cause wait times for less critical conditions. We appreciate your patience.
                                 </div>
                             </div>
                         </div>

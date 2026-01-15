@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <div class="section-header-center text-center mb-5">
+                    <div class="section-header-center text-center">
                         <h2 class="section-title" style="color: var(--dark-text); font-weight: 700;">Admission Process Flow</h2>
                     </div>
 

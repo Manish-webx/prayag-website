@@ -57,7 +57,7 @@ $insurance_companies = [
     <!-- Cashless Process Section -->
     <section class="tpa-content-section">
         <div class="container">
-            <div class="section-header-center text-center mb-5">
+            <div class="section-header-center text-center">
                 <h2 class="section-title" style="color: var(--dark-text); font-weight: 700;">Cashless Hospitalization Process</h2>
                 <p style="color: var(--light-text); max-width: 600px; margin: 0 auto;">Simple steps to avail cashless facilities at Prayag Hospital</p>
             </div>

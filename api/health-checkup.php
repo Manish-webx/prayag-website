@@ -8,115 +8,9 @@
 
     <?php include 'header-links.php'; ?>
 
-    <style>
+     <style>
         .doctor-card {
             width: 100% !important;
-        }
-
-        /* Package Card Styles */
-        .package-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-            height: 100%;
-            border: 1px solid #eee;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .package-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-            border-color: #138968;
-        }
-
-        .package-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background:  #138968;
-        }
-
-        .package-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(32, 201, 151, 0.1);
-            color: #138968;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        .package-title {
-            font-size: 1.35rem;
-            font-weight: 700;
-            color: #2c3e50;
-            margin-bottom: 12px;
-        }
-        
-        .package-subtitle {
-             font-size: 0.9rem;
-             color: #888;
-             margin-bottom: 20px;
-             font-weight: 500;
-             text-transform: uppercase;
-             letter-spacing: 0.5px;
-        }
-
-        .package-features {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 25px 0;
-            flex-grow: 1;
-        }
-
-        .package-features li {
-            position: relative;
-            padding-left: 25px;
-            margin-bottom: 10px;
-            color: #555;
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-
-        .package-features li::before {
-            content: '\f00c'; /* FontAwesome check */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            top: 2px;
-            color: #138968;
-            font-size: 0.85rem;
-        }
-
-        .btn-package {
-            padding: 12px 20px;
-            background-color: transparent;
-            color: #138968;
-            border: 2px solid #138968;
-            border-radius: 6px;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            width: 100%;
-            display: inline-block;
-        }
-
-        .btn-package:hover {
-            background-color: #138968;
-            color: #fff;
         }
     </style>
 </head>
@@ -157,14 +51,14 @@
                         <h1 class="hero-main-title">
                             Preventive Health Checkups
                         </h1>
-                        <p class="hero-subtitle" style="color:#000 !important">
+                        <p class="hero-subtitle text-dark">
                             Prevention is better than cure. Our comprehensive health checkup packages are designed to detect health issues early, ensuring a longer, healthier, and happier life for you and your family.
                         </p>
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#packages" class="btn-book-appointment">
-                                View Packages
+                            <a href="find-doctor.php" class="btn-book-appointment">
+                                Find Doctor
                             </a>
                             <a href="#callback" class="btn-request-callback">
                                 Book Now
@@ -329,117 +223,118 @@
                 </p>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 <!-- Basic Plan -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-clinic-medical"></i>
                         </div>
-                        <h3 class="package-title">Basic Health Check</h3>
-                        <p class="package-subtitle">Essential Screening</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Basic Health Check</h3>
+                        <p class="health-package-subtitle">Essential Screening</p>
+                        <ul class="health-package-features">
                             <li>Complete Blood Count (CBC)</li>
                             <li>Random Blood Sugar</li>
                             <li>Lipid Profile (Cholesterol)</li>
                             <li>Kidney Function Test</li>
                             <li>Physician Consultation</li>
                         </ul>
-                        
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
 
                 <!-- Executive Plan -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-briefcase-medical"></i>
                         </div>
-                        <h3 class="package-title">Executive Health Check</h3>
-                        <p class="package-subtitle">For Working Professionals</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Executive Health Check</h3>
+                        <p class="health-package-subtitle">For Working Professionals</p>
+                        <ul class="health-package-features">
                             <li>All Basic Tests</li>
                             <li>Liver Function Test</li>
                             <li>ECG (Electrocardiogram)</li>
                             <li>Chest X-Ray</li>
                             <li>Urine Routine Analysis</li>
                         </ul>
-                        
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
 
                 <!-- Master Plan -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-crown"></i>
                         </div>
-                        <h3 class="package-title">Master Health Check</h3>
-                        <p class="package-subtitle">Comprehensive Care</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Master Health Check</h3>
+                        <p class="health-package-subtitle">Comprehensive Care</p>
+                        <ul class="health-package-features">
                             <li>All Executive Tests</li>
                             <li>TMT / Echo</li>
                             <li>Ultrasound Abdomen</li>
                             <li>Vitamin D & B12 Screening</li>
                             <li>Thyroid Profile (T3, T4, TSH)</li>
                         </ul>
-                        
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
 
                 <!-- Heart Checkup -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-heartbeat"></i>
                         </div>
-                        <h3 class="package-title">Healthy Heart</h3>
-                        <p class="package-subtitle">Cardiac Screening</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Healthy Heart</h3>
+                        <p class="health-package-subtitle">Cardiac Screening</p>
+                        <ul class="health-package-features">
                             <li>Lipid Profile (Detailed)</li>
                             <li>ECG & ECHO/TMT</li>
                             <li>Chest X-Ray</li>
                             <li>Cardiologist Consultation</li>
                             <li>Dietician Consultation</li>
                         </ul>
-                        
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
 
                 <!-- Women's Wellness -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-female"></i>
                         </div>
-                        <h3 class="package-title">Women's Wellness</h3>
-                        <p class="package-subtitle">Specially for Women</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Women's Wellness</h3>
+                        <p class="health-package-subtitle">Specially for Women</p>
+                        <ul class="health-package-features">
                             <li>Pap Smear / Mammography (>40y)</li>
                             <li>Thyroid Profile (TSH)</li>
                             <li>Iron Deficiency Profile</li>
                             <li>Blood Sugar & CBC</li>
                             <li>Gynaecologist Consultation</li>
                         </ul>
-                        
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
 
                 <!-- Diabetes Check -->
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="package-card">
-                        <div class="package-icon">
+                    <div class="health-package-card">
+                        <div class="health-package-icon">
                             <i class="fas fa-tint"></i>
                         </div>
-                        <h3 class="package-title">Diabetes Care</h3>
-                        <p class="package-subtitle">Sugar Control</p>
-                        <ul class="package-features">
+                        <h3 class="health-package-title">Diabetes Care</h3>
+                        <p class="health-package-subtitle">Sugar Control</p>
+                        <ul class="health-package-features">
                             <li>HbA1c (3 Months Average)</li>
                             <li>Fasting & PP Blood Sugar</li>
                             <li>Urine Microalbumin</li>
                             <li>Creatinine & Eye Checkup</li>
                             <li>Diabetologist Consultation</li>
-                        </ul>                        
+                        </ul>
+                        <a href="contact-us.php" class="btn-health-package">Enquire Now</a>
                     </div>
                 </div>
             </div>
@@ -543,7 +438,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Doctors Section -->
     <section class="doctors-section" id="doctors">
         <div class="container">
@@ -730,6 +625,54 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     You should take your blood pressure medication as usual. However, please delay your diabetes medication until after your fasting blood sample is drawn. Consult your doctor if unsure.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Can I customize my health checkup package?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer tailored packages to suit individual needs. You can add specific tests to any standard package based on your doctor's recommendation or your personal concerns.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    How long does the entire checkup take?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    A standard health checkup typically takes about 3 to 4 hours to complete all tests and consultations. We have a dedicated lounge to ensure the process is comfortable and quick.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    Is a doctor consultation included?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, all our health checkup packages include a physical examination and consultation with a physician to review your reports and provide personalized health advice.
                                 </div>
                             </div>
                         </div>

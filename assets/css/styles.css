@@ -2976,14 +2976,20 @@ a {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     #doctorsGrid {
         grid-template-columns: 1fr;
     }
 
     .find-doctor-card {
-        max-width: 350px;
-        margin: 0 auto;
+        max-width: 100%;
+        /* Allow full width */
+        margin: 0 0 20px 0;
+    }
+
+    .find-doctor-card .doctor-card-image {
+        height: 300px;
+        /* Taller image on mobile */
     }
 }
 
@@ -3824,20 +3830,6 @@ a {
     overflow: hidden;
 }
 
-.btn-book-appointment-doc::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background: var(--prayag-orange);
-    transition: width 0.5s ease, height 0.5s ease, top 0.5s ease, left 0.5s ease;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-}
-
 .btn-book-appointment-doc:hover::before {
     width: 250px;
     height: 250px;
@@ -3967,7 +3959,7 @@ a {
     }
 
     .doctors-header {
-        margin-bottom: 35px;
+        margin-bottom: 15px;
     }
 
     .doctors-slider-wrapper {
@@ -4228,7 +4220,7 @@ body {
            ================================================ */
 .hero-section {
     position: relative;
-    background-color: #f8f9fa;
+    background-color: #daede67a;
     padding: 0;
     overflow: hidden;
 }
@@ -4384,7 +4376,7 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 /* Responsive Styles */
@@ -4518,7 +4510,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: var(--dark-text);
-    margin-bottom: 8px;
+    margin-bottom: 1px;
     line-height: 1.3;
 }
 
@@ -4532,17 +4524,17 @@ body {
 /* Responsive Styles for Features */
 @media (max-width: 991px) {
     .features-section {
-        padding: 40px 0;
+        padding-top: 40px;
     }
 
     .feature-box {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
 @media (max-width: 767px) {
     .feature-box {
-        padding: 20px;
+        padding: 2px;
         gap: 15px;
     }
 
@@ -4893,7 +4885,7 @@ body {
     font-size: 14px;
     color: var(--light-text);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     flex-grow: 1;
 }
 
@@ -6942,6 +6934,8 @@ body {
     padding: 40px 0;
     position: relative;
     overflow: hidden;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .blog-hero-section::after {
@@ -7554,6 +7548,8 @@ body {
 @media (max-width: 767px) {
     .blog-hero-section {
         padding: 50px 0 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 
     .blog-hero-title {
@@ -10243,4 +10239,116 @@ iframe {
     color: var(--prayag-teal);
     margin-right: 8px;
     font-size: 12px;
+}
+
+/* Health Checkup Page Styles */
+.health-package-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.health-package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--prayag-teal);
+}
+
+.health-package-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--prayag-teal);
+}
+
+.health-package-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(19, 137, 104, 0.1);
+    color: var(--prayag-teal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.health-package-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.health-package-subtitle {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.health-package-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+    flex-grow: 1;
+}
+
+.health-package-features li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.health-package-features li::before {
+    content: '\f00c';
+    /* FontAwesome check */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--prayag-teal);
+    font-size: 0.85rem;
+}
+
+.btn-health-package {
+    padding: 12px 20px;
+    background-color: transparent;
+    color: var(--prayag-teal);
+    border: 2px solid var(--prayag-teal);
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+    display: inline-block;
+}
+
+.btn-health-package:hover {
+    background-color: var(--prayag-teal);
+    color: #fff;
+}
+
+.mob-cta-btn {
+    background-color: var(--prayag-orange) !important;
+    color: #fff !important;
 }

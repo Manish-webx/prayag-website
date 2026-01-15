@@ -58,9 +58,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
-                            </a>
+                            <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
                                 Request Callback
                             </a>
@@ -660,7 +658,7 @@
                         </div>
 
                         <!-- FAQ 4 -->
-                        <div class="accordion-item">
+                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
@@ -671,6 +669,38 @@
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     PCOD (Polycystic Ovarian Disease) is primarily managed through lifestyle modifications such as diet and exercise to control weight. Medications may be prescribed to regulate periods, balance hormones, or treat infertility if needed.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    What constitutes a high-risk pregnancy?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    A pregnancy is considered high-risk if there are potential complications that could affect the mother, the baby, or both. Factors include advanced maternal age, existing medical conditions (like diabetes or high BP), and multiple pregnancies (twins/triplets).
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                    What are common signs of menopause and how are they treated?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Common signs include hot flashes, night sweats, mood changes, and sleep disturbances. Treatment options depend on severity and may include lifestyle changes, hormone replacement therapy (HRT), or non-hormonal medications to manage specific symptoms.
                                 </div>
                             </div>
                         </div>
@@ -686,3 +716,4 @@
 </body>
 
 </html>
+

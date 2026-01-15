@@ -94,7 +94,7 @@ $events = [
     </section>
 
     <!-- Events Grid Section -->
-    <section class="events-section" style="padding: 60px 0; background-color: #f9f9f9;">
+    <section class="events-section" style="padding: 40px 0; background-color: #f9f9f9;">
         <div class="container">
             <!-- Filter Tabs -->
             <div class="d-flex justify-content-center mb-5">
