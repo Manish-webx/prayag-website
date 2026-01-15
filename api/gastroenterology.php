@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Gastroenterology
@@ -328,7 +328,39 @@
             </div>
 
             <div class="row g-4">
-                <!-- Service 1 -->
+                <!-- Service 1: Medical Gastroenterology -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Medical Gastroenterology</h3>
+                        <p class="treatment-card-description">
+                            Medical Gastroenterology & Digestive Care. Treatment for Acidity, GERD & IBS.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Hepatology -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Hepatology (Liver Care)</h3>
+                        <p class="treatment-card-description">
+                            Hepatology & Liver Disease Clinic. Management of Fatty Liver, Jaundice & Hepatitis.
+                        </p>
+                        <a href="#" class="treatment-card-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Endoscopy -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
@@ -336,90 +368,10 @@
                         </div>
                         <h3 class="treatment-card-title">Endoscopy & Colonoscopy</h3>
                         <p class="treatment-card-description">
-                            Visual examination of the upper and lower GI tract to diagnose ulcers, cancers, and other abnormalities.
+                            Endoscopy & Colonoscopy Services. Diagnostic & Therapeutic GI Procedures.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-x-ray"></i>
-                        </div>
-                        <h3 class="treatment-card-title">ERCP</h3>
-                        <p class="treatment-card-description">
-                            Endoscopic Retrograde Cholangiopancreatography to remove stones from bile and pancreatic ducts.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-flask"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Liver Function Tests</h3>
-                        <p class="treatment-card-description">
-                            Comprehensive biochemical tests and Fibroscan to assess liver health and detect fibrosis/cirrhosis early.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-syringe"></i>
-                        </div>
-                        <h3 class="treatment-card-title">GI Cancer Screening</h3>
-                        <p class="treatment-card-description">
-                            Early detection programs for stomach, colon, and liver cancers for better treatment outcomes.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-user-injured"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Foreign Body Removal</h3>
-                        <p class="treatment-card-description">
-                            Emergency endoscopic removal of swallowed coins, batteries, or bones from the digestive tract.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-weight"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Weight Loss (Balloon)</h3>
-                        <p class="treatment-card-description">
-                            Non-surgical insertion of gastric balloons to aid in significant weight loss for obese patients.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

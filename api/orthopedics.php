@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Orthopedics
@@ -50,12 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre for Orthopedics & Joint Replacement | Top Bone Hospital - Prayag Hospital
+                            Department of Orthopedics & Joint Replacement
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers comprehensive care for bone, joint, and spine disorders. 
-                            From complex trauma surgeries to partial and total joint replacements, our expert team ensures 
-                            pain-free movement and rapid recovery.
+                            Bone, Joint & Spine Care Excellence
                         </p>
 
                         <!-- CTA Buttons -->
@@ -332,56 +330,40 @@
                 </p>
             </div>
 
-            <div class="row g-4">
-                <!-- Treatment Card 1 -->
+            <div class="row g-4 justify-content-center">
+                <!-- Treatment Card 1: Joint Replacement -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-bone"></i>
                         </div>
-                        <h3 class="treatment-card-title">Total Knee Replacement</h3>
+                        <h3 class="treatment-card-title">Total Knee & Hip Replacement Surgery</h3>
                         <p class="treatment-card-description">
-                            Advanced surgical procedure to replace a damaged knee joint with an artificial joint for pain relief and improved mobility.
+                            Robot-Assisted & Minimally Invasive Joint Surgery for precision and faster recovery.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Treatment Card 2 -->
+                <!-- Treatment Card 2: Arthroscopy -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-wheelchair"></i>
+                            <i class="fas fa-running"></i>
                         </div>
-                        <h3 class="treatment-card-title">Total Hip Replacement</h3>
+                        <h3 class="treatment-card-title">Arthroscopy & Sports Injury Clinic</h3>
                         <p class="treatment-card-description">
-                            Surgical replacement of the hip joint using durable prosthetics to treat severe arthritis or hip fractures.
+                             Ligament Repair (ACL/PCL) & Shoulder Arthroscopy. Specialized care for sports-related injuries.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Treatment Card 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-microscope"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Arthroscopic Surgery</h3>
-                        <p class="treatment-card-description">
-                            Minimally invasive keyhole surgery to diagnose and treat joint problems in the knee, shoulder, and ankle.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Treatment Card 4 -->
+                <!-- Treatment Card 3: Fracture Fixation -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
@@ -392,12 +374,12 @@
                             Internal and external fixation procedures for complex bone fractures to ensure proper union and healing.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Treatment Card 5 -->
+                <!-- Treatment Card 4: Spine Surgery -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
@@ -408,23 +390,7 @@
                             Treatment for disc herniation, spinal canal stenosis, and spinal deformities using minimally invasive techniques.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Treatment Card 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-running"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Sports Injury Management</h3>
-                        <p class="treatment-card-description">
-                            Specialized care for athletes including ligament reconstruction (ACL/PCL) and cartilage repair.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

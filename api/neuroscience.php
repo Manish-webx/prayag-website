@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Neuroscience
@@ -345,7 +345,7 @@
                             Treatment for Stroke, Epilepsy, and Migraine. Our top-rated Neurologists in Noida specialize in advanced stroke treatment in G B Nagar.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                             Brain Tumor Removal & Spinal Cord Surgery. Expert Neurosurgeons in Noida offering affordable Spine Surgery cost in Sector 41.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -377,7 +377,7 @@
                             EEG (Electroencephalogram) & EMG/EP Studies. Best EEG Test Price in Noida at our EMG Test Centre in Sector 41.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Psychiatry
@@ -309,9 +309,6 @@
                         <p class="treatment-card-description">
                             Medical management using safe and effective medications like antidepressants, mood stabilizers, and antipsychotics under strict supervision.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -325,9 +322,6 @@
                         <p class="treatment-card-description">
                             Talk therapy sessions including CBT (Cognitive Behavioural Therapy) to help patients understand and manage their thoughts and behaviors.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -341,9 +335,6 @@
                         <p class="treatment-card-description">
                              Detoxification and rehabilitation programs for alcohol and substance abuse, including motivation enhancement therapy.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -357,9 +348,6 @@
                         <p class="treatment-card-description">
                             Assessing and treating developmental and behavioral issues in children, such as ADHD, learning disabilities, and autism.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -373,9 +361,6 @@
                         <p class="treatment-card-description">
                             Counseling involving family members to resolve conflicts and improve communication, essential for holistic recovery.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -389,9 +374,6 @@
                         <p class="treatment-card-description">
                             Treatment of mental disorders attributable to diseases of the nervous system, like epilepsy-related psychosis or post-stroke depression.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

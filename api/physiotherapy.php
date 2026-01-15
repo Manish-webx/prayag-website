@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dental Science & Implant Centre - Best Dental Hospital | Prayag Hospital</title>
+    <title>Physiotherapy & Rehabilitation - Restore Your Movement | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -35,7 +35,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Dental Science
+                            Physiotherapy & Rehab
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Centre for Dental Sciences
+                            Department of Physiotherapy & Rehabilitation
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers comprehensive dental care ranging from routine check-ups to advanced cosmetic and maxillofacial surgeries. Our goal is to provide painless, high-quality dentistry for your perfect smile.
+                            Prayag Hospital’s physiotherapy centre helps you regain strength, mobility, and function. We offer expert rehabilitation services for post-surgical recovery, sports injuries, and chronic pain management.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -68,8 +68,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Complete Oral Care</strong>
-                                Specialized in Dental Implants, Orthodontics, Root Canal Treatment, and Smile Makeovers using the latest technology.
+                                <strong>Restore Movement</strong>
+                                Comprehensive care including Orthopedic Rehab, Neuro Rehab, Sports Medicine, and Pain Management using advanced modalities.
                             </div>
                         </div>
                     </div>
@@ -78,8 +78,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf4722e63?w=800&h=600&fit=crop"
-                                    alt="Dental Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+                                    alt="Physiotherapy at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -96,16 +96,16 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                    <a href="#services" class="toc-nav-link">Our Services</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Treatments</a>
+                    <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Therapists</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
@@ -125,10 +125,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-tooth"></i>
+                            <i class="fas fa-bone"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Dental Implants</h3>
+                            <h3 class="feature-title">Orthopedic Rehab</h3>
                         </div>
                     </div>
                 </div>
@@ -137,10 +137,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-teeth-open"></i>
+                            <i class="fas fa-brain"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Orthodontics</h3>
+                            <h3 class="feature-title">Neuro Rehabilitation</h3>
                         </div>
                     </div>
                 </div>
@@ -149,10 +149,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-magic"></i>
+                            <i class="fas fa-running"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Cosmetic Dentistry</h3>
+                            <h3 class="feature-title">Sports Injuries</h3>
                         </div>
                     </div>
                 </div>
@@ -161,10 +161,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-child"></i>
+                            <i class="fas fa-hands-helping"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Paediatric Dentistry</h3>
+                            <h3 class="feature-title">Manual Therapy</h3>
                         </div>
                     </div>
                 </div>
@@ -176,125 +176,125 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">World-Class Dental Care</h2>
+                <h2 class="overview-heading">Expert Rehabilitation Care</h2>
                 <p class="overview-text">
-                    The Department of Dental Science at Prayag Hospital is equipped with state-of-the-art dental chairs and advanced diagnostic imaging technology to provide holistic oral healthcare. We cater to all dental needs, from preventive care and routine hygiene to complex full-mouth rehabilitation.
+                    The Department of Physiotherapy & Rehabilitation at Prayag Hospital is dedicated to improving the quality of life for patients suffering from physical impairments or disabilities. Our goal is to restore maximum function and independence.
                 </p>
                 <p class="overview-text">
-                    Our team consists of specialists in Endodontics, Orthodontics, Prosthodontics, Periodontics, and Oral Surgery. We prioritize patient comfort, utilizing the latest techniques in painless dentistry and conscious sedation where necessary.
+                    We have a fully equipped rehabilitation gym with the latest exercise stations and electrotherapy modalities. Our team of highly qualified physiotherapists creates personalized treatment plans for each patient, monitoring progress at every step.
                 </p>
                 <p class="overview-text">
-                    We strictly adhere to the highest international standards of sterilization and infection control to ensure a safe environment for every patient. Whether you need a simple filling, a root canal, or advanced maxillofacial surgery, Prayag Hospital is your trusted partner for a healthy smile.
+                    Whether you are recovering from a major surgery like a joint replacement, suffering from chronic back pain, or rehabilitating after a stroke, our compassionate experts are here to guide you on your road to recovery.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop"
-                    alt="Dental Clinic" class="overview-image">
+                <img src="https://images.unsplash.com/photo-1591117207239-0195ee69d906?w=800&h=600&fit=crop"
+                    alt="Rehabilitation Gym" class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-x-ray"></i>
-                    <h4>Digital Diagnostics</h4>
-                    <p>Advanced OPG and RVG digital x-rays for precise diagnosis with minimal radiation.</p>
+                    <i class="fas fa-dumbbell"></i>
+                    <h4>Advanced Gym</h4>
+                    <p>Modern equipment for strength training, balance coordination, and endurance building.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-pump-soap"></i>
-                    <h4>Sterilization</h4>
-                    <p>Rigorous 7-step sterilization protocol to prevent cross-infection and ensure safety.</p>
+                    <i class="fas fa-user-check"></i>
+                    <h4>Personalized Care</h4>
+                    <p>One-on-one sessions with therapists to ensure exercises are performed correctly.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-smile-beam"></i>
-                    <h4>Painless Dentistry</h4>
-                    <p>Modern anesthesia and techniques to make your dental visit anxiety-free and comfortable.</p>
+                    <i class="fas fa-bolt"></i>
+                    <h4>Electrotherapy</h4>
+                    <p>Latest modalities like Laser, Ultrasound, and IFT for effective pain management.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Conditions We Treat Section -->
+    <!-- Services Section -->
     <section class="conditions-section" id="conditions">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Expert management for all oral and dental health issues.
+                    Comprehensive rehabilitation for various physical ailments.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Tooth Decay (Cavities)</h3>
+                        <h3 class="condition-name">Back & Neck Pain</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Gum Disease (Pyorrhea)</h3>
+                        <h3 class="condition-name">Arthritis (Osteoarthritis)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Root Canal Infections</h3>
+                        <h3 class="condition-name">Frozen Shoulder</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Missing Teeth</h3>
+                        <h3 class="condition-name">Stroke Paralysis</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Crooked/Misaligned Teeth</h3>
+                        <h3 class="condition-name">Sports Injuries (ACL/PCL)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Impacted Wisdom Teeth</h3>
+                        <h3 class="condition-name">Post-Fracture Stiffness</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Dental Trauma</h3>
+                        <h3 class="condition-name">Cerebral Palsy</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Bad Breath (Halitosis)</h3>
+                        <h3 class="condition-name">Spinal Cord Injuries</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Stained/Discolored Teeth</h3>
+                        <h3 class="condition-name">Tennis/Golfer's Elbow</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Jaw Joint Pain (TMJ)</h3>
+                        <h3 class="condition-name">Plantar Fasciitis</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Oral Cysts & Tumors</h3>
+                        <h3 class="condition-name">Sciatica</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Sensitivity</h3>
+                        <h3 class="condition-name">Post-Operative Rehab</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Types of Treatment Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <!-- Services/Treatments Section -->
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Dental Treatments</h2>
+                <h2 class="section-title">Therapies & Techniques</h2>
                 <p class="section-subtitle">
-                    Advanced procedures to restore function and aesthetics.
+                    Evidence-based techniques to speed up recovery.
                 </p>
             </div>
 
@@ -303,11 +303,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-tooth"></i>
+                            <i class="fas fa-hand-holding-medical"></i>
                         </div>
-                        <h3 class="treatment-card-title">Root Canal Treatment (RCT)</h3>
+                        <h3 class="treatment-card-title">Manual Therapy</h3>
                         <p class="treatment-card-description">
-                            Single-sitting microscopic root canal therapy to save infected teeth from extraction.
+                            Hands-on techniques like mobilization and manipulation to reduce pain and improve range of motion.
                         </p>
                     </div>
                 </div>
@@ -316,11 +316,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-tools"></i>
+                            <i class="fas fa-bolt"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dental Implants</h3>
+                        <h3 class="treatment-card-title">Electrotherapy</h3>
                         <p class="treatment-card-description">
-                            Permanent replacement for missing teeth using titanium implants that look and feel natural.
+                            Use of TENS, IFT, and Ultrasound therapy to treat acute and chronic pain and inflammation.
                         </p>
                     </div>
                 </div>
@@ -329,11 +329,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-smile"></i>
+                            <i class="fas fa-running"></i>
                         </div>
-                        <h3 class="treatment-card-title">Orthodontic Braces</h3>
+                        <h3 class="treatment-card-title">Exercise Therapy</h3>
                         <p class="treatment-card-description">
-                             Correction of misaligned teeth using metal braces, ceramic braces, or invisible aligners.
+                             Customized exercise programs for strengthening, stretching, and improving balance and coordination.
                         </p>
                     </div>
                 </div>
@@ -342,11 +342,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-crown"></i>
+                            <i class="fas fa-baby"></i>
                         </div>
-                        <h3 class="treatment-card-title">Crowns & Bridges</h3>
+                        <h3 class="treatment-card-title">Pediatric Rehab</h3>
                         <p class="treatment-card-description">
-                            High-quality Zirconia and ceramic caps to restore damaged teeth or bridge the gap of missing ones.
+                            Specialized therapy for children with developmental delays, cerebral palsy, and other congenital conditions.
                         </p>
                     </div>
                 </div>
@@ -355,11 +355,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-magic"></i>
+                            <i class="fas fa-tape"></i>
                         </div>
-                        <h3 class="treatment-card-title">Teeth Whitening</h3>
+                        <h3 class="treatment-card-title">Kinesio Taping</h3>
                         <p class="treatment-card-description">
-                            Professional laser bleaching procedures to brighten your smile instantly.
+                            Application of therapeutic tape to support muscles and joints without restricting motion.
                         </p>
                     </div>
                 </div>
@@ -368,11 +368,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-hospital-user"></i>
+                            <i class="fas fa-lungs"></i>
                         </div>
-                        <h3 class="treatment-card-title">Oral Surgery</h3>
+                        <h3 class="treatment-card-title">Cardio-Pulmonary Rehab</h3>
                         <p class="treatment-card-description">
-                            Surgical extraction of wisdom teeth, cyst removal, and jaw fracture management.
+                            Rehabilitation for patients recovering from heart attacks, heart surgery, or lung diseases like COPD.
                         </p>
                     </div>
                 </div>
@@ -384,9 +384,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Dental Care?</h2>
+                <h2 class="section-title">Why Prayag Physiotherapy?</h2>
                 <p class="section-subtitle">
-                    We combine expertise, technology, and care to give you the best dental experience.
+                    We help you get back to the life you love.
                 </p>
             </div>
 
@@ -394,61 +394,61 @@
             <div class="why-points-grid">
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-user-graduate"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Specialist Doctors</h4>
-                        <p>A team of MDS super-specialists covering every branch of dentistry.</p>
+                        <h4>Expert Therapists</h4>
+                        <p>Our team comprises qualified BPT and MPT professionals with specialized experience.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-shield-virus"></i>
+                        <i class="fas fa-cogs"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Hygiene & Safety</h4>
-                        <p>100% sterilization and disinfection protocols to ensure zero cross-contamination.</p>
+                        <h4>Holistic Approach</h4>
+                        <p>We treat the root cause of the problem, not just the symptoms, for long-term relief.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-home"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Modern Technology</h4>
-                        <p>Equipped with RVG, OPG, Apex Locators, and Physiodispensers for precise treatment.</p>
+                        <h4>Home Physiotherapy</h4>
+                        <p>We provide home visits for elderly or bedridden patients who cannot travel to the hospital.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-child"></i>
+                        <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Kid-Friendly</h4>
-                        <p>Specialized pediatric dentists and a friendly environment to make children comfortable.</p>
+                        <h4>Track Record</h4>
+                        <p>Thousands of satisfied patients who have successfully recovered and avoided surgeries.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-wallet"></i>
+                        <i class="fas fa-clinic-medical"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>Transparent pricing and affordable packages for implants and braces.</p>
+                        <h4>Modern Facility</h4>
+                        <p>Spacious, well-ventilated, and hygienic therapy halls tailored for rehabilitation.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-handshake"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Timely Service</h4>
-                        <p>Strict appointment adherence to value your time, with evening clinics available.</p>
+                        <h4>Team Work</h4>
+                        <p>We work in close coordination with Orthopedicians and Neurologists for optimal results.</p>
                     </div>
                 </div>
             </div>
@@ -459,29 +459,29 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Dental Specialists</h2>
+                <h2 class="section-title">Our Physiotherapists</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced dental surgeons.
+                   Dedicated professionals committed to your recovery.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $dental_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'dental' || $doctor['specialty_code'] === 'dentistry' || $doctor['specialty_code'] === 'orthodontics';
+                $physio_doctors = array_filter($doctors, function($doctor) {
+                    $is_physio_code = in_array($doctor['specialty_code'], ['physiotherapy', 'rehab', 'physiotherapist']);
+                    $is_diagnostics_physio = ($doctor['specialty_code'] === 'diagnostics' && stripos($doctor['specialty'], 'Physiotherapist') !== false);
+                     // Also check general surgery as fallback/placeholder if needed or if they are categorized there loosely in some datasets
+                    return $is_physio_code || $is_diagnostics_physio;
                 });
                 
                 // Fallback for demo if no docs found
-                if (empty($dental_doctors)) {
-                    // Placeholder logic: show any valid docs if specific ones missing in data
-                    $dental_doctors = array_filter($doctors, function($doctor) {
-                         return $doctor['specialty_code'] === 'general-surgery';
-                    });
-                     $dental_doctors = array_slice($dental_doctors, 0, 3);
+                if (empty($physio_doctors)) {
+                    // Placeholder logic to ensure section isn't empty in dev
+                     $physio_doctors = array_slice($doctors, 0, 3);
                 }
 
-                foreach ($dental_doctors as $doctor): 
+                foreach ($physio_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -517,9 +517,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Smiles</h2>
+                <h2 class="section-title-dark">Success Stories</h2>
                 <p class="section-subtitle-gray">
-                    Read what our patients have to say about their dental experience.
+                    Journeys of recovery and resilience.
                 </p>
             </div>
 
@@ -533,47 +533,47 @@
                         <!-- Testimonial 1 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Smile+Makeover"
-                                    alt="Smile Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Back+Pain+Relief"
+                                    alt="Back Pain Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I got a complete smile makeover with veneers. The results are stunning and I get so many compliments!"</p>
-                                <h4 class="testimonial-name">Ms. D. Kapoor</h4>
-                                <p class="testimonial-procedure">Smile Design</p>
+                                <p class="testimonial-text">"I suffered from severe back pain for years. After a month of physiotherapy at Prayag, I am pain-free and active again."</p>
+                                <h4 class="testimonial-name">Mr. K. Sharma</h4>
+                                <p class="testimonial-procedure">Back Pain Rehab</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 2 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Painless+RCT"
-                                    alt="RCT Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Knee+Recovery"
+                                    alt="Knee Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I was terrified of root canals, but the doctor at Prayag Hospital made it completely painless. Highly recommended."</p>
-                                <h4 class="testimonial-name">Mr. P. Sharma</h4>
-                                <p class="testimonial-procedure">Root Canal Treatment</p>
+                                <p class="testimonial-text">"The rehabilitation after my knee replacement was tough, but the therapists were very motivating and helped me walk within days."</p>
+                                <h4 class="testimonial-name">Mrs. L. Gupta</h4>
+                                <p class="testimonial-procedure">Post-Op Rehab</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 3 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Braces+Success" alt="Braces Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Stroke+Rehab" alt="Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My daughter's teeth are perfectly aligned now thanks to the orthodontic treatment. The doctors are very good with kids."</p>
-                                <h4 class="testimonial-name">Mrs. R. Singh</h4>
-                                <p class="testimonial-procedure">Orthodontics</p>
+                                <p class="testimonial-text">"My father had a stroke and couldn't move his right arm. Thanks to neuro-rehab, he has regained significant movement."</p>
+                                <h4 class="testimonial-name">Mr. A. Verma</h4>
+                                <p class="testimonial-procedure">Neuro Rehab</p>
                             </div>
                         </div>
                     </div>
@@ -592,7 +592,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about dental treatments.
+                    Common questions about physiotherapy.
                 </p>
             </div>
 
@@ -604,13 +604,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    Does a root canal hurt?
+                                    How many sessions will I need?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No, with modern anesthesia, a root canal is no more painful than getting a filling. In fact, it relieves the severe pain caused by tooth infection. You might feel some sensitivity for a few days after the procedure, which is normal.
+                                    The number of sessions depends on the severity of your condition and your rate of recovery. Our therapist will assess you on the first visit and provide an estimated treatment plan.
                                 </div>
                             </div>
                         </div>
@@ -620,13 +620,13 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    How long do dental implants last?
+                                    Do I need a doctor's referral?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Dental implants are designed to be a permanent solution. With proper oral hygiene (brushing, flossing) and regular check-ups, they can last a lifetime. The crown attached to the implant may need replacement after 10-15 years due to wear and tear.
+                                    While a referral is helpful, it is not strictly necessary. You can directly consult our physiotherapists for assessment and treatment. However, for post-surgical cases, a referral note is preferred.
                                 </div>
                             </div>
                         </div>
@@ -636,13 +636,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    When should my child see a dentist for the first time?
+                                    Is physiotherapy painful?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is recommended that a child sees a dentist by their first birthday or within 6 months after their first tooth appears. Early visits help prevent cavities and get the child used to the dental environment.
+                                    Physiotherapy aims to relieve pain, not cause it. You might feel some mild soreness or discomfort as you start moving stiff joints or muscles, but this is normal and usually subsides quickly. Always communicate your comfort level to your therapist.
                                 </div>
                             </div>
                         </div>

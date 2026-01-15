@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Ophthalmology
@@ -309,9 +309,6 @@
                         <p class="treatment-card-description">
                             Micro-incision cataract surgery with implantation of foldable Intraocular Lenses (IOLs) for quick visual rehabilitation.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -325,9 +322,6 @@
                         <p class="treatment-card-description">
                             Laser vision correction procedures to eliminate the need for glasses or contact lenses.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -341,9 +335,6 @@
                         <p class="treatment-card-description">
                              Advanced microsurgery for retinal detachment, diabetic retinopathy, and macular holes.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -357,9 +348,6 @@
                         <p class="treatment-card-description">
                             Medical management (drops), laser therapy (iridotomy), and surgery (trabeculectomy) to control eye pressure.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -373,9 +361,6 @@
                         <p class="treatment-card-description">
                             Surgical correction of misaligned eyes in children and adults to improve appearance and binocular vision.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -389,9 +374,6 @@
                         <p class="treatment-card-description">
                              Surgery for eyelid disorders (droopy eyelids), blocked tear ducts (DCR surgery), and cosmetic eye procedures.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

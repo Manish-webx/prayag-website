@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Urology
@@ -309,9 +309,6 @@
                         <p class="treatment-card-description">
                             Retrograde Intrarenal Surgery using a flexible scope and laser to crush kidney stones into dust without any cuts.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -325,9 +322,6 @@
                         <p class="treatment-card-description">
                             Minimally invasive laser surgery for enlarged prostate (BPH) offering rapid relief and quick discharge.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -341,9 +335,6 @@
                         <p class="treatment-card-description">
                              Keyhole surgery for kidney removal (nephrectomy), pyeloplasty, and cancer surgeries with minimal scarring.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -357,9 +348,6 @@
                         <p class="treatment-card-description">
                             Reconstructive surgery to treat narrowing of the urethra (stricture) and improve urine flow.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -373,9 +361,6 @@
                         <p class="treatment-card-description">
                             Correction of congenital defects like Hypospadias, PUV, and reflux in children.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -389,9 +374,6 @@
                         <p class="treatment-card-description">
                              Treatment for erectile dysfunction (implants) and male infertility (Micro-TESE, Varicocele surgery).
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

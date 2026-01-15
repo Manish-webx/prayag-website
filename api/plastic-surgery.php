@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Plastic Surgery
@@ -309,9 +309,6 @@
                         <p class="treatment-card-description">
                             Removal of stubborn fat deposits to reshape the body, including procedures like Tummy Tuck (Abdominoplasty).
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -325,9 +322,6 @@
                         <p class="treatment-card-description">
                              Surgical procedure to reshape the nose for aesthetic reasons or to correct breathing problems.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -341,9 +335,6 @@
                         <p class="treatment-card-description">
                             Includes Breast Augmentation, Breast Reduction, and Breast Lift surgeries for improved proportions.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -357,9 +348,6 @@
                         <p class="treatment-card-description">
                             Acute burn management and secondary procedures for burn contractures and scar revision using skin grafts.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -373,9 +361,6 @@
                         <p class="treatment-card-description">
                              Corrective surgeries for children born with cleft defects, improving feeding, speech, and appearance.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -389,9 +374,6 @@
                         <p class="treatment-card-description">
                             Repair of tendon injuries, nerve injuries, and re-implantation of severed digits using microscopic techniques.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

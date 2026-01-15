@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Renal Sciences (Kidney Care)
@@ -331,99 +331,35 @@
                 </p>
             </div>
 
-            <div class="row g-4">
-                <!-- Service 1 -->
+            <div class="row g-4 justify-content-center">
+                <!-- Service 1: Nephrology & Dialysis -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-kidneys"></i>
                         </div>
-                        <h3 class="treatment-card-title">Hemodialysis</h3>
+                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
                         <p class="treatment-card-description">
-                            24/7 dialysis unit providing life-sustaining treatment for patients with kidney failure.
+                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Service 2 -->
+                <!-- Service 2: Urology & Urodynamics -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-user-md"></i>
                         </div>
-                        <h3 class="treatment-card-title">Kidney Transplant Support</h3>
+                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
                         <p class="treatment-card-description">
-                            Pre-transplant evaluation and post-transplant follow-up care for kidney recipients.
+                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-microscope"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Kidney Biopsy</h3>
-                        <p class="treatment-card-description">
-                            Ultrasound-guided renal biopsy for accurate diagnosis of kidney diseases.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-tint"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Peritoneal Dialysis</h3>
-                        <p class="treatment-card-description">
-                            Support and training for home-based CAPD (Continuous Ambulatory Peritoneal Dialysis).
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-notes-medical"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Critical Care Nephrology</h3>
-                        <p class="treatment-card-description">
-                            Specialized management like CRRT (Continuous Renal Replacement Therapy) in ICU.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-apple-alt"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Renal Diet Counseling</h3>
-                        <p class="treatment-card-description">
-                            Expert dietary guidance to manage nutrient intake for kidney preservation.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

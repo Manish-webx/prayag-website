@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Obstetrics & Gynecology
@@ -50,12 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre for Obstetrics & Gynecology | Best Maternity Care - Prayag Hospital
+                            Department of Obstetrics & Gynecology
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers comprehensive women's health services, from adolescence to menopause. 
-                            Our dedicated maternity wing ensures safe deliveries, while our gynecology experts provide 
-                            advanced care for all reproductive health issues.
+                            Women's Health & Maternity Services
                         </p>
 
                         <!-- CTA Buttons -->
@@ -331,18 +329,18 @@
             </div>
 
             <div class="row g-4">
-                <!-- Service 1 -->
+                <!-- Service 1: High-Risk Obstetrics -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-baby-carriage"></i>
                         </div>
-                        <h3 class="treatment-card-title">Maternity Services</h3>
+                        <h3 class="treatment-card-title">High-Risk Pregnancy Care Unit</h3>
                         <p class="treatment-card-description">
-                            Complete antenatal care, normal vaginal delivery, painless delivery (Epidural), and Cesarean section (C-Section).
+                            Management of Preeclampsia & Gestational Diabetes. Specialized care for complex pregnancies and safe deliveries.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -358,7 +356,7 @@
                             Minimally invasive removal of uterus (Hysterectomy), fibroids (Myomectomy), and ovarian cysts.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -374,55 +372,7 @@
                             Diagnosis and treatment for infertility including follicular monitoring, IUI (Intrauterine Insemination), and IVF support.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-ribbon"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Cancer Screening</h3>
-                        <p class="treatment-card-description">
-                            Preventive health checks including Pap Smears, Mammography, and screening for cervical and breast cancers.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-user-friends"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Family Planning</h3>
-                        <p class="treatment-card-description">
-                            Contraceptive counseling, IUCD insertion, and permanent sterilization procedures (Tubal Ligation).
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-female"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Adolescent Health</h3>
-                        <p class="treatment-card-description">
-                            Guidance and treatment for puberty-related issues, PCOD/PCOS management, and menstrual irregularities.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

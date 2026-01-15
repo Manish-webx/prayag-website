@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Cancer Care (Oncology)
@@ -331,99 +331,35 @@
                 </p>
             </div>
 
-            <div class="row g-4">
-                <!-- Service 1 -->
+            <div class="row g-4 justify-content-center">
+                <!-- Service 1: Medical Oncology -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-pills"></i>
                         </div>
-                        <h3 class="treatment-card-title">Chemotherapy</h3>
+                        <h3 class="treatment-card-title">Medical Oncology</h3>
                         <p class="treatment-card-description">
-                            Use of powerful drugs to kill cancer cells, often used in combination with other therapies.
+                            Medical Oncology & Chemotherapy. Cancer Treatment & Immunotherapy.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-radiation"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Radiation Therapy</h3>
-                        <p class="treatment-card-description">
-                            High-energy beams to destroy cancer cells precisely while sparing healthy tissue.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-microscope"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Immunotherapy</h3>
-                        <p class="treatment-card-description">
-                            Empowering the body's own immune system to fight against cancer cells effective.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 4 -->
+                <!-- Service 2: Surgical Oncology -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-scalpel"></i>
                         </div>
-                        <h3 class="treatment-card-title">Cancer Surgery</h3>
+                        <h3 class="treatment-card-title">Surgical Oncology</h3>
                         <p class="treatment-card-description">
-                            Curative surgeries for removal of tumors, including minimally invasive options.
+                            Surgical Oncology & Cancer Surgery. Tumor Removal & Advanced Procedures.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-dna"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Targeted Therapy</h3>
-                        <p class="treatment-card-description">
-                            Drugs targeting specific genetic changes in cancer cells to stop their growth.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-dove"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Palliative Care</h3>
-                        <p class="treatment-card-description">
-                            Supportive care to manage pain and improve quality of life for advanced cancer patients.
-                        </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

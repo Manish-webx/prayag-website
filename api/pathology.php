@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pathology & Laboratory Services | Prayag Hospital</title>
+    <title>Pathology & Laboratory Services - Accurate Diagnostics | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -32,10 +32,10 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Pathology & Laboratory Medicine
+                            Laboratory Services
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Pathology & Diagnostics Centre
+                            Advanced Department of Pathology & Laboratory Services
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers comprehensive diagnostic and pathology services. Our NABL-accredited laboratory is equipped with fully automated analyzers to ensure accurate, timely, and reliable patient reports for effective treatment planning.
+                            Prayag Hospital provides 24/7 comprehensive laboratory services using fully automated analyzers. We ensure high precision and rapid turnaround times for all diagnostic tests to support effective treatment.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -61,15 +61,15 @@
                                 Book Home Collection
                             </a>
                             <a href="#callback" class="btn-request-callback">
-                                Request Report
+                                Get Reports Online
                             </a>
                         </div>
 
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Precision Diagnostics</strong>
-                                24/7 automated labs ensuring high-quality diagnostic reports with rapid turnaround time.
+                                <strong>Accurate Diagnosis</strong>
+                                NABL Accredited quality standards with strict internal quality controls for Hematology, Biochemistry, and Microbiology.
                             </div>
                         </div>
                     </div>
@@ -96,15 +96,18 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#tests" class="toc-nav-link">Tests & Services</a>
+                    <a href="#services" class="toc-nav-link">Our Services</a>
+                </li>
+                <li class="toc-nav-item">
+                    <a href="#tests" class="toc-nav-link">Common Tests</a>
                 </li>
                  <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Specialists</a>
                 </li>
-               <li class="toc-nav-item">
+                <li class="toc-nav-item">
                     <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
                 </li>
                 <li class="toc-nav-item">
@@ -122,18 +125,6 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3 class="feature-title">Clinical Pathology</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature 2 -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="feature-box">
-                        <div class="feature-icon">
                             <i class="fas fa-vial"></i>
                         </div>
                         <div class="feature-content">
@@ -142,14 +133,26 @@
                     </div>
                 </div>
 
+                <!-- Feature 2 -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Hematology</h3>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Feature 3 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-bacterium"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Microbiology</h3>
+                            <h3 class="feature-title">Clinical Pathology</h3>
                         </div>
                     </div>
                 </div>
@@ -158,10 +161,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-dna"></i>
+                            <i class="fas fa-bacterium"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Molecular Biology</h3>
+                            <h3 class="feature-title">Microbiology</h3>
                         </div>
                     </div>
                 </div>
@@ -173,112 +176,204 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">World-Class Diagnostic Laboratory</h2>
+                <h2 class="overview-heading">Precision in Every Test</h2>
                 <p class="overview-text">
-                    The Department of Pathology & Laboratory Medicine at Prayag Hospital is committed to providing accurate and timely diagnostic services. We function 24/7 to support emergency care, inpatient needs, and outpatient investigations with a wide test menu covering all major disciplines of pathology.
+                    The Department of Pathology & Laboratory Services at Prayag Hospital is committed to providing accurate and reliable diagnostic services. Our laboratory acts as the nerve center of the hospital, assisting clinicians in the diagnosis, treatment, and prevention of diseases.
                 </p>
                 <p class="overview-text">
-                    Our laboratory is NABL accredited and follows stringent quality control protocols (External and Internal Quality Assurance) to ensure the highest standards of precision. We utilize advanced automated analyzers that minimize human error and reduce turnaround time for reports.
+                    We are equipped with the latest fully automated analyzers for Biochemistry, Hormonal Assays, and Hematology. Our team of experienced Pathologists, Microbiologists, and Biochemists ensures that every result undergoes stringent quality checks.
                 </p>
                 <p class="overview-text">
-                    From routine blood tests to complex biopsies, hormonal assays, and cancer markers, our team of experienced pathologists and technicians ensures that every report aids the clinician in making the right diagnosis for optimal patient care.
+                    We offer a wide spectrum of tests ranging from routine blood work to advanced molecular diagnostics and histopathology. Our services are available 24/7 for inpatients and emergency cases, with a home collection facility for outpatients.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                    alt="Pathology Lab" class="overview-image">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"
+                    alt="Lab Technician" class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-check-circle"></i>
-                    <h4>NABL Accredited</h4>
-                    <p>Adhering to national standards for laboratory quality and competence.</p>
+                    <i class="fas fa-robot"></i>
+                    <h4>Automated Systems</h4>
+                    <p>Robotic track systems and auto-analyzers to minimize human error and ensure speed.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-robot"></i>
-                    <h4>Fully Automated</h4>
-                    <p>Latest robotic analyzers for Hematology, Biochemistry, and Immunoassays.</p>
+                    <i class="fas fa-check-double"></i>
+                    <h4>Quality Control</h4>
+                    <p>Internal and External Quality Assurance (EQAS) programs for 100% accuracy.</p>
                 </div>
                 <div class="overview-highlight">
                     <i class="fas fa-home"></i>
                     <h4>Home Collection</h4>
-                    <p>Convenient sample collection services available at your doorstep.</p>
+                    <p>Convenient sample collection from the comfort of your home by trained phlebotomists.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Tests We Offer Section -->
-    <section class="conditions-section" id="tests">
+    <!-- Services Section -->
+    <section class="conditions-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Tests & Services</h2>
+                <h2 class="section-title">Laboratory Divisions</h2>
                 <p class="section-subtitle">
-                    We offer a wide range of diagnostic tests across various specialties.
+                    Our lab is organized into specialized sections for detailed analysis.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Complete Blood Count (CBC)</h3>
+                        <h3 class="condition-name">Clinical Biochemistry</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Function Test (KFT)</h3>
+                        <h3 class="condition-name">Hematology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Liver Function Test (LFT)</h3>
+                        <h3 class="condition-name">Clinical Pathology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Thyroid Profile (T3, T4, TSH)</h3>
+                        <h3 class="condition-name">Microbiology & Serology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Lipid Profile</h3>
+                        <h3 class="condition-name">Histopathology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Diabetes Screening (HbA1c)</h3>
+                        <h3 class="condition-name">Cytopatholgy</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vitamin B12 & D3</h3>
+                        <h3 class="condition-name">Immunology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urine Routine & Culture</h3>
-                    </div>
-                </div>
-                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Histopathology (Biopsy)</h3>
+                        <h3 class="condition-name">Molecular Biology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Cytopathology (FNAC/Pap)</h3>
+                        <h3 class="condition-name">Blood Bank Support</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Tumor Markers</h3>
+                        <h3 class="condition-name">Hormonal Assays</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Infertility Profile</h3>
+                        <h3 class="condition-name">Allergy Testing</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="condition-card">
+                        <h3 class="condition-name">Drug Monitoring</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Tests Section -->
+    <section class="treatment-section" id="tests">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Common Diagnostic Tests</h2>
+                <p class="section-subtitle">
+                    Routine and specialized tests performed daily.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Treatment Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-droplet"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Complete Blood Count (CBC)</h3>
+                        <p class="treatment-card-description">
+                            A vital screening test to check overall health and detect disorders like anemia, infection, and leukemia.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Lipid Profile</h3>
+                        <p class="treatment-card-description">
+                            Measures cholesterol and triglycerides levels to assess risk for cardiovascular diseases.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Liver Function Test (LFT)</h3>
+                        <p class="treatment-card-description">
+                             A group of blood tests that help determine the health of your liver by measuring proteins and enzymes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-kidneys"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Kidney Function Test (KFT)</h3>
+                        <p class="treatment-card-description">
+                            Includes Urea and Creatinine tests to evaluate how well your kidneys are working.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Thyroid Profile</h3>
+                        <p class="treatment-card-description">
+                            Checks T3, T4, and TSH levels to diagnose thyroid disorders (hypothyroidism or hyperthyroidism).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Treatment Card 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <h3 class="treatment-card-title">HbA1c (Diabetes)</h3>
+                        <p class="treatment-card-description">
+                            Measures average blood sugar levels over the past 3 months, crucial for diabetes management.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -289,9 +384,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Pathology?</h2>
+                <h2 class="section-title">Why Prayag Pathology?</h2>
                 <p class="section-subtitle">
-                    Trusted diagnostics with a focus on accuracy, speed, and patient convenience.
+                    We deliver reliability in every report.
                 </p>
             </div>
 
@@ -299,61 +394,61 @@
             <div class="why-points-grid">
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-check-double"></i>
+                        <i class="fas fa-award"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Double Check Quality</h4>
-                        <p>Every report undergoes a stringent verification process by senior pathologists to ensure zero errors.</p>
+                        <h4>Accredited Labs</h4>
+                        <p>Strict adherence to NABL and ISO quality standards.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-tachometer-alt"></i>
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Expert Pathologists</h4>
+                        <p>All reports are verified and signed by qualified MD Pathologists.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-bolt"></i>
                     </div>
                     <div class="why-point-content">
                         <h4>Rapid Turnaround</h4>
-                        <p>Most routine reports are available within a few hours to facilitate faster treatment.</p>
+                        <p>Automated processes ensure you get your reports faster.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-file-medical"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Digital Reports</h4>
-                        <p>Access your reports online via email or WhatsApp anytime, anywhere.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-clinic-medical"></i>
+                        <i class="fas fa-microscope"></i>
                     </div>
                     <div class="why-point-content">
                         <h4>Advanced Technology</h4>
-                        <p>We use best-in-class equipment from Roche, Siemens, and Abbott for precise results.</p>
+                        <p>Using world-class analyzers from Roche, Siemens, and Beckman Coulter.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-nurse"></i>
+                        <i class="fas fa-virus"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Skilled Phlebotomists</h4>
-                        <p>Trained staff for painless sample collection, ensuring patient comfort and sample integrity.</p>
+                        <h4>Safe Collection</h4>
+                        <p>Use of vacutainers and sterile technique for painless and safe blood collection.</p>
                     </div>
                 </div>
 
-                 <div class="why-point">
+                <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-notes-medical"></i>
+                        <i class="fas fa-history"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Comprehensive Menu</h4>
-                        <p>Over 1000+ tests available under one roof, covering all routine and specialized needs.</p>
+                        <h4>Clinical History</h4>
+                        <p>We correlate test results with clinical history for better interpretation.</p>
                     </div>
                 </div>
             </div>
@@ -364,29 +459,31 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Pathologists</h2>
+                <h2 class="section-title">Our Specialists</h2>
                 <p class="section-subtitle">
-                    Meet our team of expert pathologists and microbiologists.
+                    Meet the experts behind your reports.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $path_doctors = array_filter($doctors, function($doctor) {
-                    return stripos($doctor['specialty'], 'Pathology') !== false || $doctor['specialty_code'] === 'pathology';
+                $pathology_doctors = array_filter($doctors, function($doctor) {
+                    $is_pathology_code = in_array($doctor['specialty_code'], ['pathology', 'laboratory', 'microbiology']);
+                    $is_diagnostics_path = ($doctor['specialty_code'] === 'diagnostics' && (stripos($doctor['specialty'], 'Pathologist') !== false || stripos($doctor['specialty'], 'Microbiologist') !== false));
+                    return $is_pathology_code || $is_diagnostics_path;
                 });
                 
                 // Fallback for demo if no docs found
-                if (empty($path_doctors)) {
-                     // Using generic docs as placeholder
-                    $path_doctors = array_filter($doctors, function($doctor) {
-                         return $doctor['specialty_code'] === 'general-physician';
+                if (empty($pathology_doctors)) {
+                    // Placeholder logic
+                    $pathology_doctors = array_filter($doctors, function($doctor) {
+                         return $doctor['specialty_code'] === 'general-surgery';
                     });
-                     $path_doctors = array_slice($path_doctors, 0, 3);
+                     $pathology_doctors = array_slice($pathology_doctors, 0, 3);
                 }
 
-                foreach ($path_doctors as $doctor): 
+                foreach ($pathology_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -424,7 +521,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Feedback</h2>
                 <p class="section-subtitle-gray">
-                    What our patients say about our laboratory services.
+                    Stories of care and convenience.
                 </p>
             </div>
 
@@ -445,40 +542,40 @@
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"The home collection service was very prompt. The technician was polite and I got my reports on email the same day."</p>
-                                <h4 class="testimonial-name">Ms. S. Gupta</h4>
-                                <p class="testimonial-procedure">Routine Blood Test</p>
+                                <p class="testimonial-text">"The home collection service is excellent. The phlebotomist was on time, very polite, and the process was painless."</p>
+                                <h4 class="testimonial-name">Mrs. G. Kaur</h4>
+                                <p class="testimonial-procedure">Health Checkup</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 2 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Accurate+Reports"
-                                    alt="Accurate Reports">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Accurate+Report"
+                                    alt="Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I rely on Prayag Hospital for all my diabetic profile tests. Their reports are accurate and accepted by all my specialist doctors."</p>
-                                <h4 class="testimonial-name">Mr. R. Kumar</h4>
-                                <p class="testimonial-procedure">Diabetes Care</p>
+                                <p class="testimonial-text">"I got my reports online within a few hours. The accuracy helped my doctor diagnose my condition correctly."</p>
+                                <h4 class="testimonial-name">Mr. R. Yadav</h4>
+                                <p class="testimonial-procedure">Blood Tests</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 3 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Excellent+Lab" alt="Lab Service">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Hassle+Free" alt="Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Very good lab facilities. The staff at the counter is helpful and the waiting time for sample collection is minimal."</p>
-                                <h4 class="testimonial-name">Mrs. P. Jensen</h4>
-                                <p class="testimonial-procedure">Health Checkup</p>
+                                <p class="testimonial-text">"Prayag's lab is very clean and efficient. The staff at the counter were very helpful in explaining the test requirements."</p>
+                                <h4 class="testimonial-name">Mr. S. Kumar</h4>
+                                <p class="testimonial-procedure">Routine Checkup</p>
                             </div>
                         </div>
                     </div>
@@ -497,7 +594,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about our Pathology services.
+                    Common questions about laboratory tests.
                 </p>
             </div>
 
@@ -509,13 +606,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    Do I need to fast before my blood test?
+                                    Do I need to fast for blood tests?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It depends on the test. For Fasting Blood Sugar, Lipid Profile, and Thyroid profile, 8-12 hours of overnight fasting is usually required. For random blood sugar or CBC, fasting is not needed. Please check with the lab before your visit.
+                                    Fasting is required for certain tests like Fasting Blood Sugar, Lipid Profile, and Thyroid profile. Usually, 8-10 hours of fasting is recommended. You can drink water but should avoid tea, coffee, or food.
                                 </div>
                             </div>
                         </div>
@@ -531,7 +628,7 @@
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    You can collect the physical copy from the hospital reception. Alternatively, we can email the report to your registered email ID or send a link via SMS/WhatsApp once the results are ready.
+                                    You can collect hard copies from the hospital reception. Alternatively, we can email the reports to your registered email ID, or you can download them from our website using your Patient ID.
                                 </div>
                             </div>
                         </div>
@@ -541,13 +638,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Is home sample collection available?
+                                    Do you offer home collection?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we offer home sample collection services within a specified radius of the hospital. You can book a home visit by calling our helpline number in the morning hours.
+                                    Yes, we offer home sample collection services within the city limits. You can book a home collection by calling our helpline number or through our website.
                                 </div>
                             </div>
                         </div>

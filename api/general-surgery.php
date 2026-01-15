@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             General & Laparoscopic Surgery
@@ -342,9 +342,6 @@
                         <p class="treatment-card-description">
                             Removal of gallbladder through keyhole incisions for gallstones.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -358,9 +355,6 @@
                         <p class="treatment-card-description">
                             Repair of inguinal and ventral hernias using mesh with minimal scarring.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -374,9 +368,6 @@
                         <p class="treatment-card-description">
                             Painless laser treatment for piles, fissures, and fistulas with fast recovery.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -390,9 +381,6 @@
                         <p class="treatment-card-description">
                             Emergency removal of inflamed appendix using minimally invasive technique.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -406,9 +394,6 @@
                         <p class="treatment-card-description">
                             Major abdominal surgery for intestinal perforation, obstruction, or trauma.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -422,9 +407,6 @@
                         <p class="treatment-card-description">
                             Removal of lipomas, sebaceous cysts, and breast lumps under local anesthesia.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

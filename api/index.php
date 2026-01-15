@@ -876,8 +876,7 @@
                         <!-- Large Blog Card 1 -->
                         <div class="blog-card-large">
                             <div class="blog-image-large">
-                                <img src="https://via.placeholder.com/600x350/4A8F73/ffffff?text=Blood+Donation"
-                                    alt="Blood Donation">
+                                <img src="../assets/images/blog-1.webp" alt="Blood Donation">
                             </div>
                             <div class="blog-content-large">
                                 <h3 class="blog-title-large">Universal Blood Donor: Which Blood Group Can Be Donated to
@@ -898,8 +897,7 @@
                         <!-- Large Blog Card 2 -->
                         <div class="blog-card-large">
                             <div class="blog-image-large">
-                                <img src="https://via.placeholder.com/600x350/4A8F73/ffffff?text=Biopsy+Procedure"
-                                    alt="Biopsy">
+                                <img src="../assets/images/blog-2.webp" alt="Biopsy">
                             </div>
                             <div class="blog-content-large">
                                 <h3 class="blog-title-large">Biopsy (Needle, Incisional, Excisional, Liquid) – Used for
@@ -923,8 +921,7 @@
                             <div class="blog-card-compact">
                                 <div class="blog-compact-wrapper">
                                     <div class="blog-image-compact">
-                                        <img src="https://via.placeholder.com/200x150/4A8F73/ffffff?text=Sciatica"
-                                            alt="Sciatica">
+                                        <img src="../assets/images/blog-3.webp" alt="Sciatica">
                                     </div>
                                     <div class="blog-content-compact">
                                         <h4 class="blog-title-compact">What is Sciatica: Symptoms, Causes and Treatment
@@ -944,8 +941,7 @@
                             <div class="blog-card-compact">
                                 <div class="blog-compact-wrapper">
                                     <div class="blog-image-compact">
-                                        <img src="https://via.placeholder.com/200x150/4A8F73/ffffff?text=Thyroid"
-                                            alt="Thyroid">
+                                        <img src="../assets/images/blog-4.webp" alt="Thyroid">
                                     </div>
                                     <div class="blog-content-compact">
                                         <h4 class="blog-title-compact">Anaplastic Thyroid Carcinoma</h4>
@@ -964,8 +960,7 @@
                             <div class="blog-card-compact">
                                 <div class="blog-compact-wrapper">
                                     <div class="blog-image-compact">
-                                        <img src="https://via.placeholder.com/200x150/4A8F73/ffffff?text=Platelet"
-                                            alt="High Platelet Count">
+                                        <img src="../assets/images/blog-5.webp" alt="High Platelet Count">
                                     </div>
                                     <div class="blog-content-compact">
                                         <h4 class="blog-title-compact">High Platelet Count: Causes, Symptoms, &

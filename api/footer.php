@@ -83,6 +83,7 @@
                             <h4 class="footer-title">Diagnostics & Support</h4>
                             <ul class="footer-links">
                                 <li><a href="ophthalmology.php">Ophthalmology</a></li>
+                                <li><a href="anesthesiology.php">Anesthesiology</a></li>
                                 <li><a href="radiology.php">Radiology & Imaging</a></li>
                                 <li><a href="pathology.php">Laboratory Services</a></li>
                                 <li><a href="physiotherapy.php">Physiotherapy</a></li>

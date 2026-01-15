@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Respiratory Medicine
@@ -334,9 +334,6 @@
                         <p class="treatment-card-description">
                             Non-invasive tests including Spirometry and DLCO to assess lung volume and capacity for diagnosing asthma and COPD.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -350,9 +347,6 @@
                         <p class="treatment-card-description">
                             Minimally invasive procedure using a flexible scope to visualize airways, collect samples, and treat blockages.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -366,9 +360,6 @@
                         <p class="treatment-card-description">
                             Overnight Polysomnography to monitor sleep patterns and diagnose disorders like Obstructive Sleep Apnea.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -382,9 +373,6 @@
                         <p class="treatment-card-description">
                             Comprehensive skin prick and blood tests to identify specific allergens triggering respiratory conditions.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -398,9 +386,6 @@
                         <p class="treatment-card-description">
                             Therapeutic procedure to remove excess fluid from the pleural space to relieve shortness of breath and pain.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -414,9 +399,6 @@
                         <p class="treatment-card-description">
                             Customized exercise and education programs to improve lung function and quality of life for chronic patients.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

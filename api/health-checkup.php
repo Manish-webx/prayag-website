@@ -4,13 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dental Science & Implant Centre - Best Dental Hospital | Prayag Hospital</title>
+    <title>Preventive Health Checkups - Wellness Packages | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
     <style>
         .doctor-card {
             width: 100% !important;
+        }
+
+        /* Package Card Styles */
+        .package-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+            border: 1px solid #eee;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .package-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #138968;
+        }
+
+        .package-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background:  #138968;
+        }
+
+        .package-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(32, 201, 151, 0.1);
+            color: #138968;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .package-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+        
+        .package-subtitle {
+             font-size: 0.9rem;
+             color: #888;
+             margin-bottom: 20px;
+             font-weight: 500;
+             text-transform: uppercase;
+             letter-spacing: 0.5px;
+        }
+
+        .package-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 25px 0;
+            flex-grow: 1;
+        }
+
+        .package-features li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            color: #555;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .package-features li::before {
+            content: '\f00c'; /* FontAwesome check */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #138968;
+            font-size: 0.85rem;
+        }
+
+        .btn-package {
+            padding: 12px 20px;
+            background-color: transparent;
+            color: #138968;
+            border: 2px solid #138968;
+            border-radius: 6px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            width: 100%;
+            display: inline-block;
+        }
+
+        .btn-package:hover {
+            background-color: #138968;
+            color: #fff;
         }
     </style>
 </head>
@@ -32,10 +138,10 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#">Departments</a>
+                            <a href="#">Services</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Dental Science
+                            Health Checkups
                         </li>
                     </ol>
                 </nav>
@@ -49,27 +155,27 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Centre for Dental Sciences
+                            Preventive Health Checkups
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers comprehensive dental care ranging from routine check-ups to advanced cosmetic and maxillofacial surgeries. Our goal is to provide painless, high-quality dentistry for your perfect smile.
+                            Prevention is better than cure. Our comprehensive health checkup packages are designed to detect health issues early, ensuring a longer, healthier, and happier life for you and your family.
                         </p>
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
-                            <a href="#appointment" class="btn-book-appointment">
-                                Book Appointment
+                            <a href="#packages" class="btn-book-appointment">
+                                View Packages
                             </a>
                             <a href="#callback" class="btn-request-callback">
-                                Request Callback
+                                Book Now
                             </a>
                         </div>
 
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Complete Oral Care</strong>
-                                Specialized in Dental Implants, Orthodontics, Root Canal Treatment, and Smile Makeovers using the latest technology.
+                                <strong>Early Detection</strong>
+                                Identify lifestyle diseases like Diabetes, Hypertension, and Heart Disease before they become critical.
                             </div>
                         </div>
                     </div>
@@ -78,8 +184,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf4722e63?w=800&h=600&fit=crop"
-                                    alt="Dental Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1579684385180-1ea55f9f898b?w=800&h=600&fit=crop"
+                                    alt="Health Checkup" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -96,19 +202,19 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                    <a href="#packages" class="toc-nav-link">Our Packages</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Treatments</a>
+                    <a href="#benefits" class="toc-nav-link">Benefits</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Consultants</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
+                    <a href="#patient-speak" class="toc-nav-link">Feedback</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#faq" class="toc-nav-link">FAQ</a>
@@ -125,10 +231,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-tooth"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Dental Implants</h3>
+                            <h3 class="feature-title">Whole Body Check</h3>
                         </div>
                     </div>
                 </div>
@@ -137,10 +243,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-teeth-open"></i>
+                            <i class="fas fa-female"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Orthodontics</h3>
+                            <h3 class="feature-title">Women's Wellness</h3>
                         </div>
                     </div>
                 </div>
@@ -149,10 +255,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-magic"></i>
+                            <i class="fas fa-blind"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Cosmetic Dentistry</h3>
+                            <h3 class="feature-title">Senior Citizen</h3>
                         </div>
                     </div>
                 </div>
@@ -161,10 +267,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-child"></i>
+                            <i class="fas fa-briefcase"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Paediatric Dentistry</h3>
+                            <h3 class="feature-title">Corporate Plans</h3>
                         </div>
                     </div>
                 </div>
@@ -176,125 +282,177 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">World-Class Dental Care</h2>
+                <h2 class="overview-heading">Your Health, Our Priority</h2>
                 <p class="overview-text">
-                    The Department of Dental Science at Prayag Hospital is equipped with state-of-the-art dental chairs and advanced diagnostic imaging technology to provide holistic oral healthcare. We cater to all dental needs, from preventive care and routine hygiene to complex full-mouth rehabilitation.
+                    In today's fast-paced life, stress and sedentary habits have led to a rise in lifestyle diseases. Many of these conditions do not show symptoms in early stages. Prayag Hospital's Preventive Health Checkups are designed to screen for these silent risks.
                 </p>
                 <p class="overview-text">
-                    Our team consists of specialists in Endodontics, Orthodontics, Prosthodontics, Periodontics, and Oral Surgery. We prioritize patient comfort, utilizing the latest techniques in painless dentistry and conscious sedation where necessary.
+                    We offer a range of packages tailored to different age groups, genders, and risk profiles. Whether you are a young professional, a homemaker, or a senior citizen, we have a plan that suits your needs.
                 </p>
                 <p class="overview-text">
-                    We strictly adhere to the highest international standards of sterilization and infection control to ensure a safe environment for every patient. Whether you need a simple filling, a root canal, or advanced maxillofacial surgery, Prayag Hospital is your trusted partner for a healthy smile.
+                    Our checkups are conducted in state-of-the-art laboratories and diagnostic centers, ensuring accurate results. Follow-up consultations with our senior doctors help you understand your health status and take corrective measures.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop"
-                    alt="Dental Clinic" class="overview-image">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+                    alt="Lab Testing" class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-x-ray"></i>
-                    <h4>Digital Diagnostics</h4>
-                    <p>Advanced OPG and RVG digital x-rays for precise diagnosis with minimal radiation.</p>
+                    <i class="fas fa-vial"></i>
+                    <h4>Accurate Labs</h4>
+                    <p>NABL accredited laboratories ensuring the highest standard of testing quality.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-pump-soap"></i>
-                    <h4>Sterilization</h4>
-                    <p>Rigorous 7-step sterilization protocol to prevent cross-infection and ensure safety.</p>
+                    <i class="fas fa-user-md"></i>
+                    <h4>Expert Review</h4>
+                    <p>Detailed consultation with specialists to interpret your reports and guide you.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-smile-beam"></i>
-                    <h4>Painless Dentistry</h4>
-                    <p>Modern anesthesia and techniques to make your dental visit anxiety-free and comfortable.</p>
+                    <i class="fas fa-file-medical-alt"></i>
+                    <h4>Detailed Reports</h4>
+                    <p>Comprehensive health reports provided digitally and physically for your records.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Conditions We Treat Section -->
-    <section class="conditions-section" id="conditions">
+    <!-- Packages Section -->
+    <section class="conditions-section" id="packages" style="background-color: #f8f9fa;">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">Our Health Packages</h2>
                 <p class="section-subtitle">
-                    Expert management for all oral and dental health issues.
+                    Tailored plans for every need.
                 </p>
             </div>
 
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Tooth Decay (Cavities)</h3>
+            <div class="row g-4">
+                <!-- Basic Plan -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-clinic-medical"></i>
+                        </div>
+                        <h3 class="package-title">Basic Health Check</h3>
+                        <p class="package-subtitle">Essential Screening</p>
+                        <ul class="package-features">
+                            <li>Complete Blood Count (CBC)</li>
+                            <li>Random Blood Sugar</li>
+                            <li>Lipid Profile (Cholesterol)</li>
+                            <li>Kidney Function Test</li>
+                            <li>Physician Consultation</li>
+                        </ul>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Gum Disease (Pyorrhea)</h3>
+
+                <!-- Executive Plan -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-briefcase-medical"></i>
+                        </div>
+                        <h3 class="package-title">Executive Health Check</h3>
+                        <p class="package-subtitle">For Working Professionals</p>
+                        <ul class="package-features">
+                            <li>All Basic Tests</li>
+                            <li>Liver Function Test</li>
+                            <li>ECG (Electrocardiogram)</li>
+                            <li>Chest X-Ray</li>
+                            <li>Urine Routine Analysis</li>
+                        </ul>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Root Canal Infections</h3>
+
+                <!-- Master Plan -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="package-title">Master Health Check</h3>
+                        <p class="package-subtitle">Comprehensive Care</p>
+                        <ul class="package-features">
+                            <li>All Executive Tests</li>
+                            <li>TMT / Echo</li>
+                            <li>Ultrasound Abdomen</li>
+                            <li>Vitamin D & B12 Screening</li>
+                            <li>Thyroid Profile (T3, T4, TSH)</li>
+                        </ul>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Missing Teeth</h3>
+
+                <!-- Heart Checkup -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="package-title">Healthy Heart</h3>
+                        <p class="package-subtitle">Cardiac Screening</p>
+                        <ul class="package-features">
+                            <li>Lipid Profile (Detailed)</li>
+                            <li>ECG & ECHO/TMT</li>
+                            <li>Chest X-Ray</li>
+                            <li>Cardiologist Consultation</li>
+                            <li>Dietician Consultation</li>
+                        </ul>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Crooked/Misaligned Teeth</h3>
+
+                <!-- Women's Wellness -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-female"></i>
+                        </div>
+                        <h3 class="package-title">Women's Wellness</h3>
+                        <p class="package-subtitle">Specially for Women</p>
+                        <ul class="package-features">
+                            <li>Pap Smear / Mammography (>40y)</li>
+                            <li>Thyroid Profile (TSH)</li>
+                            <li>Iron Deficiency Profile</li>
+                            <li>Blood Sugar & CBC</li>
+                            <li>Gynaecologist Consultation</li>
+                        </ul>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Impacted Wisdom Teeth</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Dental Trauma</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Bad Breath (Halitosis)</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Stained/Discolored Teeth</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Jaw Joint Pain (TMJ)</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Oral Cysts & Tumors</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Sensitivity</h3>
+
+                <!-- Diabetes Check -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package-card">
+                        <div class="package-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="package-title">Diabetes Care</h3>
+                        <p class="package-subtitle">Sugar Control</p>
+                        <ul class="package-features">
+                            <li>HbA1c (3 Months Average)</li>
+                            <li>Fasting & PP Blood Sugar</li>
+                            <li>Urine Microalbumin</li>
+                            <li>Creatinine & Eye Checkup</li>
+                            <li>Diabetologist Consultation</li>
+                        </ul>                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Types of Treatment Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <!-- Benefits/Treatments Section -->
+    <section class="treatment-section" id="benefits">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Dental Treatments</h2>
+                <h2 class="section-title">Why Get Checked?</h2>
                 <p class="section-subtitle">
-                    Advanced procedures to restore function and aesthetics.
+                    The advantages of regular health screening.
                 </p>
             </div>
 
@@ -303,11 +461,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-tooth"></i>
+                            <i class="fas fa-search-plus"></i>
                         </div>
-                        <h3 class="treatment-card-title">Root Canal Treatment (RCT)</h3>
+                        <h3 class="treatment-card-title">Detect Risks Early</h3>
                         <p class="treatment-card-description">
-                            Single-sitting microscopic root canal therapy to save infected teeth from extraction.
+                            Find silent killers like High BP and Cholesterol before they cause damage.
                         </p>
                     </div>
                 </div>
@@ -316,11 +474,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-tools"></i>
+                            <i class="fas fa-piggy-bank"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dental Implants</h3>
+                        <h3 class="treatment-card-title">Save Costs</h3>
                         <p class="treatment-card-description">
-                            Permanent replacement for missing teeth using titanium implants that look and feel natural.
+                            Preventive care is far cheaper than treating advanced critical illnesses.
                         </p>
                     </div>
                 </div>
@@ -329,50 +487,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-smile"></i>
+                            <i class="fas fa-smile-beam"></i>
                         </div>
-                        <h3 class="treatment-card-title">Orthodontic Braces</h3>
+                        <h3 class="treatment-card-title">Peace of Mind</h3>
                         <p class="treatment-card-description">
-                             Correction of misaligned teeth using metal braces, ceramic braces, or invisible aligners.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Treatment Card 4 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-crown"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Crowns & Bridges</h3>
-                        <p class="treatment-card-description">
-                            High-quality Zirconia and ceramic caps to restore damaged teeth or bridge the gap of missing ones.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Treatment Card 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-magic"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Teeth Whitening</h3>
-                        <p class="treatment-card-description">
-                            Professional laser bleaching procedures to brighten your smile instantly.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Treatment Card 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-hospital-user"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Oral Surgery</h3>
-                        <p class="treatment-card-description">
-                            Surgical extraction of wisdom teeth, cyst removal, and jaw fracture management.
+                             Assurance about your health helps you live a relatively stress-free life.
                         </p>
                     </div>
                 </div>
@@ -384,9 +503,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Dental Care?</h2>
+                <h2 class="section-title">The Prayag Advantage</h2>
                 <p class="section-subtitle">
-                    We combine expertise, technology, and care to give you the best dental experience.
+                    Quality care you can trust.
                 </p>
             </div>
 
@@ -394,61 +513,31 @@
             <div class="why-points-grid">
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-microscope"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Specialist Doctors</h4>
-                        <p>A team of MDS super-specialists covering every branch of dentistry.</p>
+                        <h4>Advanced Technology</h4>
+                        <p>Latest diagnostic equipment for precise and reliable test results.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-shield-virus"></i>
+                        <i class="fas fa-user-nurse"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Hygiene & Safety</h4>
-                        <p>100% sterilization and disinfection protocols to ensure zero cross-contamination.</p>
+                        <h4>Dedicated Lounge</h4>
+                        <p>Separate waiting area for health checkup patients to minimize wait times.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-file-medical"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Modern Technology</h4>
-                        <p>Equipped with RVG, OPG, Apex Locators, and Physiodispensers for precise treatment.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-child"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Kid-Friendly</h4>
-                        <p>Specialized pediatric dentists and a friendly environment to make children comfortable.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-wallet"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>Transparent pricing and affordable packages for implants and braces.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Timely Service</h4>
-                        <p>Strict appointment adherence to value your time, with evening clinics available.</p>
+                        <h4>Digital Records</h4>
+                        <p>Access your health history and reports online anytime.</p>
                     </div>
                 </div>
             </div>
@@ -459,29 +548,27 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Dental Specialists</h2>
+                <h2 class="section-title">Consulting Physicians</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced dental surgeons.
+                   Expert internal medicine specialists who review your health status.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $dental_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'dental' || $doctor['specialty_code'] === 'dentistry' || $doctor['specialty_code'] === 'orthodontics';
+                $checkup_doctors = array_filter($doctors, function($doctor) {
+                    $is_physician = in_array($doctor['specialty_code'], ['internal-medicine', 'general-medicine', 'family-medicine']);
+                    return $is_physician;
                 });
                 
                 // Fallback for demo if no docs found
-                if (empty($dental_doctors)) {
-                    // Placeholder logic: show any valid docs if specific ones missing in data
-                    $dental_doctors = array_filter($doctors, function($doctor) {
-                         return $doctor['specialty_code'] === 'general-surgery';
-                    });
-                     $dental_doctors = array_slice($dental_doctors, 0, 3);
+                if (empty($checkup_doctors)) {
+                    // Placeholder logic to ensure section isn't empty in dev
+                     $checkup_doctors = array_slice($doctors, 0, 3);
                 }
 
-                foreach ($dental_doctors as $doctor): 
+                foreach ($checkup_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -517,9 +604,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Smiles</h2>
+                <h2 class="section-title-dark">Patient Experiences</h2>
                 <p class="section-subtitle-gray">
-                    Read what our patients have to say about their dental experience.
+                    What people say about our automated checkup process.
                 </p>
             </div>
 
@@ -533,47 +620,47 @@
                         <!-- Testimonial 1 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Smile+Makeover"
-                                    alt="Smile Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Annual+Checkup"
+                                    alt="Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I got a complete smile makeover with veneers. The results are stunning and I get so many compliments!"</p>
-                                <h4 class="testimonial-name">Ms. D. Kapoor</h4>
-                                <p class="testimonial-procedure">Smile Design</p>
+                                <p class="testimonial-text">"I get my annual checkup done at Prayag every year. The process is very organized, and reports are explained in detail."</p>
+                                <h4 class="testimonial-name">Mr. R. Khanna</h4>
+                                <p class="testimonial-procedure">Master Health Check</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 2 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Painless+RCT"
-                                    alt="RCT Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Corporate+Pack"
+                                    alt="Corporate Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I was terrified of root canals, but the doctor at Prayag Hospital made it completely painless. Highly recommended."</p>
-                                <h4 class="testimonial-name">Mr. P. Sharma</h4>
-                                <p class="testimonial-procedure">Root Canal Treatment</p>
+                                <p class="testimonial-text">"Our company tied up with Prayag for employee wellness. The team was efficient in handling over 50 employees in a day."</p>
+                                <h4 class="testimonial-name">Ms. S. Gupta</h4>
+                                <p class="testimonial-procedure">Corporate Plan</p>
                             </div>
                         </div>
 
                         <!-- Testimonial 3 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Braces+Success" alt="Braces Patient">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Senior+Citizen" alt="Senior Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My daughter's teeth are perfectly aligned now thanks to the orthodontic treatment. The doctors are very good with kids."</p>
-                                <h4 class="testimonial-name">Mrs. R. Singh</h4>
-                                <p class="testimonial-procedure">Orthodontics</p>
+                                <p class="testimonial-text">"The staff was very helpful to my elderly parents during their checkup. They were guided comfortably through all tests."</p>
+                                <h4 class="testimonial-name">Mr. A. Mehra</h4>
+                                <p class="testimonial-procedure">Senior Citizen Package</p>
                             </div>
                         </div>
                     </div>
@@ -592,7 +679,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about dental treatments.
+                    Guidelines for your health checkup.
                 </p>
             </div>
 
@@ -604,13 +691,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    Does a root canal hurt?
+                                    Do I need to fast before the checkup?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No, with modern anesthesia, a root canal is no more painful than getting a filling. In fact, it relieves the severe pain caused by tooth infection. You might feel some sensitivity for a few days after the procedure, which is normal.
+                                    Yes, 10-12 hours of overnight fasting is required for accurate blood sugar and lipid profile results. You can drink plain water.
                                 </div>
                             </div>
                         </div>
@@ -620,13 +707,13 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    How long do dental implants last?
+                                    When will I get my reports?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Dental implants are designed to be a permanent solution. With proper oral hygiene (brushing, flossing) and regular check-ups, they can last a lifetime. The crown attached to the implant may need replacement after 10-15 years due to wear and tear.
+                                    Most reports are available on the same day evening. Some specialized tests might take 24-48 hours. We can email them to you or you can collect them physically.
                                 </div>
                             </div>
                         </div>
@@ -636,13 +723,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    When should my child see a dentist for the first time?
+                                    Can I take my regular medicines?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is recommended that a child sees a dentist by their first birthday or within 6 months after their first tooth appears. Early visits help prevent cavities and get the child used to the dental environment.
+                                    You should take your blood pressure medication as usual. However, please delay your diabetes medication until after your fasting blood sample is drawn. Consult your doctor if unsure.
                                 </div>
                             </div>
                         </div>

@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             ENT (Ear, Nose, Throat)
@@ -309,9 +309,6 @@
                         <p class="treatment-card-description">
                             Functional Endoscopic Sinus Surgery is a minimally invasive technique to treat chronic sinusitis and nasal polyps.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -325,9 +322,6 @@
                         <p class="treatment-card-description">
                             Microsurgical procedure to repair perforated eardrums and improve hearing levels.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -341,9 +335,6 @@
                         <p class="treatment-card-description">
                              Removal of tonsils and adenoids, often performed for recurrent infections or breathing issues in children/adults.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -357,9 +348,6 @@
                         <p class="treatment-card-description">
                             Surgical correction of a deviated nasal septum to improve airflow and breathing.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -373,9 +361,6 @@
                         <p class="treatment-card-description">
                             Precise surgery on the vocal cords to treat voice disorders, cysts, and polyps using a microscope.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -389,9 +374,6 @@
                         <p class="treatment-card-description">
                             Comprehensive management of thyroid nodules, salivary gland tumors, and other head and neck masses.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

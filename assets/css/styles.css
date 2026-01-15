@@ -2130,7 +2130,7 @@ a {
 
 .blog-image-large {
     width: 100%;
-    height: 280px;
+    /* height: 280px; */
     overflow: hidden;
     background: linear-gradient(135deg, #e8f5f0 0%, #ffffff 100%);
 }
@@ -2247,7 +2247,7 @@ a {
 
 .blog-image-compact {
     flex: 0 0 160px;
-    height: 120px;
+    /* height: 120px; */
     overflow: hidden;
     border-radius: 8px;
     background: linear-gradient(135deg, #e8f5f0 0%, #ffffff 100%);
@@ -2338,7 +2338,7 @@ a {
     }
 
     .blog-image-large {
-        height: 220px;
+        /* height: 220px; */
     }
 
     .blog-title-large {
@@ -2352,7 +2352,7 @@ a {
     .blog-image-compact {
         flex: 0 0 auto;
         width: 100%;
-        height: 180px;
+        /* height: 180px; */
     }
 }
 
@@ -9899,4 +9899,348 @@ body {
 
 .footer-contact li span {
     flex: 1;
+}
+
+/* ================================================
+   CONTACT US PAGE STYLES
+   ================================================ */
+.contact-info-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(74, 143, 115, 0.1);
+    color: var(--prayag-teal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 20px;
+}
+
+.contact-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark-text);
+}
+
+.contact-card-text {
+    color: var(--light-text);
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.contact-card-text a {
+    color: var(--prayag-teal);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-form-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--dark-text);
+}
+
+.form-subtitle {
+    color: var(--light-text);
+    margin-bottom: 30px;
+}
+
+.form-control {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--prayag-teal);
+}
+
+.btn-submit {
+    background-color: var(--prayag-orange);
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #e67e22;
+    filter: brightness(0.9);
+}
+
+.map-section {
+    height: 450px;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* ================================================
+   EVENTS PAGE STYLES
+   ================================================ */
+.event-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.event-image-wrapper {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.event-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-card:hover .event-image-wrapper img {
+    transform: scale(1.05);
+}
+
+.event-date-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 60px;
+}
+
+.event-date-day {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--prayag-orange);
+    line-height: 1;
+}
+
+.event-date-month {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--dark-text);
+    text-transform: uppercase;
+}
+
+.event-content {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-status {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.status-upcoming {
+    background-color: #e8f5f0;
+    color: var(--prayag-teal);
+}
+
+.status-completed {
+    background-color: #f0f0f0;
+    color: #888;
+}
+
+.event-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--dark-text);
+    line-height: 1.4;
+}
+
+.event-meta {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.event-meta-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.event-meta-item i {
+    width: 20px;
+    color: var(--prayag-teal);
+    margin-right: 10px;
+}
+
+.event-description {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.btn-event {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-register {
+    background-color: var(--prayag-teal);
+    color: #fff;
+    border: none;
+}
+
+.btn-register:hover {
+    background-color: var(--prayag-orange);
+    color: #fff;
+}
+
+.btn-view {
+    background-color: transparent;
+    color: #888;
+    border: 1px solid #ddd;
+}
+
+.btn-view:hover {
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+/* ================================================
+   OUR HOSPITALS PAGE STYLES
+   ================================================ */
+.hospital-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    background: #fff;
+}
+
+.hospital-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.hospital-details {
+    padding: 25px;
+}
+
+.hospital-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--prayag-teal);
+    margin-bottom: 15px;
+}
+
+.hospital-info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    color: var(--light-text);
+}
+
+.hospital-info-item i {
+    color: var(--prayag-orange);
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.hospital-actions {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.feature-item {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.feature-item i {
+    color: var(--prayag-teal);
+    margin-right: 8px;
+    font-size: 12px;
 }

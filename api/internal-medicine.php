@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Internal Medicine
@@ -338,9 +338,6 @@
                         <p class="treatment-card-description">
                             State-of-the-art ICU dedicated to the management of critically ill patients with continuous monitoring.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -354,9 +351,6 @@
                         <p class="treatment-card-description">
                             Comprehensive management of blood sugar levels to prevent complications like neuropathy and retinopathy.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -370,9 +364,6 @@
                         <p class="treatment-card-description">
                             Specialized care for elderly patients focusing on improving their quality of life and managing age-related ailments.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -386,9 +377,6 @@
                         <p class="treatment-card-description">
                             Rapid diagnosis and treatment protocols for viral, bacterial, and parasitic fevers.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -402,9 +390,6 @@
                         <p class="treatment-card-description">
                             Tailored health check-up plans including cardiac risk assessment, cancer screening, and full-body checks.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -418,9 +403,6 @@
                         <p class="treatment-card-description">
                             Adult immunization services for flu, pneumonia, hepatitis, and other preventable diseases.
                         </p>
-                        <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>

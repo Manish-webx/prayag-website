@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#departments">Departments</a>
+                            <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Cardiac Care
@@ -407,56 +407,54 @@
             </div>
 
             <div class="row g-4">
-                <!-- Treatment Card 1: Angioplasty -->
+                <!-- Treatment Card 1: Non-Interventional Cardiology -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-heart-pulse"></i>
                         </div>
-                        <h3 class="treatment-card-title">Coronary Angioplasty & Stenting</h3>
+                        <h3 class="treatment-card-title">Non-Interventional Cardiology</h3>
                         <p class="treatment-card-description">
-                            Minimally invasive procedure to open blocked coronary arteries and restore blood flow to the
-                            heart using advanced stent technology.
+                            Preventive Heart Care & Lipid Management. Expert consultation for managing heart health without invasive procedures.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Treatment Card 2: Bypass Surgery -->
+                <!-- Treatment Card 2: Vascular Surgery -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-user-md"></i>
                         </div>
-                        <h3 class="treatment-card-title">Coronary Artery Bypass Surgery</h3>
+                        <h3 class="treatment-card-title">Vascular Surgery</h3>
                         <p class="treatment-card-description">
-                            Advanced surgical procedure to create new pathways for blood flow around blocked coronary
-                            arteries using graft vessels.
+                            Vascular Surgery & Vein Treatment. Comprehensive management for Varicose Veins & Peripheral Artery Disease.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Treatment Card 3: Pacemaker -->
+                <!-- Treatment Card 3: Cardiac Diagnostics -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
-                        <h3 class="treatment-card-title">Pacemaker Implantation</h3>
+                        <h3 class="treatment-card-title">Cardiac Diagnostics</h3>
                         <p class="treatment-card-description">
-                            Implantation of advanced pacemakers and defibrillators to regulate heart rhythm and prevent
-                            life-threatening arrhythmias.
+                            Advanced Cardiac Diagnostic Lab including 2D Echo, TMT (Treadmill Test) & Color Doppler services.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
+
 
                 <!-- Treatment Card 4: Valve Replacement -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -471,7 +469,7 @@
                             proper blood flow.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -488,7 +486,7 @@
                             heart rhythms effectively.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -505,7 +503,7 @@
                             improving quality of life.
                         </p>
                         <a href="#" class="treatment-card-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
+                            Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
