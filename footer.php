@@ -15,7 +15,7 @@
                         <div class="trust-logos d-flex align-items-center gap-4">
                             <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Prayag Hospital"
                                 class="trust-logo" style="max-height: 70px;">
-                            <img src="https://www.prayaghospital.in/images/nabh-accredited.png"
+                            <img src="assets/images/nabh-logo.png"
                                 alt="NABH Accredited" class="trust-logo" style="max-height: 70px;">
                         </div>
                     </div>
