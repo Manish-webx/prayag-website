@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renal Sciences & Kidney Care - Best Nephrologists in India | Prayag Hospital</title>
+    <title>High-Risk Pregnancy Care Unit | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Renal Sciences (Kidney Care)
+                            High-Risk Pregnancy
                         </li>
                     </ol>
                 </nav>
@@ -50,11 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre of Excellence for Nephrology & Dialysis | Prayag Hospital
+                            High-Risk Pregnancy Care Unit
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Comprehensive care for all kidney-related ailments. From advanced dialysis units to management of chronic 
-                            kidney diseases, our expert nephrologists ensure the highest standards of renal care.
+                            Specialized care for complex pregnancies. We ensure the safety of both mother and baby with advanced monitoring, expert obstetricians, and a Level III NICU.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -68,12 +67,12 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>5000+</strong>
-                                Dialysis Sessions Annually
+                                <strong>Level III NICU</strong>
+                                Advanced newborn care.
                             </div>
                             <div class="hero-stat-item">
-                                <strong>24/7</strong>
-                                Dialysis Unit
+                                <strong>24/7 Monitoring</strong>
+                                Continuous fetal surveillance.
                             </div>
                         </div>
                     </div>
@@ -82,8 +81,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                                    alt="Kidney Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=800&h=600&fit=crop"
+                                    alt="High Risk Pregnancy Care" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -100,19 +99,19 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                    <a href="#conditions" class="toc-nav-link">Risk Factors</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
+                    <a href="#services" class="toc-nav-link">Services</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Specialists</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
+                    <a href="#patient-speak" class="toc-nav-link">Mom Stories</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#faq" class="toc-nav-link">FAQ</a>
@@ -129,10 +128,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Dialysis</h3>
+                            <h3 class="feature-title">Fetal Medicine</h3>
                         </div>
                     </div>
                 </div>
@@ -141,10 +140,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-utensils"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Nephrologists</h3>
+                            <h3 class="feature-title">Diet Counseling</h3>
                         </div>
                     </div>
                 </div>
@@ -153,10 +152,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-procedures"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Critical Kidney Care</h3>
+                            <h3 class="feature-title">LDR Suites</h3>
                         </div>
                     </div>
                 </div>
@@ -165,10 +164,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
+                            <i class="fas fa-baby"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Kidney Biopsy</h3>
+                            <h3 class="feature-title">Neonatal Care</h3>
                         </div>
                     </div>
                 </div>
@@ -180,42 +179,38 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Leading Specialists in Kidney Health</h2>
+                <h2 class="overview-heading">Expert Care for Complex Pregnancies</h2>
                 <p class="overview-text">
-                    The Department of Renal Sciences at Prayag Hospital is committed to providing world-class care for patients with 
-                    kidney diseases. We offer a comprehensive range of services including hemodialysis, peritoneal dialysis, and 
-                    management of acute and chronic kidney failure.
+                    Pregnancy is a beautiful journey, but sometimes medical conditions can make it "high-risk," requiring extra care and monitoring. At Prayag Hospital, our High-Risk Pregnancy Care Unit is dedicated to managing these complexities to ensure a safe delivery.
                 </p>
                 <p class="overview-text">
-                    Our dialysis unit is one of the most advanced in the region, operating 24/7 with strict infection control protocols. 
-                    Our team of nephrologists works closely with urologists and dieticians to provide holistic care for renal issues.
+                    Our team of experienced obstetricians, fetal medicine specialists, and neonatologists work together to handle conditions like gestational diabetes, preeclampsia, multiple pregnancies, and preterm labor.
                 </p>
                 <p class="overview-text">
-                    We also specialize in preventive nephrology, helping patients with hypertension and diabetes manage their kidney 
-                    health effectively to delay or prevent the progression of renal failure.
+                    We are equipped with advanced ultrasound technology for detailed fetal monitoring and have a state-of-the-art Level III NICU ready to provide immediate critical care to newborns if needed.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop" alt="Pregnant Woman Care"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Dialysis Center</h4>
-                    <p>State-of-the-art hemodialysis machines ensuring safe and effective treatment.</p>
+                    <i class="fas fa-user-md"></i>
+                    <h4>Specialized Monitoring</h4>
+                    <p>Frequent screenings and non-stress tests to track baby's health.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Critical Nephrology</h4>
-                    <p>Dedicated care for patients with acute kidney injury in ICU settings.</p>
+                    <i class="fas fa-notes-medical"></i>
+                    <h4>Medical Management</h4>
+                    <p>Expert control of maternal blood pressure, blood sugar, and thyroid levels.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-file-medical-alt"></i>
-                    <h4>Preventive Care</h4>
-                    <p>Screening and management programs for early detection of kidney diseases.</p>
+                    <i class="fas fa-hands-helping"></i>
+                    <h4>Emergency Readiness</h4>
+                    <p>24/7 labor room and OT availability for emergency C-sections.</p>
                 </div>
             </div>
         </div>
@@ -225,9 +220,9 @@
     <section class="conditions-section" id="conditions">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">Risk Factors We Manage</h2>
                 <p class="section-subtitle">
-                    Expert management for all types of renal disorders.
+                    Comprehensive care for maternal and fetal conditions.
                 </p>
             </div>
 
@@ -235,84 +230,42 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Kidney Disease (CKD)</h3>
+                        <h3 class="condition-name">Preeclampsia</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Acute Kidney Injury</h3>
+                        <h3 class="condition-name">Gestational Diabetes</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Stones</h3>
+                        <h3 class="condition-name">Multiple Pregnancy (Twins)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urinary Tract Infections (UTI)</h3>
+                        <h3 class="condition-name">Preterm Labor</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Glomerulonephritis</h3>
+                        <h3 class="condition-name">Thyroid Disorders</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Nephrotic Syndrome</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 7 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Nephropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 8 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hypertensive Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Electrolyte Disorders</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Polycystic Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Prostate Issues</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hematuria (Blood in Urine)</h3>
+                        <h3 class="condition-name">Recurrent Miscarriage</h3>
                     </div>
                 </div>
             </div>
@@ -320,45 +273,91 @@
     </section>
 
     <!-- Services Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Our Services</h2>
                 <p class="section-subtitle">
-                    Advanced treatments for optimal renal function.
+                    Advanced maternity care.
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service 1: Nephrology & Dialysis -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-kidneys"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
-                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
+                        <h3 class="treatment-card-title">Fetal Medicine</h3>
                         <p class="treatment-card-description">
-                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
+                             Detailed Level II scans, Color Doppler, and genetic screening to detect fetal anomalies early.
                         </p>
-                        <a href="nephrology-center.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Urology & Urodynamics -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-procedures"></i>
                         </div>
-                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
+                        <h3 class="treatment-card-title">High-Risk Delivery</h3>
                         <p class="treatment-card-description">
-                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
+                            Safe delivery planning for breech presentation, placenta previa, and VBAC (Vaginal Birth After Cesarean).
                         </p>
-                        <a href="urology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-baby-carriage"></i>
+                        </div>
+                        <h3 class="treatment-card-title">NICU Support</h3>
+                        <p class="treatment-card-description">
+                            Level III Neonatal ICU with ventilators and CPAP for premature babies and those needing respiratory support.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Painless Delivery</h3>
+                        <p class="treatment-card-description">
+                            Epidural analgesia managed by expert anesthetists to ensure a comfortable labor experience.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Nutritional Counseling</h3>
+                        <p class="treatment-card-description">
+                            Personalized diet plans for diabetes and hypertension management during pregnancy.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Antenatal Classes</h3>
+                        <p class="treatment-card-description">
+                            Sessions on labor preparation, breastfeeding, and newborn care to empower expectant parents.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -369,9 +368,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Kidney Care?</h2>
+                <h2 class="section-title">Why Prayag for High-Risk Care?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise with compassionate care for better renal outcomes.
+                    Because every pregnancy deserves the best.
                 </p>
             </div>
 
@@ -380,66 +379,44 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-user-nurse"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Nephrologists</h4>
-                        <p>Our team includes highly experienced doctors specializing in all aspects of kidney care.</p>
+                        <h4>Expert Team</h4>
+                        <p>Senior gynecologists available 24/7 to handle any obstetric emergency.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-baby"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Dialysis</h4>
-                        <p>Round-the-clock dialysis services to accommodate emergencies and patient convenience.</p>
+                        <h4>Advanced NICU</h4>
+                        <p>Fully equipped to care for babies born as early as 26 weeks.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-first-aid"></i>
+                        <i class="fas fa-tint"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Safe Environment</h4>
-                        <p>Strict infection control protocols including separation of Hepatitis B & C units.</p>
+                        <h4>Blood Bank</h4>
+                        <p>In-house 24/7 blood bank support for managing postpartum hemorrhage.</p>
                     </div>
                 </div>
 
                 <!-- Point 4 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-home"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest hemodialysis machines and RO water treatment plants.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>We provide high-quality renal care at accessible costs for all patients.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Integrated care involving nephrologists, urologists, and dieticians.</p>
+                        <h4>Comprehensive Care</h4>
+                        <p>LDR suites, OT, and NICU all under one roof for seamless care transfer.</p>
                     </div>
                 </div>
             </div>
@@ -450,19 +427,19 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Specialists</h2>
+                <h2 class="section-title">Our Obstetricians</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced Nephrologists.
+                    Trusted hands for your journey.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $kidney_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'nephrology';
+                $gynae_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'gynecology';
                 });
-                foreach ($kidney_doctors as $doctor): 
+                foreach ($gynae_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -498,9 +475,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Success Stories</h2>
+                <h2 class="section-title-dark">Happy Moms</h2>
                 <p class="section-subtitle-gray">
-                    Hear from patients who are leading healthy lives with our care.
+                    Stories of safe deliveries.
                 </p>
             </div>
 
@@ -514,47 +491,31 @@
                         <!-- Testimonial Video 1 -->
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Dialysis Experience">
+                                <img src="https://via.placeholder.com/320x180?text=Mom+Review"
+                                    alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I have been undergoing dialysis here for 2 years. The staff is very caring and the facilities are hygienic."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Dialysis Patient</p>
+                                <p class="testimonial-text">"I had gestational diabetes and was very worried. Dr. Kamna managed my sugar levels perfectly, and I had a normal delivery."</p>
+                                <h4 class="testimonial-name">Mrs. Swati Singh</h4>
+                                <p class="testimonial-procedure">Gestational Diabetes</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 2 -->
-                        <div class="testimonial-card" data-video-id="placeholder2">
+                         <!-- Testimonial Video 2 -->
+                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Kidney Stone">
+                                <img src="https://via.placeholder.com/320x180?text=Twin+Mom+Review" alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I had severe kidney stone pain. Dr. Saxena treated me quickly and I was pain-free the next day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
-                                <p class="testimonial-procedure">Kidney Stone Removal</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="CKD Management">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"With proper medication and diet advice from Prayag doctors, my creatinine levels are now stable."</p>
-                                <h4 class="testimonial-name">Mr. Amit Singh</h4>
-                                <p class="testimonial-procedure">CKD Management</p>
+                                <p class="testimonial-text">"Delivering twins at 34 weeks was scary, but the NICU team took amazing care of my babies. They are now healthy and active."</p>
+                                <h4 class="testimonial-name">Mrs. Anjali Roy</h4>
+                                <p class="testimonial-procedure">Twin Delivery (Preterm)</p>
                             </div>
                         </div>
                     </div>
@@ -573,7 +534,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about kidney health and dialysis.
+                    Understanding High-Risk Pregnancy.
                 </p>
             </div>
 
@@ -585,13 +546,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    How often is dialysis needed?
+                                    What causes a high-risk pregnancy?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Frequency of dialysis depends on your kidney function. Typically, hemodialysis is required 2-3 times per week, with each session lasting about 4 hours. Your nephrologist will determine the best schedule for you.
+                                    Common causes include advanced maternal age (over 35), lifestyle choices like smoking, and underlying medical conditions such as high blood pressure, diabetes, thyroid issues, or autoimmune diseases.
                                 </div>
                             </div>
                         </div>
@@ -601,29 +562,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What are the early signs of kidney disease?
+                                    How often do I need check-ups?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Early signs can be subtle but often include swelling in feet/ankles, fatigue, changes in urination frequency, foamy urine, and persistent high blood pressure.
+                                    High-risk pregnancies require more frequent prenatal visits. Depending on your condition, you may need to see your doctor every 2 weeks or even weekly in the third trimester for monitoring.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Are kidney stones preventable?
+                                    What symptoms should I watch out for?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, many stones are preventable by drinking plenty of water, reducing salt intake, and avoiding oxalate-rich foods. Your doctor can recommend specific diet changes based on the stone type.
+                                    Urgent warning signs include severe severe headache, blurred vision, sudden swelling of face/hands, decreased baby movement, vaginal bleeding, or fluid leakage. Contact your doctor immediately if any of these occur.
                                 </div>
                             </div>
                         </div>
@@ -633,45 +594,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    Does Prayag Hospital do kidney transplants?
+                                    Can I still have a normal delivery?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We provide comprehensive pre-transplant evaluation and post-transplant follow-up care. For the transplant surgery itself, we can refer you to our partner centers of excellence if required.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What are the leading causes of kidney failure?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Diabetes and high blood pressure are the two most common causes of chronic kidney disease (CKD) and kidney failure. Other causes include glomerulonephritis, genetic diseases like polycystic kidney disease, and prolonged use of certain medications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What diet should I follow if I have kidney disease?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A kidney-friendly diet often involves limiting sodium, potassium, and phosphorus. Protein intake may also need adjustment. It is crucial to consult with our renal dietician for a personalized meal plan based on your stage of kidney disease.
+                                    Many women with high-risk pregnancies go on to have normal vaginal deliveries. It depends on the specific condition and the health of the mother and baby at the time of labor. Your doctor will discuss the safest option for you.
                                 </div>
                             </div>
                         </div>
@@ -687,4 +616,3 @@
 </body>
 
 </html>
-

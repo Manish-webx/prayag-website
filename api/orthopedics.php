@@ -339,7 +339,7 @@
                         <p class="treatment-card-description">
                             Robot-Assisted & Minimally Invasive Joint Surgery for precision and faster recovery.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="knee-hip-replacement.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -355,7 +355,7 @@
                         <p class="treatment-card-description">
                              Ligament Repair (ACL/PCL) & Shoulder Arthroscopy. Specialized care for sports-related injuries.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="arthroscopy-sports.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -371,7 +371,7 @@
                         <p class="treatment-card-description">
                             Internal and external fixation procedures for complex bone fractures to ensure proper union and healing.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="fracture-fixation.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -387,7 +387,7 @@
                         <p class="treatment-card-description">
                             Treatment for disc herniation, spinal canal stenosis, and spinal deformities using minimally invasive techniques.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="neurosurgery-spine.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>

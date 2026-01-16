@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renal Sciences & Kidney Care - Best Nephrologists in India | Prayag Hospital</title>
+    <title>Medical Gastroenterology | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Renal Sciences (Kidney Care)
+                            Medical Gastroenterology
                         </li>
                     </ol>
                 </nav>
@@ -50,11 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre of Excellence for Nephrology & Dialysis | Prayag Hospital
+                            Advanced Digestive Care
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Comprehensive care for all kidney-related ailments. From advanced dialysis units to management of chronic 
-                            kidney diseases, our expert nephrologists ensure the highest standards of renal care.
+                            Expert diagnosis and medical management of all digestive tract disorders. From acidity and IBS to complex pancreatic diseases.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -68,12 +67,12 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>5000+</strong>
-                                Dialysis Sessions Annually
+                                <strong>Expert Doctors</strong>
+                                Specialized GI care.
                             </div>
                             <div class="hero-stat-item">
-                                <strong>24/7</strong>
-                                Dialysis Unit
+                                <strong>Comprehensive</strong>
+                                Total digestive health.
                             </div>
                         </div>
                     </div>
@@ -82,8 +81,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                                    alt="Kidney Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1530213796623-443cd34f7b60?w=800&h=600&fit=crop"
+                                    alt="Medical Gastroenterology" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -103,7 +102,7 @@
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
+                    <a href="#services" class="toc-nav-link">Treatments</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
@@ -129,10 +128,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-pills"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Dialysis</h3>
+                            <h3 class="feature-title">Medical Management</h3>
                         </div>
                     </div>
                 </div>
@@ -141,10 +140,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-utensils"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Nephrologists</h3>
+                            <h3 class="feature-title">Dietary Advice</h3>
                         </div>
                     </div>
                 </div>
@@ -153,10 +152,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Critical Kidney Care</h3>
+                            <h3 class="feature-title">Accurate Diagnosis</h3>
                         </div>
                     </div>
                 </div>
@@ -165,10 +164,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
+                            <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Kidney Biopsy</h3>
+                            <h3 class="feature-title">Specialist Care</h3>
                         </div>
                     </div>
                 </div>
@@ -180,42 +179,38 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Leading Specialists in Kidney Health</h2>
+                <h2 class="overview-heading">Holistic Digestive Health</h2>
                 <p class="overview-text">
-                    The Department of Renal Sciences at Prayag Hospital is committed to providing world-class care for patients with 
-                    kidney diseases. We offer a comprehensive range of services including hemodialysis, peritoneal dialysis, and 
-                    management of acute and chronic kidney failure.
+                    Medical Gastroenterology focuses on the non-surgical management of digestive diseases. At Prayag Hospital, our team of experts provides comprehensive care for conditions affecting the esophagus, stomach, intestines, and pancreas.
                 </p>
                 <p class="overview-text">
-                    Our dialysis unit is one of the most advanced in the region, operating 24/7 with strict infection control protocols. 
-                    Our team of nephrologists works closely with urologists and dieticians to provide holistic care for renal issues.
+                    We believe in a patient-centric approach, combining medication, lifestyle modifications, and dietary counseling to manage chronic conditions like IBS and Acid Reflux effectively.
                 </p>
                 <p class="overview-text">
-                    We also specialize in preventive nephrology, helping patients with hypertension and diabetes manage their kidney 
-                    health effectively to delay or prevent the progression of renal failure.
+                    Our department is supported by state-of-the-art diagnostic facilities to ensure early detection and prompt treatment of gastrointestinal disorders.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop" alt="Gastro Consultation"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Dialysis Center</h4>
-                    <p>State-of-the-art hemodialysis machines ensuring safe and effective treatment.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Detailed Diagnosis</h4>
+                    <p>Thorough evaluation of symptoms to pinpoint the exact cause of digestive issues.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Critical Nephrology</h4>
-                    <p>Dedicated care for patients with acute kidney injury in ICU settings.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Lifestyle Plan</h4>
+                    <p>Customized diet and lifestyle plans to prevent recurrence of symptoms.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-file-medical-alt"></i>
-                    <h4>Preventive Care</h4>
-                    <p>Screening and management programs for early detection of kidney diseases.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Chronic Care</h4>
+                    <p>Long-term management strategies for chronic conditions like ulcerative colitis and Crohn's disease.</p>
                 </div>
             </div>
         </div>
@@ -227,7 +222,7 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Expert management for all types of renal disorders.
+                    Common digestive disorders.
                 </p>
             </div>
 
@@ -235,84 +230,42 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Kidney Disease (CKD)</h3>
+                        <h3 class="condition-name">GERD (Acid Reflux)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Acute Kidney Injury</h3>
+                        <h3 class="condition-name">Irritable Bowel (IBS)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Stones</h3>
+                        <h3 class="condition-name">Peptic Ulcers</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urinary Tract Infections (UTI)</h3>
+                        <h3 class="condition-name">Acute Pancreatitis</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Glomerulonephritis</h3>
+                        <h3 class="condition-name">Celiac Disease</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Nephrotic Syndrome</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 7 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Nephropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 8 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hypertensive Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Electrolyte Disorders</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Polycystic Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Prostate Issues</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hematuria (Blood in Urine)</h3>
+                        <h3 class="condition-name">Constipation</h3>
                     </div>
                 </div>
             </div>
@@ -320,45 +273,91 @@
     </section>
 
     <!-- Services Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Our Services</h2>
                 <p class="section-subtitle">
-                    Advanced treatments for optimal renal function.
+                    Comprehensive medical management.
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service 1: Nephrology & Dialysis -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-kidneys"></i>
+                            <i class="fas fa-fire-alt"></i>
                         </div>
-                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
+                        <h3 class="treatment-card-title">Acidity Treatment</h3>
                         <p class="treatment-card-description">
-                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
+                            Advanced protocol for managing severe acidity and heartburn, preventing damage to the esophagus.
                         </p>
-                        <a href="nephrology-center.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Urology & Urodynamics -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-bacteria"></i>
                         </div>
-                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
+                        <h3 class="treatment-card-title">H. Pylori Therapy</h3>
                         <p class="treatment-card-description">
-                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
+                            Eradication therapy for Helicobacter pylori bacteria, a common cause of stomach ulcers.
                         </p>
-                        <a href="urology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-notes-medical"></i>
+                        </div>
+                        <h3 class="treatment-card-title">IBS Management</h3>
+                        <p class="treatment-card-description">
+                             Multi-modal treatment for Irritable Bowel Syndrome including medication, diet, and stress management.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-ribbon"></i>
+                        </div>
+                        <h3 class="treatment-card-title">IBD Clinic</h3>
+                        <p class="treatment-card-description">
+                             Specialized care for Inflammatory Bowel Diseases like Crohn's Disease and Ulcerative Colitis.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Pancreas Care</h3>
+                        <p class="treatment-card-description">
+                            Management of acute and chronic pancreatitis aimed at pain relief and restoring digestive function.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-allergies"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Food Intolerance</h3>
+                        <p class="treatment-card-description">
+                            Diagnosis and management of Lactose intolerance, Gluten sensitivity, and other food-related digestive issues.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -369,9 +368,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Kidney Care?</h2>
+                <h2 class="section-title">Why Prayag Gastroenterology?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise with compassionate care for better renal outcomes.
+                    Your stomach in safe hands.
                 </p>
             </div>
 
@@ -383,63 +382,41 @@
                         <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Nephrologists</h4>
-                        <p>Our team includes highly experienced doctors specializing in all aspects of kidney care.</p>
+                        <h4>Experienced Doctors</h4>
+                        <p>Our team comprises senior consultants with decades of experience in treating complex GI cases.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-vial"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Dialysis</h4>
-                        <p>Round-the-clock dialysis services to accommodate emergencies and patient convenience.</p>
+                        <h4>Advanced Lab</h4>
+                        <p>Backed by a sophisticated laboratory for accurate blood work, stool tests, and breath tests.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-first-aid"></i>
+                        <i class="fas fa-hand-holding-heart"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Safe Environment</h4>
-                        <p>Strict infection control protocols including separation of Hepatitis B & C units.</p>
+                        <h4>Patient Education</h4>
+                        <p>We empower patients with knowledge about their condition to help them make better lifestyle choices.</p>
                     </div>
                 </div>
 
                 <!-- Point 4 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-procedures"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest hemodialysis machines and RO water treatment plants.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>We provide high-quality renal care at accessible costs for all patients.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Integrated care involving nephrologists, urologists, and dieticians.</p>
+                        <h4>In-patient Care</h4>
+                        <p>Dedicated wards and nursing staff for patients requiring hospitalization for acute conditions.</p>
                     </div>
                 </div>
             </div>
@@ -452,17 +429,17 @@
             <div class="section-header">
                 <h2 class="section-title">Our Specialists</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced Nephrologists.
+                    Experts in digestive health.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $kidney_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'nephrology';
+                $gastro_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'gastroenterology';
                 });
-                foreach ($kidney_doctors as $doctor): 
+                foreach ($gastro_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -498,9 +475,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Success Stories</h2>
+                <h2 class="section-title-dark">Patient Stories</h2>
                 <p class="section-subtitle-gray">
-                    Hear from patients who are leading healthy lives with our care.
+                    Successful recoveries.
                 </p>
             </div>
 
@@ -514,47 +491,31 @@
                         <!-- Testimonial Video 1 -->
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Dialysis Experience">
+                                <img src="https://via.placeholder.com/320x180?text=IBS+Relief"
+                                    alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I have been undergoing dialysis here for 2 years. The staff is very caring and the facilities are hygienic."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Dialysis Patient</p>
+                                <p class="testimonial-text">"I struggled with IBS for years. The doctors at Prayag understood my problem and gave me a plan that actually works. I feel normal again."</p>
+                                <h4 class="testimonial-name">Mr. Vikas Sharma</h4>
+                                <p class="testimonial-procedure">IBS Treatment</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 2 -->
-                        <div class="testimonial-card" data-video-id="placeholder2">
+                         <!-- Testimonial Video 2 -->
+                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Kidney Stone">
+                                <img src="https://via.placeholder.com/320x180?text=Ulcer+Cure" alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I had severe kidney stone pain. Dr. Saxena treated me quickly and I was pain-free the next day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
-                                <p class="testimonial-procedure">Kidney Stone Removal</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="CKD Management">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"With proper medication and diet advice from Prayag doctors, my creatinine levels are now stable."</p>
-                                <h4 class="testimonial-name">Mr. Amit Singh</h4>
-                                <p class="testimonial-procedure">CKD Management</p>
+                                <p class="testimonial-text">"I had severe stomach pain due to an ulcer. The treatment was very effective and the doctor was very supportive throughout my recovery."</p>
+                                <h4 class="testimonial-name">Mrs. Kamala Devi</h4>
+                                <p class="testimonial-procedure">Ulcer Treatment</p>
                             </div>
                         </div>
                     </div>
@@ -573,7 +534,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about kidney health and dialysis.
+                    Common queries answered.
                 </p>
             </div>
 
@@ -585,13 +546,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    How often is dialysis needed?
+                                    What causes acid reflux?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Frequency of dialysis depends on your kidney function. Typically, hemodialysis is required 2-3 times per week, with each session lasting about 4 hours. Your nephrologist will determine the best schedule for you.
+                                    Acid reflux is caused when the lower esophageal sphincter muscle relaxes when it shouldn't, allowing stomach acid to flow back up into the esophagus. Triggers include spicy food, obesity, smoking, and pregnancy.
                                 </div>
                             </div>
                         </div>
@@ -601,29 +562,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What are the early signs of kidney disease?
+                                    How is IBS diagnosed?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Early signs can be subtle but often include swelling in feet/ankles, fatigue, changes in urination frequency, foamy urine, and persistent high blood pressure.
+                                    There is no specific test for IBS. Diagnosis is made by excluding other conditions through history taking, blood tests, and sometimes stool tests or colonoscopy, combined with characteristic symptoms.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Are kidney stones preventable?
+                                    Can diet cure peptic ulcers?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, many stones are preventable by drinking plenty of water, reducing salt intake, and avoiding oxalate-rich foods. Your doctor can recommend specific diet changes based on the stone type.
+                                    Diet alone cannot cure ulcers, but avoiding spicy and acidic foods can reduce symptoms. Most ulcers are caused by H. pylori infection or NSAID use and require medication for cure.
                                 </div>
                             </div>
                         </div>
@@ -633,45 +594,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    Does Prayag Hospital do kidney transplants?
+                                    When should I see a doctor for stomach pain?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We provide comprehensive pre-transplant evaluation and post-transplant follow-up care. For the transplant surgery itself, we can refer you to our partner centers of excellence if required.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What are the leading causes of kidney failure?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Diabetes and high blood pressure are the two most common causes of chronic kidney disease (CKD) and kidney failure. Other causes include glomerulonephritis, genetic diseases like polycystic kidney disease, and prolonged use of certain medications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What diet should I follow if I have kidney disease?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A kidney-friendly diet often involves limiting sodium, potassium, and phosphorus. Protein intake may also need adjustment. It is crucial to consult with our renal dietician for a personalized meal plan based on your stage of kidney disease.
+                                    You should see a doctor if your pain is severe, persistent, accompanied by vomiting, blood in stool, weight loss, or if over-the-counter medications aren't helping.
                                 </div>
                             </div>
                         </div>
@@ -687,4 +616,3 @@
 </body>
 
 </html>
-

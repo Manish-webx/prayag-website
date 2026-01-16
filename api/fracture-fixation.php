@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renal Sciences & Kidney Care - Best Nephrologists in India | Prayag Hospital</title>
+    <title>Fracture Fixation & Trauma Care - Orthopedics | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Renal Sciences (Kidney Care)
+                            Trauma & Fracture
                         </li>
                     </ol>
                 </nav>
@@ -50,30 +50,29 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre of Excellence for Nephrology & Dialysis | Prayag Hospital
+                            Complex Trauma & Fracture Care
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Comprehensive care for all kidney-related ailments. From advanced dialysis units to management of chronic 
-                            kidney diseases, our expert nephrologists ensure the highest standards of renal care.
+                            Time matters. Our 24/7 Trauma Center is equipped to handle complex bone fractures, poly-trauma, and pelvic injuries with advanced fixation techniques.
                         </p>
 
                         <!-- CTA Buttons -->
                         <div class="hero-cta-buttons">
                             <a href="find-doctor.php" class="btn-book-appointment">Find Doctor</a>
                             <a href="#callback" class="btn-request-callback">
-                                Request Callback
+                                Emergency Call
                             </a>
                         </div>
 
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>5000+</strong>
-                                Dialysis Sessions Annually
+                                <strong>24/7 Trauma</strong>
+                                Immediate expert care.
                             </div>
                             <div class="hero-stat-item">
-                                <strong>24/7</strong>
-                                Dialysis Unit
+                                <strong>Minimally Invasive</strong>
+                                Faster healing with MIPO.
                             </div>
                         </div>
                     </div>
@@ -82,8 +81,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                                    alt="Kidney Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1579684385180-1ea6726cd8db?w=800&h=600&fit=crop"
+                                    alt="Fracture Care" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -100,19 +99,19 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                    <a href="#conditions" class="toc-nav-link">Trauma Types</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
+                    <a href="#services" class="toc-nav-link">Treatments</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Specialists</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
+                    <a href="#patient-speak" class="toc-nav-link">Patient Stories</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#faq" class="toc-nav-link">FAQ</a>
@@ -129,10 +128,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-ambulance"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Dialysis</h3>
+                            <h3 class="feature-title">Emergency Care</h3>
                         </div>
                     </div>
                 </div>
@@ -141,10 +140,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-x-ray"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Nephrologists</h3>
+                            <h3 class="feature-title">Digital X-Ray</h3>
                         </div>
                     </div>
                 </div>
@@ -153,10 +152,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-procedures"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Critical Kidney Care</h3>
+                            <h3 class="feature-title">ICU Backup</h3>
                         </div>
                     </div>
                 </div>
@@ -165,10 +164,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
+                            <i class="fas fa-user-nurse"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Kidney Biopsy</h3>
+                            <h3 class="feature-title">Rehabilitation</h3>
                         </div>
                     </div>
                 </div>
@@ -180,42 +179,38 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Leading Specialists in Kidney Health</h2>
+                <h2 class="overview-heading">Expert Management of Bone Fractures</h2>
                 <p class="overview-text">
-                    The Department of Renal Sciences at Prayag Hospital is committed to providing world-class care for patients with 
-                    kidney diseases. We offer a comprehensive range of services including hemodialysis, peritoneal dialysis, and 
-                    management of acute and chronic kidney failure.
+                    Fractures can range from simple breaks to complex injuries involving multiple bones and soft tissues. At Prayag Hospital, our Trauma & Fracture Fixation unit is designed to provide rapid, expert care for all types of skeletal injuries.
                 </p>
                 <p class="overview-text">
-                    Our dialysis unit is one of the most advanced in the region, operating 24/7 with strict infection control protocols. 
-                    Our team of nephrologists works closely with urologists and dieticians to provide holistic care for renal issues.
+                    We specialize in "biological fixation" techniques that prioritize the preservation of blood supply to the bone, ensuring faster and stronger healing. Our team is adept at handling complicated cases like neglected fractures, infected non-unions, and deformities.
                 </p>
                 <p class="overview-text">
-                    We also specialize in preventive nephrology, helping patients with hypertension and diabetes manage their kidney 
-                    health effectively to delay or prevent the progression of renal failure.
+                    Supported by 24/7 advanced imaging (CT, Digital X-Ray) and a fully equipped modular Operation Theatre, receiving correct treatment within the "Golden Hour" greatly improves outcomes, especially in poly-trauma cases.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=400&fit=crop" alt="Orthopedic Surgeon"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Dialysis Center</h4>
-                    <p>State-of-the-art hemodialysis machines ensuring safe and effective treatment.</p>
+                    <i class="fas fa-clinic-medical"></i>
+                    <h4>Poly-Trauma</h4>
+                    <p>Coordinated multi-specialty care for patients with multiple injuries tailored to save lives and limbs.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Critical Nephrology</h4>
-                    <p>Dedicated care for patients with acute kidney injury in ICU settings.</p>
+                    <i class="fas fa-bone"></i>
+                    <h4>Complex Fractures</h4>
+                    <p>Expertise in treating intra-articular fractures (breaks extending into the joint) and pelvic injuries.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-file-medical-alt"></i>
-                    <h4>Preventive Care</h4>
-                    <p>Screening and management programs for early detection of kidney diseases.</p>
+                    <i class="fas fa-child"></i>
+                    <h4>Pediatric Trauma</h4>
+                    <p>Specialized care for children's fractures using flexible nails to avoid growth plate damage.</p>
                 </div>
             </div>
         </div>
@@ -225,9 +220,9 @@
     <section class="conditions-section" id="conditions">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">Types of Trauma We Treat</h2>
                 <p class="section-subtitle">
-                    Expert management for all types of renal disorders.
+                    Comprehensive care for all skeletal injuries.
                 </p>
             </div>
 
@@ -235,84 +230,42 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Kidney Disease (CKD)</h3>
+                        <h3 class="condition-name">Compound Fractures</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Acute Kidney Injury</h3>
+                        <h3 class="condition-name">Hip Fractures</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Stones</h3>
+                        <h3 class="condition-name">Pelvic & Acetabular</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urinary Tract Infections (UTI)</h3>
+                        <h3 class="condition-name">Spouls & Dislocations</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Glomerulonephritis</h3>
+                        <h3 class="condition-name">Non-Union Fractures</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Nephrotic Syndrome</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 7 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Nephropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 8 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hypertensive Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Electrolyte Disorders</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Polycystic Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Prostate Issues</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hematuria (Blood in Urine)</h3>
+                        <h3 class="condition-name">Infected Fractures</h3>
                     </div>
                 </div>
             </div>
@@ -320,45 +273,91 @@
     </section>
 
     <!-- Services Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Services</h2>
+                <h2 class="section-title">Fixation Techniques</h2>
                 <p class="section-subtitle">
-                    Advanced treatments for optimal renal function.
+                    Modern approaches for stable bones.
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service 1: Nephrology & Dialysis -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-kidneys"></i>
+                            <i class="fas fa-screwdriver"></i>
                         </div>
-                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
+                        <h3 class="treatment-card-title">Interlocking Nailing</h3>
                         <p class="treatment-card-description">
-                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
+                             Minimally invasive technique for long bone fractures (Femur, Tibia) allowing early weight bearing.
                         </p>
-                        <a href="nephrology-center.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Urology & Urodynamics -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-layer-group"></i>
                         </div>
-                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
+                        <h3 class="treatment-card-title">Locking Plate Fixation</h3>
                         <p class="treatment-card-description">
-                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
+                            Use of advanced titanium locking plates for osteoporotic bones and fractures near joints to ensure rigid fixation.
                         </p>
-                        <a href="urology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </div>
+                        <h3 class="treatment-card-title">External Fixator (Ilizarov)</h3>
+                        <p class="treatment-card-description">
+                            Specialized ring fixators for treating open fractures, bone infections, and limb lengthening procedures.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-band-aid"></i>
+                        </div>
+                        <h3 class="treatment-card-title">MIPO Technique</h3>
+                        <p class="treatment-card-description">
+                            Minimally Invasive Plate Osteosynthesis – fixing fractures through small keyholes without opening the fracture site.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Pediatric Nailing</h3>
+                        <p class="treatment-card-description">
+                            Use of Titanium Elastic Nails (TENS) for children's fractures which are scar-less and removal is easy.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-undo-alt"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Deformity Correction</h3>
+                        <p class="treatment-card-description">
+                            Surgical correction of mal-united bones that have healed in the wrong position, restoring limb alignment.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -369,9 +368,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Kidney Care?</h2>
+                <h2 class="section-title">Why Prayag for Trauma?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise with compassionate care for better renal outcomes.
+                    Dependable care when you need it most.
                 </p>
             </div>
 
@@ -380,66 +379,44 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-shipping-fast"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Nephrologists</h4>
-                        <p>Our team includes highly experienced doctors specializing in all aspects of kidney care.</p>
+                        <h4>Rapid Response</h4>
+                        <p>Dedicated trauma team ready 24/7 to initiate immediate treatment protocols.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-microscope"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Dialysis</h4>
-                        <p>Round-the-clock dialysis services to accommodate emergencies and patient convenience.</p>
+                        <h4>Precision Surgery</h4>
+                        <p>Use of C-Arm (Image Intensifier) ensures accurate fracture reduction and implant placement.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-first-aid"></i>
+                        <i class="fas fa-bed"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Safe Environment</h4>
-                        <p>Strict infection control protocols including separation of Hepatitis B & C units.</p>
+                        <h4>ICU Support</h4>
+                        <p>Advanced ICU backup for critical poly-trauma patients requiring multi-organ support.</p>
                     </div>
                 </div>
 
                 <!-- Point 4 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-walking"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest hemodialysis machines and RO water treatment plants.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>We provide high-quality renal care at accessible costs for all patients.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Integrated care involving nephrologists, urologists, and dieticians.</p>
+                        <h4>Early Mobilization</h4>
+                        <p>Our fixation techniques allow patients to start moving joints early, preventing stiffness.</p>
                     </div>
                 </div>
             </div>
@@ -450,19 +427,19 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Specialists</h2>
+                <h2 class="section-title">Our Trauma Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced Nephrologists.
+                    Experts in bone healing.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $kidney_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'nephrology';
+                $ortho_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'orthopedics';
                 });
-                foreach ($kidney_doctors as $doctor): 
+                foreach ($ortho_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -498,9 +475,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Success Stories</h2>
+                <h2 class="section-title-dark">Road to Recovery</h2>
                 <p class="section-subtitle-gray">
-                    Hear from patients who are leading healthy lives with our care.
+                    Stories of strength.
                 </p>
             </div>
 
@@ -514,47 +491,31 @@
                         <!-- Testimonial Video 1 -->
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Dialysis Experience">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review"
+                                    alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I have been undergoing dialysis here for 2 years. The staff is very caring and the facilities are hygienic."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Dialysis Patient</p>
+                                <p class="testimonial-text">"I was brought in with a severe compound fracture. The doctors saved my leg from amputation. I am forever grateful."</p>
+                                <h4 class="testimonial-name">Mr. Suresh Sharma</h4>
+                                <p class="testimonial-procedure">Compound Fracture Surgery</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 2 -->
-                        <div class="testimonial-card" data-video-id="placeholder2">
+                         <!-- Testimonial Video 2 -->
+                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Kidney Stone">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review" alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I had severe kidney stone pain. Dr. Saxena treated me quickly and I was pain-free the next day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
-                                <p class="testimonial-procedure">Kidney Stone Removal</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="CKD Management">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"With proper medication and diet advice from Prayag doctors, my creatinine levels are now stable."</p>
-                                <h4 class="testimonial-name">Mr. Amit Singh</h4>
-                                <p class="testimonial-procedure">CKD Management</p>
+                                <p class="testimonial-text">"My hip fracture was operated on the next day. I was walking with a walker on the 3rd day."</p>
+                                <h4 class="testimonial-name">Mrs. Kamla Devi</h4>
+                                <p class="testimonial-procedure">Hip Fixation</p>
                             </div>
                         </div>
                     </div>
@@ -573,7 +534,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about kidney health and dialysis.
+                    Healing your bones.
                 </p>
             </div>
 
@@ -585,13 +546,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    How often is dialysis needed?
+                                    How long does a broken bone take to heal?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Frequency of dialysis depends on your kidney function. Typically, hemodialysis is required 2-3 times per week, with each session lasting about 4 hours. Your nephrologist will determine the best schedule for you.
+                                    Generally, bones take 6 to 8 weeks to heal. However, weight-bearing bones like the leg may take longer (3-6 months) for full strength. Factors like age, nutrition, and smoking affect healing time.
                                 </div>
                             </div>
                         </div>
@@ -601,29 +562,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What are the early signs of kidney disease?
+                                    Will I need a second surgery to remove the metal plates?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Early signs can be subtle but often include swelling in feet/ankles, fatigue, changes in urination frequency, foamy urine, and persistent high blood pressure.
+                                    Not necessarily. Modern titanium implants are designed to stay in the body permanently and typically do not cause issues. Removal is only recommended if they cause pain, irritation, or infection after the bone has fully healed.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Are kidney stones preventable?
+                                    What is the MIPO technique?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, many stones are preventable by drinking plenty of water, reducing salt intake, and avoiding oxalate-rich foods. Your doctor can recommend specific diet changes based on the stone type.
+                                    MIPO stands for Minimally Invasive Plate Osteosynthesis. It involves inserting a plate through small incisions and sliding it over the bone, rather than making a large cut. This preserves the blood supply and speeds up healing.
                                 </div>
                             </div>
                         </div>
@@ -633,45 +594,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    Does Prayag Hospital do kidney transplants?
+                                    Can I walk with a cast on?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We provide comprehensive pre-transplant evaluation and post-transplant follow-up care. For the transplant surgery itself, we can refer you to our partner centers of excellence if required.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What are the leading causes of kidney failure?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Diabetes and high blood pressure are the two most common causes of chronic kidney disease (CKD) and kidney failure. Other causes include glomerulonephritis, genetic diseases like polycystic kidney disease, and prolonged use of certain medications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What diet should I follow if I have kidney disease?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A kidney-friendly diet often involves limiting sodium, potassium, and phosphorus. Protein intake may also need adjustment. It is crucial to consult with our renal dietician for a personalized meal plan based on your stage of kidney disease.
+                                    It depends on the type of fracture and the cast. If you have a "walking cast" or boot, you may be allowed to put weight on it. Always follow your doctor's specific instructions to prevent displacing the fracture.
                                 </div>
                             </div>
                         </div>
@@ -687,4 +616,3 @@
 </body>
 
 </html>
-

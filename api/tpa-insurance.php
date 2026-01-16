@@ -134,7 +134,7 @@ $insurance_companies = [
     </section>
 
     <!-- Empanelled Partners -->
-    <section class="tpa-grid-section">
+    <section class="tpa-grid-section" style="background: #f9f9f9;">
         <div class="container">
             <!-- Insurance Companies -->
             <h3 class="mb-4 pb-2 border-bottom" style="color: var(--dark-text); font-weight: 700;">Empanelled Insurance Companies</h3>

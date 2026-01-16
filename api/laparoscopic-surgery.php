@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renal Sciences & Kidney Care - Best Nephrologists in India | Prayag Hospital</title>
+    <title>Laparoscopic Gynaecology Surgery | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Renal Sciences (Kidney Care)
+                            Laparoscopic Surgery
                         </li>
                     </ol>
                 </nav>
@@ -50,11 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre of Excellence for Nephrology & Dialysis | Prayag Hospital
+                            Advanced Laparoscopic Gynaecology
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Comprehensive care for all kidney-related ailments. From advanced dialysis units to management of chronic 
-                            kidney diseases, our expert nephrologists ensure the highest standards of renal care.
+                            Experience the benefits of "Keyhole Surgery". We offer minimally invasive solutions for uterus removal, fibroids, and ovarian cysts with faster recovery and minimal scarring.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -68,12 +67,12 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>5000+</strong>
-                                Dialysis Sessions Annually
+                                <strong>Minimally Invasive</strong>
+                                Tiny incisions, less pain.
                             </div>
                             <div class="hero-stat-item">
-                                <strong>24/7</strong>
-                                Dialysis Unit
+                                <strong>Fast Recovery</strong>
+                                Back to normal life in days.
                             </div>
                         </div>
                     </div>
@@ -82,8 +81,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                                    alt="Kidney Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1579684385180-1ea6726cd8db?w=800&h=600&fit=crop"
+                                    alt="Laparoscopic Surgery" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -103,16 +102,16 @@
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
+                    <a href="#services" class="toc-nav-link">Procedures</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Surgeons</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
+                    <a href="#patient-speak" class="toc-nav-link">Testimonials</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#faq" class="toc-nav-link">FAQ</a>
@@ -129,10 +128,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-video"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Dialysis</h3>
+                            <h3 class="feature-title">HD Imaging</h3>
                         </div>
                     </div>
                 </div>
@@ -141,10 +140,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-band-aid"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Nephrologists</h3>
+                            <h3 class="feature-title">Less Scarring</h3>
                         </div>
                     </div>
                 </div>
@@ -153,10 +152,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-running"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Critical Kidney Care</h3>
+                            <h3 class="feature-title">Quick Recovery</h3>
                         </div>
                     </div>
                 </div>
@@ -165,10 +164,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
+                            <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Kidney Biopsy</h3>
+                            <h3 class="feature-title">Expert Care</h3>
                         </div>
                     </div>
                 </div>
@@ -180,42 +179,38 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Leading Specialists in Kidney Health</h2>
+                <h2 class="overview-heading">Precision Surgery, Gentle Care</h2>
                 <p class="overview-text">
-                    The Department of Renal Sciences at Prayag Hospital is committed to providing world-class care for patients with 
-                    kidney diseases. We offer a comprehensive range of services including hemodialysis, peritoneal dialysis, and 
-                    management of acute and chronic kidney failure.
+                    Gone are the days when gynecological surgeries required large incisions and weeks of bed rest. At Prayag Hospital, we specialize in modern Laparoscopic (Keyhole) surgeries that are safer, less painful, and offer significantly faster recovery.
                 </p>
                 <p class="overview-text">
-                    Our dialysis unit is one of the most advanced in the region, operating 24/7 with strict infection control protocols. 
-                    Our team of nephrologists works closely with urologists and dieticians to provide holistic care for renal issues.
+                    Through tiny incisions, our skilled surgeons use a camera and specialized instruments to perform complex procedures like Hysterectomy (uterus removal) and Myomectomy (fibroid removal).
                 </p>
                 <p class="overview-text">
-                    We also specialize in preventive nephrology, helping patients with hypertension and diabetes manage their kidney 
-                    health effectively to delay or prevent the progression of renal failure.
+                    This advanced approach minimizes trauma to the body, reduces the risk of infection, and ensures excellent cosmetic results, helping you get back to your routine and family life as quickly as possible.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=400&fit=crop" alt="Laparoscopic Surgery Team"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Dialysis Center</h4>
-                    <p>State-of-the-art hemodialysis machines ensuring safe and effective treatment.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Total Laparoscopic Hysterectomy</h4>
+                    <p>Complete removal of the uterus through keyholes, avoiding large abdominal cuts.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Critical Nephrology</h4>
-                    <p>Dedicated care for patients with acute kidney injury in ICU settings.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Ovarian Cystectomy</h4>
+                    <p>Precise removal of cysts while preserving the healthy ovarian tissue and fertility.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-file-medical-alt"></i>
-                    <h4>Preventive Care</h4>
-                    <p>Screening and management programs for early detection of kidney diseases.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Infertility Diagnosis</h4>
+                    <p>Diagnostic laparoscopy to visualize and treat blocks or endometriosis hindering conception.</p>
                 </div>
             </div>
         </div>
@@ -225,9 +220,9 @@
     <section class="conditions-section" id="conditions">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">Conditions Treated</h2>
                 <p class="section-subtitle">
-                    Expert management for all types of renal disorders.
+                    Effective solutions for common issues.
                 </p>
             </div>
 
@@ -235,84 +230,42 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Kidney Disease (CKD)</h3>
+                        <h3 class="condition-name">Uterine Fibroids</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Acute Kidney Injury</h3>
+                        <h3 class="condition-name">Ovarian Cysts</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Stones</h3>
+                        <h3 class="condition-name">Endometriosis</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urinary Tract Infections (UTI)</h3>
+                        <h3 class="condition-name">Heavy Bleeding</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Glomerulonephritis</h3>
+                        <h3 class="condition-name">Ectopic Pregnancy</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Nephrotic Syndrome</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 7 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Nephropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 8 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hypertensive Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Electrolyte Disorders</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Polycystic Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Prostate Issues</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hematuria (Blood in Urine)</h3>
+                        <h3 class="condition-name">Tubal Blockage</h3>
                     </div>
                 </div>
             </div>
@@ -320,45 +273,91 @@
     </section>
 
     <!-- Services Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Services</h2>
+                <h2 class="section-title">Our Procedures</h2>
                 <p class="section-subtitle">
-                    Advanced treatments for optimal renal function.
+                    Minimally invasive, maximally effective.
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service 1: Nephrology & Dialysis -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-kidneys"></i>
+                            <i class="fas fa-hospital-alt"></i>
                         </div>
-                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
+                        <h3 class="treatment-card-title">TLH (Hysterectomy)</h3>
                         <p class="treatment-card-description">
-                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
+                             Total Laparoscopic Hysterectomy is the removal of the uterus via small incisions. It's the gold standard for treating benign uterine conditions.
                         </p>
-                        <a href="nephrology-center.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Urology & Urodynamics -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-circle-notch"></i>
                         </div>
-                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
+                        <h3 class="treatment-card-title">Myomectomy</h3>
                         <p class="treatment-card-description">
-                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
+                            Surgical removal of fibroids from the uterus while preserving the uterus itself, crucial for women who wish to conceive in the future.
                         </p>
-                        <a href="urology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Diagnostic Laparoscopy</h3>
+                        <p class="treatment-card-description">
+                            A procedure to inspect the pelvic organs and diagnose causes of infertility or pelvic pain that ultrasounds might miss.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Tubal Ligation</h3>
+                        <p class="treatment-card-description">
+                            A permanent method of contraception (family planning) done laparoscopically, which is safe and effective.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-notes-medical"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Endometriosis Surgery</h3>
+                        <p class="treatment-card-description">
+                            Removal of endometrial tissue and scar tissue to relieve pain and improve fertility outcomes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Ectopic Surgery</h3>
+                        <p class="treatment-card-description">
+                            Emergency laparoscopic management of ectopic pregnancies (pregnancy outside the uterus) to prevent rupture.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -369,9 +368,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Kidney Care?</h2>
+                <h2 class="section-title">Why Prayag for Surgery?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise with compassionate care for better renal outcomes.
+                    Advanced technology meets expert hands.
                 </p>
             </div>
 
@@ -380,66 +379,44 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-desktop"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Nephrologists</h4>
-                        <p>Our team includes highly experienced doctors specializing in all aspects of kidney care.</p>
+                        <h4>4K Imaging</h4>
+                        <p>Ultra-high-definition cameras provide superior visibility for precise surgery.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Dialysis</h4>
-                        <p>Round-the-clock dialysis services to accommodate emergencies and patient convenience.</p>
+                        <h4>Experienced Surgeons</h4>
+                        <p>Our team has performed thousands of successful laparoscopic procedures.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-first-aid"></i>
+                        <i class="fas fa-bolt"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Safe Environment</h4>
-                        <p>Strict infection control protocols including separation of Hepatitis B & C units.</p>
+                        <h4>Less Pain</h4>
+                        <p>Smaller incisions mean significantly less post-operative pain and medication.</p>
                     </div>
                 </div>
 
                 <!-- Point 4 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-home"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest hemodialysis machines and RO water treatment plants.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>We provide high-quality renal care at accessible costs for all patients.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Integrated care involving nephrologists, urologists, and dieticians.</p>
+                        <h4>Early Discharge</h4>
+                        <p>Most patients are discharged within 24 to 48 hours, recovering in the comfort of their homes.</p>
                     </div>
                 </div>
             </div>
@@ -450,19 +427,19 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Specialists</h2>
+                <h2 class="section-title">Our Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced Nephrologists.
+                    Experts in Minimally Invasive Gynaecology.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $kidney_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'nephrology';
+                $gynae_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'gynecology';
                 });
-                foreach ($kidney_doctors as $doctor): 
+                foreach ($gynae_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -500,7 +477,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Success Stories</h2>
                 <p class="section-subtitle-gray">
-                    Hear from patients who are leading healthy lives with our care.
+                    Pain-free journeys.
                 </p>
             </div>
 
@@ -514,47 +491,31 @@
                         <!-- Testimonial Video 1 -->
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Dialysis Experience">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review"
+                                    alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I have been undergoing dialysis here for 2 years. The staff is very caring and the facilities are hygienic."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Dialysis Patient</p>
+                                <p class="testimonial-text">"I was terrified of surgery. But with laparoscopy, I had almost zero pain and was walking the very next day. Thank you Dr. Kamna!"</p>
+                                <h4 class="testimonial-name">Mrs. Poonam Das</h4>
+                                <p class="testimonial-procedure">Laparoscopic Hysterectomy</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 2 -->
-                        <div class="testimonial-card" data-video-id="placeholder2">
+                         <!-- Testimonial Video 2 -->
+                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Kidney Stone">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review" alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I had severe kidney stone pain. Dr. Saxena treated me quickly and I was pain-free the next day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
-                                <p class="testimonial-procedure">Kidney Stone Removal</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="CKD Management">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"With proper medication and diet advice from Prayag doctors, my creatinine levels are now stable."</p>
-                                <h4 class="testimonial-name">Mr. Amit Singh</h4>
-                                <p class="testimonial-procedure">CKD Management</p>
+                                <p class="testimonial-text">"I had a large dermoid cyst removed. The tiny scars are barely visible now. Excellent care."</p>
+                                <h4 class="testimonial-name">Ms. Sanya Kapoor</h4>
+                                <p class="testimonial-procedure">Ovarian Cyst Removal</p>
                             </div>
                         </div>
                     </div>
@@ -573,7 +534,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about kidney health and dialysis.
+                    About Laparoscopic Surgery.
                 </p>
             </div>
 
@@ -585,13 +546,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    How often is dialysis needed?
+                                    Is laparoscopic surgery safe?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Frequency of dialysis depends on your kidney function. Typically, hemodialysis is required 2-3 times per week, with each session lasting about 4 hours. Your nephrologist will determine the best schedule for you.
+                                    Yes, it is generally safer than open surgery because there is less blood loss, lower risk of infection, and less trauma to the abdomen, leading to fewer post-operative complications.
                                 </div>
                             </div>
                         </div>
@@ -601,29 +562,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What are the early signs of kidney disease?
+                                    How long does the surgery take?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Early signs can be subtle but often include swelling in feet/ankles, fatigue, changes in urination frequency, foamy urine, and persistent high blood pressure.
+                                    The duration depends on the complexity of the procedure. A simple diagnostic laparoscopy might take 30 minutes, while a complex hysterectomy or myomectomy could take 1-2 hours.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Are kidney stones preventable?
+                                    Will I have big scars?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, many stones are preventable by drinking plenty of water, reducing salt intake, and avoiding oxalate-rich foods. Your doctor can recommend specific diet changes based on the stone type.
+                                    No. The incisions are very small (usually 0.5 to 1 cm). They heal quickly and often fade over time, making them barely noticeable compared to the large scar from open surgery.
                                 </div>
                             </div>
                         </div>
@@ -633,45 +594,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    Does Prayag Hospital do kidney transplants?
+                                    When can I resume work?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We provide comprehensive pre-transplant evaluation and post-transplant follow-up care. For the transplant surgery itself, we can refer you to our partner centers of excellence if required.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What are the leading causes of kidney failure?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Diabetes and high blood pressure are the two most common causes of chronic kidney disease (CKD) and kidney failure. Other causes include glomerulonephritis, genetic diseases like polycystic kidney disease, and prolonged use of certain medications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What diet should I follow if I have kidney disease?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A kidney-friendly diet often involves limiting sodium, potassium, and phosphorus. Protein intake may also need adjustment. It is crucial to consult with our renal dietician for a personalized meal plan based on your stage of kidney disease.
+                                    Most patients can return to light office work within 1-2 weeks. Strenuous activities should be avoided for a few weeks as advised by your surgeon.
                                 </div>
                             </div>
                         </div>
@@ -687,4 +616,3 @@
 </body>
 
 </html>
-

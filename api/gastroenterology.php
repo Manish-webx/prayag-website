@@ -336,7 +336,7 @@
                         <p class="treatment-card-description">
                             Medical Gastroenterology & Digestive Care. Treatment for Acidity, GERD & IBS.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="medical-gastroenterology.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -352,7 +352,7 @@
                         <p class="treatment-card-description">
                             Hepatology & Liver Disease Clinic. Management of Fatty Liver, Jaundice & Hepatitis.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="hepatology.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -368,7 +368,7 @@
                         <p class="treatment-card-description">
                             Endoscopy & Colonoscopy Services. Diagnostic & Therapeutic GI Procedures.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="endoscopy-colonoscopy.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>

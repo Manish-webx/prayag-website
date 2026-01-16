@@ -340,7 +340,7 @@
                         <p class="treatment-card-description">
                             Medical Oncology & Chemotherapy. Cancer Treatment & Immunotherapy.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="medical-oncology.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -356,7 +356,7 @@
                         <p class="treatment-card-description">
                             Surgical Oncology & Cancer Surgery. Tumor Removal & Advanced Procedures.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="surgical-oncology.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>

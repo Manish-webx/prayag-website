@@ -337,7 +337,7 @@
                         <p class="treatment-card-description">
                             Management of Preeclampsia & Gestational Diabetes. Specialized care for complex pregnancies and safe deliveries.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="high-risk-pregnancy.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -353,7 +353,7 @@
                         <p class="treatment-card-description">
                             Minimally invasive removal of uterus (Hysterectomy), fibroids (Myomectomy), and ovarian cysts.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="laparoscopic-surgery.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -369,7 +369,7 @@
                         <p class="treatment-card-description">
                             Diagnosis and treatment for infertility including follicular monitoring, IUI (Intrauterine Insemination), and IVF support.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="infertility-treatment.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>

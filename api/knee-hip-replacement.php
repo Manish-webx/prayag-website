@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renal Sciences & Kidney Care - Best Nephrologists in India | Prayag Hospital</title>
+    <title>Total Knee & Hip Replacement - Joint Surgery | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Renal Sciences (Kidney Care)
+                            Joint Replacement
                         </li>
                     </ol>
                 </nav>
@@ -50,11 +50,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Centre of Excellence for Nephrology & Dialysis | Prayag Hospital
+                            Centre for Joint Replacement
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Comprehensive care for all kidney-related ailments. From advanced dialysis units to management of chronic 
-                            kidney diseases, our expert nephrologists ensure the highest standards of renal care.
+                            Regain your mobility and live pain-free. We specialize in Total Knee and Hip Replacement surgeries using advanced robotic-assisted and minimally invasive techniques.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -68,12 +67,12 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>5000+</strong>
-                                Dialysis Sessions Annually
+                                <strong>Pain-Free Living</strong>
+                                Proven long-term results.
                             </div>
                             <div class="hero-stat-item">
-                                <strong>24/7</strong>
-                                Dialysis Unit
+                                <strong>Fast Recovery</strong>
+                                Walk on the same day.
                             </div>
                         </div>
                     </div>
@@ -82,8 +81,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
-                                    alt="Kidney Care at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1542884775-829d445c3410?w=800&h=600&fit=crop"
+                                    alt="Joint Replacement Model" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -103,13 +102,13 @@
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
+                    <a href="#services" class="toc-nav-link">Procedures</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Surgeons</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
@@ -129,10 +128,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-robot"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Dialysis</h3>
+                            <h3 class="feature-title">Robotic Surgery</h3>
                         </div>
                     </div>
                 </div>
@@ -141,10 +140,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Nephrologists</h3>
+                            <h3 class="feature-title">Minimally Invasive</h3>
                         </div>
                     </div>
                 </div>
@@ -153,10 +152,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-user-shield"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Critical Kidney Care</h3>
+                            <h3 class="feature-title">Safe Implants</h3>
                         </div>
                     </div>
                 </div>
@@ -165,10 +164,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-microscope"></i>
+                            <i class="fas fa-walking"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Kidney Biopsy</h3>
+                            <h3 class="feature-title">Day Care Rehab</h3>
                         </div>
                     </div>
                 </div>
@@ -180,42 +179,40 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Leading Specialists in Kidney Health</h2>
+                <h2 class="overview-heading">Transforming Lives Through Mobility</h2>
                 <p class="overview-text">
-                    The Department of Renal Sciences at Prayag Hospital is committed to providing world-class care for patients with 
-                    kidney diseases. We offer a comprehensive range of services including hemodialysis, peritoneal dialysis, and 
-                    management of acute and chronic kidney failure.
+                    Chronic joint pain can severely limit your lifestyle. At Prayag Hospital, our Joint Replacement Centre is a leader in performing 
+                    Total Knee Replacement (TKR) and Total Hip Replacement (THR) surgeries with a high success rate.
                 </p>
                 <p class="overview-text">
-                    Our dialysis unit is one of the most advanced in the region, operating 24/7 with strict infection control protocols. 
-                    Our team of nephrologists works closely with urologists and dieticians to provide holistic care for renal issues.
+                    We utilize high-quality, long-lasting implants (Oxinium, Ceramics, Highly Cross-linked Polyethylene) and ensure perfect alignment 
+                    through computer navigation systems. This results in joints that feel natural and last for decades.
                 </p>
                 <p class="overview-text">
-                    We also specialize in preventive nephrology, helping patients with hypertension and diabetes manage their kidney 
-                    health effectively to delay or prevent the progression of renal failure.
+                    Our "Rapid Recovery Protocol" allows most patients to stand and walk within 24 hours of surgery, significantly reducing hospital stay and complications.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="https://images.unsplash.com/photo-1576091160550-2187d80a1b9a?w=800&h=400&fit=crop" alt="Knee Implant"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Dialysis Center</h4>
-                    <p>State-of-the-art hemodialysis machines ensuring safe and effective treatment.</p>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Primary TKR/THR</h4>
+                    <p>First-time joint replacement surgeries for Osteoarthritis and Rheumatoid Arthritis.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Critical Nephrology</h4>
-                    <p>Dedicated care for patients with acute kidney injury in ICU settings.</p>
+                    <i class="fas fa-redo"></i>
+                    <h4>Revision Surgery</h4>
+                    <p>Complex surgeries to replace old, worn-out, or infected implants.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-file-medical-alt"></i>
-                    <h4>Preventive Care</h4>
-                    <p>Screening and management programs for early detection of kidney diseases.</p>
+                    <i class="fas fa-crutch"></i>
+                    <h4>Partial Replacement</h4>
+                    <p>Unicondylar Knee Replacement (UKR) preserving the healthy parts of the knee.</p>
                 </div>
             </div>
         </div>
@@ -225,94 +222,52 @@
     <section class="conditions-section" id="conditions">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">When is Replacement Needed?</h2>
                 <p class="section-subtitle">
-                    Expert management for all types of renal disorders.
+                    Common conditions leading to joint surgery.
                 </p>
             </div>
 
             <div class="row g-3">
-                <!-- Condition 1 -->
+                <!-- condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Kidney Disease (CKD)</h3>
+                        <h3 class="condition-name">Severe Osteoarthritis</h3>
                     </div>
                 </div>
 
-                <!-- Condition 2 -->
+                <!-- condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Acute Kidney Injury</h3>
+                        <h3 class="condition-name">Rheumatoid Arthritis</h3>
                     </div>
                 </div>
 
-                <!-- Condition 3 -->
+                <!-- condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Kidney Stones</h3>
+                        <h3 class="condition-name">Avascular Necrosis (AVN)</h3>
                     </div>
                 </div>
 
-                <!-- Condition 4 -->
+                <!-- condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Urinary Tract Infections (UTI)</h3>
+                        <h3 class="condition-name">Hip Fractures</h3>
                     </div>
                 </div>
 
-                <!-- Condition 5 -->
+                <!-- condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Glomerulonephritis</h3>
+                        <h3 class="condition-name">Ankylosing Spondylitis</h3>
                     </div>
                 </div>
 
-                <!-- Condition 6 -->
+                <!-- condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Nephrotic Syndrome</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 7 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Nephropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 8 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hypertensive Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Electrolyte Disorders</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Polycystic Kidney Disease</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Prostate Issues</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Hematuria (Blood in Urine)</h3>
+                        <h3 class="condition-name">Post-Traumatic Arthritis</h3>
                     </div>
                 </div>
             </div>
@@ -320,45 +275,91 @@
     </section>
 
     <!-- Services Section -->
-    <section class="treatment-section" id="types-of-treatment">
+    <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Services</h2>
+                <h2 class="section-title">Our Procedures</h2>
                 <p class="section-subtitle">
-                    Advanced treatments for optimal renal function.
+                    State-of-the-art surgical solutions.
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service 1: Nephrology & Dialysis -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-kidneys"></i>
+                            <i class="fas fa-bone"></i>
                         </div>
-                        <h3 class="treatment-card-title">Nephrology & Dialysis Centre</h3>
+                        <h3 class="treatment-card-title">Total Knee Replacement (TKR)</h3>
                         <p class="treatment-card-description">
-                            Hemodialysis & CKD Management. Comprehensive care for all kidney-related ailments.
+                            Resurfacing the damaged knee joint with metal and plastic components to restore smooth movement and eliminate pain.
                         </p>
-                        <a href="nephrology-center.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Urology & Urodynamics -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-users"></i>
                         </div>
-                        <h3 class="treatment-card-title">Urology & Urodynamics Services</h3>
+                        <h3 class="treatment-card-title">Total Hip Replacement (THR)</h3>
                         <p class="treatment-card-description">
-                             Prostate, Kidney Stone & Bladder Treatment. Advanced surgical and non-surgical solutions.
+                            Replacing the damaged ball and socket of the hip joint with durable prosthetic components like Ceramic-on-Ceramic.
                         </p>
-                        <a href="urology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Robotic Assisted Surgery</h3>
+                        <p class="treatment-card-description">
+                            Using robotic arms for 100% precision in bone cutting and implant placement, ensuring longevity of the joint.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-redo-alt"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Revision Joint Replacement</h3>
+                        <p class="treatment-card-description">
+                            Specialized surgery to correct failed previous implants due to loosening, infection, or wear.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Core Decompression</h3>
+                        <p class="treatment-card-description">
+                            A joint-saving procedure for early-stage Avascular Necrosis (AVN) of the hip to prevent collapse.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Customized Implants</h3>
+                        <p class="treatment-card-description">
+                            Patient-specific instruments and 3D printed guides for complex deformities ensuring a perfect fit.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -369,9 +370,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Kidney Care?</h2>
+                <h2 class="section-title">Why Prayag for Joint Surgery?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise with compassionate care for better renal outcomes.
+                    Excellence in every step.
                 </p>
             </div>
 
@@ -380,66 +381,44 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-procedures"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Nephrologists</h4>
-                        <p>Our team includes highly experienced doctors specializing in all aspects of kidney care.</p>
+                        <h4>Class 100 Modular OT</h4>
+                        <p>Our OTs have HEPA filters with laminar airflow, bringing infection rates to near zero.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Dialysis</h4>
-                        <p>Round-the-clock dialysis services to accommodate emergencies and patient convenience.</p>
+                        <h4>Renowned Surgeons</h4>
+                        <p>Our team has performed thousands of successful joint replacements.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-first-aid"></i>
+                        <i class="fas fa-notes-medical"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Safe Environment</h4>
-                        <p>Strict infection control protocols including separation of Hepatitis B & C units.</p>
+                        <h4>Comprehensive Rehab</h4>
+                        <p>In-hospital physiotherapy starts immediately after surgery to ensure quick mobility.</p>
                     </div>
                 </div>
 
                 <!-- Point 4 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-laptop-medical"></i>
+                        <i class="fas fa-wallet"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest hemodialysis machines and RO water treatment plants.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Affordable Care</h4>
-                        <p>We provide high-quality renal care at accessible costs for all patients.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Integrated care involving nephrologists, urologists, and dieticians.</p>
+                        <h4>Cost-Effective</h4>
+                        <p>Transparent packages including implant cost, surgery, and hospital stay.</p>
                     </div>
                 </div>
             </div>
@@ -450,19 +429,19 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Specialists</h2>
+                <h2 class="section-title">Our Joint Replacement Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of experienced Nephrologists.
+                    Hands that heal.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $kidney_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'nephrology';
+                $ortho_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'orthopedics';
                 });
-                foreach ($kidney_doctors as $doctor): 
+                foreach ($ortho_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -500,7 +479,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Success Stories</h2>
                 <p class="section-subtitle-gray">
-                    Hear from patients who are leading healthy lives with our care.
+                    Back to active life.
                 </p>
             </div>
 
@@ -514,47 +493,31 @@
                         <!-- Testimonial Video 1 -->
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Dialysis Experience">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review"
+                                    alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I have been undergoing dialysis here for 2 years. The staff is very caring and the facilities are hygienic."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Dialysis Patient</p>
+                                <p class="testimonial-text">"I suffered from knee pain for 10 years. Today, 2 months after surgery, I am pain-free and walking without support."</p>
+                                <h4 class="testimonial-name">Mrs. Krishna Devi</h4>
+                                <p class="testimonial-procedure">Bilateral TKR</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 2 -->
-                        <div class="testimonial-card" data-video-id="placeholder2">
+                         <!-- Testimonial Video 2 -->
+                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Kidney Stone">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Review" alt="Review">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I had severe kidney stone pain. Dr. Saxena treated me quickly and I was pain-free the next day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
-                                <p class="testimonial-procedure">Kidney Stone Removal</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="CKD Management">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"With proper medication and diet advice from Prayag doctors, my creatinine levels are now stable."</p>
-                                <h4 class="testimonial-name">Mr. Amit Singh</h4>
-                                <p class="testimonial-procedure">CKD Management</p>
+                                <p class="testimonial-text">"My hip surgery was a success. I can now climb stairs and drive my car."</p>
+                                <h4 class="testimonial-name">Col. (Retd.) R.K. Singh</h4>
+                                <p class="testimonial-procedure">Total Hip Replacement</p>
                             </div>
                         </div>
                     </div>
@@ -573,7 +536,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about kidney health and dialysis.
+                    Common queries about joint replacement.
                 </p>
             </div>
 
@@ -585,13 +548,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    How often is dialysis needed?
+                                    Is joint replacement surgery painful?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Frequency of dialysis depends on your kidney function. Typically, hemodialysis is required 2-3 times per week, with each session lasting about 4 hours. Your nephrologist will determine the best schedule for you.
+                                    Pain management techniques have advanced significantly. We use multi-modal pain relief, including nerve blocks and epidurals, ensuring that patients experience minimal discomfort after surgery.
                                 </div>
                             </div>
                         </div>
@@ -601,29 +564,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What are the early signs of kidney disease?
+                                    How long do I need to stay in the hospital?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Early signs can be subtle but often include swelling in feet/ankles, fatigue, changes in urination frequency, foamy urine, and persistent high blood pressure.
+                                    Typically, patients stay for 3 to 5 days. You are discharged once you are medically stable, able to walk with support, and can perform basic daily activities.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Are kidney stones preventable?
+                                    Can I sit on the floor after knee replacement?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, many stones are preventable by drinking plenty of water, reducing salt intake, and avoiding oxalate-rich foods. Your doctor can recommend specific diet changes based on the stone type.
+                                    With high-flexion knee implants, sitting cross-legged is possible for some patients. However, to maximize the lifespan of the implant, we generally advise avoiding squatting or sitting on the floor regularly.
                                 </div>
                             </div>
                         </div>
@@ -633,45 +596,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    Does Prayag Hospital do kidney transplants?
+                                    Are both knees operated on at the same time?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We provide comprehensive pre-transplant evaluation and post-transplant follow-up care. For the transplant surgery itself, we can refer you to our partner centers of excellence if required.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What are the leading causes of kidney failure?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Diabetes and high blood pressure are the two most common causes of chronic kidney disease (CKD) and kidney failure. Other causes include glomerulonephritis, genetic diseases like polycystic kidney disease, and prolonged use of certain medications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What diet should I follow if I have kidney disease?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A kidney-friendly diet often involves limiting sodium, potassium, and phosphorus. Protein intake may also need adjustment. It is crucial to consult with our renal dietician for a personalized meal plan based on your stage of kidney disease.
+                                    Yes, simultaneous (bilateral) knee replacement is common and safe for medically fit patients. It has the advantage of a single recovery period and one hospital stay. Your surgeon will evaluate your fitness for this.
                                 </div>
                             </div>
                         </div>
@@ -687,4 +618,3 @@
 </body>
 
 </html>
-

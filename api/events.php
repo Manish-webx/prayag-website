@@ -151,15 +151,6 @@ $events = [
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="p-5 text-center bg-white">
-        <div class="container">
-            <h2 class="h3 mb-3" style="color: var(--dark-text);">Want to organize a health camp?</h2>
-            <p class="mb-4 text-muted">Contact our community outreach team to organize health camps in your society or corporate office.</p>
-            <a href="contact-us.php" class="btn btn-primary-prayag">Contact Us</a>
-        </div>
-    </section>
-
     <?php include 'footer.php'; ?>
     <?php include 'footer-links.php'; ?>
 
