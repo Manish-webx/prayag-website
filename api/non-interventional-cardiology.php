@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neuroscience - Best Neurology & Neurosurgery Hospital in India | Prayag Hospital</title>
+    <title>Non-Interventional Cardiology - Cardiac Diagnostics | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Neuroscience
+                            Non-Interventional Cardiology
                         </li>
                     </ol>
                 </nav>
@@ -50,12 +50,11 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Neuroscience Centre | Top Neurology & Neurosurgery Hospital - Prayag Hospital
+                            Non-Interventional Cardiology | Diagnostic Cardiac Care - Prayag Hospital
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers world-class care for disorders of the brain, spine, and nervous system. 
-                            Our team of expert neurologists and neurosurgeons uses advanced technology to provide comprehensive 
-                            treatment for complex neurological conditions.
+                            Specializing in the detection and medical management of heart diseases. We use advanced diagnostic 
+                            tools like 2D Echo, TMT, and Holter monitoring to ensure accurate heart health assessments.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -69,9 +68,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Excellence in Neuro Care</strong>
-                                From stroke management to complex brain tumor surgeries, Prayag Hospital delivers 
-                                precise and compassionate care with a focus on superior clinical outcomes and rehabilitation.
+                                <strong>Accurate Diagnosis</strong>
+                                State-of-the-art non-invasive technologies for early detection of cardiac issues.
                             </div>
                         </div>
                     </div>
@@ -80,8 +78,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop"
-                                    alt="Neuroscience at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
+                                    alt="Non-Interventional Cardiology at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -101,7 +99,7 @@
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Types of Treatment</a>
+                    <a href="#types-of-treatment" class="toc-nav-link">Services</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
@@ -123,51 +121,50 @@
     <section class="features-section">
         <div class="container">
             <div class="row g-4">
-                <!-- Feature 1: Advanced Neuro-Imaging -->
+                <!-- Feature 1 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Neuro-Imaging</h3>
+                            <h3 class="feature-title">Advanced Diagnostics</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 2: Expert Neurosurgeons -->
+                <!-- Feature 2 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
                             <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Neurosurgeons</h3>
-
+                            <h3 class="feature-title">Expert Cardiologists</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 3: 24/7 Stroke Ready -->
+                <!-- Feature 3 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-ambulance"></i>
+                            <i class="fas fa-notes-medical"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">24/7 Stroke Ready</h3>
+                            <h3 class="feature-title">Preventive Care</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 4: Neuro-Rehabilitation -->
+                <!-- Feature 4 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-walking"></i>
+                            <i class="fas fa-procedures"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Neuro-Rehabilitation</h3>
+                            <h3 class="feature-title">Patient Centric</h3>
                         </div>
                     </div>
                 </div>
@@ -179,45 +176,40 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Comprehensive Neuroscience Care at Prayag Hospital</h2>
+                <h2 class="overview-heading">Excellence in Non-Interventional Cardiology</h2>
                 <p class="overview-text">
-                    The Centre for Neuroscience at Prayag Hospital is a Centre of Excellence dedicated to providing 
-                    comprehensive care for diseases of the brain, spinal cord, peripheral nerves, and muscles. 
-                    Integrating Neurology, Neurosurgery, and Neuro-Critical Care, we offer a multidisciplinary 
-                    approach to complex neurological disorders.
+                    The Department of Non-Interventional Cardiology at Prayag Hospital focuses on the prevention, diagnosis, and medical management of cardiovascular diseases. 
+                    Unlike interventional cardiology which involves catheter-based treatments, this specialty relies on non-invasive tests to evaluate heart function.
                 </p>
                 <p class="overview-text">
-                    Our facility is equipped with cutting-edge technology including Neuro-Navigation systems, 
-                    high-end Operating Microscopes, and advanced Neuro-Imaging capabilities. We have a dedicated 
-                    Neuro-ICU managed by neuro-intensivists to ensure the best possible outcomes for critical patients 
-                    surviving stroke, head injuries, and complex brain surgeries.
+                    We utilize cutting-edge technology such as 2D Echocardiography, Treadmill Testing (TMT), and Holter Monitoring to detect arrhythmias, 
+                    coronary artery disease, and heart failure at an early stage. Our goal is to manage heart conditions through medication, lifestyle changes, and regular monitoring.
                 </p>
                 <p class="overview-text">
-                    From managing chronic conditions like migraine and epilepsy to performing life-saving surgeries for 
-                    aneurysms and brain tumors, our team is committed to clinical excellence and compassionate patient care.
+                    Our team of experienced cardiologists works closely with patients to develop personalized treatment plans, conducting thorough risk assessments to prevent future cardiac events.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop" alt="Prayag Hospital Neuroscience Center"
+                <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=800&h=400&fit=crop" alt="Non-Interventional Cardiology"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-microscope"></i>
-                    <h4>Advanced OT Tech</h4>
-                    <p>Operating Theatres with Neuro-Navigation & high-end microscopes for precision surgery</p>
+                    <i class="fas fa-wave-square"></i>
+                    <h4>ECG & Stress Test</h4>
+                    <p>Accurate monitoring of heart rhythm and stress response to detect abnormalities.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Specialized Neuro-ICU</h4>
-                    <p>Dedicated intensive care unit for critical neurological and neurosurgical patients</p>
+                    <i class="fas fa-desktop"></i>
+                    <h4>Echocardiography</h4>
+                    <p>Ultrasound imaging of the heart to assess structure, valve function, and pumping capacity.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-brain"></i>
-                    <h4>Stroke Centre</h4>
-                    <p>Rapid response team for acute stroke management including thrombolysis and mechanical thrombectomy</p>
+                    <i class="fas fa-walking"></i>
+                    <h4>Preventive Care</h4>
+                    <p>Focus on managing risk factors like hypertension and cholesterol to prevent heart attacks.</p>
                 </div>
             </div>
         </div>
@@ -229,7 +221,7 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Our expert team provides specialized treatment for a wide spectrum of neurological and neurosurgical conditions.
+                    Medical management for a healthy heart.
                 </p>
             </div>
 
@@ -237,146 +229,148 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Stroke (Brain Attack)</h3>
+                        <h3 class="condition-name">Hypertension</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Epilepsy & Seizures</h3>
+                        <h3 class="condition-name">Chest Pain (Angina)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Headaches & Migraine</h3>
+                        <h3 class="condition-name">Arrhythmias</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Brain Tumors</h3>
+                        <h3 class="condition-name">Heart Failure</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Parkinson's Disease</h3>
+                        <h3 class="condition-name">Valvular Heart Disease</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Spinal Disc Herniation</h3>
+                        <h3 class="condition-name">Coronary Artery Disease</h3>
                     </div>
                 </div>
 
                 <!-- Condition 7 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Alzheimer's & Dementia</h3>
+                        <h3 class="condition-name">Cardiomyopathy</h3>
                     </div>
                 </div>
 
                 <!-- Condition 8 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Multiple Sclerosis</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Neuropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Head Injuries</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Spine Trauma</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Meningitis</h3>
+                        <h3 class="condition-name">Dyslipidemia (High Cholesterol)</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Types of Treatment Section -->
+    <!-- Services Section -->
     <section class="treatment-section" id="types-of-treatment">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Types of Treatments</h2>
+                <h2 class="section-title">Diagnostic Services</h2>
                 <p class="section-subtitle">
-                    We offer advanced medical and surgical interventions tailored to each patient's specific neurological needs.
+                    Advanced non-invasive cardiac testing.
                 </p>
             </div>
 
-            <div class="row g-4 mb-4">
-                <!-- Service 1: Neurology -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-heart-rate"></i>
                         </div>
-                        <h3 class="treatment-card-title">Clinical Neurology Services</h3>
+                        <h3 class="treatment-card-title">ECG (Electrocardiogram)</h3>
                         <p class="treatment-card-description">
-                            Treatment for Stroke, Epilepsy, and Migraine. Our top-rated Neurologists in Noida specialize in advanced stroke treatment in G B Nagar.
+                            A quick and non-invasive test to record the electrical activity of the heart and detect irregular rhythms.
                         </p>
-                        <a href="clinical-neurology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Neurosurgery -->
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-procedures"></i>
+                            <i class="fas fa-desktop"></i>
                         </div>
-                        <h3 class="treatment-card-title">Neurosurgery & Spine Surgery Unit</h3>
+                        <h3 class="treatment-card-title">2D Echocardiography</h3>
                         <p class="treatment-card-description">
-                            Brain Tumor Removal & Spinal Cord Surgery. Expert Neurosurgeons in Noida offering affordable Spine Surgery cost in Sector 41.
+                            Uses sound waves to create images of the heart, allowing doctors to check heart structure and blood flow.
                         </p>
-                        <a href="neurosurgery-spine.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 3: Diagnostics -->
+                <!-- Service 3 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-wave-square"></i>
+                            <i class="fas fa-running"></i>
                         </div>
-                        <h3 class="treatment-card-title">Neuro-Electrophysiology Lab</h3>
+                        <h3 class="treatment-card-title">TMT (Treadmill Test)</h3>
                         <p class="treatment-card-description">
-                            EEG (Electroencephalogram) & EMG/EP Studies. Best EEG Test Price in Noida at our EMG Test Centre in Sector 41.
+                            Also known as a stress test, it monitors how your heart works during physical activity to detect blockages.
                         </p>
-                        <a href="neuro-electrophysiology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Holter Monitoring</h3>
+                        <p class="treatment-card-description">
+                            A portable device that records heart rhythm for 24-48 hours to catch intermittent arrhythmias.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-watch"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Ambulatory BP Monitoring</h3>
+                        <p class="treatment-card-description">
+                            Continuous blood pressure monitoring over 24 hours to assess hypertension patterns accurately.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Cardiac Consultation</h3>
+                        <p class="treatment-card-description">
+                            Expert consultation for management of heart conditions through medication and lifestyle modifications.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -387,9 +381,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Neuroscience?</h2>
+                <h2 class="section-title">Why Choose Prayag for Cardiac Care?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise, advanced technology, and compassionate care to offer the best neurological treatment in the region.
+                    Comprehensive heart care with a focus on early detection and prevention.
                 </p>
             </div>
 
@@ -398,33 +392,33 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-microscope"></i>
+                        <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Precision Surgery</h4>
-                        <p>Use of high-end Operating Microscopes and Neuro-Navigation for safe and precise brain and spine surgeries.</p>
+                        <h4>Expert Cardiologists</h4>
+                        <p>Our team includes renowned clinical cardiologists with years of experience.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-microscope"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Team</h4>
-                        <p>A collaborative team of senior Neurologists, Neurosurgeons, and Neuro-intensivists.</p>
+                        <h4>Accurate Diagnostics</h4>
+                        <p>We use the latest diagnostic equipment to ensure precise results for effective treatment.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital-alt"></i>
+                        <i class="fas fa-heart"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Dedicated Neuro-ICU</h4>
-                        <p>Specialized intensive care unit with advanced monitoring for critical neurological patients.</p>
+                        <h4>Holistic Approach</h4>
+                        <p>We treat the whole patient, addressing lifestyle factors that contribute to heart disease.</p>
                     </div>
                 </div>
 
@@ -434,30 +428,8 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergency Care</h4>
-                        <p>Round-the-clock readiness for neurological emergencies like stroke, head trauma, and seizures.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-diagnoses"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Comprehensive Diagnostics</h4>
-                        <p>In-house CT Scan, MRI, EEG, NCV, and EMG facilities for prompt and accurate diagnosis.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Focus on overall well-being with integrated rehabilitation and patient support services.</p>
+                        <h4>Quick Reports</h4>
+                        <p>Our efficient diagnostic processes ensure you get your reports without unnecessary delays.</p>
                     </div>
                 </div>
             </div>
@@ -468,19 +440,19 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Expert Neurologists & Neurosurgeons</h2>
+                <h2 class="section-title">Our Cardiologists</h2>
                 <p class="section-subtitle">
-                    Meet our team of dedicated specialists providing world-class care for brain and spine disorders.
+                    Meet our team of experts dedicated to your heart health.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $neuro_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'neurosciences';
+                $cardio_doctors = array_filter($doctors, function($doctor) {
+                    return $doctor['specialty_code'] === 'cardiology';
                 });
-                foreach ($neuro_doctors as $doctor): 
+                foreach ($cardio_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -518,7 +490,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Success Stories</h2>
                 <p class="section-subtitle-gray">
-                    Inspiring stories of recovery and resilience from our neuroscience patients.
+                    Stories of recovery and heart health from our patients.
                 </p>
             </div>
 
@@ -533,15 +505,15 @@
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
                                 <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Stroke Survivor">
+                                    alt="Cardiac Care">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I was rushed here with a stroke. The speed and skill of the team saved my life and mobility. I'm forever grateful."</p>
-                                <h4 class="testimonial-name">Mr. Vijay Singh</h4>
-                                <p class="testimonial-procedure">Stroke Recovery</p>
+                                <p class="testimonial-text">"I was diagnosed with early stage heart failure. With the right medication and guidance from Prayag Hospital, I am leading a normal life."</p>
+                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
+                                <p class="testimonial-procedure">Heart Failure Management</p>
                             </div>
                         </div>
 
@@ -549,48 +521,34 @@
                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
                                 <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Spine Surgery Patient">
+                                    alt="Hypertension">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Unbearable back pain controlled my life until my spine surgery at Prayag. Now I'm pain-free and active again."</p>
-                                <h4 class="testimonial-name">Mrs. Kavita Sharma</h4>
-                                <p class="testimonial-procedure">Spine Surgery</p>
+                                <p class="testimonial-text">"My blood pressure was constantly high. The doctors here helped me manage it effectively."</p>
+                                <h4 class="testimonial-name">Mrs. Sunita Devi</h4>
+                                <p class="testimonial-procedure">Hypertension Care</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="Brain Tumor Patient">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"The diagnosis of a brain tumor was terrifying, but Dr. Sharma explained everything. The surgery was a success."</p>
-                                <h4 class="testimonial-name">Mr. Rahul Verma</h4>
-                                <p class="testimonial-procedure">Brain Tumor Surgery</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 4 -->
-                        <div class="testimonial-card" data-video-id="placeholder4">
+                         <!-- Testimonial Video 3 -->
+                         <div class="testimonial-card" data-video-id="placeholder3">
                             <div class="testimonial-thumbnail">
                                 <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Epilepsy Patient">
+                                    alt="ECG Test">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Managing my epilepsy was a struggle. The doctors adjusted my medication and I haven't had a seizure in months."</p>
-                                <h4 class="testimonial-name">Ms. Priya Gupta</h4>
-                                <p class="testimonial-procedure">Epilepsy Management</p>
+                                <p class="testimonial-text">"Quick and accurate diagnosis. The staff was very helpful during my TMT and Echo tests."</p>
+                                <h4 class="testimonial-name">Mr. Amit Kumar</h4>
+                                <p class="testimonial-procedure">Cardiac Diagnostics</p>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -607,7 +565,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about neurological conditions and treatments.
+                    Common questions about cardiac diagnostics and care.
                 </p>
             </div>
 
@@ -619,20 +577,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What are the signs of a stroke (Brain Attack)?
+                                    What is the difference between Interventional and Non-Interventional Cardiology?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Remember the acronym <strong>B.E. F.A.S.T.</strong>: 
-                                    <strong>B</strong>alance difficulties, 
-                                    <strong>E</strong>yes (vision change), 
-                                    <strong>F</strong>ace drooping, 
-                                    <strong>A</strong>rm weakness, 
-                                    <strong>S</strong>peech difficulty, and 
-                                    <strong>T</strong>ime to call for help immediately. 
-                                    Stroke is a medical emergency.
+                                    Non-Interventional Cardiology focuses on diagnosing and treating heart conditions using medication and lifestyle changes, along with non-invasive tests like ECG and Echo. Interventional Cardiology involves invasive procedures like angioplasty and stenting to treat heart problems.
                                 </div>
                             </div>
                         </div>
@@ -642,29 +593,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    Do I need surgery for back pain?
+                                    Do I need to fast before a lipid profile test?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Not always. Most cases of back pain can be managed with medication, physiotherapy, and lifestyle changes. Surgery is usually considered only when conservative treatments fail or if there is nerve compression causing weakness or loss of bladder/bowel control. Our neurosurgeons will evaluate and recommend the best course of action.
+                                    Yes, it is generally recommended to fast for 9-12 hours before a lipid profile test to get accurate measurements of your cholesterol and triglyceride levels.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How is epilepsy treated?
+                                    How long does a TMT (Treadmill Test) take?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Epilepsy is primarily treated with anti-epileptic medications to control seizures. In cases where medication is ineffective (drug-resistant epilepsy), surgery or dietary therapies (like the ketogenic diet) might be considered. Regular follow-ups with a neurologist are essential.
+                                    The actual exercise part of a TMT usually lasts about 10-15 minutes, but you should allow about 30-45 minutes for the entire appointment, including preparation and recovery.
                                 </div>
                             </div>
                         </div>
@@ -674,13 +625,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What triggers a migraine and how can it be managed?
+                                    What is a Holter Monitor?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Migraines can be triggered by stress, certain foods, lack of sleep, or hormonal changes. Management involves identifying and avoiding triggers, maintaining a regular sleep schedule, staying hydrated, and taking prescribed medications for pain relief or prevention.
+                                    A Holter monitor is a small, wearable device that records your heart's rhythm. It is used to detect irregular heartbeats (arrhythmias) that may not show up during a standard ECG.
                                 </div>
                             </div>
                         </div>
@@ -690,29 +641,13 @@
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What is the difference between Dementia and Alzheimer's disease?
+                                    When should I see a cardiologist?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Dementia is a general term for a decline in mental ability severe enough to interfere with daily life. Alzheimer's is a specific brain disease and the most common cause of dementia. While dementia describes a group of symptoms, Alzheimer's is a specific underlying cause.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the common symptoms of a brain tumor?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Symptoms vary depending on the tumor's location but may include persistent headaches (often worse in the morning), seizures, vision or hearing problems, balance issues, personality changes, and difficulty with speech or movement. Early diagnosis is key to effective treatment.
+                                    You should see a cardiologist if you experience symptoms like chest pain, shortness of breath, palpitations, or dizziness. Also, if you have risk factors like diabetes, high blood pressure, or a family history of heart disease, regular check-ups are advised.
                                 </div>
                             </div>
                         </div>
@@ -728,4 +663,3 @@
 </body>
 
 </html>
-

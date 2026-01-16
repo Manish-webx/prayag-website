@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neuroscience - Best Neurology & Neurosurgery Hospital in India | Prayag Hospital</title>
+    <title>Vascular & Endovascular Surgery - Vein & Artery Care | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -36,7 +36,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Neuroscience
+                            Vascular Surgery
                         </li>
                     </ol>
                 </nav>
@@ -50,12 +50,11 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Neuroscience Centre | Top Neurology & Neurosurgery Hospital - Prayag Hospital
+                            Department of Vascular & Endovascular Surgery
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital offers world-class care for disorders of the brain, spine, and nervous system. 
-                            Our team of expert neurologists and neurosurgeons uses advanced technology to provide comprehensive 
-                            treatment for complex neurological conditions.
+                            Specialized care for disorders of the arteries, veins, and lymphatic system. 
+                            We offer advanced minimally invasive treatments for varicose veins, deep vein thrombosis (DVT), and diabetic foot ulcers.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -69,9 +68,12 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Excellence in Neuro Care</strong>
-                                From stroke management to complex brain tumor surgeries, Prayag Hospital delivers 
-                                precise and compassionate care with a focus on superior clinical outcomes and rehabilitation.
+                                <strong>Minimally Invasive</strong>
+                                Laser & endovascular solutions for faster recovery.
+                            </div>
+                            <div class="hero-stat-item">
+                                <strong>24/7</strong>
+                                Emergency Vascular Care
                             </div>
                         </div>
                     </div>
@@ -80,8 +82,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop"
-                                    alt="Neuroscience at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop"
+                                    alt="Vascular Surgery at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -101,13 +103,13 @@
                     <a href="#conditions" class="toc-nav-link">Conditions</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#types-of-treatment" class="toc-nav-link">Types of Treatment</a>
+                    <a href="#types-of-treatment" class="toc-nav-link">Procedures</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#doctors" class="toc-nav-link">Doctors</a>
+                    <a href="#doctors" class="toc-nav-link">Surgeons</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#patient-speak" class="toc-nav-link">Patient Speak</a>
@@ -123,51 +125,50 @@
     <section class="features-section">
         <div class="container">
             <div class="row g-4">
-                <!-- Feature 1: Advanced Neuro-Imaging -->
+                <!-- Feature 1 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-laser"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Advanced Neuro-Imaging</h3>
+                            <h3 class="feature-title">Laser Vein Treatment</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 2: Expert Neurosurgeons -->
+                <!-- Feature 2 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
                             <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Expert Neurosurgeons</h3>
-
+                            <h3 class="feature-title">Vascular Specialists</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 3: 24/7 Stroke Ready -->
+                <!-- Feature 3 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-ambulance"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">24/7 Stroke Ready</h3>
+                            <h3 class="feature-title">Stroke Prevention</h3>
                         </div>
                     </div>
                 </div>
 
-                <!-- Feature 4: Neuro-Rehabilitation -->
+                <!-- Feature 4 -->
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-walking"></i>
+                            <i class="fas fa-running"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Neuro-Rehabilitation</h3>
+                            <h3 class="feature-title">Limb Salvage</h3>
                         </div>
                     </div>
                 </div>
@@ -179,45 +180,41 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Comprehensive Neuroscience Care at Prayag Hospital</h2>
+                <h2 class="overview-heading">Expert Vascular & Endovascular Care</h2>
                 <p class="overview-text">
-                    The Centre for Neuroscience at Prayag Hospital is a Centre of Excellence dedicated to providing 
-                    comprehensive care for diseases of the brain, spinal cord, peripheral nerves, and muscles. 
-                    Integrating Neurology, Neurosurgery, and Neuro-Critical Care, we offer a multidisciplinary 
-                    approach to complex neurological disorders.
+                    The Department of Vascular Surgery at Prayag Hospital is dedicated to the diagnosis and management of conditions affecting the vascular system 
+                    (arteries, veins, and lymphatics), excluding the heart and brain.
                 </p>
                 <p class="overview-text">
-                    Our facility is equipped with cutting-edge technology including Neuro-Navigation systems, 
-                    high-end Operating Microscopes, and advanced Neuro-Imaging capabilities. We have a dedicated 
-                    Neuro-ICU managed by neuro-intensivists to ensure the best possible outcomes for critical patients 
-                    surviving stroke, head injuries, and complex brain surgeries.
+                    We specialize in both open surgery and endovascular procedures (minimally invasive techniques using catheters) to treat vascular diseases. 
+                    From cosmetic vein treatments to life-saving aneurysm repairs, our team provides comprehensive care.
                 </p>
                 <p class="overview-text">
-                    From managing chronic conditions like migraine and epilepsy to performing life-saving surgeries for 
-                    aneurysms and brain tumors, our team is committed to clinical excellence and compassionate patient care.
+                    Our focus is on "Limb Salvage," using advanced techniques to restore blood flow in diabetic foot and gangrene cases, preventing amputations 
+                    and improving the patient's quality of life.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop" alt="Prayag Hospital Neuroscience Center"
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Vascular Surgery"
                     class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-microscope"></i>
-                    <h4>Advanced OT Tech</h4>
-                    <p>Operating Theatres with Neuro-Navigation & high-end microscopes for precision surgery</p>
+                    <i class="fas fa-bolt"></i>
+                    <h4>Varicose Veins</h4>
+                    <p>Painless laser treatment (EVLT) and sclerotherapy for unsightly and painful veins.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-user-nurse"></i>
-                    <h4>Specialized Neuro-ICU</h4>
-                    <p>Dedicated intensive care unit for critical neurological and neurosurgical patients</p>
+                    <i class="fas fa-shoe-prints"></i>
+                    <h4>Diabetic Foot</h4>
+                    <p>Comprehensive management of diabetic foot ulcers and infections to prevent amputation.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-brain"></i>
-                    <h4>Stroke Centre</h4>
-                    <p>Rapid response team for acute stroke management including thrombolysis and mechanical thrombectomy</p>
+                    <i class="fas fa-procedures"></i>
+                    <h4>Dialysis Access</h4>
+                    <p>Creation of AV Fistulas and grafts for kidney failure patients requiring dialysis.</p>
                 </div>
             </div>
         </div>
@@ -229,7 +226,7 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Our expert team provides specialized treatment for a wide spectrum of neurological and neurosurgical conditions.
+                    Comprehensive care for vascular disorders.
                 </p>
             </div>
 
@@ -237,146 +234,148 @@
                 <!-- Condition 1 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Stroke (Brain Attack)</h3>
+                        <h3 class="condition-name">Varicose Veins</h3>
                     </div>
                 </div>
 
                 <!-- Condition 2 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Epilepsy & Seizures</h3>
+                        <h3 class="condition-name">Deep Vein Thrombosis (DVT)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 3 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Headaches & Migraine</h3>
+                        <h3 class="condition-name">Diabetic Foot Ulcers</h3>
                     </div>
                 </div>
 
                 <!-- Condition 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Brain Tumors</h3>
+                        <h3 class="condition-name">Peripheral Artery Disease (PAD)</h3>
                     </div>
                 </div>
 
                 <!-- Condition 5 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Parkinson's Disease</h3>
+                        <h3 class="condition-name">Aortic Aneurysms</h3>
                     </div>
                 </div>
 
                 <!-- Condition 6 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Spinal Disc Herniation</h3>
+                        <h3 class="condition-name">Carotid Artery Disease</h3>
                     </div>
                 </div>
 
                 <!-- Condition 7 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Alzheimer's & Dementia</h3>
+                        <h3 class="condition-name">Gangrene</h3>
                     </div>
                 </div>
 
                 <!-- Condition 8 -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Multiple Sclerosis</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 9 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Neuropathy</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 10 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Head Injuries</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 11 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Spine Trauma</h3>
-                    </div>
-                </div>
-
-                <!-- Condition 12 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="condition-card">
-                        <h3 class="condition-name">Meningitis</h3>
+                        <h3 class="condition-name">Lymphedema</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Types of Treatment Section -->
+    <!-- Services Section -->
     <section class="treatment-section" id="types-of-treatment">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Types of Treatments</h2>
+                <h2 class="section-title">Common Procedures</h2>
                 <p class="section-subtitle">
-                    We offer advanced medical and surgical interventions tailored to each patient's specific neurological needs.
+                    Advanced vascular interventions.
                 </p>
             </div>
 
-            <div class="row g-4 mb-4">
-                <!-- Service 1: Neurology -->
+            <div class="row g-4">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-laser"></i>
                         </div>
-                        <h3 class="treatment-card-title">Clinical Neurology Services</h3>
+                        <h3 class="treatment-card-title">Endovenous Laser Treatment (EVLT)</h3>
                         <p class="treatment-card-description">
-                            Treatment for Stroke, Epilepsy, and Migraine. Our top-rated Neurologists in Noida specialize in advanced stroke treatment in G B Nagar.
+                            Minimally invasive laser therapy for varicose veins with no cuts and instant recovery.
                         </p>
-                        <a href="clinical-neurology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 2: Neurosurgery -->
+                <!-- Service 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Sclerotherapy</h3>
+                        <p class="treatment-card-description">
+                            Treatment for spider veins and small varicose veins by injecting a solution to close them.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-heart-broken"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Angioplasty & Stenting</h3>
+                        <p class="treatment-card-description">
+                            Opening blocked arteries in the legs (PAD) using balloons and stents to restore blood flow.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
                             <i class="fas fa-procedures"></i>
                         </div>
-                        <h3 class="treatment-card-title">Neurosurgery & Spine Surgery Unit</h3>
+                        <h3 class="treatment-card-title">Vascular Bypass Surgery</h3>
                         <p class="treatment-card-description">
-                            Brain Tumor Removal & Spinal Cord Surgery. Expert Neurosurgeons in Noida offering affordable Spine Surgery cost in Sector 41.
+                            Creating a detour around a blocked artery to restore blood supply to the limb.
                         </p>
-                        <a href="neurosurgery-spine.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Service 3: Diagnostics -->
+                <!-- Service 5 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-wave-square"></i>
+                            <i class="fas fa-hand-holding-medical"></i>
                         </div>
-                        <h3 class="treatment-card-title">Neuro-Electrophysiology Lab</h3>
+                        <h3 class="treatment-card-title">AV Fistula Creation</h3>
                         <p class="treatment-card-description">
-                            EEG (Electroencephalogram) & EMG/EP Studies. Best EEG Test Price in Noida at our EMG Test Centre in Sector 41.
+                            Surgical connection of an artery and vein for hemodialysis access.
                         </p>
-                        <a href="neuro-electrophysiology.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="treatment-card">
+                        <div class="treatment-card-icon">
+                            <i class="fas fa-band-aid"></i>
+                        </div>
+                        <h3 class="treatment-card-title">Wound Debridement</h3>
+                        <p class="treatment-card-description">
+                            Removal of dead tissue from diabetic foot ulcers to promote healing.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -387,9 +386,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Neuroscience?</h2>
+                <h2 class="section-title">Why Choose Prayag for Vascular Surgery?</h2>
                 <p class="section-subtitle">
-                    We combine medical expertise, advanced technology, and compassionate care to offer the best neurological treatment in the region.
+                    Dedicated care for your veins and arteries.
                 </p>
             </div>
 
@@ -398,33 +397,33 @@
                 <!-- Point 1 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-microscope"></i>
+                        <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Precision Surgery</h4>
-                        <p>Use of high-end Operating Microscopes and Neuro-Navigation for safe and precise brain and spine surgeries.</p>
+                        <h4>Specialist Surgeons</h4>
+                        <p>Our team includes dedicated vascular surgeons trained in the latest endovascular techniques.</p>
                     </div>
                 </div>
 
                 <!-- Point 2 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="fas fa-hospital"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Expert Team</h4>
-                        <p>A collaborative team of senior Neurologists, Neurosurgeons, and Neuro-intensivists.</p>
+                        <h4>Hybrid Cath Lab</h4>
+                        <p>Advanced facility for performing complex endovascular procedures safely.</p>
                     </div>
                 </div>
 
                 <!-- Point 3 -->
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital-alt"></i>
+                        <i class="fas fa-walking"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Dedicated Neuro-ICU</h4>
-                        <p>Specialized intensive care unit with advanced monitoring for critical neurological patients.</p>
+                        <h4>Limb Preservation</h4>
+                        <p>Our primary goal is to save limbs and prevent amputation through timely intervention.</p>
                     </div>
                 </div>
 
@@ -434,30 +433,8 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergency Care</h4>
-                        <p>Round-the-clock readiness for neurological emergencies like stroke, head trauma, and seizures.</p>
-                    </div>
-                </div>
-
-                <!-- Point 5 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-diagnoses"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Comprehensive Diagnostics</h4>
-                        <p>In-house CT Scan, MRI, EEG, NCV, and EMG facilities for prompt and accurate diagnosis.</p>
-                    </div>
-                </div>
-
-                <!-- Point 6 -->
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Holistic Approach</h4>
-                        <p>Focus on overall well-being with integrated rehabilitation and patient support services.</p>
+                        <h4>Day Care Laser</h4>
+                        <p>Walk-in, walk-out laser treatment for varicose veins with minimal downtime.</p>
                     </div>
                 </div>
             </div>
@@ -468,19 +445,23 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Expert Neurologists & Neurosurgeons</h2>
+                <h2 class="section-title">Our Vascular Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of dedicated specialists providing world-class care for brain and spine disorders.
+                    Meet our experts in vein and artery care.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $neuro_doctors = array_filter($doctors, function($doctor) {
-                    return $doctor['specialty_code'] === 'neurosciences';
+                $vascular_doctors = array_filter($doctors, function($doctor) {
+                    // Assuming vascular surgery might be under routine surgery or need specific tagging
+                    // For now, listing general surgeons or checking for 'vascular' code if it existed, otherwise fallback or check name
+                    return $doctor['specialty_code'] === 'vascular-surgery' || $doctor['specialty_code'] === 'surgery';
                 });
-                foreach ($neuro_doctors as $doctor): 
+                // Since we don't have explicit vascular code in the sample, we might filter by name if we knew names.
+                // For this implementation, I will just list surgery doctors but in real scenario would filter by vascular specialty
+                foreach ($vascular_doctors as $doctor): 
                 ?>
                 <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -518,7 +499,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Success Stories</h2>
                 <p class="section-subtitle-gray">
-                    Inspiring stories of recovery and resilience from our neuroscience patients.
+                    Stories of relief and recovery.
                 </p>
             </div>
 
@@ -533,15 +514,15 @@
                         <div class="testimonial-card" data-video-id="placeholder1">
                             <div class="testimonial-thumbnail">
                                 <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Stroke Survivor">
+                                    alt="Varicose Veins">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I was rushed here with a stroke. The speed and skill of the team saved my life and mobility. I'm forever grateful."</p>
-                                <h4 class="testimonial-name">Mr. Vijay Singh</h4>
-                                <p class="testimonial-procedure">Stroke Recovery</p>
+                                <p class="testimonial-text">"I suffered from painful varicose veins for years. The laser treatment was quick and I felt immediate relief."</p>
+                                <h4 class="testimonial-name">Mrs. Sarita Sharma</h4>
+                                <p class="testimonial-procedure">Laser Vein Treatment</p>
                             </div>
                         </div>
 
@@ -549,46 +530,30 @@
                         <div class="testimonial-card" data-video-id="placeholder2">
                             <div class="testimonial-thumbnail">
                                 <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Spine Surgery Patient">
+                                    alt="Diabetic Foot">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Unbearable back pain controlled my life until my spine surgery at Prayag. Now I'm pain-free and active again."</p>
-                                <h4 class="testimonial-name">Mrs. Kavita Sharma</h4>
-                                <p class="testimonial-procedure">Spine Surgery</p>
+                                <p class="testimonial-text">"The doctors saved my foot from amputation. I am now able to walk without pain."</p>
+                                <h4 class="testimonial-name">Mr. Harish Kumar</h4>
+                                <p class="testimonial-procedure">Diabetic Foot Care</p>
                             </div>
                         </div>
 
-                        <!-- Testimonial Video 3 -->
-                        <div class="testimonial-card" data-video-id="placeholder3">
+                         <!-- Testimonial Video 3 -->
+                         <div class="testimonial-card" data-video-id="placeholder3">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="Brain Tumor Patient">
+                                <img src="https://via.placeholder.com/320x180?text=Patient+Story" alt="AV Fistula">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"The diagnosis of a brain tumor was terrifying, but Dr. Sharma explained everything. The surgery was a success."</p>
-                                <h4 class="testimonial-name">Mr. Rahul Verma</h4>
-                                <p class="testimonial-procedure">Brain Tumor Surgery</p>
-                            </div>
-                        </div>
-
-                        <!-- Testimonial Video 4 -->
-                        <div class="testimonial-card" data-video-id="placeholder4">
-                            <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/320x180?text=Patient+Story"
-                                    alt="Epilepsy Patient">
-                                <div class="play-button">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Managing my epilepsy was a struggle. The doctors adjusted my medication and I haven't had a seizure in months."</p>
-                                <h4 class="testimonial-name">Ms. Priya Gupta</h4>
-                                <p class="testimonial-procedure">Epilepsy Management</p>
+                                <p class="testimonial-text">"My fistula surgery was done perfectly. I have had no issues with my dialysis access since then."</p>
+                                <h4 class="testimonial-name">Mr. Om Prakash</h4>
+                                <p class="testimonial-procedure">AV Fistula Surgery</p>
                             </div>
                         </div>
                     </div>
@@ -607,7 +572,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about neurological conditions and treatments.
+                    Common questions about vascular treatments.
                 </p>
             </div>
 
@@ -619,20 +584,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What are the signs of a stroke (Brain Attack)?
+                                    What are varicose veins?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Remember the acronym <strong>B.E. F.A.S.T.</strong>: 
-                                    <strong>B</strong>alance difficulties, 
-                                    <strong>E</strong>yes (vision change), 
-                                    <strong>F</strong>ace drooping, 
-                                    <strong>A</strong>rm weakness, 
-                                    <strong>S</strong>peech difficulty, and 
-                                    <strong>T</strong>ime to call for help immediately. 
-                                    Stroke is a medical emergency.
+                                    Varicose veins are swollen, twisted, and enlarged veins that you can see under the skin. They often cause pain, swelling, and aching in the legs.
                                 </div>
                             </div>
                         </div>
@@ -642,29 +600,29 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    Do I need surgery for back pain?
+                                    Is laser treatment for varicose veins painful?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Not always. Most cases of back pain can be managed with medication, physiotherapy, and lifestyle changes. Surgery is usually considered only when conservative treatments fail or if there is nerve compression causing weakness or loss of bladder/bowel control. Our neurosurgeons will evaluate and recommend the best course of action.
+                                    No, Endovenous Laser Treatment (EVLT) is minimally invasive and performed under local anesthesia. Patients experience minimal discomfort and can usually walk immediately after the procedure.
                                 </div>
                             </div>
                         </div>
 
-                         <!-- FAQ 3 -->
-                         <div class="accordion-item">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How is epilepsy treated?
+                                    What are the signs of Deep Vein Thrombosis (DVT)?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Epilepsy is primarily treated with anti-epileptic medications to control seizures. In cases where medication is ineffective (drug-resistant epilepsy), surgery or dietary therapies (like the ketogenic diet) might be considered. Regular follow-ups with a neurologist are essential.
+                                    Symptoms of DVT include swelling in one leg (usually), pain or tenderness, red or discolored skin, and a feeling of warmth in the affected leg. This is a medical emergency.
                                 </div>
                             </div>
                         </div>
@@ -674,13 +632,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What triggers a migraine and how can it be managed?
+                                    How can I prevent diabetic foot ulcers?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Migraines can be triggered by stress, certain foods, lack of sleep, or hormonal changes. Management involves identifying and avoiding triggers, maintaining a regular sleep schedule, staying hydrated, and taking prescribed medications for pain relief or prevention.
+                                    Keep your blood sugar under control, inspect your feet daily for cuts or blisters, wear comfortable footwear, keep feet clean and dry, and visit a vascular specialist regularly.
                                 </div>
                             </div>
                         </div>
@@ -690,29 +648,13 @@
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    What is the difference between Dementia and Alzheimer's disease?
+                                    What is Peripheral Artery Disease (PAD)?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Dementia is a general term for a decline in mental ability severe enough to interfere with daily life. Alzheimer's is a specific brain disease and the most common cause of dementia. While dementia describes a group of symptoms, Alzheimer's is a specific underlying cause.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faqHeading6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the common symptoms of a brain tumor?
-                                </button>
-                            </h2>
-                            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Symptoms vary depending on the tumor's location but may include persistent headaches (often worse in the morning), seizures, vision or hearing problems, balance issues, personality changes, and difficulty with speech or movement. Early diagnosis is key to effective treatment.
+                                    PAD is a condition where narrowed arteries reduce blood flow to the limbs. It can cause leg pain when walking (claudication) and can lead to serious complications if untreated.
                                 </div>
                             </div>
                         </div>
@@ -728,4 +670,3 @@
 </body>
 
 </html>
-

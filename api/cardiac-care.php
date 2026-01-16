@@ -408,7 +408,7 @@
                         <p class="treatment-card-description">
                             Preventive Heart Care & Lipid Management. Expert consultation for managing heart health without invasive procedures.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="non-interventional-cardiology.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -424,7 +424,7 @@
                         <p class="treatment-card-description">
                             Vascular Surgery & Vein Treatment. Comprehensive management for Varicose Veins & Peripheral Artery Disease.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="vascular-surgery.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -440,7 +440,7 @@
                         <p class="treatment-card-description">
                             Advanced Cardiac Diagnostic Lab including 2D Echo, TMT (Treadmill Test) & Color Doppler services.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="cardiac-diagnostics.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -459,7 +459,7 @@
                             restoring
                             proper blood flow.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="heart-valve-replacement.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -476,7 +476,7 @@
                             Advanced catheter ablation and electrophysiology procedures to diagnose and treat irregular
                             heart rhythms effectively.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="arrhythmia-treatment.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -493,7 +493,7 @@
                             Comprehensive medical and interventional therapies for managing chronic heart failure and
                             improving quality of life.
                         </p>
-                        <a href="#" class="treatment-card-link">
+                        <a href="heart-failure-management.php" class="treatment-card-link">
                             Read More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>

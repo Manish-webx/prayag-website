@@ -2,9 +2,16 @@
     <div class="top-nav-bar d-none d-lg-block">
         <div class="container-fluid">
             <nav class="nav-row-first">
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="health-checkup.php" class="nav-link">Health Check-Ups</a>
+                <ul class="nav-menu">                    
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Medical Education</a></li>
+                            <li><a class="dropdown-item" href="#">Research</a></li>
+                            <li><a class="dropdown-item" href="#">Training Programs</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -18,18 +25,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a href="health-checkup.php" class="nav-link">Health Check-Ups</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="social-initiatives.php" class="nav-link">Social Initiatives</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            Academics
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Medical Education</a></li>
-                            <li><a class="dropdown-item" href="#">Research</a></li>
-                            <li><a class="dropdown-item" href="#">Training Programs</a></li>
-                        </ul>
-                    </li>
+                    
                     <li class="nav-item">
                         <a href="contact-us.php" class="nav-link">Contact Us</a>
                     </li>
@@ -272,9 +273,11 @@
                             <div class="mobile-menu-heading">Clinical Departments</div>
                             <ul class="mobile-submenu">
                                 <li><a href="internal-medicine.php">Internal & Family Medicine</a></li>
+
                                 <li><a href="critical-care.php">Critical Care & ICU</a></li>
                                 <li><a href="emergency-medicine.php">Emergency Medicine</a></li>
                                 <li><a href="general-surgery.php">General & Laparoscopic Surgery</a></li>
+
                                 <li><a href="respiratory-medicine.php">Respiratory Medicine</a></li>
                                 <li><a href="ent.php">ENT (Ear, Nose, Throat)</a></li>
                                 <li><a href="dermatology.php">Dermatology</a></li>
@@ -402,26 +405,5 @@
                 </div>
                 <span class="nav-label">24Hrs Help</span>
             </a>
-        </div>
-    </div>
-
-    <!-- Search Modal -->
-    <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title">Search</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="search-box">
-                        <input type="text" class="form-control"
-                            placeholder="Search for doctors, services, departments...">
-                        <button class="btn btn-search-submit">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
