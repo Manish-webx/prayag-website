@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vascular Surgery - Blood Vessel & Circulatory Care | Prayag Hospital</title>
+    <title>Paediatric Surgery - Child Surgical Care | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -35,7 +35,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Vascular Surgery
+                            Paediatric Surgery
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Vascular Surgery Centre
+                            Advanced Paediatric Surgery Centre
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital's Department of Vascular Surgery specializes in treating diseases of the blood vessels including arteries and veins. Our vascular surgeons perform both open surgical and minimally invasive endovascular procedures for conditions like varicose veins, aneurysms, and peripheral artery disease.
+                            Prayag Hospital's Department of Paediatric Surgery provides specialized surgical care for infants, children, and adolescents. Our expert pediatric surgeons handle congenital anomalies, neonatal emergencies, and childhood surgical conditions with precision and compassionate care.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -66,8 +66,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Expert Vascular Care</strong>
-                                Advanced endovascular and open surgical techniques for comprehensive blood vessel treatment.
+                                <strong>Child-Friendly Care</strong>
+                                Specialized pediatric surgical unit with child-friendly environment and family-centered approach to care.
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-child"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Endovascular Procedures</h3>
+                            <h3 class="feature-title">Child Specialists</h3>
                         </div>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-procedures"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Varicose Vein Treatment</h3>
+                            <h3 class="feature-title">Minimally Invasive</h3>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Aneurysm Repair</h3>
+                            <h3 class="feature-title">Neonatal Surgery</h3>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <i class="fas fa-hands-helping"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Doppler Studies</h3>
+                            <h3 class="feature-title">Family Support</h3>
                         </div>
                     </div>
                 </div>
@@ -174,15 +174,15 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Expert Vascular Care</h2>
+                <h2 class="overview-heading">Expert Surgical Care for Children</h2>
                 <p class="overview-text">
-                    The Department of Vascular Surgery at Prayag Hospital specializes in the diagnosis and treatment of diseases affecting the circulatory system outside the heart and brain. Our vascular surgeons are experts in managing conditions of arteries, veins, and lymphatic vessels.
+                    The Department of Paediatric Surgery at Prayag Hospital specializes in surgical treatment of infants, children, and adolescents. Our pediatric surgeons are trained to handle the unique anatomical and physiological needs of growing children, from newborns to teenagers.
                 </p>
                 <p class="overview-text">
-                    We offer both traditional open surgical procedures and cutting-edge minimally invasive endovascular techniques. Our team performs angioplasty, stenting, varicose vein treatments, and complex aneurysm repairs with excellent outcomes.
+                    We manage a wide range of surgical conditions including congenital anomalies, neonatal emergencies, childhood tumors, and trauma. Our team uses minimally invasive laparoscopic techniques whenever possible to ensure faster recovery and minimal scarring for young patients.
                 </p>
                 <p class="overview-text">
-                    We work closely with diabetologists, cardiologists, and nephrologists to provide comprehensive care for patients with vascular complications, including diabetic foot management and creation of dialysis access.
+                    We understand that surgery can be stressful for children and parents alike. Our child-friendly environment, dedicated pediatric anesthesiologists, and family-centered care approach ensure the best possible experience and outcomes for our young patients.
                 </p>
             </div>
 
@@ -193,19 +193,19 @@
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Hybrid OT</h4>
-                    <p>Advanced hybrid operating theater for combining open and endovascular procedures.</p>
+                    <i class="fas fa-child"></i>
+                    <h4>Child-Friendly</h4>
+                    <p>Specialized instruments and facilities designed specifically for children.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-x-ray"></i>
-                    <h4>Digital Cath Lab</h4>
-                    <p>State-of-the-art angiography suite for precise vessel imaging and intervention.</p>
+                    <i class="fas fa-video"></i>
+                    <h4>Minimally Invasive</h4>
+                    <p>Keyhole surgery techniques for smaller scars and faster recovery.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-walking"></i>
-                    <h4>Limb Salvage</h4>
-                    <p>Specialized focus on saving limbs in severe diabetic foot and gangrene cases.</p>
+                    <i class="fas fa-heart"></i>
+                    <h4>Family Support</h4>
+                    <p>Counseling and support for parents throughout the surgical journey.</p>
                 </div>
             </div>
         </div>
@@ -217,69 +217,69 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Comprehensive vascular care for blood vessel disorders.
+                    Comprehensive surgical care for childhood conditions.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Varicose Veins</h3>
+                        <h3 class="condition-name">Congenital Diaphragmatic Hernia</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Deep Vein Thrombosis (DVT)</h3>
+                        <h3 class="condition-name">Intestinal Atresia</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Peripheral Artery Disease</h3>
+                        <h3 class="condition-name">Hirschsprung's Disease</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Carotid Artery Disease</h3>
+                        <h3 class="condition-name">Anorectal Malformations</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Aortic Aneurysm</h3>
+                        <h3 class="condition-name">Pyloric Stenosis</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Foot & Gangrene</h3>
+                        <h3 class="condition-name">Intussusception</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">AV Fistula (for Dialysis)</h3>
+                        <h3 class="condition-name">Inguinal Hernia in Children</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Malformations</h3>
+                        <h3 class="condition-name">Undescended Testis</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Raynaud's Disease</h3>
+                        <h3 class="condition-name">Hydrocele</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Venous Insufficiency</h3>
+                        <h3 class="condition-name">Appendicitis in Children</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Lymphedema</h3>
+                        <h3 class="condition-name">Childhood Tumors</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Trauma</h3>
+                        <h3 class="condition-name">Trauma & Injuries</h3>
                     </div>
                 </div>
             </div>
@@ -290,9 +290,9 @@
     <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Services</h2>
+                <h2 class="section-title">Our Paediatric Surgical Services</h2>
                 <p class="section-subtitle">
-                    Comprehensive care for arteries and veins.
+                    Specialized surgical procedures for children.
                 </p>
             </div>
 
@@ -300,11 +300,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-crutch"></i>
+                            <i class="fas fa-baby"></i>
                         </div>
-                        <h3 class="treatment-card-title">Varicose Veins</h3>
+                        <h3 class="treatment-card-title">Neonatal Surgery</h3>
                         <p class="treatment-card-description">
-                            Laser ablation (EVLT) and sclerotherapy for painless treatment of varicose veins.
+                            Surgical correction of congenital anomalies in newborns including diaphragmatic hernia and intestinal atresia.
                         </p>
                     </div>
                 </div>
@@ -312,11 +312,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-heart-broken"></i>
+                            <i class="fas fa-microscope"></i>
                         </div>
-                        <h3 class="treatment-card-title">DVT Management</h3>
+                        <h3 class="treatment-card-title">Laparoscopic Surgery</h3>
                         <p class="treatment-card-description">
-                            Treatment of Deep Vein Thrombosis with blood thinners and thrombolysis.
+                            Minimally invasive procedures for appendicitis, hernia, and other conditions with faster recovery.
                         </p>
                     </div>
                 </div>
@@ -326,9 +326,9 @@
                         <div class="treatment-card-icon">
                             <i class="fas fa-band-aid"></i>
                         </div>
-                        <h3 class="treatment-card-title">Diabetic Foot</h3>
+                        <h3 class="treatment-card-title">Hernia Repair</h3>
                         <p class="treatment-card-description">
-                            Comprehensive care for diabetic foot ulcers to prevent amputation.
+                            Surgical repair of inguinal and umbilical hernias in children using advanced techniques.
                         </p>
                     </div>
                 </div>
@@ -336,11 +336,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-road"></i>
+                            <i class="fas fa-child"></i>
                         </div>
-                        <h3 class="treatment-card-title">Peripheral Bypass</h3>
+                        <h3 class="treatment-card-title">Circumcision</h3>
                         <p class="treatment-card-description">
-                            Surgical bypass to restore blood flow to legs with blocked arteries.
+                            Safe and painless circumcision procedures for infants and children with proper anesthesia.
                         </p>
                     </div>
                 </div>
@@ -348,11 +348,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-cut"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dialysis Access</h3>
+                        <h3 class="treatment-card-title">Tumor Excision</h3>
                         <p class="treatment-card-description">
-                            Creation of AV fistulas and grafts for kidney failure patients needing dialysis.
+                            Removal of benign and malignant childhood tumors with comprehensive oncology support.
                         </p>
                     </div>
                 </div>
@@ -360,11 +360,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-ambulance"></i>
                         </div>
-                        <h3 class="treatment-card-title">Aneurysm Repair</h3>
+                        <h3 class="treatment-card-title">Trauma Management</h3>
                         <p class="treatment-card-description">
-                            Open and endovascular (EVAR) repair of aortic aneurysms to prevent rupture.
+                            Emergency surgical care for injured children including abdominal and thoracic trauma.
                         </p>
                     </div>
                 </div>
@@ -376,9 +376,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Vascular Surgery?</h2>
+                <h2 class="section-title">Why Choose Prayag for Paediatric Surgery?</h2>
                 <p class="section-subtitle">
-                    Expert care for complex vascular conditions.
+                    Expert surgical care for children in a child-friendly environment.
                 </p>
             </div>
 
@@ -388,48 +388,18 @@
                         <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Vascular Specialists</h4>
-                        <p>Dedicated team of vascular and endovascular surgeons.</p>
+                        <h4>Pediatric Surgeons</h4>
+                        <p>Specialized pediatric surgeons trained in child anatomy and minimally invasive techniques.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital"></i>
+                        <i class="fas fa-hospital-alt"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest laser machines and digital cath lab.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-check"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>High Success Rate</h4>
-                        <p>Excellent outcomes in limb salvage and complex vascular reconstructions.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Minimally Invasive</h4>
-                        <p>Focus on endovascular keyhole procedures for faster recovery.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-medical"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Comprehensive Care</h4>
-                        <p>Holistic management including wound care and rehabilitation.</p>
+                        <h4>Child-Friendly Facilities</h4>
+                        <p>Dedicated pediatric surgical unit with colorful, welcoming environment for children.</p>
                     </div>
                 </div>
 
@@ -438,8 +408,38 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergencies</h4>
-                        <p>Round-the-clock availability for vascular trauma and acute blockages.</p>
+                        <h4>24/7 Care</h4>
+                        <p>Round-the-clock neonatologist and nursing staff availability for immediate response.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Family-Centered Care</h4>
+                        <p>We involve parents in care decisions and provide emotional support throughout the journey.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Safety First</h4>
+                        <p>Pediatric anesthesiologists and strict safety protocols for young patients.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Parent Involvement</h4>
+                        <p>Parents can stay with children pre and post-surgery for comfort and support.</p>
                     </div>
                 </div>
             </div>
@@ -450,27 +450,27 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Surgeons</h2>
+                <h2 class="section-title">Our Paediatric Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of vascular surgery specialists.
+                    Meet our team of child surgery specialists.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $vasc_doctors = array_filter($doctors, function($doctor) {
-                    return in_array($doctor['specialty_code'], ['vascular-surgery', 'general-surgery', 'surgery']);
+                $ped_surg_doctors = array_filter($doctors, function($doctor) {
+                    return in_array($doctor['specialty_code'], ['pediatric-surgery', 'paediatric-surgery', 'pediatrics']);
                 });
                 
-                if (empty($vasc_doctors)) {
-                    $vasc_doctors = array_filter($doctors, function($doctor) {
-                        return $doctor['specialty_code'] === 'surgery';
+                if (empty($ped_surg_doctors)) {
+                    $ped_surg_doctors = array_filter($doctors, function($doctor) {
+                        return $doctor['specialty_code'] === 'pediatrics';
                     });
-                    $vasc_doctors = array_slice($vasc_doctors, 0, 3);
+                    $ped_surg_doctors = array_slice($ped_surg_doctors, 0, 3);
                 }
 
-                foreach ($vasc_doctors as $doctor): 
+                foreach ($ped_surg_doctors as $doctor): 
                 ?>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="doctor-card">
@@ -505,9 +505,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Stories</h2>
+                <h2 class="section-title-dark">Parent Testimonials</h2>
                 <p class="section-subtitle-gray">
-                    Stories from patients who regained their mobility and health.
+                    Stories from families helped by our surgery team.
                 </p>
             </div>
 
@@ -520,46 +520,46 @@
                     <div class="testimonials-slider">
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Varicose+Veins"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Hernia+Surgery"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I suffered from painful varicose veins for years. The laser treatment was quick and I walked home the same day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Sharma</h4>
-                                <p class="testimonial-procedure">Varicose Veins Laser</p>
+                                <p class="testimonial-text">"My son needed a hernia operation. The pediatric surgeon was so gentle and explained everything. The scar is barely visible."</p>
+                                <h4 class="testimonial-name">Mrs. Sangeeta Rao</h4>
+                                <p class="testimonial-procedure">Inguinal Hernia Repair</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Leg+Saved"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Successful+Surgery"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My father had a gangrene foot and was advised amputation elsewhere. Prayag doctors saved his leg with bypass surgery."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Limb Salvage Bypass</p>
+                                <p class="testimonial-text">"We were terrified when our baby needed surgery. The team at Prayag handled everything with such care. Thank you!"</p>
+                                <h4 class="testimonial-name">Mr. Deepak Kumar</h4>
+                                <p class="testimonial-procedure">Congenital Correction</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Dialysis+Access"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Quick+Recovery"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Excellent care for my dialysis fistula surgery. The doctors explained everything clearly."</p>
-                                <h4 class="testimonial-name">Mr. Suresh Kumar</h4>
-                                <p class="testimonial-procedure">AV Fistula</p>
+                                <p class="testimonial-text">"Excellent care for my daughter's appendicitis. Laparoscopic surgery meant she was back home in just 2 days."</p>
+                                <h4 class="testimonial-name">Mrs. Meera Patel</h4>
+                                <p class="testimonial-procedure">Appendectomy</p>
                             </div>
                         </div>
                     </div>
@@ -578,7 +578,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about vascular surgery.
+                    Common questions about pediatric surgery.
                 </p>
             </div>
 
@@ -589,13 +589,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What is vascular surgery?
+                                    Why does my child need a pediatric surgeon?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It involves the diagnosis and treatment of disorders of the blood vessels (arteries and veins), excluding the heart and brain.
+                                    Pediatric surgeons are specially trained to operate on infants and children, whose physiology and anatomy are different from adults.
                                 </div>
                             </div>
                         </div>
@@ -604,13 +604,13 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What is laser treatment for varicose veins?
+                                    Is anesthesia safe for children?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is a minimally invasive procedure where laser energy is used to seal the faulty vein. It is painless, leaves no scars, and allows immediate walking.
+                                    Yes, we have dedicated pediatric anesthesiologists who specialize in safely administering anesthesia to children of all ages, including newborns.
                                 </div>
                             </div>
                         </div>
@@ -619,13 +619,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How can I prevent diabetic foot complications?
+                                    Can I stay with my child before surgery?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Regular foot check-ups, sugar control, wearing proper footwear, and seeking early treatment for any small wound are key to prevention.
+                                    Yes, we encourage one parent to stay with the child in the pre-operative area until they are taken into the operating room to reduce anxiety.
                                 </div>
                             </div>
                         </div>
@@ -634,13 +634,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What is an AV Fistula?
+                                    How long will my child stay in the hospital?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    An AV fistula is a surgical connection between an artery and a vein, created to provide reliable access for hemodialysis in kidney patients.
+                                    It depends on the surgery. Many procedures are "day-care" where the child goes home the same day. Major surgeries may require a few days stay.
                                 </div>
                             </div>
                         </div>
@@ -649,13 +649,13 @@
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    Does vascular surgery always mean open surgery?
+                                    Will the surgery leave a large scar?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No. We perform many procedures using endovascular techniques (angioplasty/stenting) which are done through a small needle puncture.
+                                    We prioritize minimally invasive (laparoscopic) techniques whenever possible, which result in tiny, barely visible scars.
                                 </div>
                             </div>
                         </div>
@@ -664,13 +664,13 @@
                             <h2 class="accordion-header" id="faqHeading6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the signs of poor circulation?
+                                    How do you manage pain in children?
                                 </button>
                             </h2>
                             <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Pain in legs while walking (claudication), non-healing wounds, cold feet, and discoloration are common signs of poor blood circulation.
+                                    We use a multimodal pain management approach tailored to the child's age and weight to ensure they are comfortable and pain-free.
                                 </div>
                             </div>
                         </div>

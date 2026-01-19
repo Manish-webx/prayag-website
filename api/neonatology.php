@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vascular Surgery - Blood Vessel & Circulatory Care | Prayag Hospital</title>
+    <title>Neonatology - Newborn & Premature Baby Care | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -35,7 +35,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Vascular Surgery
+                            Neonatology
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Vascular Surgery Centre
+                            Advanced Neonatology & Newborn Care Centre
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital's Department of Vascular Surgery specializes in treating diseases of the blood vessels including arteries and veins. Our vascular surgeons perform both open surgical and minimally invasive endovascular procedures for conditions like varicose veins, aneurysms, and peripheral artery disease.
+                            Prayag Hospital's Neonatology Department provides specialized care for newborns, especially premature and critically ill babies. Our state-of-the-art NICU is equipped with advanced life support systems and staffed by expert neonatologists available 24/7.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -66,8 +66,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Expert Vascular Care</strong>
-                                Advanced endovascular and open surgical techniques for comprehensive blood vessel treatment.
+                                <strong>Level III NICU</strong>
+                                Advanced neonatal intensive care unit with ventilators, incubators, and phototherapy for comprehensive newborn care.
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-baby"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Endovascular Procedures</h3>
+                            <h3 class="feature-title">Level III NICU</h3>
                         </div>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Varicose Vein Treatment</h3>
+                            <h3 class="feature-title">Expert Neonatologists</h3>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <i class="fas fa-heartbeat"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Aneurysm Repair</h3>
+                            <h3 class="feature-title">24/7 Monitoring</h3>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <i class="fas fa-hands-helping"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Doppler Studies</h3>
+                            <h3 class="feature-title">Family Support</h3>
                         </div>
                     </div>
                 </div>
@@ -174,15 +174,15 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Expert Vascular Care</h2>
+                <h2 class="overview-heading">Specialized Care for Your Newborn</h2>
                 <p class="overview-text">
-                    The Department of Vascular Surgery at Prayag Hospital specializes in the diagnosis and treatment of diseases affecting the circulatory system outside the heart and brain. Our vascular surgeons are experts in managing conditions of arteries, veins, and lymphatic vessels.
+                    The Department of Neonatology at Prayag Hospital is dedicated to providing comprehensive care for newborns, particularly those born prematurely or with critical medical conditions. Our Level III NICU is equipped with the latest technology to support the tiniest and most vulnerable patients.
                 </p>
                 <p class="overview-text">
-                    We offer both traditional open surgical procedures and cutting-edge minimally invasive endovascular techniques. Our team performs angioplasty, stenting, varicose vein treatments, and complex aneurysm repairs with excellent outcomes.
+                    Our team of board-certified neonatologists, pediatric nurses, and respiratory therapists work around the clock to ensure every baby receives personalized, evidence-based care. We manage everything from respiratory distress and infections to congenital anomalies and birth asphyxia.
                 </p>
                 <p class="overview-text">
-                    We work closely with diabetologists, cardiologists, and nephrologists to provide comprehensive care for patients with vascular complications, including diabetic foot management and creation of dialysis access.
+                    We believe in family-centered care and encourage parents to be actively involved in their baby's treatment journey. Our NICU provides a supportive environment with counseling services and lactation support to help families during this challenging time.
                 </p>
             </div>
 
@@ -193,19 +193,19 @@
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Hybrid OT</h4>
-                    <p>Advanced hybrid operating theater for combining open and endovascular procedures.</p>
+                    <i class="fas fa-temperature-low"></i>
+                    <h4>Advanced Incubators</h4>
+                    <p>Temperature-controlled incubators for premature babies to maintain optimal body temperature.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-x-ray"></i>
-                    <h4>Digital Cath Lab</h4>
-                    <p>State-of-the-art angiography suite for precise vessel imaging and intervention.</p>
+                    <i class="fas fa-lungs"></i>
+                    <h4>Ventilator Support</h4>
+                    <p>Mechanical ventilation and CPAP for babies with respiratory difficulties.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-walking"></i>
-                    <h4>Limb Salvage</h4>
-                    <p>Specialized focus on saving limbs in severe diabetic foot and gangrene cases.</p>
+                    <i class="fas fa-sun"></i>
+                    <h4>Phototherapy</h4>
+                    <p>Advanced phototherapy units for treating neonatal jaundice effectively.</p>
                 </div>
             </div>
         </div>
@@ -217,69 +217,69 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Comprehensive vascular care for blood vessel disorders.
+                    Comprehensive neonatal care for various conditions.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Varicose Veins</h3>
+                        <h3 class="condition-name">Premature Birth</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Deep Vein Thrombosis (DVT)</h3>
+                        <h3 class="condition-name">Low Birth Weight</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Peripheral Artery Disease</h3>
+                        <h3 class="condition-name">Respiratory Distress Syndrome</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Carotid Artery Disease</h3>
+                        <h3 class="condition-name">Neonatal Jaundice</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Aortic Aneurysm</h3>
+                        <h3 class="condition-name">Birth Asphyxia</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Foot & Gangrene</h3>
+                        <h3 class="condition-name">Neonatal Sepsis</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">AV Fistula (for Dialysis)</h3>
+                        <h3 class="condition-name">Congenital Anomalies</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Malformations</h3>
+                        <h3 class="condition-name">Hypoglycemia</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Raynaud's Disease</h3>
+                        <h3 class="condition-name">Feeding Difficulties</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Venous Insufficiency</h3>
+                        <h3 class="condition-name">Neonatal Seizures</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Lymphedema</h3>
+                        <h3 class="condition-name">Meconium Aspiration</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Trauma</h3>
+                        <h3 class="condition-name">Patent Ductus Arteriosus</h3>
                     </div>
                 </div>
             </div>
@@ -290,9 +290,9 @@
     <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Services</h2>
+                <h2 class="section-title">Our Neonatal Services</h2>
                 <p class="section-subtitle">
-                    Comprehensive care for arteries and veins.
+                    Comprehensive care for newborns and premature babies.
                 </p>
             </div>
 
@@ -300,11 +300,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-crutch"></i>
+                            <i class="fas fa-hospital"></i>
                         </div>
-                        <h3 class="treatment-card-title">Varicose Veins</h3>
+                        <h3 class="treatment-card-title">Level III NICU</h3>
                         <p class="treatment-card-description">
-                            Laser ablation (EVLT) and sclerotherapy for painless treatment of varicose veins.
+                            Fully equipped neonatal intensive care unit with advanced monitoring and life support systems for critically ill newborns.
                         </p>
                     </div>
                 </div>
@@ -312,11 +312,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-heart-broken"></i>
+                            <i class="fas fa-wind"></i>
                         </div>
-                        <h3 class="treatment-card-title">DVT Management</h3>
+                        <h3 class="treatment-card-title">Respiratory Support</h3>
                         <p class="treatment-card-description">
-                            Treatment of Deep Vein Thrombosis with blood thinners and thrombolysis.
+                            Mechanical ventilation, CPAP, and high-flow oxygen therapy for babies with breathing difficulties.
                         </p>
                     </div>
                 </div>
@@ -324,11 +324,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-band-aid"></i>
+                            <i class="fas fa-sun"></i>
                         </div>
-                        <h3 class="treatment-card-title">Diabetic Foot</h3>
+                        <h3 class="treatment-card-title">Phototherapy</h3>
                         <p class="treatment-card-description">
-                            Comprehensive care for diabetic foot ulcers to prevent amputation.
+                            Advanced LED phototherapy for effective treatment of neonatal jaundice and hyperbilirubinemia.
                         </p>
                     </div>
                 </div>
@@ -336,11 +336,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-road"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
-                        <h3 class="treatment-card-title">Peripheral Bypass</h3>
+                        <h3 class="treatment-card-title">Cardiac Monitoring</h3>
                         <p class="treatment-card-description">
-                            Surgical bypass to restore blood flow to legs with blocked arteries.
+                            Continuous cardiac and vital signs monitoring with advanced neonatal monitors.
                         </p>
                     </div>
                 </div>
@@ -348,11 +348,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-baby-carriage"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dialysis Access</h3>
+                        <h3 class="treatment-card-title">Kangaroo Mother Care</h3>
                         <p class="treatment-card-description">
-                            Creation of AV fistulas and grafts for kidney failure patients needing dialysis.
+                            Skin-to-skin contact program to promote bonding and improve outcomes for premature babies.
                         </p>
                     </div>
                 </div>
@@ -360,11 +360,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-user-nurse"></i>
                         </div>
-                        <h3 class="treatment-card-title">Aneurysm Repair</h3>
+                        <h3 class="treatment-card-title">Lactation Support</h3>
                         <p class="treatment-card-description">
-                            Open and endovascular (EVAR) repair of aortic aneurysms to prevent rupture.
+                            Expert lactation consultants to help mothers with breastfeeding and expressing milk for NICU babies.
                         </p>
                     </div>
                 </div>
@@ -376,9 +376,9 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Vascular Surgery?</h2>
+                <h2 class="section-title">Why Choose Prayag for Neonatal Care?</h2>
                 <p class="section-subtitle">
-                    Expert care for complex vascular conditions.
+                    Trusted by families for expert newborn care.
                 </p>
             </div>
 
@@ -388,48 +388,18 @@
                         <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Vascular Specialists</h4>
-                        <p>Dedicated team of vascular and endovascular surgeons.</p>
+                        <h4>Expert Neonatologists</h4>
+                        <p>Board-certified neonatologists with years of experience in managing high-risk newborns.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital"></i>
+                        <i class="fas fa-hospital-alt"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest laser machines and digital cath lab.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-check"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>High Success Rate</h4>
-                        <p>Excellent outcomes in limb salvage and complex vascular reconstructions.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Minimally Invasive</h4>
-                        <p>Focus on endovascular keyhole procedures for faster recovery.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-medical"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Comprehensive Care</h4>
-                        <p>Holistic management including wound care and rehabilitation.</p>
+                        <h4>Advanced NICU</h4>
+                        <p>State-of-the-art Level III NICU with latest equipment and technology.</p>
                     </div>
                 </div>
 
@@ -438,8 +408,38 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergencies</h4>
-                        <p>Round-the-clock availability for vascular trauma and acute blockages.</p>
+                        <h4>24/7 Care</h4>
+                        <p>Round-the-clock neonatologist and nursing staff availability for immediate response.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Family-Centered Care</h4>
+                        <p>We involve parents in care decisions and provide emotional support throughout the journey.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Infection Control</h4>
+                        <p>Strict infection prevention protocols to protect vulnerable newborns.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Neonatal Transport</h4>
+                        <p>Specialized ambulance with incubator for safe transport of sick newborns.</p>
                     </div>
                 </div>
             </div>
@@ -450,27 +450,27 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Surgeons</h2>
+                <h2 class="section-title">Our Neonatologists</h2>
                 <p class="section-subtitle">
-                    Meet our team of vascular surgery specialists.
+                    Meet our team of newborn care specialists.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $vasc_doctors = array_filter($doctors, function($doctor) {
-                    return in_array($doctor['specialty_code'], ['vascular-surgery', 'general-surgery', 'surgery']);
+                $neo_doctors = array_filter($doctors, function($doctor) {
+                    return in_array($doctor['specialty_code'], ['neonatology', 'pediatrics', 'neonatal']);
                 });
                 
-                if (empty($vasc_doctors)) {
-                    $vasc_doctors = array_filter($doctors, function($doctor) {
-                        return $doctor['specialty_code'] === 'surgery';
+                if (empty($neo_doctors)) {
+                    $neo_doctors = array_filter($doctors, function($doctor) {
+                        return $doctor['specialty_code'] === 'pediatrics';
                     });
-                    $vasc_doctors = array_slice($vasc_doctors, 0, 3);
+                    $neo_doctors = array_slice($neo_doctors, 0, 3);
                 }
 
-                foreach ($vasc_doctors as $doctor): 
+                foreach ($neo_doctors as $doctor): 
                 ?>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="doctor-card">
@@ -505,9 +505,9 @@
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
-                <h2 class="section-title-dark">Patient Stories</h2>
+                <h2 class="section-title-dark">Parent Testimonials</h2>
                 <p class="section-subtitle-gray">
-                    Stories from patients who regained their mobility and health.
+                    Stories from families whose babies received care in our NICU.
                 </p>
             </div>
 
@@ -520,46 +520,46 @@
                     <div class="testimonials-slider">
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Varicose+Veins"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Premature+Baby+Care"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I suffered from painful varicose veins for years. The laser treatment was quick and I walked home the same day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Sharma</h4>
-                                <p class="testimonial-procedure">Varicose Veins Laser</p>
+                                <p class="testimonial-text">"Our twins were born at 32 weeks. The NICU team took amazing care of them. Today they are healthy and thriving."</p>
+                                <h4 class="testimonial-name">Mr. & Mrs. Sharma</h4>
+                                <p class="testimonial-procedure">Premature Twins</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Leg+Saved"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=NICU+Success"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My father had a gangrene foot and was advised amputation elsewhere. Prayag doctors saved his leg with bypass surgery."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Limb Salvage Bypass</p>
+                                <p class="testimonial-text">"The doctors and nurses were so caring. They kept us informed every step of the way during our baby's NICU stay."</p>
+                                <h4 class="testimonial-name">Mrs. Priya Gupta</h4>
+                                <p class="testimonial-procedure">Neonatal Jaundice</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Dialysis+Access"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Expert+Care"
+                                    alt="Parent Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Excellent care for my dialysis fistula surgery. The doctors explained everything clearly."</p>
-                                <h4 class="testimonial-name">Mr. Suresh Kumar</h4>
-                                <p class="testimonial-procedure">AV Fistula</p>
+                                <p class="testimonial-text">"We are grateful to the neonatology team for saving our baby's life. The NICU facilities are world-class."</p>
+                                <h4 class="testimonial-name">Mr. Rajesh Kumar</h4>
+                                <p class="testimonial-procedure">Respiratory Distress</p>
                             </div>
                         </div>
                     </div>
@@ -578,7 +578,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about vascular surgery.
+                    Common questions about neonatal care.
                 </p>
             </div>
 
@@ -589,13 +589,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What is vascular surgery?
+                                    Can parents visit the NICU?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It involves the diagnosis and treatment of disorders of the blood vessels (arteries and veins), excluding the heart and brain.
+                                    Yes, we encourage parent visits. Parents can visit during designated hours and participate in their baby's care. We provide training for kangaroo care and feeding.
                                 </div>
                             </div>
                         </div>
@@ -604,13 +604,13 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What is laser treatment for varicose veins?
+                                    What is the survival rate for premature babies?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is a minimally invasive procedure where laser energy is used to seal the faulty vein. It is painless, leaves no scars, and allows immediate walking.
+                                    Survival rates depend on gestational age and birth weight. Our NICU has excellent outcomes for babies born after 28 weeks. We provide comprehensive care to maximize survival and minimize complications.
                                 </div>
                             </div>
                         </div>
@@ -619,13 +619,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How can I prevent diabetic foot complications?
+                                    How long will my baby stay in the NICU?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Regular foot check-ups, sugar control, wearing proper footwear, and seeking early treatment for any small wound are key to prevention.
+                                    The length of stay varies based on your baby's condition. Premature babies often stay until their original due date. Our team will keep you updated on your baby's progress and expected discharge timeline.
                                 </div>
                             </div>
                         </div>
@@ -634,13 +634,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What is an AV Fistula?
+                                    Can I breastfeed my baby in the NICU?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    An AV fistula is a surgical connection between an artery and a vein, created to provide reliable access for hemodialysis in kidney patients.
+                                    Yes, we strongly encourage breastfeeding. Our lactation consultants will help you express milk and eventually transition to direct breastfeeding when your baby is ready.
                                 </div>
                             </div>
                         </div>
@@ -649,13 +649,13 @@
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    Does vascular surgery always mean open surgery?
+                                    What is phototherapy for jaundice?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No. We perform many procedures using endovascular techniques (angioplasty/stenting) which are done through a small needle puncture.
+                                    Phototherapy uses special blue lights to break down excess bilirubin in your baby's blood. It's a safe and effective treatment for neonatal jaundice, which is common in newborns.
                                 </div>
                             </div>
                         </div>
@@ -664,13 +664,13 @@
                             <h2 class="accordion-header" id="faqHeading6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the signs of poor circulation?
+                                    Is the NICU covered by insurance?
                                 </button>
                             </h2>
                             <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Pain in legs while walking (claudication), non-healing wounds, cold feet, and discoloration are common signs of poor blood circulation.
+                                    Most insurance plans cover NICU care. Our billing department will work with your insurance provider to facilitate cashless treatment. Please check with your insurance company for specific coverage details.
                                 </div>
                             </div>
                         </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vascular Surgery - Blood Vessel & Circulatory Care | Prayag Hospital</title>
+    <title>Pulmonary Function Test (PFT) - Lung Function Testing | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -35,7 +35,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Vascular Surgery
+                            Pulmonary Function Test
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Vascular Surgery Centre
+                            Pulmonary Function Test (PFT)
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital's Department of Vascular Surgery specializes in treating diseases of the blood vessels including arteries and veins. Our vascular surgeons perform both open surgical and minimally invasive endovascular procedures for conditions like varicose veins, aneurysms, and peripheral artery disease.
+                            Prayag Hospital's PFT lab offers comprehensive lung function testing to diagnose respiratory conditions. We assess lung capacity, airflow, and gas exchange to help manage asthma, COPD, and other pulmonary disorders.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -66,8 +66,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Expert Vascular Care</strong>
-                                Advanced endovascular and open surgical techniques for comprehensive blood vessel treatment.
+                                <strong>Complete Lung Function Assessment</strong>
+                                Comprehensive lung function testing for respiratory health evaluation.
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=600&fit=crop"
-                                    alt="Neonatology at Prayag Hospital" class="hero-image">
+                                <img src="https://images.unsplash.com/photo-1516549655169-df83a0833860?w=800&h=600&fit=crop"
+                                    alt="Radiology at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                     <a href="#overview" class="toc-nav-link">Overview</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#conditions" class="toc-nav-link">Conditions</a>
+                    <a href="#services" class="toc-nav-link">Services</a>
                 </li>
                 <li class="toc-nav-item">
-                    <a href="#services" class="toc-nav-link">Services</a>
+                    <a href="#modalities" class="toc-nav-link">Technology</a>
                 </li>
                 <li class="toc-nav-item">
                     <a href="#why-choose-us" class="toc-nav-link">Why Choose Us</a>
@@ -123,10 +123,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-lungs"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Endovascular Procedures</h3>
+                            <h3 class="feature-title">Lung Capacity Testing</h3>
                         </div>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-wind"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Varicose Vein Treatment</h3>
+                            <h3 class="feature-title">Airflow Measurement</h3>
                         </div>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-exchange-alt"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Aneurysm Repair</h3>
+                            <h3 class="feature-title">Gas Exchange Analysis</h3>
                         </div>
                     </div>
                 </div>
@@ -159,10 +159,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-chart-bar"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Doppler Studies</h3>
+                            <h3 class="feature-title">Pre/Post Treatment Comparison</h3>
                         </div>
                     </div>
                 </div>
@@ -174,197 +174,203 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Expert Vascular Care</h2>
+                <h2 class="overview-heading">Comprehensive Lung Function Testing</h2>
                 <p class="overview-text">
-                    The Department of Vascular Surgery at Prayag Hospital specializes in the diagnosis and treatment of diseases affecting the circulatory system outside the heart and brain. Our vascular surgeons are experts in managing conditions of arteries, veins, and lymphatic vessels.
+                    Pulmonary Function Test (PFT) measures how well your lungs work by assessing lung capacity, volume, and gas exchange. These comprehensive tests are essential for diagnosing asthma, COPD, and other respiratory conditions, as well as monitoring treatment effectiveness.
                 </p>
                 <p class="overview-text">
-                    We offer both traditional open surgical procedures and cutting-edge minimally invasive endovascular techniques. Our team performs angioplasty, stenting, varicose vein treatments, and complex aneurysm repairs with excellent outcomes.
+                    PFT includes multiple tests: spirometry measures airflow, lung volume tests assess total capacity, and diffusion capacity tests evaluate how well oxygen transfers from lungs to blood. Together, these provide a complete picture of respiratory health.
                 </p>
                 <p class="overview-text">
-                    We work closely with diabetologists, cardiologists, and nephrologists to provide comprehensive care for patients with vascular complications, including diabetic foot management and creation of dialysis access.
+                    Our advanced computerized PFT equipment provides accurate measurements with detailed reports. Testing typically takes 30-45 minutes and helps doctors diagnose lung diseases, monitor disease progression, and evaluate pre-operative fitness for surgery.
                 </p>
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=600&fit=crop"
-                    alt="NICU at Prayag Hospital" class="overview-image">
+                <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=600&fit=crop"
+                    alt="MRI Machine" class="overview-image">
             </div>
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Hybrid OT</h4>
-                    <p>Advanced hybrid operating theater for combining open and endovascular procedures.</p>
+                    <i class="fas fa-bolt"></i>
+                    <h4>Fast Reporting</h4>
+                    <p>Quick turnaround time for reports to facilitate immediate treatment initiation.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-x-ray"></i>
-                    <h4>Digital Cath Lab</h4>
-                    <p>State-of-the-art angiography suite for precise vessel imaging and intervention.</p>
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Safety First</h4>
+                    <p>Low-dose radiation protocols (ALARA) to ensure patient safety during X-rays and CT scans.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-walking"></i>
-                    <h4>Limb Salvage</h4>
-                    <p>Specialized focus on saving limbs in severe diabetic foot and gangrene cases.</p>
+                    <i class="fas fa-clock"></i>
+                    <h4>24/7 Services</h4>
+                    <p>Round-the-clock availability for emergency diagnostics and trauma cases.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Conditions Section -->
-    <section class="conditions-section" id="conditions">
+    <!-- Conditions/Services Section -->
+    <section class="conditions-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat</h2>
+                <h2 class="section-title">Pulmonary Function Tests We Offer</h2>
                 <p class="section-subtitle">
-                    Comprehensive vascular care for blood vessel disorders.
+                    Complete respiratory health assessment.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Varicose Veins</h3>
+                        <h3 class="condition-name">MRI (Magnetic Resonance Imaging)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Deep Vein Thrombosis (DVT)</h3>
+                        <h3 class="condition-name">CT Scan (Computed Tomography)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Peripheral Artery Disease</h3>
+                        <h3 class="condition-name">4D Ultrasound / Color Doppler</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Carotid Artery Disease</h3>
+                        <h3 class="condition-name">Digital X-Ray</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Aortic Aneurysm</h3>
+                        <h3 class="condition-name">Mammography</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Foot & Gangrene</h3>
+                        <h3 class="condition-name">Bone Densitometry (DEXA)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">AV Fistula (for Dialysis)</h3>
+                        <h3 class="condition-name">Interventional Radiology</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Malformations</h3>
+                        <h3 class="condition-name">OPG (Dental X-Ray)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Raynaud's Disease</h3>
+                        <h3 class="condition-name">Biopsy & FNAC</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Venous Insufficiency</h3>
+                        <h3 class="condition-name">Barium Studies</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Lymphedema</h3>
+                        <h3 class="condition-name">HSG (Hysterosalpingography)</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Trauma</h3>
+                        <h3 class="condition-name">Portable X-Ray</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="treatment-section" id="services">
+    <!-- Modalities Section -->
+    <section class="treatment-section" id="modalities">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Services</h2>
+                <h2 class="section-title">PFT Technology & Equipment</h2>
                 <p class="section-subtitle">
-                    Comprehensive care for arteries and veins.
+                    Advanced lung function testing systems.
                 </p>
             </div>
 
             <div class="row g-4">
+                <!-- Treatment Card 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-crutch"></i>
+                            <i class="fas fa-lungs"></i>
                         </div>
-                        <h3 class="treatment-card-title">Varicose Veins</h3>
+                        <h3 class="treatment-card-title">Digital Spirometer</h3>
                         <p class="treatment-card-description">
-                            Laser ablation (EVLT) and sclerotherapy for painless treatment of varicose veins.
+                            Computerized spirometry system for accurate measurement of lung volumes and airflow rates.
                         </p>
                     </div>
                 </div>
 
+                <!-- Treatment Card 2 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-heart-broken"></i>
+                            <i class="fas fa-wind"></i>
                         </div>
-                        <h3 class="treatment-card-title">DVT Management</h3>
+                        <h3 class="treatment-card-title">Body Plethysmograph</h3>
                         <p class="treatment-card-description">
-                            Treatment of Deep Vein Thrombosis with blood thinners and thrombolysis.
+                            Whole-body plethysmography for measuring total lung capacity and residual volume.
                         </p>
                     </div>
                 </div>
 
+                <!-- Treatment Card 3 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-band-aid"></i>
+                            <i class="fas fa-exchange-alt"></i>
                         </div>
-                        <h3 class="treatment-card-title">Diabetic Foot</h3>
+                        <h3 class="treatment-card-title">DLCO Testing System</h3>
                         <p class="treatment-card-description">
-                            Comprehensive care for diabetic foot ulcers to prevent amputation.
+                             Diffusion capacity equipment for measuring how well oxygen transfers from lungs to blood.
                         </p>
                     </div>
                 </div>
 
+                <!-- Treatment Card 4 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-road"></i>
+                            <i class="fas fa-running"></i>
                         </div>
-                        <h3 class="treatment-card-title">Peripheral Bypass</h3>
+                        <h3 class="treatment-card-title">Exercise Testing Equipment</h3>
                         <p class="treatment-card-description">
-                            Surgical bypass to restore blood flow to legs with blocked arteries.
+                            Cardiopulmonary exercise testing (CPET) for assessing lung function during physical activity.
                         </p>
                     </div>
                 </div>
 
+                <!-- Treatment Card 5 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-chart-line"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dialysis Access</h3>
+                        <h3 class="treatment-card-title">Analysis Software</h3>
                         <p class="treatment-card-description">
-                            Creation of AV fistulas and grafts for kidney failure patients needing dialysis.
+                            Advanced computerized analysis for accurate interpretation and reporting of PFT results.
                         </p>
                     </div>
                 </div>
 
+                <!-- Treatment Card 6 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
-                        <h3 class="treatment-card-title">Aneurysm Repair</h3>
+                        <h3 class="treatment-card-title">Bronchial Challenge Testing</h3>
                         <p class="treatment-card-description">
-                            Open and endovascular (EVAR) repair of aortic aneurysms to prevent rupture.
+                            Methacholine challenge test equipment for diagnosing asthma and airway hyperresponsiveness.
                         </p>
                     </div>
                 </div>
@@ -376,60 +382,31 @@
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Vascular Surgery?</h2>
+                <h2 class="section-title">Why Choose Prayag for Pulmonary Function Testing?</h2>
                 <p class="section-subtitle">
-                    Expert care for complex vascular conditions.
+                    Comprehensive lung function assessment with advanced technology.
                 </p>
             </div>
 
+            <!-- Why Points Grid -->
             <div class="why-points-grid">
                 <div class="why-point">
                     <div class="why-point-icon">
                         <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Vascular Specialists</h4>
-                        <p>Dedicated team of vascular and endovascular surgeons.</p>
+                        <h4>Expert Pulmonologists</h4>
+                        <p>Experienced pulmonologists specialized in interpreting complex lung function tests.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital"></i>
+                        <i class="fas fa-microscope"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest laser machines and digital cath lab.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-check"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>High Success Rate</h4>
-                        <p>Excellent outcomes in limb salvage and complex vascular reconstructions.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Minimally Invasive</h4>
-                        <p>Focus on endovascular keyhole procedures for faster recovery.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-medical"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Comprehensive Care</h4>
-                        <p>Holistic management including wound care and rehabilitation.</p>
+                        <h4>Advanced PFT Equipment</h4>
+                        <p>State-of-the-art spirometry, plethysmography, and diffusion capacity testing systems.</p>
                     </div>
                 </div>
 
@@ -438,8 +415,38 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergencies</h4>
-                        <p>Round-the-clock availability for vascular trauma and acute blockages.</p>
+                        <h4>Comprehensive Testing</h4>
+                        <p>Complete range of PFT including spirometry, lung volumes, and DLCO for thorough assessment.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Non-Invasive Testing</h4>
+                        <p>Safe, painless breathing tests suitable for all ages including children and elderly.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Immediate Results</h4>
+                        <p>Instant computerized results with detailed reports for quick diagnosis and treatment.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Digital Reports</h4>
+                        <p>Instant access to digital images and reports for easy sharing with your doctor.</p>
                     </div>
                 </div>
             </div>
@@ -450,28 +457,33 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Surgeons</h2>
+                <h2 class="section-title">Our Pulmonologists</h2>
                 <p class="section-subtitle">
-                    Meet our team of vascular surgery specialists.
+                    Meet our team of respiratory health experts.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $vasc_doctors = array_filter($doctors, function($doctor) {
-                    return in_array($doctor['specialty_code'], ['vascular-surgery', 'general-surgery', 'surgery']);
+                $radiology_doctors = array_filter($doctors, function($doctor) {
+                    $is_radiology_code = in_array($doctor['specialty_code'], ['radiology', 'imaging', 'radiologist']);
+                    $is_diagnostics_radiologist = ($doctor['specialty_code'] === 'diagnostics' && stripos($doctor['specialty'], 'Radiologist') !== false);
+                    return $is_radiology_code || $is_diagnostics_radiologist;
                 });
                 
-                if (empty($vasc_doctors)) {
-                    $vasc_doctors = array_filter($doctors, function($doctor) {
-                        return $doctor['specialty_code'] === 'surgery';
+                // Fallback for demo if no docs found
+                if (empty($radiology_doctors)) {
+                    // Placeholder: show general surgery docs if radiology specific ones not in data
+                    $radiology_doctors = array_filter($doctors, function($doctor) {
+                         return $doctor['specialty_code'] === 'general-surgery';
                     });
-                    $vasc_doctors = array_slice($vasc_doctors, 0, 3);
+                     $radiology_doctors = array_slice($radiology_doctors, 0, 3);
                 }
 
-                foreach ($vasc_doctors as $doctor): 
+                foreach ($radiology_doctors as $doctor): 
                 ?>
+                <!-- Doctor Card -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="doctor-card">
                         <div class="doctor-card-inner">
@@ -501,13 +513,13 @@
         </div>
     </section>
 
-    <!-- Patient Speak Section -->
+    <!-- Patient Speak Section (Testimonials) -->
     <section class="patient-speak-section" id="patient-speak">
         <div class="container">
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Stories</h2>
                 <p class="section-subtitle-gray">
-                    Stories from patients who regained their mobility and health.
+                    Experiences from our patients.
                 </p>
             </div>
 
@@ -518,48 +530,50 @@
 
                 <div class="testimonials-slider-container">
                     <div class="testimonials-slider">
+                        <!-- Testimonial 1 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Varicose+Veins"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=MRI+Experience"
+                                    alt="MRI Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I suffered from painful varicose veins for years. The laser treatment was quick and I walked home the same day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Sharma</h4>
-                                <p class="testimonial-procedure">Varicose Veins Laser</p>
+                                <p class="testimonial-text">"I was very claustrophobic, but the staff helped me calm down during my MRI scan. The machine was spacious and not too noisy."</p>
+                                <h4 class="testimonial-name">Ms. S. Gupta</h4>
+                                <p class="testimonial-procedure">MRI Scan</p>
                             </div>
                         </div>
 
+                        <!-- Testimonial 2 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Leg+Saved"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Quick+Service"
+                                    alt="Ultrasound Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My father had a gangrene foot and was advised amputation elsewhere. Prayag doctors saved his leg with bypass surgery."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Limb Salvage Bypass</p>
+                                <p class="testimonial-text">"I needed an urgent ultrasound and the team at Prayag accommodated me immediately. Very crucial for my timely diagnosis."</p>
+                                <h4 class="testimonial-name">Mr. A. Singh</h4>
+                                <p class="testimonial-procedure">Ultrasound</p>
                             </div>
                         </div>
 
+                        <!-- Testimonial 3 -->
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Dialysis+Access"
-                                    alt="Testimonial">
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Gentle+Staff" alt="Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Excellent care for my dialysis fistula surgery. The doctors explained everything clearly."</p>
-                                <h4 class="testimonial-name">Mr. Suresh Kumar</h4>
-                                <p class="testimonial-procedure">AV Fistula</p>
+                                <p class="testimonial-text">"The technician who did my mammography was very gentle and explained everything. It made a potentially uncomfortable procedure easy."</p>
+                                <h4 class="testimonial-name">Mrs. R. Mehta</h4>
+                                <p class="testimonial-procedure">Mammography</p>
                             </div>
                         </div>
                     </div>
@@ -578,99 +592,105 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about vascular surgery.
+                    Common questions about pulmonary function testing.
                 </p>
             </div>
 
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <div class="accordion" id="faqAccordion">
+                        <!-- FAQ 1 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What is vascular surgery?
+                                    Is PFT difficult to perform?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It involves the diagnosis and treatment of disorders of the blood vessels (arteries and veins), excluding the heart and brain.
+                                    No, PFT just requires following simple breathing instructions from the technician. You'll breathe into a mouthpiece and perform specific breathing maneuvers. Most people find it easy to complete.
                                 </div>
                             </div>
                         </div>
 
+                        <!-- FAQ 2 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What is laser treatment for varicose veins?
+                                    How long does PFT take?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is a minimally invasive procedure where laser energy is used to seal the faulty vein. It is painless, leaves no scars, and allows immediate walking.
+                                    Complete pulmonary function testing typically takes 30-45 minutes. This includes spirometry, lung volume measurement, and diffusion capacity tests. Simple spirometry alone takes only 10-15 minutes.
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-item">
+                         <!-- FAQ 3 -->
+                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How can I prevent diabetic foot complications?
+                                    Do I need to prepare for PFT?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Regular foot check-ups, sugar control, wearing proper footwear, and seeking early treatment for any small wound are key to prevention.
+                                    Avoid heavy meals 2-3 hours before testing. Don't smoke for 4-6 hours before. Wear comfortable, loose clothing. Your doctor may ask you to avoid using inhalers before the test - follow their specific instructions.
                                 </div>
                             </div>
                         </div>
 
+                        <!-- FAQ 4 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What is an AV Fistula?
+                                    Can I use my inhaler before PFT?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    An AV fistula is a surgical connection between an artery and a vein, created to provide reliable access for hemodialysis in kidney patients.
+                                    Ask your doctor before the test. For baseline PFT, you may need to skip your inhaler for 4-24 hours depending on the type. For bronchodilator response testing, you'll use the inhaler during the test as directed.
                                 </div>
                             </div>
                         </div>
 
+                        <!-- FAQ 5 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    Does vascular surgery always mean open surgery?
+                                    Is PFT safe for elderly patients?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No. We perform many procedures using endovascular techniques (angioplasty/stenting) which are done through a small needle puncture.
+                                    Yes, PFT is safe for all ages including elderly patients. The test is non-invasive and involves only breathing maneuvers. Short rest periods are provided between tests to prevent fatigue.
                                 </div>
                             </div>
                         </div>
 
+                        <!-- FAQ 6 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="faqHeading6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the signs of poor circulation?
+                                    Will I get tired during PFT?
                                 </button>
                             </h2>
                             <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Pain in legs while walking (claudication), non-healing wounds, cold feet, and discoloration are common signs of poor blood circulation.
+                                    PFT requires minimal exertion. You may feel slightly breathless during forced breathing maneuvers, but rest periods are provided between tests. Most patients tolerate the procedure well without significant fatigue.
                                 </div>
                             </div>
                         </div>
@@ -681,6 +701,7 @@
     </section>
 
     <?php include 'footer.php'; ?>
+
     <?php include 'footer-links.php'; ?>
 
     <script>
@@ -691,7 +712,7 @@
         const cards = document.querySelectorAll('.testimonial-card');
         
         if(slider && cards.length > 0) {
-            let cardWidth = cards[0].offsetWidth + 24;
+            let cardWidth = cards[0].offsetWidth + 24; // Width + gap
             
             nextBtn.addEventListener('click', () => {
                 slider.scrollBy({ left: cardWidth, behavior: 'smooth' });
@@ -705,3 +726,4 @@
 </body>
 
 </html>
+

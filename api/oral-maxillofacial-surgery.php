@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vascular Surgery - Blood Vessel & Circulatory Care | Prayag Hospital</title>
+    <title>Oral & Maxillofacial Surgery - Jaw & Facial Surgery | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -35,7 +35,7 @@
                             <a href="#">Departments</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Vascular Surgery
+                            Oral & Maxillofacial Surgery
                         </li>
                     </ol>
                 </nav>
@@ -49,10 +49,10 @@
                     <!-- Left Column: Text Content -->
                     <div class="col-lg-7 col-md-12">
                         <h1 class="hero-main-title">
-                            Advanced Vascular Surgery Centre
+                            Advanced Oral & Maxillofacial Surgery Centre
                         </h1>
                         <p class="hero-subtitle" style="color:#000 !important">
-                            Prayag Hospital's Department of Vascular Surgery specializes in treating diseases of the blood vessels including arteries and veins. Our vascular surgeons perform both open surgical and minimally invasive endovascular procedures for conditions like varicose veins, aneurysms, and peripheral artery disease.
+                            Prayag Hospital's Department of Oral and Maxillofacial Surgery provides comprehensive surgical care for conditions affecting the mouth, jaws, face, and neck. Our expert surgeons perform complex procedures including jaw reconstruction, facial trauma repair, and corrective jaw surgery.
                         </p>
 
                         <!-- CTA Buttons -->
@@ -66,8 +66,8 @@
                         <!-- Hero Stats -->
                         <div class="hero-stats">
                             <div class="hero-stat-item">
-                                <strong>Expert Vascular Care</strong>
-                                Advanced endovascular and open surgical techniques for comprehensive blood vessel treatment.
+                                <strong>Expert Facial Surgeons</strong>
+                                Trained in both dentistry and medicine for comprehensive facial and jaw surgery.
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-tooth"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Endovascular Procedures</h3>
+                            <h3 class="feature-title">Facial Trauma</h3>
                         </div>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-user-md"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Varicose Vein Treatment</h3>
+                            <h3 class="feature-title">Jaw Surgery</h3>
                         </div>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-smile"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Aneurysm Repair</h3>
+                            <h3 class="feature-title">Aesthetic Surgery</h3>
                         </div>
                     </div>
                 </div>
@@ -159,10 +159,10 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-hospital"></i>
                         </div>
                         <div class="feature-content">
-                            <h3 class="feature-title">Doppler Studies</h3>
+                            <h3 class="feature-title">Oral Pathology</h3>
                         </div>
                     </div>
                 </div>
@@ -174,15 +174,15 @@
     <section class="overview-section" id="overview">
         <div class="container">
             <div class="overview-content">
-                <h2 class="overview-heading">Expert Vascular Care</h2>
+                <h2 class="overview-heading">Expert Facial & Jaw Surgery</h2>
                 <p class="overview-text">
-                    The Department of Vascular Surgery at Prayag Hospital specializes in the diagnosis and treatment of diseases affecting the circulatory system outside the heart and brain. Our vascular surgeons are experts in managing conditions of arteries, veins, and lymphatic vessels.
+                    The Department of Oral and Maxillofacial Surgery at Prayag Hospital specializes in surgical treatment of conditions affecting the face, jaws, mouth, and neck. Our surgeons are uniquely trained in both dentistry and medicine, providing comprehensive care for complex facial conditions.
                 </p>
                 <p class="overview-text">
-                    We offer both traditional open surgical procedures and cutting-edge minimally invasive endovascular techniques. Our team performs angioplasty, stenting, varicose vein treatments, and complex aneurysm repairs with excellent outcomes.
+                    We perform a wide range of procedures from wisdom tooth extractions to complex jaw reconstruction and facial trauma repair. Our expertise includes orthognathic surgery for jaw alignment, TMJ disorders, cleft lip and palate repair, and facial cosmetic surgery.
                 </p>
                 <p class="overview-text">
-                    We work closely with diabetologists, cardiologists, and nephrologists to provide comprehensive care for patients with vascular complications, including diabetic foot management and creation of dialysis access.
+                    Using advanced 3D imaging and computer-guided surgical techniques, we ensure precise outcomes with minimal recovery time. Our team works closely with orthodontists, ENT specialists, and plastic surgeons for comprehensive facial care.
                 </p>
             </div>
 
@@ -193,19 +193,19 @@
 
             <div class="overview-highlights">
                 <div class="overview-highlight">
-                    <i class="fas fa-procedures"></i>
-                    <h4>Hybrid OT</h4>
-                    <p>Advanced hybrid operating theater for combining open and endovascular procedures.</p>
-                </div>
-                <div class="overview-highlight">
                     <i class="fas fa-x-ray"></i>
-                    <h4>Digital Cath Lab</h4>
-                    <p>State-of-the-art angiography suite for precise vessel imaging and intervention.</p>
+                    <h4>3D Imaging</h4>
+                    <p>Advanced CBCT imaging for precise surgical planning and implant placement.</p>
                 </div>
                 <div class="overview-highlight">
-                    <i class="fas fa-walking"></i>
-                    <h4>Limb Salvage</h4>
-                    <p>Specialized focus on saving limbs in severe diabetic foot and gangrene cases.</p>
+                    <i class="fas fa-syringe"></i>
+                    <h4>Painless Procedures</h4>
+                    <p>Advanced anesthesia and sedation techniques for anxiety-free surgery.</p>
+                </div>
+                <div class="overview-highlight">
+                    <i class="fas fa-star"></i>
+                    <h4>Facial Reconstruction</h4>
+                    <p>Complex reconstruction for post-trauma and cancer defects.</p>
                 </div>
             </div>
         </div>
@@ -217,69 +217,69 @@
             <div class="section-header">
                 <h2 class="section-title">Conditions We Treat</h2>
                 <p class="section-subtitle">
-                    Comprehensive vascular care for blood vessel disorders.
+                    Comprehensive facial and jaw surgical care.
                 </p>
             </div>
 
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Varicose Veins</h3>
+                        <h3 class="condition-name">Jaw Misalignment</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Deep Vein Thrombosis (DVT)</h3>
+                        <h3 class="condition-name">Facial Trauma & Fractures</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Peripheral Artery Disease</h3>
+                        <h3 class="condition-name">Impacted Wisdom Teeth</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Carotid Artery Disease</h3>
+                        <h3 class="condition-name">TMJ Disorders</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Aortic Aneurysm</h3>
+                        <h3 class="condition-name">Cleft Lip & Palate</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Diabetic Foot & Gangrene</h3>
+                        <h3 class="condition-name">Oral Tumors & Cysts</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">AV Fistula (for Dialysis)</h3>
+                        <h3 class="condition-name">Sleep Apnea</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Malformations</h3>
+                        <h3 class="condition-name">Facial Deformities</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Raynaud's Disease</h3>
+                        <h3 class="condition-name">Salivary Gland Diseases</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Chronic Venous Insufficiency</h3>
+                        <h3 class="condition-name">Facial Infections</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Lymphedema</h3>
+                        <h3 class="condition-name">Bone Loss</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="condition-card">
-                        <h3 class="condition-name">Vascular Trauma</h3>
+                        <h3 class="condition-name">Facial Pain</h3>
                     </div>
                 </div>
             </div>
@@ -290,9 +290,9 @@
     <section class="treatment-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Services</h2>
+                <h2 class="section-title">Our Maxillofacial Services</h2>
                 <p class="section-subtitle">
-                    Comprehensive care for arteries and veins.
+                    Advanced facial and jaw surgical procedures.
                 </p>
             </div>
 
@@ -300,11 +300,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-crutch"></i>
+                            <i class="fas fa-hospital"></i>
                         </div>
-                        <h3 class="treatment-card-title">Varicose Veins</h3>
+                        <h3 class="treatment-card-title">Level III NICU</h3>
                         <p class="treatment-card-description">
-                            Laser ablation (EVLT) and sclerotherapy for painless treatment of varicose veins.
+                            Fully equipped neonatal intensive care unit with advanced monitoring and life support systems for critically ill newborns.
                         </p>
                     </div>
                 </div>
@@ -312,11 +312,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-heart-broken"></i>
+                            <i class="fas fa-wind"></i>
                         </div>
-                        <h3 class="treatment-card-title">DVT Management</h3>
+                        <h3 class="treatment-card-title">Respiratory Support</h3>
                         <p class="treatment-card-description">
-                            Treatment of Deep Vein Thrombosis with blood thinners and thrombolysis.
+                            Mechanical ventilation, CPAP, and high-flow oxygen therapy for babies with breathing difficulties.
                         </p>
                     </div>
                 </div>
@@ -324,11 +324,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-band-aid"></i>
+                            <i class="fas fa-sun"></i>
                         </div>
-                        <h3 class="treatment-card-title">Diabetic Foot</h3>
+                        <h3 class="treatment-card-title">Phototherapy</h3>
                         <p class="treatment-card-description">
-                            Comprehensive care for diabetic foot ulcers to prevent amputation.
+                            Advanced LED phototherapy for effective treatment of neonatal jaundice and hyperbilirubinemia.
                         </p>
                     </div>
                 </div>
@@ -336,11 +336,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-road"></i>
+                            <i class="fas fa-heartbeat"></i>
                         </div>
-                        <h3 class="treatment-card-title">Peripheral Bypass</h3>
+                        <h3 class="treatment-card-title">Cardiac Monitoring</h3>
                         <p class="treatment-card-description">
-                            Surgical bypass to restore blood flow to legs with blocked arteries.
+                            Continuous cardiac and vital signs monitoring with advanced neonatal monitors.
                         </p>
                     </div>
                 </div>
@@ -348,11 +348,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-baby-carriage"></i>
                         </div>
-                        <h3 class="treatment-card-title">Dialysis Access</h3>
+                        <h3 class="treatment-card-title">Kangaroo Mother Care</h3>
                         <p class="treatment-card-description">
-                            Creation of AV fistulas and grafts for kidney failure patients needing dialysis.
+                            Skin-to-skin contact program to promote bonding and improve outcomes for premature babies.
                         </p>
                     </div>
                 </div>
@@ -360,11 +360,11 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="treatment-card">
                         <div class="treatment-card-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-user-nurse"></i>
                         </div>
-                        <h3 class="treatment-card-title">Aneurysm Repair</h3>
+                        <h3 class="treatment-card-title">Lactation Support</h3>
                         <p class="treatment-card-description">
-                            Open and endovascular (EVAR) repair of aortic aneurysms to prevent rupture.
+                            Expert lactation consultants to help mothers with breastfeeding and expressing milk for NICU babies.
                         </p>
                     </div>
                 </div>
@@ -373,12 +373,13 @@
     </section>
 
     <!-- Why Choose Us Section -->
+    <!-- Why Choose Us Section -->
     <section class="why-choose-section" id="why-choose-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Prayag for Vascular Surgery?</h2>
+                <h2 class="section-title">Why Choose Prayag for Maxillofacial Surgery?</h2>
                 <p class="section-subtitle">
-                    Expert care for complex vascular conditions.
+                    Expert facial surgeons with advanced techniques.
                 </p>
             </div>
 
@@ -388,48 +389,28 @@
                         <i class="fas fa-user-md"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Vascular Specialists</h4>
-                        <p>Dedicated team of vascular and endovascular surgeons.</p>
+                        <h4>Expert Surgeons</h4>
+                        <p>Highly qualified maxillofacial surgeons with dual medical and dental expertise.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-hospital"></i>
+                        <i class="fas fa-clinic-medical"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>Advanced Technology</h4>
-                        <p>Equipped with latest laser machines and digital cath lab.</p>
+                        <h4>Modern OT</h4>
+                        <p>Specialized operating theaters equipped for complex facial surgeries.</p>
                     </div>
                 </div>
 
                 <div class="why-point">
                     <div class="why-point-icon">
-                        <i class="fas fa-check"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>High Success Rate</h4>
-                        <p>Excellent outcomes in limb salvage and complex vascular reconstructions.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <div class="why-point-content">
-                        <h4>Minimally Invasive</h4>
-                        <p>Focus on endovascular keyhole procedures for faster recovery.</p>
-                    </div>
-                </div>
-
-                <div class="why-point">
-                    <div class="why-point-icon">
-                        <i class="fas fa-hand-holding-medical"></i>
+                        <i class="fas fa-check-circle"></i>
                     </div>
                     <div class="why-point-content">
                         <h4>Comprehensive Care</h4>
-                        <p>Holistic management including wound care and rehabilitation.</p>
+                        <p>Multidisciplinary approach involving orthodontists and plastic surgeons.</p>
                     </div>
                 </div>
 
@@ -438,8 +419,28 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="why-point-content">
-                        <h4>24/7 Emergencies</h4>
-                        <p>Round-the-clock availability for vascular trauma and acute blockages.</p>
+                        <h4>24/7 Trauma Care</h4>
+                        <p>Round-the-clock availability for facial injury emergencies.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Patient Centered</h4>
+                        <p>Personalized treatment plans focusing on function and aesthetics.</p>
+                    </div>
+                </div>
+
+                <div class="why-point">
+                    <div class="why-point-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="why-point-content">
+                        <h4>Safety Protocols</h4>
+                        <p>Strict sterilization and safety standards for all surgical procedures.</p>
                     </div>
                 </div>
             </div>
@@ -450,27 +451,27 @@
     <section class="doctors-section" id="doctors">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Vascular Surgeons</h2>
+                <h2 class="section-title">Our Maxillofacial Surgeons</h2>
                 <p class="section-subtitle">
-                    Meet our team of vascular surgery specialists.
+                    Meet our team of facial surgery specialists.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <?php include 'doctors-data.php'; ?>
                 <?php 
-                $vasc_doctors = array_filter($doctors, function($doctor) {
-                    return in_array($doctor['specialty_code'], ['vascular-surgery', 'general-surgery', 'surgery']);
+                $omfs_doctors = array_filter($doctors, function($doctor) {
+                    return in_array($doctor['specialty_code'], ['oral-maxillofacial', 'dental-science', 'dentistry']);
                 });
                 
-                if (empty($vasc_doctors)) {
-                    $vasc_doctors = array_filter($doctors, function($doctor) {
-                        return $doctor['specialty_code'] === 'surgery';
+                if (empty($omfs_doctors)) {
+                    $omfs_doctors = array_filter($doctors, function($doctor) {
+                        return $doctor['specialty_code'] === 'dental-science';
                     });
-                    $vasc_doctors = array_slice($vasc_doctors, 0, 3);
+                    $omfs_doctors = array_slice($omfs_doctors, 0, 3);
                 }
 
-                foreach ($vasc_doctors as $doctor): 
+                foreach ($omfs_doctors as $doctor): 
                 ?>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="doctor-card">
@@ -507,7 +508,7 @@
             <div class="section-header-center">
                 <h2 class="section-title-dark">Patient Stories</h2>
                 <p class="section-subtitle-gray">
-                    Stories from patients who regained their mobility and health.
+                    Hear from patients who underwent successful surgeries.
                 </p>
             </div>
 
@@ -520,46 +521,46 @@
                     <div class="testimonials-slider">
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Varicose+Veins"
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Wisdom+Tooth"
                                     alt="Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"I suffered from painful varicose veins for years. The laser treatment was quick and I walked home the same day."</p>
-                                <h4 class="testimonial-name">Mrs. Sunita Sharma</h4>
-                                <p class="testimonial-procedure">Varicose Veins Laser</p>
+                                <p class="testimonial-text">"I had my wisdom teeth removed here. The procedure was painless and recovery was so fast. Highly recommend!"</p>
+                                <h4 class="testimonial-name">Amit Verma</h4>
+                                <p class="testimonial-procedure">Wisdom Tooth Extraction</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Leg+Saved"
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Jaw+Surgery"
                                     alt="Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"My father had a gangrene foot and was advised amputation elsewhere. Prayag doctors saved his leg with bypass surgery."</p>
-                                <h4 class="testimonial-name">Mr. Rajesh Gupta</h4>
-                                <p class="testimonial-procedure">Limb Salvage Bypass</p>
+                                <p class="testimonial-text">"The surgeons did an amazing job reconstructing my jaw after an accident. I can finally eat and smile normally again."</p>
+                                <h4 class="testimonial-name">Rahul Singh</h4>
+                                <p class="testimonial-procedure">Jaw Fracture Repair</p>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <div class="testimonial-thumbnail">
-                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Dialysis+Access"
+                                <img src="https://via.placeholder.com/400x250/e3f2fd/1565c0?text=Cleft+Repair"
                                     alt="Testimonial">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>
                             </div>
                             <div class="testimonial-overlay">
-                                <p class="testimonial-text">"Excellent care for my dialysis fistula surgery. The doctors explained everything clearly."</p>
-                                <h4 class="testimonial-name">Mr. Suresh Kumar</h4>
-                                <p class="testimonial-procedure">AV Fistula</p>
+                                <p class="testimonial-text">"My daughter's cleft lip surgery was performed here. The results are beautiful and the team was so supportive."</p>
+                                <h4 class="testimonial-name">Mrs. Anjali Desai</h4>
+                                <p class="testimonial-procedure">Cleft Lip Repair</p>
                             </div>
                         </div>
                     </div>
@@ -578,7 +579,7 @@
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">
-                    Common questions about vascular surgery.
+                    Common questions about oral and maxillofacial surgery.
                 </p>
             </div>
 
@@ -589,13 +590,13 @@
                             <h2 class="accordion-header" id="faqHeading1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                    What is vascular surgery?
+                                    What is oral and maxillofacial surgery?
                                 </button>
                             </h2>
                             <div id="faqCollapse1" class="accordion-collapse collapse show"
                                 aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It involves the diagnosis and treatment of disorders of the blood vessels (arteries and veins), excluding the heart and brain.
+                                    It is a surgical specialty focusing on the diagnosis and treatment of diseases, injuries, and defects of the face, mouth, jaws, and neck.
                                 </div>
                             </div>
                         </div>
@@ -604,13 +605,13 @@
                             <h2 class="accordion-header" id="faqHeading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                                    What is laser treatment for varicose veins?
+                                    Do I need a referral for consultation?
                                 </button>
                             </h2>
                             <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    It is a minimally invasive procedure where laser energy is used to seal the faulty vein. It is painless, leaves no scars, and allows immediate walking.
+                                    While referrals are welcome, you can also book an appointment directly if you have concerns regarding facial or oral health.
                                 </div>
                             </div>
                         </div>
@@ -619,13 +620,13 @@
                             <h2 class="accordion-header" id="faqHeading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    How can I prevent diabetic foot complications?
+                                    Are the procedures painful?
                                 </button>
                             </h2>
                             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Regular foot check-ups, sugar control, wearing proper footwear, and seeking early treatment for any small wound are key to prevention.
+                                    We use advanced local anesthesia and sedation options to ensure completely painless procedures. Post-operative pain is managed with medication.
                                 </div>
                             </div>
                         </div>
@@ -634,13 +635,13 @@
                             <h2 class="accordion-header" id="faqHeading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                                    What is an AV Fistula?
+                                    How long is the recovery time for jaw surgery?
                                 </button>
                             </h2>
                             <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    An AV fistula is a surgical connection between an artery and a vein, created to provide reliable access for hemodialysis in kidney patients.
+                                    Recovery varies by procedure. Minor surgeries may take a few days, while major jaw surgeries typically require 2-4 weeks for initial recovery.
                                 </div>
                             </div>
                         </div>
@@ -649,13 +650,13 @@
                             <h2 class="accordion-header" id="faqHeading5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                                    Does vascular surgery always mean open surgery?
+                                    Do you treat TMJ disorders?
                                 </button>
                             </h2>
                             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No. We perform many procedures using endovascular techniques (angioplasty/stenting) which are done through a small needle puncture.
+                                    Yes, we offer comprehensive management for Temporomandibular Joint (TMJ) disorders, ranging from medication to arthroscopic surgery.
                                 </div>
                             </div>
                         </div>
@@ -664,13 +665,13 @@
                             <h2 class="accordion-header" id="faqHeading6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                                    What are the signs of poor circulation?
+                                    Is dental implant surgery safe?
                                 </button>
                             </h2>
                             <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Pain in legs while walking (claudication), non-healing wounds, cold feet, and discoloration are common signs of poor blood circulation.
+                                    Yes, when performed by our specialists using modern planning software, dental implant surgery is highly safe and has a success rate over 95%.
                                 </div>
                             </div>
                         </div>

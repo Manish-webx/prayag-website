@@ -140,6 +140,12 @@
                                                 <li><a href="general-surgery.php" class="mega-menu-item"><i
                                                             class="fas fa-scalpel"></i> <span>General & Laparoscopic
                                                             Surgery</span></a></li>
+                                                <li><a href="paediatric-surgery.php" class="mega-menu-item"><i
+                                                            class="fas fa-child"></i> <span>Paediatric
+                                                            Surgery</span></a></li>
+                                                <li><a href="vascular-surgery.php" class="mega-menu-item"><i
+                                                            class="fas fa-heartbeat"></i> <span>Vascular
+                                                            Surgery</span></a></li>
                                                 <li><a href="respiratory-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-lungs"></i> <span>Respiratory
                                                             Medicine</span></a></li>
@@ -156,6 +162,12 @@
                                                             class="fas fa-brain"></i> <span>Psychiatry</span></a></li>
                                                 <li><a href="dental-science.php" class="mega-menu-item"><i
                                                             class="fas fa-tooth"></i> <span>Dental Science</span></a>
+                                                </li>
+                                                <li><a href="oral-maxillofacial-surgery.php" class="mega-menu-item"><i
+                                                            class="fas fa-head-side-mask"></i> <span>Oral & Maxillofacial Surgery</span></a>
+                                                </li>
+                                                <li><a href="neonatology.php" class="mega-menu-item"><i
+                                                            class="fas fa-baby"></i> <span>Neonatology</span></a>
                                                 </li>
                                                 <li><a href="urology-urodynamics.php" class="mega-menu-item"><i
                                                             class="fas fa-file-medical-alt"></i>
@@ -176,6 +188,16 @@
                                                 <li><a href="radiology.php" class="mega-menu-item"><i
                                                             class="fas fa-x-ray"></i> <span>Radiology &
                                                             Imaging</span></a></li>
+                                                <li><a href="eeg.php" class="mega-menu-item"><i
+                                                            class="fas fa-brain"></i> <span>EEG (Brain Activity)</span></a></li>
+                                                <li><a href="emg-ep.php" class="mega-menu-item"><i
+                                                            class="fas fa-bolt"></i> <span>EMG/EP (Nerve & Muscle)</span></a></li>
+                                                <li><a href="pulmonary-function-test.php" class="mega-menu-item"><i
+                                                            class="fas fa-lungs"></i> <span>Pulmonary Function Test</span></a></li>
+                                                <li><a href="spirometry.php" class="mega-menu-item"><i
+                                                            class="fas fa-wind"></i> <span>Spirometry</span></a></li>
+                                                <li><a href="treadmill-testing.php" class="mega-menu-item"><i
+                                                            class="fas fa-heartbeat"></i> <span>Treadmill Testing (TMT)</span></a></li>
                                                 <li><a href="pathology.php" class="mega-menu-item"><i
                                                             class="fas fa-vial"></i> <span>Laboratory
                                                             Services</span></a></li>
@@ -277,6 +299,8 @@
                                 <li><a href="critical-care.php">Critical Care & ICU</a></li>
                                 <li><a href="emergency-medicine.php">Emergency Medicine</a></li>
                                 <li><a href="general-surgery.php">General & Laparoscopic Surgery</a></li>
+                                <li><a href="paediatric-surgery.php">Paediatric Surgery</a></li>
+                                <li><a href="vascular-surgery.php">Vascular Surgery</a></li>
 
                                 <li><a href="respiratory-medicine.php">Respiratory Medicine</a></li>
                                 <li><a href="ent.php">ENT (Ear, Nose, Throat)</a></li>
@@ -284,6 +308,8 @@
                                 <li><a href="plastic-surgery.php">Plastic Surgery</a></li>
                                 <li><a href="psychiatry.php">Psychiatry</a></li>
                                 <li><a href="dental-science.php">Dental Science</a></li>
+                                <li><a href="oral-maxillofacial-surgery.php">Oral & Maxillofacial Surgery</a></li>
+                                <li><a href="neonatology.php">Neonatology</a></li>
                                 <li><a href="urology-urodynamics.php">Urology</a></li>
                             </ul>
 
@@ -293,6 +319,11 @@
                                 <li><a href="ophthalmology.php">Ophthalmology</a></li>
                                 <li><a href="anesthesiology.php">Anesthesiology</a></li>
                                 <li><a href="radiology.php">Radiology & Imaging</a></li>
+                                <li><a href="eeg.php">EEG (Brain Activity)</a></li>
+                                <li><a href="emg-ep.php">EMG/EP (Nerve & Muscle)</a></li>
+                                <li><a href="pulmonary-function-test.php">Pulmonary Function Test</a></li>
+                                <li><a href="spirometry.php">Spirometry</a></li>
+                                <li><a href="treadmill-testing.php">Treadmill Testing (TMT)</a></li>
                                 <li><a href="pathology.php">Laboratory Services</a></li>
                                 <li><a href="physiotherapy.php">Physiotherapy & Rehab</a></li>
                                 <li><a href="support-services.php">Support Services</a></li>
