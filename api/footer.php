@@ -16,9 +16,9 @@
                             <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Prayag Hospital"
                                 class="trust-logo" style="max-height: 70px;">
                             <img src="../assets/images/nabh-logo.png"
-                                alt="NABH Accredited" class="trust-logo" style="max-height: 70px;">
+                                alt="NABH Accredited" class="trust-logo" style="max-height: 90px;">
                             <img src="../assets/images/nabl-logo.png"
-                                alt="NABL Accredited" class="trust-logo" style="max-height: 70px;">
+                                alt="NABL Accredited" class="trust-logo" style="max-height: 90px;">
                         </div>
                     </div>
 

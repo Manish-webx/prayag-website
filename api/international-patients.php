@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>International Patients - Prayag Hospital</title>
+    <title>International Patients - World-Class Healthcare | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
 
@@ -27,213 +27,444 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="blog-hero-section">
+    <section class="international-hero">
         <div class="container">
-            <div class="blog-hero-content">
-                <h1 class="blog-hero-title">International Patients</h1>
-                <p class="blog-hero-subtitle">World-class medical care with a personal touch for our global guests.</p>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="hero-title">Welcome to Prayag Hospital</h1>
+                    <p class="hero-subtitle">World-Class Healthcare for International Patients</p>
+                    <p class="hero-description">Experience exceptional medical care in India with our comprehensive support services designed specifically for international patients. From your first inquiry to post-treatment follow-up, we're with you every step of the way.</p>
+                    <div class="hero-actions">
+                        <a href="#contact-form" class="btn btn-primary-prayag btn-lg">
+                            <i class="fas fa-envelope"></i> Request a Quote
+                        </a>
+                        <a href="#process" class="btn btn-outline-teal btn-lg">
+                            <i class="fas fa-info-circle"></i> How It Works
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-wrapper">
+                        <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Prayag Hospital" class="img-fluid rounded-lg shadow-lg">
+                        <div class="hero-badge">
+                            <div class="badge-content">
+                                <i class="fas fa-globe"></i>
+                                <div>
+                                    <strong>35+</strong>
+                                    <span>Countries Served</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Stats Section -->
-    <section class="py-4 bg-teal text-white">
+    <section class="stats-section">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-6 col-md-3 border-end border-light">
-                    <h3 class="fw-bold mb-0">15,000+</h3>
-                    <small>International Patients</small>
-                </div>
-                <div class="col-6 col-md-3 border-end border-light d-none d-md-block">
-                    <h3 class="fw-bold mb-0">35+</h3>
-                    <small>Countries Served</small>
-                </div>
-                <!-- Mobile only showing 2 cols, reset row? No, bootstrap grids handle it -->
-                 <div class="col-6 col-md-3 border-end border-light d-md-none">
-                    <h3 class="fw-bold mb-0">35+</h3>
-                    <small>Countries</small>
-                </div>
-                <div class="col-6 col-md-3 border-end border-light">
-                    <h3 class="fw-bold mb-0">98%</h3>
-                    <small>Success Rate</small>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="stat-number">15,000+</h3>
+                        <p class="stat-label">International Patients</p>
+                    </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h3 class="fw-bold mb-0">24/7</h3>
-                    <small>Support Team</small>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h3 class="stat-number">35+</h3>
+                        <p class="stat-label">Countries Served</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="stat-number">98%</h3>
+                        <p class="stat-label">Success Rate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="stat-number">24/7</h3>
+                        <p class="stat-label">Dedicated Support</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Welcome Section -->
-    <section class="py-5">
+    <!-- Step-by-Step Process Section -->
+    <section class="process-section" id="process">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="International Patients" class="img-fluid rounded shadow">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Your Journey to Recovery</h2>
+                <p class="section-description">A simple, transparent process designed for your convenience</p>
+            </div>
+
+            <div class="process-timeline">
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-file-medical"></i>
+                        </div>
+                        <h3 class="step-title">Initial Consultation</h3>
+                        <p class="step-description">Share your medical reports and concerns with our international patient coordinator</p>
+                        <div class="step-details">
+                            <h4>What You Need:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Recent medical reports and test results</li>
+                                <li><i class="fas fa-check"></i> Doctor's referral letter (if available)</li>
+                                <li><i class="fas fa-check"></i> Brief medical history</li>
+                                <li><i class="fas fa-check"></i> Contact information</li>
+                            </ul>
+                            <h4>Timeline:</h4>
+                            <p><strong>24-48 hours</strong> for initial response</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2 class="mb-4 fw-bold">Welcome to Prayag Hospital</h2>
-                    <p class="mb-4">Prayag Hospital is a preferred destination for international patients seeking affordable, world-class medical treatment in India. We understand that travelling for medical care can be overwhelming, which is why we have a dedicated International Patient Services team to make your journey smooth and comfortable.</p>
-                    <p>From initial inquiry to treatment and follow-up, we are with you every step of the way.</p>
+
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3 class="step-title">Medical Opinion & Treatment Plan</h3>
+                        <p class="step-description">Our specialists review your case and provide a comprehensive treatment plan</p>
+                        <div class="step-details">
+                            <h4>You Will Receive:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Detailed medical opinion from specialists</li>
+                                <li><i class="fas fa-check"></i> Recommended treatment plan</li>
+                                <li><i class="fas fa-check"></i> Estimated cost breakdown</li>
+                                <li><i class="fas fa-check"></i> Expected duration of stay</li>
+                                <li><i class="fas fa-check"></i> Success rates and outcomes</li>
+                            </ul>
+                            <h4>Timeline:</h4>
+                            <p><strong>3-5 business days</strong> for complete evaluation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h3 class="step-title">Visa & Travel Arrangements</h3>
+                        <p class="step-description">We assist with medical visa and help plan your travel to India</p>
+                        <div class="step-details">
+                            <h4>Our Support Includes:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Medical visa invitation letter</li>
+                                <li><i class="fas fa-check"></i> Visa application guidance</li>
+                                <li><i class="fas fa-check"></i> Flight booking assistance</li>
+                                <li><i class="fas fa-check"></i> Airport pickup arrangement</li>
+                                <li><i class="fas fa-check"></i> Accommodation booking</li>
+                            </ul>
+                            <h4>Timeline:</h4>
+                            <p><strong>7-14 days</strong> for visa processing (varies by country)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-plane-arrival"></i>
+                        </div>
+                        <h3 class="step-title">Arrival & Welcome</h3>
+                        <p class="step-description">Comfortable arrival with our dedicated team greeting you at the airport</p>
+                        <div class="step-details">
+                            <h4>Upon Arrival:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Airport pickup by our representative</li>
+                                <li><i class="fas fa-check"></i> Transfer to hotel/hospital</li>
+                                <li><i class="fas fa-check"></i> SIM card and local assistance</li>
+                                <li><i class="fas fa-check"></i> Hospital orientation</li>
+                                <li><i class="fas fa-check"></i> Meet your dedicated case manager</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-hospital-user"></i>
+                        </div>
+                        <h3 class="step-title">Pre-Treatment Consultation</h3>
+                        <p class="step-description">Meet your medical team and finalize the treatment plan</p>
+                        <div class="step-details">
+                            <h4>This Includes:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Consultation with specialist doctors</li>
+                                <li><i class="fas fa-check"></i> Pre-treatment tests and diagnostics</li>
+                                <li><i class="fas fa-check"></i> Treatment plan confirmation</li>
+                                <li><i class="fas fa-check"></i> Cost finalization and payment</li>
+                                <li><i class="fas fa-check"></i> Consent and documentation</li>
+                            </ul>
+                            <h4>Timeline:</h4>
+                            <p><strong>1-2 days</strong> for pre-treatment assessment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <h3 class="step-title">Treatment & Care</h3>
+                        <p class="step-description">Receive world-class treatment from our expert medical team</p>
+                        <div class="step-details">
+                            <h4>During Treatment:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> State-of-the-art medical facilities</li>
+                                <li><i class="fas fa-check"></i> Experienced specialist team</li>
+                                <li><i class="fas fa-check"></i> 24/7 nursing care</li>
+                                <li><i class="fas fa-check"></i> Language interpretation services</li>
+                                <li><i class="fas fa-check"></i> Family support and updates</li>
+                            </ul>
+                            <h4>Timeline:</h4>
+                            <p><strong>Varies by procedure</strong> - as per treatment plan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 7 -->
+                <div class="process-step">
+                    <div class="step-number">07</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="step-title">Recovery & Discharge</h3>
+                        <p class="step-description">Monitored recovery with comprehensive discharge planning</p>
+                        <div class="step-details">
+                            <h4>Post-Treatment Care:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Recovery monitoring</li>
+                                <li><i class="fas fa-check"></i> Discharge summary and reports</li>
+                                <li><i class="fas fa-check"></i> Medication and care instructions</li>
+                                <li><i class="fas fa-check"></i> Follow-up appointment schedule</li>
+                                <li><i class="fas fa-check"></i> Travel clearance certificate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 8 -->
+                <div class="process-step">
+                    <div class="step-number">08</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3 class="step-title">Post-Treatment Follow-Up</h3>
+                        <p class="step-description">Continued care and support even after you return home</p>
+                        <div class="step-details">
+                            <h4>Ongoing Support:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Regular follow-up calls</li>
+                                <li><i class="fas fa-check"></i> Online consultations with doctors</li>
+                                <li><i class="fas fa-check"></i> Medical report interpretation</li>
+                                <li><i class="fas fa-check"></i> Coordination with local doctors</li>
+                                <li><i class="fas fa-check"></i> Lifetime medical records access</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="bg-light py-5">
+    <section class="services-section bg-light">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Our Services for International Patients</h2>
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Comprehensive Support Services</h2>
+                <p class="section-description">Everything you need for a comfortable medical journey</p>
+            </div>
+
             <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-plane fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Visa Assistance</h4>
-                        <p class="card-text">We provide complete assistance with medical visa applications and extensions for you and your attendant.</p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3>Visa Assistance</h3>
+                        <p>Complete support for medical visa applications, extensions, and attendant visas for family members</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-car fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Airport Transfers</h4>
-                        <p class="card-text">Complimentary airport pick-up and drop-off services to ensure a hassle-free arrival and departure.</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3>Airport Transfers</h3>
+                        <p>Complimentary pickup and drop-off services with comfortable, air-conditioned vehicles</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-language fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Language Interpretation</h4>
-                        <p class="card-text">Our team includes interpreters to assist you in communicating effectively with our medical staff.</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>Language Support</h3>
+                        <p>Professional interpreters available in multiple languages for seamless communication</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-bed fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Accommodation</h4>
-                        <p class="card-text">Assistance in finding suitable accommodation (hotels/guest houses) near the hospital for your stay.</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3>Accommodation</h3>
+                        <p>Assistance in booking hotels, guest houses, or serviced apartments near the hospital</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-utensils fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Cuisine</h4>
-                        <p class="card-text">We cater to international dietary preferences to ensure you feel at home during your stay.</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>International Cuisine</h3>
+                        <p>Dietary preferences catered to with options for various international cuisines</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="mb-3 text-orange"><i class="fas fa-file-medical-alt fa-3x"></i></div>
-                        <h4 class="card-title mb-3">Dedicated Manager</h4>
-                        <p class="card-text">A dedicated case manager will be assigned to coordinate all your medical AND non-medical needs.</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Dedicated Manager</h3>
+                        <p>Personal case manager to coordinate all medical and non-medical requirements</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h3>Flexible Payments</h3>
+                        <p>Multiple payment options including wire transfer, credit cards, and foreign currency</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Insurance Coordination</h3>
+                        <p>Assistance with international insurance claims and direct billing arrangements</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Local Assistance</h3>
+                        <p>Help with local SIM cards, currency exchange, and sightseeing arrangements</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Process Section -->
-    <section class="py-5">
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contact-form">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Admission Process</h2>
             <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
-                                <div class="inner-circle">1</div>
-                                <p class="h6 mt-3 mb-1">Inquiry</p>
-                                <p class="h6 text-muted mb-0 mb-lg-0">Send us your medical reports.</p>
-                            </div>
+                <div class="col-lg-8">
+                    <div class="contact-form-wrapper">
+                        <div class="form-header text-center mb-4">
+                            <h2>Request a Free Medical Opinion</h2>
+                            <p>Fill out the form below and our team will get back to you within 24 hours</p>
                         </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
-                                <div class="inner-circle">2</div>
-                                <p class="h6 mt-3 mb-1">Opinion</p>
-                                <p class="h6 text-muted mb-0 mb-lg-0">Get a treatment plan & quote.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
-                                <div class="inner-circle">3</div>
-                                <p class="h6 mt-3 mb-1">Travel</p>
-                                <p class="h6 text-muted mb-0 mb-lg-0">Visa & flight arrangements.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
-                                <div class="inner-circle">4</div>
-                                <p class="h6 mt-3 mb-1">Treatment</p>
-                                <p class="h6 text-muted mb-0 mb-lg-0">Admission & Procedure.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-step mb-0">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
-                                <div class="inner-circle">5</div>
-                                <p class="h6 mt-3 mb-1">Follow-up</p>
-                                <p class="h6 text-muted mb-0 mb-lg-0">Post-discharge care.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Testimonials Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Patient Success Stories</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow card-hover">
-                        <div class="card-body p-4">
-                            <div class="mb-3 text-warning">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div>
-                            <p class="card-text italic">"The care at Prayag Hospital was exceptional. From visa assistance to the surgery, everything was seamless. Highly recommended!"</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <div class="bg-teal text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-weight: bold;">JD</div>
-                                <div class="ms-3">
-                                    <h6 class="mb-0 fw-bold">John Doe</h6>
-                                    <small class="text-muted">USA - Cardiac Surgery</small>
+                        <form class="international-patient-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Country *</label>
+                                    <select class="form-control" required>
+                                        <option value="">Select Country</option>
+                                        <option value="usa">United States</option>
+                                        <option value="uk">United Kingdom</option>
+                                        <option value="uae">United Arab Emirates</option>
+                                        <option value="nigeria">Nigeria</option>
+                                        <option value="kenya">Kenya</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Medical Condition / Treatment Required *</label>
+                                    <textarea class="form-control" rows="4" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Upload Medical Reports (Optional)</label>
+                                    <input type="file" class="form-control" multiple>
+                                    <small class="text-muted">Accepted formats: PDF, JPG, PNG (Max 10MB)</small>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Preferred Date of Travel</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Additional Information</label>
+                                    <textarea class="form-control" rows="3" placeholder="Any specific questions or requirements?"></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary-prayag btn-lg px-5">
+                                        <i class="fas fa-paper-plane"></i> Submit Request
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow card-hover">
-                        <div class="card-body p-4">
-                            <div class="mb-3 text-warning">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div>
-                            <p class="card-text italic">"State-of-the-art facilities and very kind staff. They made me feel at home despite being miles away."</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <div class="bg-teal text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-weight: bold;">SA</div>
-                                <div class="ms-3">
-                                    <h6 class="mb-0 fw-bold">Sarah Ahmed</h6>
-                                    <small class="text-muted">UAE - Oncology</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow card-hover">
-                        <div class="card-body p-4">
-                            <div class="mb-3 text-warning">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div>
-                            <p class="card-text italic">"Excellent support services. The dedicated manager handled everything so we could focus on recovery."</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <div class="bg-teal text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-weight: bold;">MK</div>
-                                <div class="ms-3">
-                                    <h6 class="mb-0 fw-bold">Michael K.</h6>
-                                    <small class="text-muted">Nigeria - Orthopedics</small>
-                                </div>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -241,57 +472,133 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-5">
+    <section class="faq-section bg-light">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Frequently Asked Questions</h2>
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Find answers to common questions about international patient services</p>
+            </div>
+
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-10">
                     <div class="accordion" id="faqAccordion">
-                        <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+                        <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
                                     What documents do I need for a Medical Visa?
                                 </button>
                             </h2>
                             <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    You will need a valid passport, a medical invitation letter from Prayag Hospital (which we provide after initial assessment), recent medical reports, and proof of funds. Our team guides you through the entire process.
+                                    <p>For a Medical Visa to India, you will need:</p>
+                                    <ul>
+                                        <li>Valid passport (minimum 6 months validity)</li>
+                                        <li>Medical invitation letter from Prayag Hospital</li>
+                                        <li>Recent medical reports and diagnosis</li>
+                                        <li>Proof of sufficient funds</li>
+                                        <li>Passport-size photographs</li>
+                                        <li>Visa application form (online)</li>
+                                    </ul>
+                                    <p>Our team will provide the medical invitation letter and guide you through the entire visa application process.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+
+                        <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                    Do you accept international health insurance?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    How much does treatment cost?
                                 </button>
                             </h2>
                             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we partner with major international insurance providers and TPAs. Please share your policy details with our admission team beforehand so we can confirm coverage and handle direct billing if applicable.
+                                    Treatment costs vary depending on the procedure and complexity. However, medical treatment in India is typically 60-80% less expensive than in Western countries while maintaining the same quality standards. After reviewing your medical reports, we provide a detailed cost estimate including:
+                                    <ul>
+                                        <li>Consultation fees</li>
+                                        <li>Diagnostic tests</li>
+                                        <li>Surgery/procedure costs</li>
+                                        <li>Hospital stay</li>
+                                        <li>Medications</li>
+                                        <li>Post-operative care</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+
+                        <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                    Can my family accompany me?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Do you accept international health insurance?
                                 </button>
                             </h2>
                             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Absolutely. We can assist with "Medical Attendant Visas" for family members. We also help arrange accommodation near the hospital, ranging from budget guest houses to luxury hotels.
+                                    Yes, we work with major international insurance providers and TPAs. Please share your insurance policy details with our admission team in advance. We can:
+                                    <ul>
+                                        <li>Verify your coverage</li>
+                                        <li>Process pre-authorization</li>
+                                        <li>Arrange direct billing (if applicable)</li>
+                                        <li>Provide detailed invoices for reimbursement claims</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+
+                        <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                    What payment modes are accepted?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Can my family accompany me?
                                 </button>
                             </h2>
                             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We accept payments via Wire Transfer, International Credit/Debit Cards (Visa, Mastercard, Amex), and Foreign Currency (exchange services available at the hospital).
+                                    Absolutely! We encourage family support during your treatment. We can assist with:
+                                    <ul>
+                                        <li>Medical Attendant Visas for family members</li>
+                                        <li>Accommodation arrangements for families</li>
+                                        <li>Visitor passes for hospital access</li>
+                                        <li>Family waiting areas and amenities</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    What payment methods do you accept?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept multiple payment methods for your convenience:
+                                    <ul>
+                                        <li>International Wire Transfer (SWIFT)</li>
+                                        <li>Credit/Debit Cards (Visa, Mastercard, Amex)</li>
+                                        <li>Foreign Currency (USD, EUR, GBP, AED)</li>
+                                        <li>Online Payment Gateways</li>
+                                    </ul>
+                                    <p>Currency exchange services are available at the hospital. We provide detailed invoices and receipts for all transactions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    How long should I plan to stay in India?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    The duration of stay depends on your treatment:
+                                    <ul>
+                                        <li><strong>Consultations/Diagnostics:</strong> 2-3 days</li>
+                                        <li><strong>Minor Procedures:</strong> 5-7 days</li>
+                                        <li><strong>Major Surgeries:</strong> 2-4 weeks</li>
+                                        <li><strong>Complex Treatments:</strong> 4-8 weeks</li>
+                                    </ul>
+                                    <p>We provide a detailed timeline after reviewing your case, including pre-treatment preparation, procedure, recovery, and follow-up period.</p>
                                 </div>
                             </div>
                         </div>
@@ -301,68 +608,54 @@
         </div>
     </section>
 
-    <!-- Contact CTA -->
-    <section class="bg-teal text-white py-5 text-center">
+    <!-- CTA Section -->
+    <section class="cta-section">
         <div class="container">
-            <h2 class="mb-4">Plan Your Treatment With Us</h2>
-            <p class="lead mb-4">Contact our International Patients Team today for a free consultation.</p>
-            <a href="contact-us.php" class="btn btn-warning btn-lg fw-bold">Get a Quote</a>
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title">Ready to Begin Your Medical Journey?</h2>
+                    <p class="cta-description">Contact our International Patient Services team today for a free consultation and personalized treatment plan.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#contact-form" class="btn btn-light btn-lg">
+                        <i class="fas fa-envelope"></i> Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-4 g-3">
+                <div class="col-md-4">
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Call Us</strong>
+                            <p>+91 8811780937</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email Us</strong>
+                            <p>international@prayaghospital.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info-item">
+                        <i class="fas fa-whatsapp"></i>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>+91 8811780937</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <style>
-    /* Simple Timeline CSS */
-    .timeline-steps {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .timeline-steps .timeline-step {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        margin: 1rem;
-    }
-    .timeline-steps .inner-circle {
-        border-radius: 1.5rem;
-        height: 3rem;
-        width: 3rem;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--prayag-orange);
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-    .text-teal { color: var(--prayag-teal); }
-    .text-orange { color: var(--prayag-orange); }
-    .bg-teal { background-color: var(--prayag-teal); }
-    
-    /* New Design Elements */
-    .card-hover {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card-hover:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-    }
-    .italic {
-        font-style: italic;
-    }
-    .accordion-button:not(.collapsed) {
-        color: var(--prayag-teal);
-        background-color: #f8f9fa;
-        box-shadow: none;
-    }
-    .accordion-button:focus {
-        box-shadow: none;
-        border-color: rgba(0,0,0,.125);
-    }
-    </style>
-
     <?php include 'footer.php'; ?>
+    <?php include 'footer-links.php'; ?>
 
 </body>
 
