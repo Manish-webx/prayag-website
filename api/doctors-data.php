@@ -2,6 +2,7 @@
 $doctors = [
     [
         'id' => 'dr-ayushi-agarwal',
+        'slug' => 'dr-ayushi-agarwal',
         'name' => 'Dr. Ayushi Agarwal',
         'specialty' => 'Interventional Cardiologist',
         'department' => 'Cardiac Sciences',

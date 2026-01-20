@@ -303,22 +303,24 @@ function throttle(func, limit) {
 // ================================================
 // SPECIALITIES CAROUSEL FUNCTIONALITY - SEAMLESS INFINITE LOOP
 // ================================================
+// ================================================
+// SPECIALITIES CAROUSEL FUNCTIONALITY - SEAMLESS INFINITE LOOP
+// ================================================
 document.addEventListener('DOMContentLoaded', function () {
     const carousel = document.querySelector('.specialities-carousel');
     if (!carousel) return;
 
     const grid = carousel.querySelector('.specialities-grid');
     const cards = grid.querySelectorAll('.speciality-card');
-    // Correct selectors based on updated HTML
     const prevBtn = document.querySelector('.speciality-nav-prev');
     const nextBtn = document.querySelector('.speciality-nav-next');
 
-    // Make sure buttons exist before proceeding
     if (!prevBtn || !nextBtn) return;
 
     const totalCards = cards.length;
     let currentPage = 0;
     let isTransitioning = false;
+    let cardSlotWidth = 0;
 
     // Clone all cards and append to grid for seamless infinite loop
     cards.forEach(card => {
@@ -326,33 +328,33 @@ document.addEventListener('DOMContentLoaded', function () {
         grid.appendChild(clone);
     });
 
-    // Calculate card width dynamically with high precision
-    function getCardSlotWidth() {
-        const allCards = grid.querySelectorAll('.speciality-card');
-        if (allCards[0]) {
-            // Use getBoundingClientRect for sub-pixel precision
-            const rect = allCards[0].getBoundingClientRect();
-            const gap = getGap();
-            // The slot width is card width + the gap
-            return rect.width + gap;
-        }
-        return 0;
-    }
+    // Function to calculate exact card width based on viewport
+    function calculateDimensions() {
+        const carouselWidth = carousel.offsetWidth;
+        const gap = 20; // Must match CSS gap
+        let visibleItems = 4;
 
-    // Calculate gap between cards from CSS
-    function getGap() {
-        const gridStyle = window.getComputedStyle(grid);
-        return parseFloat(gridStyle.columnGap) || 20;
+        if (window.innerWidth < 768) {
+            visibleItems = 1;
+        } else if (window.innerWidth < 992) {
+            visibleItems = 2;
+        }
+
+        // Calculate precise width for each item to fit exactly 'visibleItems' in the viewport
+        const exactCardWidth = (carouselWidth - (gap * (visibleItems - 1))) / visibleItems;
+
+        // Apply this width to the grid columns
+        grid.style.gridAutoColumns = `${exactCardWidth}px`;
+
+        return exactCardWidth + gap;
     }
 
     function updateCarousel(smooth = true) {
-        // Recalculate basic metrics
-        const slotWidth = getCardSlotWidth();
+        // Recalculate dimensions to handle resizes
+        cardSlotWidth = calculateDimensions();
 
         // Current translate calculation
-        // IMPORTANT: We shift by (slotWidth) * currentPage
-        // This ensures precise pixel-perfect alignment
-        let translateX = -(currentPage * slotWidth);
+        let translateX = -(currentPage * cardSlotWidth);
 
         // Enable or disable transition
         grid.style.transition = smooth ? 'transform 0.5s ease-in-out' : 'none';
@@ -369,22 +371,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check if we've reached the cloned section
         // Note: Logic allows seamless scroll across the cloned buffer
-        // Since we have 2 rows, we only have totalCards/2 columns
-        const limit = Math.ceil(totalCards / 2);
+        // Since we have 2 rows, we only have totalCards/2 columns (approx)
+        // But simpler logic: if we scrolled past original set
+        // The original logic was Math.ceil(totalCards / 2) because of the 2-row layout
 
-        if (currentPage >= limit) {
-            setTimeout(() => {
+        // Wait for transition to complete
+        setTimeout(() => {
+            // If we have scrolled far enough to reach the start of the cloned set
+            // Reset back to 0 (which looks identical)
+            // The limit depends on how many columns the original set takes.
+            // Since it's a 2-row grid, the number of columns is Math.ceil(totalCards / 2).
+            const limit = Math.ceil(totalCards / 2);
+
+            if (currentPage >= limit) {
                 currentPage = 0;
-                updateCarousel(false); // Jump back instantly without animation
-                setTimeout(() => {
-                    isTransitioning = false;
-                }, 50);
-            }, 500); // Wait for transition to complete
-        } else {
-            setTimeout(() => {
-                isTransitioning = false;
-            }, 500);
-        }
+                updateCarousel(false); // Jump back instantly
+            }
+            isTransitioning = false;
+        }, 500);
     });
 
     // Previous button click
@@ -394,24 +398,49 @@ document.addEventListener('DOMContentLoaded', function () {
 
         currentPage--;
 
-        // If going below 0, jump to the end of cloned section first
         if (currentPage < 0) {
+            // Jump to the end of the cloned section first (which is the end of original set equivalent)
             const limit = Math.ceil(totalCards / 2);
             currentPage = limit - 1;
+
             updateCarousel(false); // Jump instantly without animation
+
+            // Force reflow
+            void grid.offsetWidth;
+
+            // Then slide to the target
+            // Actually, if we want to slide BACKWARDS from 0, we need to jump to 'limit', then slide to 'limit - 1'
+            // But here we jumped to limit-1. 
+            // Let's adjust: Jump to 'limit', then animate to 'limit-1' is better for "prev" feel?
+            // Existing logic was: jump to limit-1, then animate? No, that's not a slide.
+
+            // Correct logic for seamless prev from 0:
+            // 1. Jump to `limit` (which is the start of the clones, visually identical to 0? No, wait.)
+            // The clones are at the END.
+            // visual 0 is start.
+            // visual `limit` is start of clones.
+            // So if we are at 0 and want to go prev, we want to go to -1.
+            // But -1 doesn't exist.
+            // So we jump to `limit` (which is visually same as 0), then animate to `limit - 1`.
+
+            currentPage = limit;
+            updateCarousel(false); // Instant jump to matching clone position
+
             setTimeout(() => {
-                currentPage--;
-                updateCarousel(true);
+                currentPage = limit - 1;
+                updateCarousel(true); // Animate to prev
                 setTimeout(() => {
                     isTransitioning = false;
                 }, 500);
             }, 50);
-        } else {
-            updateCarousel(true);
-            setTimeout(() => {
-                isTransitioning = false;
-            }, 500);
+
+            return; // Exit early since we handled the special case
         }
+
+        updateCarousel(true);
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 500);
     });
 
     // Initialize

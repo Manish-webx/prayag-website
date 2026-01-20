@@ -17,6 +17,8 @@
                                 class="trust-logo" style="max-height: 70px;">
                             <img src="../assets/images/nabh-logo.png"
                                 alt="NABH Accredited" class="trust-logo" style="max-height: 70px;">
+                            <img src="../assets/images/nabl-logo.png"
+                                alt="NABL Accredited" class="trust-logo" style="max-height: 70px;">
                         </div>
                     </div>
 

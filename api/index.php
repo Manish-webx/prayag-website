@@ -47,10 +47,11 @@
                                 specialities, delivered by expert healthcare professionals using state-of-the-art
                                 technology and compassionate care. From advanced diagnostics to specialized treatments,
                                 we offer complete healthcare solutions under one roof for you and your family.</p>
-                            <button class="btn-view-all-specialities">
-                                View All
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
+                            <a href="all-services.php"><button class="btn-view-all-specialities">
+                                    View All
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <!-- Left Column: Specialities -->
@@ -60,148 +61,196 @@
 
                             <div class="specialities-grid">
                                 <!-- Speciality Card 1 -->
-                                <div class="speciality-card">
+                                <a href="ent.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-ear-listen"></i>
                                     </div>
                                     <h3 class="speciality-name">ENT & Cochlear Implant</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 2 -->
-                                <div class="speciality-card">
+                                <a href="cardiac-care.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-heartbeat"></i>
                                     </div>
                                     <h3 class="speciality-name">Cardiac Sciences</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 3 -->
-                                <div class="speciality-card">
+                                <a href="orthopedics.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-bone"></i>
                                     </div>
                                     <h3 class="speciality-name">Orthopaedics</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 4 -->
-                                <div class="speciality-card">
+                                <a href="oncology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-ribbon"></i>
                                     </div>
                                     <h3 class="speciality-name">Cancer Care</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 5 -->
-                                <div class="speciality-card">
+                                <a href="urology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-stethoscope"></i>
                                     </div>
                                     <h3 class="speciality-name">Urology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 6 -->
-                                <div class="speciality-card">
+                                <a href="obstetrics-gynecology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-baby"></i>
                                     </div>
                                     <h3 class="speciality-name">Obstetrics & Gynaecology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 7 -->
-                                <div class="speciality-card">
+                                <a href="neuroscience.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-brain"></i>
                                     </div>
                                     <h3 class="speciality-name">Neurosciences</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 8 -->
-                                <div class="speciality-card">
+                                <a href="gastroenterology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-stomach"></i>
                                     </div>
                                     <h3 class="speciality-name">Gastroenterology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 9 -->
-                                <div class="speciality-card">
+                                <a href="laparoscopic-surgery.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-lungs"></i>
                                     </div>
                                     <h3 class="speciality-name">Minimally Invasive Surgery</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 10 -->
-                                <div class="speciality-card">
+                                <a href="ophthalmology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-eye"></i>
                                     </div>
                                     <h3 class="speciality-name">Ophthalmology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 11 -->
-                                <div class="speciality-card">
+                                <a href="dental-science.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-tooth"></i>
                                     </div>
                                     <h3 class="speciality-name">Dental Sciences</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 12 -->
-                                <div class="speciality-card">
+                                <a href="radiology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-x-ray"></i>
                                     </div>
                                     <h3 class="speciality-name">Radiology & Imaging</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 13 -->
-                                <div class="speciality-card">
+                                <a href="anesthesiology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-syringe"></i>
                                     </div>
                                     <h3 class="speciality-name">Anesthesiology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 14 -->
-                                <div class="speciality-card">
+                                <a href="pathology.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-vials"></i>
                                     </div>
                                     <h3 class="speciality-name">Pathology</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 15 -->
-                                <div class="speciality-card">
+                                <a href="emergency-medicine.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-user-nurse"></i>
                                     </div>
                                     <h3 class="speciality-name">Emergency Medicine</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 16 -->
-                                <div class="speciality-card">
+                                <a href="physiotherapy.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-hand-holding-medical"></i>
                                     </div>
                                     <h3 class="speciality-name">Physical Therapy</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 17 -->
-                                <div class="speciality-card">
+                                <a href="support-services.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-pills"></i>
                                     </div>
                                     <h3 class="speciality-name">Pharmacy Services</h3>
-                                </div>
+                                </a>
 
                                 <!-- Speciality Card 18 -->
-                                <div class="speciality-card">
+                                <a href="internal-medicine.php" class="speciality-card">
                                     <div class="speciality-icon">
                                         <i class="fas fa-notes-medical"></i>
                                     </div>
                                     <h3 class="speciality-name">Internal Medicine</h3>
-                                </div>
+                                </a>
+
+                                <!-- Speciality Card 19 -->
+                                <a href="nephrology-dialysis.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-filter"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Nephrology & Dialysis</h3>
+                                </a>
+
+                                <!-- Speciality Card 20 -->
+                                <a href="dermatology.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-hand-sparkles"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Dermatology</h3>
+                                </a>
+
+                                <!-- Speciality Card 21 -->
+                                <a href="neonatology.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-child"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Paediatrics & Neonatology</h3>
+                                </a>
+
+                                <!-- Speciality Card 22 -->
+                                <a href="plastic-surgery.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-magic"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Plastic Surgery</h3>
+                                </a>
+
+                                <!-- Speciality Card 23 -->
+                                <a href="psychiatry.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Psychiatry</h3>
+                                </a>
+
+                                <!-- Speciality Card 24 -->
+                                <a href="dietetics.php" class="speciality-card">
+                                    <div class="speciality-icon">
+                                        <i class="fas fa-apple-alt"></i>
+                                    </div>
+                                    <h3 class="speciality-name">Dietetics & Nutrition</h3>
+                                </a>
                             </div>
                         </div>
 
