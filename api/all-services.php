@@ -159,7 +159,7 @@
                         <div class="service-card" data-category="excellence" data-name="Gastroenterology">
                             <a href="gastroenterology.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-stomach"></i>
+                                    <img src="../assets/images/liver.webp" alt="Gastroenterology" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">Gastroenterology & Hepatology</h3>
@@ -172,7 +172,7 @@
                         <div class="service-card" data-category="excellence" data-name="Nephrology">
                             <a href="nephrology-dialysis.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-kidneys"></i>
+                                    <img src="../assets/images/RENAL.webp" alt="Renal Sciences" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">Renal Sciences (Kidney Care)</h3>
@@ -264,7 +264,7 @@
                         <div class="service-card" data-category="clinical" data-name="Dermatology">
                             <a href="dermatology.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-allergies"></i>
+                                    <img src="../assets/images/DERMA.webp" alt="Dermatology" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">Dermatology</h3>
@@ -277,7 +277,7 @@
                         <div class="service-card" data-category="clinical" data-name="Plastic Surgery">
                             <a href="plastic-surgery.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-magic"></i>
+                                    <img src="../assets/images/PLASTIC.webp" alt="Plastic Surgery" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">Plastic Surgery</h3>
@@ -316,7 +316,7 @@
                         <div class="service-card" data-category="clinical" data-name="Urology">
                             <a href="urology-urodynamics.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-file-medical-alt"></i>
+                                   <img src="../assets/images/UROLOGY.webp" alt="Urology" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">Urology</h3>
@@ -486,7 +486,7 @@
                         <div class="service-card" data-category="diagnostics" data-name="EMG/EP">
                             <a href="emg-ep.php" class="service-card-link">
                                 <div class="service-icon">
-                                    <i class="fas fa-bolt"></i>
+                                    <img src="../assets/images/EMG_EP.webp" alt="EMG" style="width: 37px;">
                                 </div>
                                 <div class="service-content">
                                     <h3 class="service-name">EMG/EP (Nerve & Muscle)</h3>

@@ -119,7 +119,7 @@
                                 <!-- Speciality Card 8 -->
                                 <a href="gastroenterology.php" class="speciality-card">
                                     <div class="speciality-icon">
-                                        <i class="fas fa-stomach"></i>
+                                        <img src="../assets/images/liver.webp" alt="Gastroenterology" style="width:35px">
                                     </div>
                                     <h3 class="speciality-name">Gastroenterology</h3>
                                 </a>
@@ -215,7 +215,7 @@
                                 <!-- Speciality Card 20 -->
                                 <a href="dermatology.php" class="speciality-card">
                                     <div class="speciality-icon">
-                                        <i class="fas fa-hand-sparkles"></i>
+                                        <img src="../assets/images/DERMA.webp" alt="Skin" style="width:35px">
                                     </div>
                                     <h3 class="speciality-name">Dermatology</h3>
                                 </a>
@@ -231,7 +231,7 @@
                                 <!-- Speciality Card 22 -->
                                 <a href="plastic-surgery.php" class="speciality-card">
                                     <div class="speciality-icon">
-                                        <i class="fas fa-magic"></i>
+                                        <img src="../assets/images/PLASTIC.webp" alt="Plastic Surgery" style="width:35px">
                                     </div>
                                     <h3 class="speciality-name">Plastic Surgery</h3>
                                 </a>

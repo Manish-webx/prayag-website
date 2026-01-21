@@ -105,13 +105,13 @@
                                                 </li>
                                                 <li>
                                                     <a href="gastroenterology.php" class="mega-menu-item">
-                                                        <i class="fas fa-stomach"></i>
+                                                        <img src="../assets/images/liver.webp" alt="Liver" style="width: 20px;">
                                                         <span>Gastroenterology & Hepatology</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="nephrology-dialysis.php" class="mega-menu-item">
-                                                        <i class="fas fa-kidneys"></i>
+                                                        <img src="../assets/images/RENAL.webp" alt="Renal Sciences" style="width: 20px;">
                                                         <span>Renal Sciences (Kidney Care)</span>
                                                     </a>
                                                 </li>
@@ -137,8 +137,7 @@
                                                 <li><a href="emergency-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-ambulance"></i> <span>Emergency
                                                             Medicine</span></a></li>
-                                                <li><a href="general-surgery.php" class="mega-menu-item"><i
-                                                            class="fas fa-scalpel"></i> <span>General & Laparoscopic
+                                                <li><a href="general-surgery.php" class="mega-menu-item"></i> <span>General & Laparoscopic
                                                             Surgery</span></a></li>
                                                 <li><a href="paediatric-surgery.php" class="mega-menu-item"><i
                                                             class="fas fa-child"></i> <span>Paediatric
@@ -152,11 +151,9 @@
                                                 <li><a href="ent.php" class="mega-menu-item"><i
                                                             class="fas fa-ear-listen"></i> <span>ENT (Ear, Nose,
                                                             Throat)</span></a></li>
-                                                <li><a href="dermatology.php" class="mega-menu-item"><i
-                                                            class="fas fa-allergies"></i> <span>Dermatology</span></a>
+                                                <li><a href="dermatology.php" class="mega-menu-item"><img src="../assets/images/DERMA.webp" alt="Dermatology" style="width: 20px;"> <span>Dermatology</span></a>
                                                 </li>
-                                                <li><a href="plastic-surgery.php" class="mega-menu-item"><i
-                                                            class="fas fa-magic"></i> <span>Plastic Surgery</span></a>
+                                                <li><a href="plastic-surgery.php" class="mega-menu-item"><img src="../assets/images/PLASTIC.webp" alt="Plastic Surgery" style="width: 20px;"><span>Plastic Surgery</span></a>
                                                 </li>
                                                 <li><a href="psychiatry.php" class="mega-menu-item"><i
                                                             class="fas fa-brain"></i> <span>Psychiatry</span></a></li>
@@ -169,9 +166,7 @@
                                                 <li><a href="neonatology.php" class="mega-menu-item"><i
                                                             class="fas fa-baby"></i> <span>Neonatology</span></a>
                                                 </li>
-                                                <li><a href="urology-urodynamics.php" class="mega-menu-item"><i
-                                                            class="fas fa-file-medical-alt"></i>
-                                                        <span>Urology</span></a>
+                                                <li><a href="urology-urodynamics.php" class="mega-menu-item"><img src="../assets/images/UROLOGY.webp" alt="Urology" style="width: 20px;"><span>Urology</span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -190,8 +185,7 @@
                                                             Imaging</span></a></li>
                                                 <li><a href="eeg.php" class="mega-menu-item"><i
                                                             class="fas fa-brain"></i> <span>EEG (Brain Activity)</span></a></li>
-                                                <li><a href="emg-ep.php" class="mega-menu-item"><i
-                                                            class="fas fa-bolt"></i> <span>EMG/EP (Nerve & Muscle)</span></a></li>
+                                                <li><a href="emg-ep.php" class="mega-menu-item"><img src="../assets/images/EMG_EP.webp" alt="EMG/EP" style="width: 20px;"><span>EMG/EP (Nerve & Muscle)</span></a></li>
                                                 <li><a href="pulmonary-function-test.php" class="mega-menu-item"><i
                                                             class="fas fa-lungs"></i> <span>Pulmonary Function Test</span></a></li>
                                                 <li><a href="spirometry.php" class="mega-menu-item"><i
