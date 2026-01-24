@@ -235,7 +235,7 @@
                         <div class="timeline-content">
                             <span class="year-badge">2023</span>
                             <h4>Global Recognition</h4>
-                            <p>Achieved NABH accreditation and recognized as a center of excellence for medical tourism.
+                            <p>Achieved NABH and NABL accreditation and recognized as a center of excellence for medical tourism.
                             </p>
                         </div>
                     </div>

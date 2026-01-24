@@ -76,8 +76,8 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf4722e63?w=800&h=600&fit=crop"
-                                    alt="Dental Care at Prayag Hospital" class="hero-image">
+                                <img src="../assets/images/dental-thumb.webp" alt="Dental Care at Prayag Hospital"
+                                    class="hero-image">
                             </div>
                         </div>
                     </div>
@@ -187,8 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop"
-                    alt="Dental Clinic" class="overview-image">
+                <img src="../assets/images/dental-treatment.webp" alt="Dental Clinic" class="overview-image">
             </div>
 
             <div class="overview-highlights">

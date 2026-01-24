@@ -35,6 +35,24 @@
             </div>
         </section>
 
+        <!-- Featured Video Section -->
+        <section class="featured-video-section">
+            <div class="container">
+                <div class="video-wrapper">
+                    <div style="position:relative;aspect-ratio:16/9;">
+                        <iframe
+                            loading="lazy" 
+                            title="Gumlet video player"
+                            src="https://play.gumlet.io/embed/6970bec06f4a3a8ce14017d1"
+                            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+                            referrerpolicy="origin"
+                            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Our Specialities Section -->
         <section class="specialities-section">
             <div class="container">
@@ -890,7 +908,7 @@
                                     best healthcare services. We're here to help you live a healthier life. Our team of
                                     specialists is dedicated to providing personalized treatment plans tailored to your
                                     unique needs. Experience compassionate care combined with medical excellence.</p>
-                                <button class="btn-schedule-appointment">
+                                <button class="btn-schedule-appointment mt-3">
                                     Schedule an Appointment
                                     <i class="fas fa-calendar-check"></i>
                                 </button>

@@ -25,8 +25,8 @@
                     <!-- Buttons Column (3) -->
                     <div class="col-md-3">
                         <div class="trust-actions d-flex flex-column gap-2">
-                            <a href="#doctors" class="btn btn-outline-teal w-100">Find a Doctor</a>
-                            <a href="#appointment" class="btn btn-primary-orange w-100">Book Appointment</a>
+                            <a href="find-doctor.php" class="btn btn-outline-teal w-100">Find a Doctor</a>
+                            <a href="contact-us.php" class="btn btn-primary-orange w-100">Book Appointment</a>
                         </div>
                     </div>
                 </div>
