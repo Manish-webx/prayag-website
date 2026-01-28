@@ -4570,7 +4570,7 @@ body {
 
 @media (max-width: 767px) {
     .feature-box {
-        padding: 2px;
+        padding: 15px;
         gap: 15px;
     }
 
