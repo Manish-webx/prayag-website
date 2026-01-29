@@ -79,7 +79,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop"
+                                <img src="../assets/images/icu-thumb.webp"
                                     alt="Critical Care at Prayag Hospital" class="hero-image">
                             </div>
                         </div>

@@ -82,7 +82,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Heart-Valve-Replacement-thumb.webp"
                                     alt="Heart Surgery" class="hero-image">
                             </div>
                         </div>

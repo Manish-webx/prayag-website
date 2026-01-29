@@ -83,7 +83,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Clinical-Neurology-thumb.webp"
                                     alt="Neurology Care" class="hero-image">
                             </div>
                         </div>

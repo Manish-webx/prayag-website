@@ -9703,16 +9703,6 @@ body {
     font-size: 15px;
 }
 
-.documents-list li::before {
-    content: '\f00c';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    position: absolute;
-    left: 0;
-    top: 2px;
-    color: var(--prayag-teal);
-}
-
 /* ================================================
    VISITING HOURS PAGE STYLES
    ================================================ */
@@ -11049,15 +11039,6 @@ iframe {
 
 .documents-list li:last-child {
     border-bottom: none;
-}
-
-.documents-list li::before {
-    content: '\f15b';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 400;
-    color: var(--prayag-teal);
-    font-size: 18px;
-    margin-top: 2px;
 }
 
 /* TPA Grid Section */

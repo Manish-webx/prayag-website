@@ -81,7 +81,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=800&h=600&fit=crop"
+                                <img src="../assets/images/sport-injury-thumb.webp"
                                     alt="Sports Injury Rehab" class="hero-image">
                             </div>
                         </div>

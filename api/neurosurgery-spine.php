@@ -82,7 +82,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=600&fit=crop"
+                                <img src="../assets/images/neurosurgery-spine-thumb.webp"
                                     alt="Neurosurgery OT" class="hero-image">
                             </div>
                         </div>

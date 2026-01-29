@@ -82,7 +82,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Arrhythmia-Treatment-thumb.webp"
                                     alt="Pacemaker and Arrhythmia Care" class="hero-image">
                             </div>
                         </div>

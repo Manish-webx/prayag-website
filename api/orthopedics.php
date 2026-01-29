@@ -376,22 +376,6 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- Treatment Card 4: Spine Surgery -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="treatment-card">
-                        <div class="treatment-card-icon">
-                            <i class="fas fa-spine"></i>
-                        </div>
-                        <h3 class="treatment-card-title">Spine Surgery</h3>
-                        <p class="treatment-card-description">
-                            Treatment for disc herniation, spinal canal stenosis, and spinal deformities using minimally invasive techniques.
-                        </p>
-                        <a href="neurosurgery-spine.php" class="treatment-card-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

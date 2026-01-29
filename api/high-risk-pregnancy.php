@@ -81,7 +81,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=800&h=600&fit=crop"
+                                <img src="../assets/images/high-risk-pregnancy-thumb.webp"
                                     alt="High Risk Pregnancy Care" class="hero-image">
                             </div>
                         </div>

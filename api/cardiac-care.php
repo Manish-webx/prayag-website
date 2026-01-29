@@ -80,7 +80,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+                                <img src="../assets/images/cardiac-care-thumb.webp"
                                     alt="Cardiac Care at Prayag Hospital" class="hero-image">
                             </div>
                         </div>

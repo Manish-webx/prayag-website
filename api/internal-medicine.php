@@ -78,7 +78,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=600&fit=crop"
+                                <img src="../assets/images/general-medicine-thumb.webp"
                                     alt="Internal Medicine at Prayag Hospital" class="hero-image">
                             </div>
                         </div>

@@ -76,7 +76,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1516549655169-df83a0833860?w=800&h=600&fit=crop"
+                                <img src="../assets/images/radiology-thumb.webp"
                                     alt="Radiology at Prayag Hospital" class="hero-image">
                             </div>
                         </div>

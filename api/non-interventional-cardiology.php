@@ -78,7 +78,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
+                                <img src="../assets/images/non-intervention-thumb.webp"
                                     alt="Non-Interventional Cardiology at Prayag Hospital" class="hero-image">
                             </div>
                         </div>

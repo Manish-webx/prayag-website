@@ -81,7 +81,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579165466741-7f35a4755657?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Infertility-Treatment-thumb.webp"
                                     alt="Infertility Treatment" class="hero-image">
                             </div>
                         </div>

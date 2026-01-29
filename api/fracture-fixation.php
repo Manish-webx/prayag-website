@@ -81,7 +81,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1579684385180-1ea6726cd8db?w=800&h=600&fit=crop"
+                                <img src="../assets/images/fracture-care-thumb.webp"
                                     alt="Fracture Care" class="hero-image">
                             </div>
                         </div>

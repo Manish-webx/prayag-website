@@ -52,20 +52,19 @@
                     <div class="col-lg-6">
                         <div class="intro-content ps-lg-4">
                             <h2>A Legacy of Healing and Hope</h2>
-                            <p>Established in 1985, Prayag Hospital has emerged as a beacon of hope and healing in the
-                                healthcare landscape. With a steadfast commitment to delivering world-class medical
-                                care, we have grown from a modest facility to a state-of-the-art multi-specialty
-                                hospital, trusted by thousands of patients.</p>
-                            <p>Driven by the philosophy of "Patient First," we combine advanced medical technology with
-                                human compassion to provide holistic treatment. Our team of renowned doctors, dedicated
-                                nurses, and support staff work round-the-clock to ensure the best possible clinical
-                                outcomes.</p>
-                            <p>We are proud to be pioneers in bringing cutting-edge healthcare solutions, including
-                                robotic surgery, advanced organ transplants, and precision oncology, accessible to all
-                                strata of society.</p>
+                            <p>PRAYAG HOSPITAL - A strong believer of "Sewa Parmo Dharma" is so much more than just a hospital as with the skill to heal and passion to care, we strongly make a difference in the lives of our patients. Being equipped with state-of-the-art facilities along with highly skilled professionals, we dedicatedly work towards the health & wellness of those who seek our care. For more than 15 years, we have offered compassionate and individualised attention to huge number of patients who have already passed through our doors and millions of them who visit us each year.</p>
+                            <p>Prayag hospital is one of country's largest healthcare provider located in the heart of Noida and is consistently privileged to be among the top hospitals in India. This multispecialty hospital "Prayag Hospital and Research Centre Pvt Ltd" was initially started as a small orthopaedic centre in 1995 by Dr. Bhojendrapal Singh and then it witnessed a breakthrough in its health and wellness services in 1999 as high quality medical services with expert & individualised care were made available to patients at most affordable costs.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="intro-content ps-lg-4">
+                            <p>Prayag Hospital is envisioned as a centre of excellence as it is committed to ensure world class, innovative as well as unsurpassed care for patients in a most comfortable and safe environment. Our exceptionally talented panel lays emphasis on achieving the wellness of a person's overall health-his mind, body and soul while encouraging the patients to adopt healthier lifestyles for greater longevity. We keep our patients at the centre of everything we do and tailor care to their unique needs & goals. A team of extremely talented doctors, dedicated nurses, paramedical and non-medical staff deliver the highest standards of healthcare to patients while using the latest techniques and advanced equipments. We are proud to improve the lives of our patients by serving them unconditionally and earning their goodwill over the years.</p>
+                            <p><strong>We deliver what we promise !!!</strong></p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -76,7 +75,7 @@
                     <div class="col-lg-5 mb-5 mb-lg-0">
                         <div class="chairman-img-wrapper">
                             <!-- Placeholder for Chairman Image -->
-                            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&h=700&fit=crop"
+                            <img src="https://www.saiwebtel.net/prayag/images/chairmain.png"
                                 alt="Chairman - Prayag Hospital" class="chairman-img">
                         </div>
                     </div>
@@ -85,12 +84,7 @@
                             <h3>Leadership Speak</h3>
                             <h2>Message from the Chairman</h2>
                             <blockquote class="chairman-quote">
-                                "At Prayag Hospital, we believe that healthcare is not just a profession but a sacred
-                                duty. Our journey began with a simple yet powerful dream: to bring world-class medical
-                                excellence within the reach of every individual. Today, as we stand at the forefront of
-                                healthcare innovation, our core values of compassion, integrity, and excellence remain
-                                our guiding light. We are committed to healing lives, touching hearts, and building a
-                                healthier tomorrow for our community."
+                                "Patient has a very limited resources, tremendous stress and the fear for unknown. A patient while entering the hospital does not know what the doctors are going to diagnose. We a team of medical doctors and paramedical staff, try to take care of that aspect and also the patient should feel happy in coming to the hospital and leave with at most satisfaction."
                             </blockquote>
                             <p style="color: var(--light-text); margin-bottom: 30px;">
                                 We are constantly upgrading our infrastructure and clinical capabilities to ensure that
@@ -99,7 +93,7 @@
                                 Hospital as your partner in health.
                             </p>
                             <div class="chairman-signature">
-                                <h4 class="chairman-name">Dr. [Chairman Name]</h4>
+                                <h4 class="chairman-name">Dr. Bhojendrapal Singh</h4>
                                 <p class="chairman-title">Founder & Chairman, Prayag Group</p>
                             </div>
                         </div>
