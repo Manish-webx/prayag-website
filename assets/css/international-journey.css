@@ -1,0 +1,310 @@
+/* ================================================
+   INTERNATIONAL PATIENT JOURNEY TIMELINE
+   ================================================ */
+
+.process-timeline-wrapper {
+    position: relative;
+    max-width: 100%;
+    margin: 50px auto 0;
+    padding: 0;
+}
+
+/* Central Line */
+.timeline-center-line {
+    position: absolute;
+    width: 4px;
+    background-color: var(--prayag-teal);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Timeline Row (Flexbed) */
+.timeline-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    position: relative;
+    width: 100%;
+}
+
+.timeline-row:last-child {
+    margin-bottom: 0;
+}
+
+/* Columns */
+.timeline-col {
+    width: 45%;
+    /* Leave 10% for center */
+    padding: 0 30px;
+}
+
+.content-col {
+    position: relative;
+}
+
+/* Left/Right alignments handled by DOM order in alternating rows */
+.timeline-row .content-col {
+    text-align: right;
+}
+
+.timeline-row .image-col {
+    text-align: left;
+}
+
+/* Reverse Row for Alternating Logic */
+.timeline-row.reverse .content-col {
+    text-align: left;
+}
+
+.timeline-row.reverse .image-col {
+    text-align: right;
+}
+
+/* Center Dot */
+.timeline-center-dot {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 5px solid var(--prayag-orange);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Outer glow ring */
+}
+
+/* Content Box */
+.timeline-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: transform 0.3s ease;
+    border-top: 5px solid var(--prayag-teal);
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Wrapper */
+.timeline-image-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.timeline-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.timeline-row:hover .timeline-image-wrapper img {
+    transform: scale(1.05);
+}
+
+/* Arrows */
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+/* Left Content Arrow (Pointing Right -> Center) */
+.left-content::before {
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #fff;
+}
+
+/* Right Content Arrow (Pointing Left -> Center) */
+.right-content::before {
+    left: -10px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+/* Step Header */
+.step-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.left-content .step-header {
+    justify-content: flex-end;
+}
+
+.right-content .step-header {
+    justify-content: flex-start;
+}
+
+/* Step Icon */
+.step-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(74, 143, 115, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--prayag-teal);
+    font-size: 24px;
+}
+
+
+/* Typography */
+.step-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 15px;
+}
+
+.step-description {
+    font-size: 15px;
+    color: var(--light-text);
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* More Details Button */
+.btn-more-details {
+    background: none;
+    border: none;
+    color: var(--prayag-orange);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.btn-more-details:hover {
+    color: var(--prayag-orange-dark);
+}
+
+.btn-more-details i {
+    transition: transform 0.3s ease;
+}
+
+.btn-more-details:not(.collapsed) i {
+    transform: rotate(180deg);
+}
+
+/* Details Inner */
+.step-details-inner {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    /* Always left align details text */
+}
+
+.step-details-inner h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--prayag-teal);
+}
+
+.step-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.step-list li {
+    font-size: 14px;
+    color: var(--dark-text);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.step-list li i {
+    margin-top: 4px;
+}
+
+
+/* ================================================
+   RESPONSIVE DESIGN (MOBILE)
+   ================================================ */
+
+@media (max-width: 991px) {
+
+    /* Hide line and dots on mobile for cleaner look, or move them left */
+    .timeline-center-line {
+        display: none;
+    }
+
+    .timeline-center-dot {
+        display: none;
+    }
+
+    /* Stack items vertically */
+    .timeline-row,
+    .timeline-row.reverse {
+        flex-direction: column-reverse;
+        /* Image Top, Content Bottom */
+        margin-bottom: 40px;
+        align-items: stretch;
+    }
+
+    .timeline-col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .image-col {
+        margin-bottom: 0;
+        /* Image touches content like a card header */
+    }
+
+    .timeline-image-wrapper {
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+        /* Rounded top only */
+        box-shadow: none;
+    }
+
+    .timeline-content {
+        border-radius: 0 0 15px 15px;
+        /* Rounded bottom only */
+        text-align: left !important;
+        /* Force left align */
+        margin-top: -5px;
+        /* Overlap slightly to hide gaps */
+    }
+
+    /* Reset Header Alignments */
+    .step-header {
+        justify-content: flex-start !important;
+    }
+
+    /* Hide Arrows */
+    .timeline-content::before {
+        display: none;
+    }
+}

@@ -7,6 +7,7 @@
     <title>International Patients - World-Class Healthcare | Prayag Hospital</title>
 
     <?php include 'header-links.php'; ?>
+    <link rel="stylesheet" href="../assets/css/international-journey.css">
 
 </head>
 
@@ -37,9 +38,6 @@
                     <div class="hero-actions">
                         <a href="#contact-form" class="btn btn-primary-prayag btn-lg">
                             <i class="fas fa-envelope"></i> Request a Quote
-                        </a>
-                        <a href="#process" class="btn btn-outline-teal btn-lg">
-                            <i class="fas fa-info-circle"></i> How It Works
                         </a>
                     </div>
                 </div>
@@ -108,193 +106,302 @@
     <!-- Step-by-Step Process Section -->
     <section class="process-section" id="process">
         <div class="container">
-            <div class="section-header text-center mb-5">
+            <div class="section-header text-center">
                 <h2 class="section-title">Your Journey to Recovery</h2>
                 <p class="section-description">A simple, transparent process designed for your convenience</p>
             </div>
 
-            <div class="process-timeline">
-                <!-- Step 1 -->
-                <div class="process-step">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-file-medical"></i>
+            <div class="process-timeline-wrapper">
+                <div class="timeline-center-line"></div>
+                
+                <!-- Step 1: Content Left, Image Right -->
+                <div class="timeline-row">
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content left-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-file-medical"></i>
+                                </div>
+
+                            </div>
+                            <h3 class="step-title">Initial Consultation</h3>
+                            <p class="step-description">Share your medical reports and concerns with our international patient coordinator.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step1Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step1Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>What You Need:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Recent medical reports</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Doctor's referral letter</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Brief medical history</li>
+                                    </ul>
+                                    <div class="step-time mt-2">
+                                        <i class="fas fa-clock text-warning me-2"></i> <strong>24-48 hours</strong> response time
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="step-title">Initial Consultation</h3>
-                        <p class="step-description">Share your medical reports and concerns with our international patient coordinator</p>
-                        <div class="step-details">
-                            <h4>What You Need:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Recent medical reports and test results</li>
-                                <li><i class="fas fa-check"></i> Doctor's referral letter (if available)</li>
-                                <li><i class="fas fa-check"></i> Brief medical history</li>
-                                <li><i class="fas fa-check"></i> Contact information</li>
-                            </ul>
-                            <h4>Timeline:</h4>
-                            <p><strong>24-48 hours</strong> for initial response</p>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/internal-medicine-main.webp" alt="Initial Consultation" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 2 -->
-                <div class="process-step">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-user-md"></i>
+                <!-- Step 2: Image Left, Content Right -->
+                <div class="timeline-row reverse">
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/radiology-main.webp" alt="Medical Opinion" class="img-fluid">
                         </div>
-                        <h3 class="step-title">Medical Opinion & Treatment Plan</h3>
-                        <p class="step-description">Our specialists review your case and provide a comprehensive treatment plan</p>
-                        <div class="step-details">
-                            <h4>You Will Receive:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Detailed medical opinion from specialists</li>
-                                <li><i class="fas fa-check"></i> Recommended treatment plan</li>
-                                <li><i class="fas fa-check"></i> Estimated cost breakdown</li>
-                                <li><i class="fas fa-check"></i> Expected duration of stay</li>
-                                <li><i class="fas fa-check"></i> Success rates and outcomes</li>
-                            </ul>
-                            <h4>Timeline:</h4>
-                            <p><strong>3-5 business days</strong> for complete evaluation</p>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content right-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Medical Opinion & Plan</h3>
+                            <p class="step-description">Our specialists review your case and provide a comprehensive treatment plan and cost estimate.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step2Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step2Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>You Will Receive:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Detailed medical opinion</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Estimated cost breakdown</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Expected duration of stay</li>
+                                    </ul>
+                                    <div class="step-time mt-2">
+                                        <i class="fas fa-clock text-warning me-2"></i> <strong>3-5 days</strong> evaluation
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 3 -->
-                <div class="process-step">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-passport"></i>
+                <!-- Step 3: Content Left, Image Right -->
+                <div class="timeline-row">
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content left-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-passport"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Visa & Travel</h3>
+                            <p class="step-description">We assist with medical visa invitation letters and help plan your travel to India.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step3Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step3Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Our Support:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Visa invitation letter</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Accomodation booking</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Flight assistance</li>
+                                    </ul>
+                                    <div class="step-time mt-2">
+                                        <i class="fas fa-clock text-warning me-2"></i> <strong>7-14 days</strong> processing
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="step-title">Visa & Travel Arrangements</h3>
-                        <p class="step-description">We assist with medical visa and help plan your travel to India</p>
-                        <div class="step-details">
-                            <h4>Our Support Includes:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Medical visa invitation letter</li>
-                                <li><i class="fas fa-check"></i> Visa application guidance</li>
-                                <li><i class="fas fa-check"></i> Flight booking assistance</li>
-                                <li><i class="fas fa-check"></i> Airport pickup arrangement</li>
-                                <li><i class="fas fa-check"></i> Accommodation booking</li>
-                            </ul>
-                            <h4>Timeline:</h4>
-                            <p><strong>7-14 days</strong> for visa processing (varies by country)</p>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/Support-Services-main.webp" alt="Visa & Travel" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 4 -->
-                <div class="process-step">
-                    <div class="step-number">04</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-plane-arrival"></i>
+                <!-- Step 4: Image Left, Content Right -->
+                <div class="timeline-row reverse">
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/Support-Services-thumb.webp" alt="Arrival" class="img-fluid">
                         </div>
-                        <h3 class="step-title">Arrival & Welcome</h3>
-                        <p class="step-description">Comfortable arrival with our dedicated team greeting you at the airport</p>
-                        <div class="step-details">
-                            <h4>Upon Arrival:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Airport pickup by our representative</li>
-                                <li><i class="fas fa-check"></i> Transfer to hotel/hospital</li>
-                                <li><i class="fas fa-check"></i> SIM card and local assistance</li>
-                                <li><i class="fas fa-check"></i> Hospital orientation</li>
-                                <li><i class="fas fa-check"></i> Meet your dedicated case manager</li>
-                            </ul>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content right-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-plane-arrival"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Arrival & Welcome</h3>
+                            <p class="step-description">Comfortable arrival with our dedicated team greeting you at the airport for transfer.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step4Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step4Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Upon Arrival:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Airport pickup</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Local SIM & assistance</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Hotel/Hospital transfer</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 5 -->
-                <div class="process-step">
-                    <div class="step-number">05</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-hospital-user"></i>
+                <!-- Step 5: Content Left, Image Right -->
+                <div class="timeline-row">
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content left-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-hospital-user"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Pre-Treatment</h3>
+                            <p class="step-description">Meet your medical team, undergo diagnostics, and finalize the treatment plan.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step5Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step5Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Process:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Specialist consultation</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Pre-op tests</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Consent & Documentation</li>
+                                    </ul>
+                                    <div class="step-time mt-2">
+                                        <i class="fas fa-clock text-warning me-2"></i> <strong>1-2 days</strong> assessment
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="step-title">Pre-Treatment Consultation</h3>
-                        <p class="step-description">Meet your medical team and finalize the treatment plan</p>
-                        <div class="step-details">
-                            <h4>This Includes:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Consultation with specialist doctors</li>
-                                <li><i class="fas fa-check"></i> Pre-treatment tests and diagnostics</li>
-                                <li><i class="fas fa-check"></i> Treatment plan confirmation</li>
-                                <li><i class="fas fa-check"></i> Cost finalization and payment</li>
-                                <li><i class="fas fa-check"></i> Consent and documentation</li>
-                            </ul>
-                            <h4>Timeline:</h4>
-                            <p><strong>1-2 days</strong> for pre-treatment assessment</p>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/laboratory-main.webp" alt="Pre-Treatment" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 6 -->
-                <div class="process-step">
-                    <div class="step-number">06</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-procedures"></i>
+                <!-- Step 6: Image Left, Content Right -->
+                <div class="timeline-row reverse">
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/icu-main.webp" alt="Treatment" class="img-fluid">
                         </div>
-                        <h3 class="step-title">Treatment & Care</h3>
-                        <p class="step-description">Receive world-class treatment from our expert medical team</p>
-                        <div class="step-details">
-                            <h4>During Treatment:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> State-of-the-art medical facilities</li>
-                                <li><i class="fas fa-check"></i> Experienced specialist team</li>
-                                <li><i class="fas fa-check"></i> 24/7 nursing care</li>
-                                <li><i class="fas fa-check"></i> Language interpretation services</li>
-                                <li><i class="fas fa-check"></i> Family support and updates</li>
-                            </ul>
-                            <h4>Timeline:</h4>
-                            <p><strong>Varies by procedure</strong> - as per treatment plan</p>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content right-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-procedures"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Treatment & Care</h3>
+                            <p class="step-description">Receive world-class treatment from our expert medical team with 24/7 nursing care.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step6Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step6Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Care Standards:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Experienced specialists</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Interpreter services</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Regular family updates</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 7 -->
-                <div class="process-step">
-                    <div class="step-number">07</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-heartbeat"></i>
+                <!-- Step 7: Content Left, Image Right -->
+                <div class="timeline-row">
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content left-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Recovery & Discharge</h3>
+                            <p class="step-description">Monitored recovery followed by comprehensive discharge planning and reports.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step7Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step7Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Includes:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Discharge summary</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Medication plan</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Fit-to-fly certificate</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="step-title">Recovery & Discharge</h3>
-                        <p class="step-description">Monitored recovery with comprehensive discharge planning</p>
-                        <div class="step-details">
-                            <h4>Post-Treatment Care:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Recovery monitoring</li>
-                                <li><i class="fas fa-check"></i> Discharge summary and reports</li>
-                                <li><i class="fas fa-check"></i> Medication and care instructions</li>
-                                <li><i class="fas fa-check"></i> Follow-up appointment schedule</li>
-                                <li><i class="fas fa-check"></i> Travel clearance certificate</li>
-                            </ul>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/physiotherapy-thumb.webp" alt="Recovery" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 8 -->
-                <div class="process-step">
-                    <div class="step-number">08</div>
-                    <div class="step-content">
-                        <div class="step-icon">
-                            <i class="fas fa-phone-alt"></i>
+                <!-- Step 8: Image Left, Content Right -->
+                <div class="timeline-row reverse">
+                    <div class="timeline-col image-col">
+                        <div class="timeline-image-wrapper">
+                            <img src="../assets/images/Clinical-Neurology-main.webp" alt="Follow-Up" class="img-fluid">
                         </div>
-                        <h3 class="step-title">Post-Treatment Follow-Up</h3>
-                        <p class="step-description">Continued care and support even after you return home</p>
-                        <div class="step-details">
-                            <h4>Ongoing Support:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Regular follow-up calls</li>
-                                <li><i class="fas fa-check"></i> Online consultations with doctors</li>
-                                <li><i class="fas fa-check"></i> Medical report interpretation</li>
-                                <li><i class="fas fa-check"></i> Coordination with local doctors</li>
-                                <li><i class="fas fa-check"></i> Lifetime medical records access</li>
-                            </ul>
+                    </div>
+                    <div class="timeline-center-dot"></div>
+                    <div class="timeline-col content-col">
+                        <div class="timeline-content right-content">
+                            <div class="step-header">
+                                <div class="step-icon-wrapper">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+    
+                            </div>
+                            <h3 class="step-title">Follow-Up</h3>
+                            <p class="step-description">Continued support after you return home with online consultations and record access.</p>
+                            <button class="btn-more-details collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step8Details">
+                                More Details <i class="fas fa-chevron-down ms-2"></i>
+                            </button>
+                            <div id="step8Details" class="collapse mt-3">
+                                <div class="step-details-inner">
+                                    <h5>Ongoing Care:</h5>
+                                    <ul class="step-list">
+                                        <li><i class="fas fa-check text-success me-2"></i> Video consultations</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Email support</li>
+                                        <li><i class="fas fa-check text-success me-2"></i> Lifetime record access</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -305,7 +412,7 @@
     <!-- Services Section -->
     <section class="services-section bg-light">
         <div class="container">
-            <div class="section-header text-center mb-5">
+            <div class="section-header text-center">
                 <h2 class="section-title">Comprehensive Support Services</h2>
                 <p class="section-description">Everything you need for a comfortable medical journey</p>
             </div>
@@ -405,7 +512,7 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section class="contact-form-section" id="contact-form">
+    <section class="contact-form-section" id="contact-form" style="padding:40px 0px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -474,7 +581,7 @@
     <!-- FAQ Section -->
     <section class="faq-section bg-light">
         <div class="container">
-            <div class="section-header text-center mb-5">
+            <div class="section-header text-center">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-description">Find answers to common questions about international patient services</p>
             </div>
@@ -601,52 +708,6 @@
                                     <p>We provide a detailed timeline after reviewing your case, including pre-treatment preparation, procedure, recovery, and follow-up period.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h2 class="cta-title">Ready to Begin Your Medical Journey?</h2>
-                    <p class="cta-description">Contact our International Patient Services team today for a free consultation and personalized treatment plan.</p>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a href="#contact-form" class="btn btn-light btn-lg">
-                        <i class="fas fa-envelope"></i> Get Started
-                    </a>
-                </div>
-            </div>
-            <div class="row mt-4 g-3">
-                <div class="col-md-4">
-                    <div class="contact-info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong>Call Us</strong>
-                            <p>+91 8811780937</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>Email Us</strong>
-                            <p>international@prayaghospital.in</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-info-item">
-                        <i class="fas fa-whatsapp"></i>
-                        <div>
-                            <strong>WhatsApp</strong>
-                            <p>+91 8811780937</p>
                         </div>
                     </div>
                 </div>

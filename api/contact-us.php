@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Get in Touch | Prayag Hospital</title>
     <?php include 'header-links.php'; ?>
-    <link rel="stylesheet" href="../assets/css/contact-redesign.css">
+
 </head>
 
 <body>
@@ -89,14 +89,14 @@
                         <div class="map-container mb-4">
                             <h4 class="map-label">Noida Centre</h4>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.603347901584!2d77.35987631508076!3d28.55163698244971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e0f5555555%3A0x6b7235a9634288b3!2sPrayag%20Hospital%20%26%20Research%20Centre!5e0!3m2!1sen!2sin!4v1645000000000!5m2!1sen!2sin" 
-                                width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
 
                         <!-- Greater Noida Map -->
                         <div class="map-container">
                             <h4 class="map-label">Greater Noida Centre</h4>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.6698665046276!2d77.03964431507873!3d28.46014698248611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18f77363f03b%3A0x867332204b4c5222!2sPrayag%20Hospital%20%26%20Research%20Centre!5e0!3m2!1sen!2sin!4v1672345678901!5m2!1sen!2sin" 
-                                width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
                         </div>
                     </div>
                 </div>
