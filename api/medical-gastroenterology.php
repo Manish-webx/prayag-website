@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop" alt="Gastro Consultation"
+                <img src="../assets/images/Medical-Gastroenterology-main.webp" alt="Gastro Consultation"
                     class="overview-image">
             </div>
 

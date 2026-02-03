@@ -195,7 +195,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1516549655169-df83a092dd96?w=800&h=400&fit=crop" alt="Spine Model"
+                <img src="../assets/images/neurosurgery-spine-main.webp" alt="Spine Model"
                     class="overview-image">
             </div>
 

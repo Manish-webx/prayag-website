@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop"
+                <img src="../assets/images/Anesthesiology-main.webp"
                     alt="Anesthesia Workstation" class="overview-image">
             </div>
 

@@ -1,0 +1,130 @@
+/* ================================================
+   CONTACT PAGE REDESIGN STYLES
+   ================================================ */
+
+.contact-layout-section {
+    padding: 60px 0;
+    margin-top: -30px;
+    position: relative;
+    background-color: #fff;
+}
+
+.contact-details-wrapper {
+    background: #fff;
+    padding-right: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--prayag-teal);
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--prayag-orange);
+}
+
+.location-block,
+.contact-block {
+    margin-bottom: 25px;
+}
+
+.location-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.location-address {
+    font-size: 15px;
+    color: var(--light-text);
+    line-height: 1.6;
+    margin-left: 28px;
+    /* Align with text start after icon */
+}
+
+.contact-text {
+    font-size: 15px;
+    color: var(--light-text);
+    margin-bottom: 5px;
+    margin-left: 28px;
+}
+
+.text-primary-orange {
+    color: var(--prayag-orange) !important;
+}
+
+/* Maps Section */
+.maps-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.map-label {
+    background: var(--prayag-teal);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    margin: 0;
+}
+
+/* Form Section Refinement */
+.contact-form-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--prayag-teal);
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    color: var(--light-text);
+    margin-bottom: 30px;
+}
+
+/* Button Override */
+.btn-primary-orange {
+    background-color: var(--prayag-orange);
+    border-color: var(--prayag-orange);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-orange:hover {
+    background-color: var(--prayag-orange-dark);
+    border-color: var(--prayag-orange-dark);
+    transform: translateY(-2px);
+}

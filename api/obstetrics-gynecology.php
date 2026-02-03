@@ -194,7 +194,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=800&h=400&fit=crop" alt="Prayag Hospital Maternity"
+                <img src="../assets/images/gynecology-main.webp" alt="Prayag Hospital Maternity"
                     class="overview-image">
             </div>
 

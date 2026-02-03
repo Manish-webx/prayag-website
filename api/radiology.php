@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=600&fit=crop"
+                <img src="../assets/images/radiology-main.webp"
                     alt="MRI Machine" class="overview-image">
             </div>
 

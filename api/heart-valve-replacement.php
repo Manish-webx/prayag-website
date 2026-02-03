@@ -196,7 +196,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1631815587646-b85a1bb29c9e?w=800&h=400&fit=crop" alt="Valve Surgery"
+                <img src="../assets/images/Heart-Valve-Replacement-main.webp" alt="Valve Surgery"
                     class="overview-image">
             </div>
 

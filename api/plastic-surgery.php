@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&h=600&fit=crop"
+                <img src="../assets/images/Plastic-Surgery-main.webp"
                     alt="Plastic Surgery Department" class="overview-image">
             </div>
 

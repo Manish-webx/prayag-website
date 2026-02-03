@@ -189,7 +189,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"
+                <img src="../assets/images/laboratory-main.webp"
                     alt="Lab Technician" class="overview-image">
             </div>
 

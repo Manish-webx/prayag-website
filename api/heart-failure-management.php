@@ -195,7 +195,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=400&fit=crop" alt="Doctor consulting patient"
+                <img src="../assets/images/Heart-Failure-main.webp" alt="Doctor consulting patient"
                     class="overview-image">
             </div>
 

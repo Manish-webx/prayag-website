@@ -199,7 +199,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop" alt="Prayag Hospital Neuroscience Center"
+                <img src="../assets/images/Neuroscience-main.webp" alt="Prayag Hospital Neuroscience Center"
                     class="overview-image">
             </div>
 

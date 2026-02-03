@@ -193,7 +193,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=800&h=400&fit=crop" alt="Prayag Hospital Internal Medicine"
+                <img src="../assets/images/internal-medicine-main.webp" alt="Prayag Hospital Internal Medicine"
                     class="overview-image">
             </div>
 

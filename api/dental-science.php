@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="../assets/images/dental-treatment.webp" alt="Dental Clinic" class="overview-image">
+                <img src="../assets/images/dental-main.webp" alt="Dental Clinic" class="overview-image">
             </div>
 
             <div class="overview-highlights">

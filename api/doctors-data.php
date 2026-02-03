@@ -566,8 +566,8 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://via.placeholder.com/350x400?text=Dr.+Shivee',
-        'image_small' => ''
+        'image' => '../assets/images/doctors/dr-shivee-pandey.webp',
+        'image_small' => '../assets/images/doctors/small/dr-shivee-pandey.webp'
     ]
 ];
 ?>

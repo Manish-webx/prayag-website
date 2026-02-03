@@ -196,7 +196,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1516574187841-693083f69802?w=800&h=400&fit=crop" alt="Prayag Hospital Orthopedics Center"
+                <img src="../assets/images/orthopedic-main.webp" alt="Prayag Hospital Orthopedics Center"
                     class="overview-image">
             </div>
 

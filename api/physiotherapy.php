@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1591117207239-0195ee69d906?w=800&h=600&fit=crop"
+                <img src="../assets/images/physiotherpay-main.webp"
                     alt="Rehabilitation Gym" class="overview-image">
             </div>
 

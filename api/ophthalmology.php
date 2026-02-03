@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684453423-f84349ef60b0?w=800&h=600&fit=crop"
+                <img src="../assets/images/Ophthalmology-main.webp"
                     alt="Ophthalmology Department" class="overview-image">
             </div>
 

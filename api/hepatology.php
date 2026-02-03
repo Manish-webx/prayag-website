@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop" alt="Liver Care"
+                <img src="../assets/images/Hepatology-main.webp" alt="Liver Care"
                     class="overview-image">
             </div>
 

@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=400&fit=crop" alt="Surgical Oncology OT"
+                <img src="../assets/images/Surgical-Oncology-main.webp" alt="Surgical Oncology OT"
                     class="overview-image">
             </div>
 

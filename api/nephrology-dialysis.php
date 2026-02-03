@@ -197,7 +197,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop" alt="Dialysis Unit"
+                <img src="../assets/images/dialysis-main.webp" alt="Dialysis Unit"
                     class="overview-image">
             </div>
 

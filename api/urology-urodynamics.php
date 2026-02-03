@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?w=800&h=600&fit=crop"
+                <img src="../assets/images/Urology-urodynamics-main.webp"
                     alt="Urology Department" class="overview-image">
             </div>
 

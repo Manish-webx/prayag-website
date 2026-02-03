@@ -193,7 +193,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1516574187841-693083f0493c?w=800&h=400&fit=crop" alt="Prayag Hospital Gastro"
+                <img src="../assets/images/Gastroenterology-main.webp" alt="Prayag Hospital Gastro"
                     class="overview-image">
             </div>
 

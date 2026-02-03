@@ -189,7 +189,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579165466741-7f35a4755657?w=800&h=400&fit=crop" alt="Endoscopy Procedure"
+                <img src="../assets/images/endoscopy-main.webp" alt="Endoscopy Procedure"
                     class="overview-image">
             </div>
 

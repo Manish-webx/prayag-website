@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=400&fit=crop" alt="Orthopedic Surgeon"
+                <img src="../assets/images/fracture-care-main.webp" alt="Orthopedic Surgeon"
                     class="overview-image">
             </div>
 

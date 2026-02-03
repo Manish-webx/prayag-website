@@ -78,7 +78,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=600&fit=crop"
+                                <img src="../assets/images/dietetics-main.webp"
                                     alt="Healthy Food and Nutrition" class="hero-image">
                             </div>
                         </div>
@@ -189,8 +189,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=600&fit=crop"
-                    alt="Healthy Salad" class="overview-image">
+                <img src="../assets/images/dietetics-main.webp" alt="Healthy Salad" class="overview-image">
             </div>
 
             <div class="overview-highlights">

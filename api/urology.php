@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=400&fit=crop" alt="Urology Surgery"
+                <img src="../assets/images/urology-main.webp" alt="Urology Surgery"
                     class="overview-image">
             </div>
 

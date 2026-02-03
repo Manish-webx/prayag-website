@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop" alt="Chemotherapy Infusion"
+                <img src="../assets/images/Medical-Oncology-main.webp" alt="Chemotherapy Infusion"
                     class="overview-image">
             </div>
 

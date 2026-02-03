@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1628585481774-4b532915cb1d?w=800&h=400&fit=crop" alt="Fertility Consultation"
+                <img src="../assets/images/Infertility-Treatment-main.webp" alt="Fertility Consultation"
                     class="overview-image">
             </div>
 

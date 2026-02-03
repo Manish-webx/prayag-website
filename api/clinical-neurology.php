@@ -195,7 +195,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop" alt="Neurologist Doctor"
+                <img src="../assets/images/Clinical-Neurology-main.webp" alt="Neurologist Doctor"
                     class="overview-image">
             </div>
 

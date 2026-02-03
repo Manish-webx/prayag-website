@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1598300188338-484396800030?w=800&h=600&fit=crop"
+                <img src="../assets/images/ent-main.webp"
                     alt="ENT Department" class="overview-image">
             </div>
 

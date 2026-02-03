@@ -199,7 +199,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1516574187841-693083f6522e?w=800&h=600&fit=crop"
+                <img src="../assets/images/icu-main.webp"
                     alt="Prayag Hospital ICU" class="overview-image">
             </div>
 

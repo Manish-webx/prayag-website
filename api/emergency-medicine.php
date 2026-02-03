@@ -200,7 +200,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1587351021759-3e566b9af922?w=800&h=600&fit=crop"
+                <img src="../assets/images/Emergency-Medicine-main.webp"
                     alt="Prayag Hospital Emergency Room" class="overview-image">
             </div>
 

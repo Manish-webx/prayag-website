@@ -189,7 +189,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+                <img src="../assets/images/Health-Checkups-main.webp"
                     alt="Lab Testing" class="overview-image">
             </div>
 

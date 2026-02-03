@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=400&fit=crop" alt="Sports Physio"
+                <img src="../assets/images/sport-injury-main.webp" alt="Sports Physio"
                     class="overview-image">
             </div>
 

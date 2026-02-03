@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="../assets/images/dialysis-thumb.webp" alt="Dialysis Machine"
+                <img src="../assets/images/Kidney-Care-main.webp" alt="Dialysis Machine"
                     class="overview-image">
             </div>
 

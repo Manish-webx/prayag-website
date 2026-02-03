@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=600&fit=crop"
+                <img src="../assets/images/Dermatology-main.webp"
                     alt="Dermatology Department" class="overview-image">
             </div>
 

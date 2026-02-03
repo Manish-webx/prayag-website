@@ -186,7 +186,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop"
+                <img src="../assets/images/Support-Services-main.webp"
                     alt="Hospital Reception" class="overview-image">
             </div>
 

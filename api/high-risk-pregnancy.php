@@ -192,7 +192,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop" alt="Pregnant Woman Care"
+                <img src="../assets/images/high-risk-pregnency-main.webp" alt="Pregnant Woman Care"
                     class="overview-image">
             </div>
 

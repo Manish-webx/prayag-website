@@ -194,7 +194,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160550-2187d80a1b9a?w=800&h=400&fit=crop" alt="Knee Implant"
+                <img src="../assets/images/knee-replacement-main.webp" alt="Knee Implant"
                     class="overview-image">
             </div>
 

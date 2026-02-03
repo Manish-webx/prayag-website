@@ -187,7 +187,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&h=600&fit=crop"
+                <img src="../assets/images/Psychiatry-main.webp"
                     alt="Psychiatry Consultation" class="overview-image">
             </div>
 

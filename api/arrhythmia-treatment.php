@@ -196,7 +196,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1576091160550-217358c7e618?w=800&h=400&fit=crop" alt="EP Lab"
+                <img src="../assets/images/Arrhythmia-Treatment-main.webp" alt="EP Lab"
                     class="overview-image">
             </div>
 

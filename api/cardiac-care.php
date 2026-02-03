@@ -204,7 +204,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://www.prayaghospital.in/images/banner1.jpg" alt="Prayag Hospital Cardiac Care Center"
+                <img src="../assets/images/cardiac-care-main.webp" alt="Prayag Hospital Cardiac Care Center"
                     class="overview-image">
             </div>
 
@@ -693,7 +693,7 @@
                         <!-- Testimonial Video 3 -->
                         <div class="testimonial-card" data-video-id="PxdxqQl_auQ">
                             <div class="testimonial-thumbnail">
-                                <img src="https://img.youtube.com/vi/PxdxqQl_auQ/mqdefault.jpg" alt="Pacemaker Patient">
+                                <img src="../assets/images/cardiac-care-main.webp" alt="Pacemaker Patient">
                                 <div class="play-button">
                                     <i class="fas fa-play"></i>
                                 </div>

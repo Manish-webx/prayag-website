@@ -191,7 +191,7 @@
             </div>
 
             <div class="overview-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=400&fit=crop" alt="EEG Technologist"
+                <img src="../assets/images/Neuro-Electrophysiology-main.webp" alt="EEG Technologist"
                     class="overview-image">
             </div>
 
