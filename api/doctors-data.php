@@ -47,7 +47,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => '../assets/images/dr-sunil-kumar.webp'
+        'image' => '../assets/images/doctors/dr-sunil-kumar.webp',
+        'image_small' => '../assets/images/doctors/small/dr-sunil-kumar.webp'
     ],
     [
         'id' => 'dr-arun-garg',
@@ -95,7 +96,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => '../assets/images/Dr-SP-Sharma.webp'
+        'image' => '../assets/images/doctors/Dr-SP-Sharma.webp',
+        'image_small' => '../assets/images/doctors/small/dr-s-p-sharma.webp'
     ],
     [
         'id' => 'dr-bp-singh',
@@ -191,7 +193,8 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => '../assets/images/Dr.-Soni-Singh.webp'
+        'image' => '../assets/images/doctors/Dr.-Soni-Singh.webp',
+        'image_small' => '../assets/images/doctors/small/dr-soni-singh.webp'
     ],
     [
         'id' => 'dr-pallavi-panda',
@@ -203,7 +206,8 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => '../assets/images/dr-pallavi-panda.webp'
+        'image' => '../assets/images/doctors/dr-pallavi-panda.webp',
+        'image_small' => '../assets/images/doctors/small/dr-pallavi-panda.webp'
     ],
     [
         'id' => 'dr-anuradha',
@@ -215,7 +219,8 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => '../assets/images/dr-anuradha.webp'
+        'image' => '../assets/images/doctors/dr-anuradha.webp',
+        'image_small' => '../assets/images/doctors/small/dr-anuradha.webp'
     ],
     [
         'id' => 'dr-harekrishna-pattra',
@@ -227,7 +232,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => '../assets/images/dr-h-patra.webp'
+        'image' => '../assets/images/doctors/dr-h-patra.webp',
+        'image_small' => '../assets/images/doctors/small/dr-harekrishna.webp'
     ],
     [
         'id' => 'dr-rajeev-rahi',
@@ -251,7 +257,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => '../assets/images/dr-v-s-solanki.webp'
+        'image' => '../assets/images/doctors/dr-v-s-solanki.webp',
+        'image_small' => '../assets/images/doctors/small/dr-vikram-singh.webp'
     ],
     [
         'id' => 'dr-alok-krishna-shahay',
@@ -263,7 +270,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+        'image' => '../assets/images/doctors/dr-alok-krishna.webp',
+        'image_small' => '../assets/images/doctors/small/dr-alok-krishna.webp'
     ],
     [
         'id' => 'dr-prakhar-gupta',
@@ -359,7 +367,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => '../assets/images/Dr-Prasad-Dandekar.webp'
+        'image' => '../assets/images/doctors/Dr-Prasad-Dandekar.webp',
+        'image_small' => '../assets/images/doctors/small/dr-prasad-dandekar.webp'
     ],
     [
         'id' => 'dr-rk-saxena',
@@ -371,7 +380,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'today',
         'availability_text' => 'Available Today',
-        'image' => '../assets/images/dr-r-k-saxena.webp'
+        'image' => '../assets/images/doctors/dr-r-k-saxena.webp',
+        'image_small' => '../assets/images/doctors/small/dr-r-k-saxena.webp'
     ],
     [
         'id' => 'dr-ajay-garg',
@@ -383,7 +393,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => '../assets/images/Dr-Ajay-Garg.webp'
+        'image' => '../assets/images/doctors/Dr-Ajay-Garg.webp',
+        'image_small' => '../assets/images/doctors/small/dr-ajay-garg.webp'
     ],
     [
         'id' => 'dr-ravi-agarwal',
@@ -455,7 +466,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+        'image' => '../assets/images/doctors/dr-saurabh-bhagat.webp',
+        'image_small' => '../assets/images/doctors/small/dr-saurabh-bhagat.webp'
     ],
     [
         'id' => 'dr-alka-kapoor',
@@ -467,7 +479,8 @@ $doctors = [
         'gender' => 'female',
         'availability' => 'week',
         'availability_text' => 'Available This Week',
-        'image' => '../assets/images/dr-alka-kapoor.webp'
+        'image' => '../assets/images/doctors/dr-alka-kapoor.webp',
+        'image_small' => '../assets/images/doctors/small/dr-alka-kapoor.webp'
     ],
     [
         'id' => 'dr-ruchika-butola',
@@ -516,6 +529,45 @@ $doctors = [
         'availability' => 'week',
         'availability_text' => 'Available This Week',
         'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+    ],
+    [
+        'id' => 'dr-anshu',
+        'name' => 'Dr. Anshu',
+        'specialty' => 'Physiotherapist',
+        'department' => 'Physiotherapy',
+        'specialty_code' => 'physiotherapy',
+        'experience' => 5,
+        'gender' => 'male',
+        'availability' => 'today',
+        'availability_text' => 'Available Today',
+        'image' => '../assets/images/doctors/dr-anshu.webp',
+        'image_small' => '../assets/images/doctors/small/dr-anshu.webp'
+    ],
+    [
+        'id' => 'dr-mitva-agarwal',
+        'name' => 'Dr. Mitwa Agarwal',
+        'specialty' => 'Consultant - ENT',
+        'department' => 'ENT',
+        'specialty_code' => 'ent',
+        'experience' => 5,
+        'gender' => 'female',
+        'availability' => 'today',
+        'availability_text' => 'Available Today',
+        'image' => '../assets/images/doctors/Dr-Mitva-Agarwal.webp',
+        'image_small' => '../assets/images/doctors/small/dr-mitva-agarwal.webp'
+    ],
+    [
+        'id' => 'dr-shivee-pandey',
+        'name' => 'Dr. Shivee Pandey',
+        'specialty' => 'Physiotherapist',
+        'department' => 'Physiotherapy',
+        'specialty_code' => 'physiotherapy',
+        'experience' => 5,
+        'gender' => 'female',
+        'availability' => 'today',
+        'availability_text' => 'Available Today',
+        'image' => 'https://via.placeholder.com/350x400?text=Dr.+Shivee',
+        'image_small' => ''
     ]
 ];
 ?>

@@ -136,9 +136,7 @@
                                                             ICU</span></a></li>
                                                 <li><a href="emergency-medicine.php" class="mega-menu-item"><i
                                                             class="fas fa-ambulance"></i> <span>Emergency
-                                                            Medicine</span></a></li>
-                                                <li><a href="general-surgery.php" class="mega-menu-item"></i> <span>General & Laparoscopic
-                                                            Surgery</span></a></li>
+                                                            Medicine</span></a></li>                                             
                                                 <li><a href="paediatric-surgery.php" class="mega-menu-item"><i
                                                             class="fas fa-child"></i> <span>Paediatric
                                                             Surgery</span></a></li>
@@ -289,13 +287,10 @@
                             <div class="mobile-menu-heading">Clinical Departments</div>
                             <ul class="mobile-submenu">
                                 <li><a href="internal-medicine.php">Internal & Family Medicine</a></li>
-
                                 <li><a href="critical-care.php">Critical Care & ICU</a></li>
                                 <li><a href="emergency-medicine.php">Emergency Medicine</a></li>
-                                <li><a href="general-surgery.php">General & Laparoscopic Surgery</a></li>
                                 <li><a href="paediatric-surgery.php">Paediatric Surgery</a></li>
                                 <li><a href="vascular-surgery.php">Vascular Surgery</a></li>
-
                                 <li><a href="respiratory-medicine.php">Respiratory Medicine</a></li>
                                 <li><a href="ent.php">ENT (Ear, Nose, Throat)</a></li>
                                 <li><a href="dermatology.php">Dermatology</a></li>

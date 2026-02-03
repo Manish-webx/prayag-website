@@ -486,7 +486,7 @@
                         <div class="doctor-card-inner">
                             <div class="doctor-card-top">
                                 <div class="doctor-image-container">
-                                    <img src="<?php echo $doctor['image']; ?>"
+                                    <img src="<?php echo !empty($doctor['image_small']) ? $doctor['image_small'] : $doctor['image']; ?>"
                                         alt="<?php echo $doctor['name']; ?>" class="doctor-image">
                                 </div>
                                 <div class="doctor-info">

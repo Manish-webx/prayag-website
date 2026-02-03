@@ -78,7 +78,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1584515933487-9dca70ba2b1e?w=800&h=600&fit=crop"
+                                <img src="../assets/images/orthopedic-thumb.webp"
                                     alt="Orthopedics at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                         <div class="doctor-card-inner">
                             <div class="doctor-card-top">
                                 <div class="doctor-image-container">
-                                    <img src="<?php echo $doctor['image']; ?>"
+                                    <img src="<?php echo !empty($doctor['image_small']) ? $doctor['image_small'] : $doctor['image']; ?>"
                                         alt="<?php echo $doctor['name']; ?>" class="doctor-image">
                                 </div>
                                 <div class="doctor-info">

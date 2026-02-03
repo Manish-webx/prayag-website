@@ -77,7 +77,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Respiratory-Medicine-thumb.webp"
                                     alt="Respiratory Care at Prayag Hospital" class="hero-image">
                             </div>
                         </div>
@@ -516,7 +516,7 @@
                         <div class="doctor-card-inner">
                             <div class="doctor-card-top">
                                 <div class="doctor-image-container">
-                                    <img src="<?php echo $doctor['image']; ?>"
+                                    <img src="<?php echo !empty($doctor['image_small']) ? $doctor['image_small'] : $doctor['image']; ?>"
                                         alt="<?php echo $doctor['name']; ?>" class="doctor-image">
                                 </div>
                                 <div class="doctor-info">

@@ -78,7 +78,7 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="hero-image-wrapper">
                             <div class="hero-image-container">
-                                <img src="https://images.unsplash.com/photo-1538108149393-fbbd8189718c?w=800&h=600&fit=crop"
+                                <img src="../assets/images/Support-Services-thumb.webp"
                                     alt="Hospital Support Services" class="hero-image">
                             </div>
                         </div>
