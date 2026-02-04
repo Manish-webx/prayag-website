@@ -147,7 +147,7 @@
                     <div class="timeline-center-dot"></div>
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/internal-medicine-main.webp" alt="Initial Consultation" class="img-fluid">
+                            <img src="../assets/images/Initial-Consultation.webp" alt="Initial Consultation" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                 <div class="timeline-row reverse">
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/radiology-main.webp" alt="Medical Opinion" class="img-fluid">
+                            <img src="../assets/images/Medical-plan.webp" alt="Medical Opinion" class="img-fluid">
                         </div>
                     </div>
                     <div class="timeline-center-dot"></div>
@@ -223,7 +223,7 @@
                     <div class="timeline-center-dot"></div>
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/Support-Services-main.webp" alt="Visa & Travel" class="img-fluid">
+                            <img src="../assets/images/Visa-Travel.webp" alt="Visa & Travel" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                 <div class="timeline-row reverse">
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/Support-Services-thumb.webp" alt="Arrival" class="img-fluid">
+                            <img src="../assets/images/Arrival-Welcome.webp" alt="Arrival" class="img-fluid">
                         </div>
                     </div>
                     <div class="timeline-center-dot"></div>
@@ -296,7 +296,7 @@
                     <div class="timeline-center-dot"></div>
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/laboratory-main.webp" alt="Pre-Treatment" class="img-fluid">
+                            <img src="../assets/images/pre-treatment.webp" alt="Pre-Treatment" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                 <div class="timeline-row reverse">
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/icu-main.webp" alt="Treatment" class="img-fluid">
+                            <img src="../assets/images/Treatment-Care.webp" alt="Treatment" class="img-fluid">
                         </div>
                     </div>
                     <div class="timeline-center-dot"></div>
@@ -366,7 +366,7 @@
                     <div class="timeline-center-dot"></div>
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/physiotherapy-thumb.webp" alt="Recovery" class="img-fluid">
+                            <img src="../assets/images/Recovery-Discharge.webp" alt="Recovery" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -375,7 +375,7 @@
                 <div class="timeline-row reverse">
                     <div class="timeline-col image-col">
                         <div class="timeline-image-wrapper">
-                            <img src="../assets/images/Clinical-Neurology-main.webp" alt="Follow-Up" class="img-fluid">
+                            <img src="../assets/images/Follow-Up.webp" alt="Follow-Up" class="img-fluid">
                         </div>
                     </div>
                     <div class="timeline-center-dot"></div>

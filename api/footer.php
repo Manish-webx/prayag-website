@@ -13,8 +13,6 @@
                     <!-- Logos Column (4) -->
                     <div class="col-md-4">
                         <div class="trust-logos d-flex align-items-center gap-4">
-                            <img src="https://www.prayaghospital.in/images/prayag-hospital.jpg" alt="Prayag Hospital"
-                                class="trust-logo" style="max-height: 70px;">
                             <img src="../assets/images/nabh-logo.png"
                                 alt="NABH Accredited" class="trust-logo" style="max-height: 90px;">
                             <img src="../assets/images/nabl-logo.png"

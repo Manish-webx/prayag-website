@@ -11117,7 +11117,9 @@ iframe {
     .featured-video-section .video-wrapper {
         border-radius: 12px;
     }
-}/* ================================================
+}
+
+/* ================================================
    CONTACT PAGE REDESIGN STYLES
    ================================================ */
 
@@ -11136,20 +11138,9 @@ iframe {
 .section-title {
     font-size: 28px;
     font-weight: 700;
-    color: var(--prayag-teal);
     margin-bottom: 25px;
     position: relative;
     display: inline-block;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background-color: var(--prayag-orange);
 }
 
 .location-block,
@@ -11249,5 +11240,6 @@ iframe {
 .btn-primary-orange:hover {
     background-color: var(--prayag-orange-dark);
     border-color: var(--prayag-orange-dark);
+    color: white;
     transform: translateY(-2px);
 }

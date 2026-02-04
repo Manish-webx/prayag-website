@@ -25,7 +25,7 @@
         </div>
     </div>
     <!-- Hero Section -->
-    <section class="blog-hero-section">
+    <section class="blog-hero-section" style="margin-bottom:30px">
         <div class="container">
             <div class="blog-hero-content">
                 <h1 class="blog-hero-title">Contact Us</h1>

@@ -245,7 +245,8 @@ $doctors = [
         'gender' => 'male',
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
-        'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+        'image' => '../assets/images/doctors/dr-rajiv-rahi.webp',
+        'image_small' => '../assets/images/doctors/small/dr-rajeev-rahi.webp'
     ],
     [
         'id' => 'dr-vikram-singh-solanki',
@@ -320,6 +321,19 @@ $doctors = [
         'availability' => 'tomorrow',
         'availability_text' => 'Available Tomorrow',
         'image' => 'https://i.ibb.co/xnzC6pM/Untitled.webp'
+    ],
+    [
+        'id' => 'dr-suresh-gupta',
+        'name' => 'Dr. Suresh Gupta',
+        'specialty' => 'Sr. Consultant (MD Medicine)',
+        'department' => 'Internal Medicine & Critical Care',
+        'specialty_code' => 'internal-medicine',
+        'experience' => 15,
+        'gender' => 'male',
+        'availability' => 'week',
+        'availability_text' => 'Available This Week',
+        'image' => '../assets/images/doctors/dr-suresh-gupta.webp',
+        'image_small' => '../assets/images/doctors/small/dr-suresh-gupta.webp'
     ],
     [
         'id' => 'dr-ranjan',

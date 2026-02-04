@@ -266,10 +266,18 @@
     /* Stack items vertically */
     .timeline-row,
     .timeline-row.reverse {
-        flex-direction: column-reverse;
-        /* Image Top, Content Bottom */
         margin-bottom: 40px;
         align-items: stretch;
+    }
+
+    /* Standard Row (Content first in DOM): Reverse to put Image top */
+    .timeline-row {
+        flex-direction: column-reverse;
+    }
+
+    /* Reverse Row (Image first in DOM): Normal column to keep Image top */
+    .timeline-row.reverse {
+        flex-direction: column;
     }
 
     .timeline-col {
