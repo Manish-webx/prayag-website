@@ -1,21 +1,3 @@
-<?php
-// Mock TPA Data
-$tpas = [
-    'Raksha TPA', 'Paramount Health', 'Medi Assist', 'Vidal Health', 
-    'MDIndia Healthcare', 'Heritage Health', 'Family Health Plan (FHPL)', 
-    'United Health Care', 'Vipul Medcorp', 'Medsave Health', 'East West Assist',
-    'Genins India', 'Health India', 'Good Health', 'Park Mediclaim'
-];
-
-// Mock Insurance Companies Data
-$insurance_companies = [
-    'Star Health & Allied Insurance', 'Niva Bupa Health Insurance', 'HDFC ERGO', 
-    'ICICI Lombard', 'Bajaj Allianz', 'Care Health Insurance', 
-    'The New India Assurance', 'The Oriental Insurance', 
-    'National Insurance', 'United India Insurance', 'SBI General Insurance',
-    'Reliance General Insurance', 'Tata AIG', 'Aditya Birla Health'
-];
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -136,28 +118,109 @@ $insurance_companies = [
     <!-- Empanelled Partners -->
     <section class="tpa-grid-section" style="background: #f9f9f9;">
         <div class="container">
-            <!-- Insurance Companies -->
-            <h3 class="mb-4 pb-2 border-bottom" style="color: var(--dark-text); font-weight: 700;">Empanelled Insurance Companies</h3>
-            <div class="row g-3 mb-5">
-                <?php foreach ($insurance_companies as $company): ?>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="tpa-card">
-                        <h4 class="tpa-name"><?php echo $company; ?></h4>
-                    </div>
-                </div>
-                <?php endforeach; ?>
-            </div>
-
             <!-- TPAs -->
             <h3 class="mb-4 pb-2 border-bottom" style="color: var(--dark-text); font-weight: 700;">Empanelled TPAs (Third Party Administrators)</h3>
             <div class="row g-3">
-                <?php foreach ($tpas as $tpa): ?>
-                <div class="col-lg-3 col-md-4 col-6">
+                <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><?php echo $tpa; ?></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/anmol_logo.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
-                <?php endforeach; ?>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/E-Meditek-Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Genins-India.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Grand Insurance.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Heritage Health Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/MedSSave.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Medi_assist.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Medicare-Logo.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Paramount Health Services & Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/ParkNew.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Raksha-TPA-768x480-1-500x286-1.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/UnitedHealthcare Parekh.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Vidal-Insurance-Pvt-Ltd.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Vipul-Medcorp-tpa-Logo-1024x640.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/fhpl.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/good health TPA.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-india-insurance-tpa.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-insurance-tpa.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/md-india.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/safewaylogo.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
