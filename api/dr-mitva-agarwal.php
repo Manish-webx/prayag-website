@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-mitva-agarwal'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Mitva Agrawal is a dedicated Consultant ENT Specialist with strong expertise in the diagnosis and treatment of ear, nose, throat, and related head & neck disorders.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            The doctor is known for a patient-friendly approach, accurate diagnosis, and effective medical and surgical management of ENT conditions.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -85,6 +85,7 @@ if (!$doctor) {
                                     <span>Experience</span>
                                 </div>
                             </div>
+                            <!-- Removed generic surgery count as it might not apply directly or should be specific -->
                             <div class="profile-stat-item">
                                 <i class="fas fa-star"></i>
                                 <div>
@@ -123,7 +124,7 @@ if (!$doctor) {
                                 </div>
                                 <div class="education-content">
                                     <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <!-- <p class="institution">Reputed Medical Institution</p> -->
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,17 +132,8 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>DLO, DNB (Otorhinolaryngology)</h4>
+                                    <!-- <p class="institution">Certified Board of Specialists</p> -->
                                 </div>
                             </div>
                         </div>
@@ -151,25 +143,25 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
-                            <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                             <div class="expertise-card">
+                                <i class="fas fa-deaf"></i>
+                                <h4>Ear Disorders</h4>
+                                <p>Ear Infections, Hearing Loss & Tinnitus</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-head-side-mask"></i>
+                                <h4>Nose & Sinus</h4>
+                                <p>Sinusitis, Deviated Septum & Nasal Blockage</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-microphone-alt"></i>
+                                <h4>Throat & Voice</h4>
+                                <p>Throat Infections, Voice Disorders & Tonsillitis</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-child"></i>
+                                <h4>Pediatric ENT</h4>
+                                <p>Pediatric & Adult ENT Care</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +170,13 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Ear Infections, Hearing Loss & Tinnitus</li>
+                            <li><i class="fas fa-check-circle"></i> Nose & Sinus Disorders (Sinusitis, Deviated Septum)</li>
+                            <li><i class="fas fa-check-circle"></i> Throat Infections & Voice Disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Tonsillitis & Adenoid Problems</li>
+                            <li><i class="fas fa-check-circle"></i> Allergic Rhinitis & Nasal Blockage</li>
+                            <li><i class="fas fa-check-circle"></i> Vertigo & Balance Disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Pediatric & Adult ENT Care</li>
                         </ul>
                     </div>
 

@@ -1,10 +1,17 @@
 <?php
 /**
  * DOCTOR PROFILE PAGE TEMPLATE
+ * 
+ * Instructions:
+ * 1. Copy this file and rename it to match the doctor's slug (e.g., dr-ayushi-agarwal.php)
+ * 2. Update the $doctor_id variable below with the doctor's ID from doctors-data.php
+ * 3. Customize any additional content as needed
+ * 
+ * The page will automatically pull all doctor information from doctors-data.php
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-ankur-upadhayay'; // Example: Change to match the doctor's ID
 
 // Load doctor data
 include 'doctors-data.php';
@@ -71,17 +78,19 @@ if (!$doctor) {
                     <div class="doctor-profile-header">
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
+
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Ankur Upadhyay is a widely respected orthopedic surgeon in India, particularly recognized for his specialization in sports orthopedics and arthroscopy — the branch of orthopedics that focuses on minimally invasive treatment of joint and sports-related injuries.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            He is often considered one of the leading sports medicine orthopedic doctors in the country due to his work with elite athletes and expertise in modern surgical and non-surgical treatment techniques.
                         </p>
+
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
                                 <i class="fas fa-user-md"></i>
                                 <div>
-                                    <strong><?php echo $doctor['experience']; ?> Years</strong>
+                                    <strong><?php echo $doctor['experience']; ?>+ Years</strong>
                                     <span>Experience</span>
                                 </div>
                             </div>
@@ -112,7 +121,7 @@ if (!$doctor) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-
+                    
                     <!-- Education & Qualifications -->
                     <div class="content-section">
                         <h2 class="section-title">Education & Qualifications</h2>
@@ -123,7 +132,7 @@ if (!$doctor) {
                                 </div>
                                 <div class="education-content">
                                     <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <!-- <p class="institution">Reputed Medical Institution</p> -->
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,17 +140,8 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>MS (Ortho)</h4>
+                                    <!-- <p class="institution">Certified Board of Specialists</p> -->
                                 </div>
                             </div>
                         </div>
@@ -152,44 +152,53 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-bone"></i>
+                                <h4>Bone & Joint Disorders</h4>
+                                <p>Diagnosis and management of bone, joint, and musculoskeletal disorders</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-walking"></i>
+                                <h4>Joint Replacement</h4>
+                                <p>Knee & Hip Replacement (Primary & Revision)</p>
+                            </div>
+                            <div class="expertise-card">
+                                <i class="fas fa-user-injured"></i>
+                                <h4>Sports Injuries</h4>
+                                <p>Ligament injuries, meniscus tears, tendon injuries</p>
+                            </div>
+                            <div class="expertise-card">
+                                <i class="fas fa-x-ray"></i>
+                                <h4>Arthroscopy</h4>
+                                <p>Minimally invasive procedures for knee and shoulder</p>
+                            </div>
+                            <div class="expertise-card">
+                                <i class="fas fa-crutch"></i>
+                                <h4>Trauma & Fracture</h4>
+                                <p>Complex and multiple fracture management</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-spa"></i>
+                                <h4>Spine Disorders</h4>
+                                <p>Back pain, neck pain, slip disc (non-surgical & surgical)</p>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Specializations -->
                     <div class="content-section">
-                        <h2 class="section-title">Specializations & Services</h2>
+                        <h2 class="section-title">Detailed Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Diagnosis and management of bone, joint, and musculoskeletal disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Joint replacement surgeries – Knee Replacement, Hip Replacement (Primary & Revision)</li>
+                            <li><i class="fas fa-check-circle"></i> Treatment of arthritis (Osteoarthritis, Rheumatoid Arthritis)</li>
+                            <li><i class="fas fa-check-circle"></i> Trauma and fracture management, including complex and multiple fractures</li>
+                            <li><i class="fas fa-check-circle"></i> Spine disorders – back pain, neck pain, slip disc (non-surgical & surgical care)</li>
+                            <li><i class="fas fa-check-circle"></i> Sports injuries – ligament injuries, meniscus tears, tendon injuries</li>
+                            <li><i class="fas fa-check-circle"></i> Arthroscopy procedures of knee and shoulder</li>
+                            <li><i class="fas fa-check-circle"></i> Management of osteoporosis and metabolic bone diseases</li>
+                            <li><i class="fas fa-check-circle"></i> Pediatric orthopedic conditions (as applicable)</li>
+                            <li><i class="fas fa-check-circle"></i> Correction of deformities and limb length discrepancies</li>
+                            <li><i class="fas fa-check-circle"></i> Post-operative rehabilitation and long-term orthopedic care</li>
                         </ul>
                     </div>
 

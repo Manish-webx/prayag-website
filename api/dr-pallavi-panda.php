@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-pallavi-panda'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Pallavi Panda is a highly skilled and experienced Consultant Dental Surgeon, known for providing advanced dental care with a patient-friendly approach.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            With strong expertise in preventive, restorative, and cosmetic dentistry, Dr. Pallavi Panda specializes in painless root canal treatments, smile designing, and complete oral rehabilitation. The doctor is well-recognized for maintaining high standards of hygiene, accuracy, and modern dental techniques.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -122,26 +122,8 @@ if (!$doctor) {
                                     <i class="fas fa-graduation-cap"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
-                                </div>
-                            </div>
-                            <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-certificate"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>BDS</h4>
+                                    <p class="institution">Odidha Dental Council</p>
                                 </div>
                             </div>
                         </div>
@@ -152,24 +134,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-tooth"></i>
+                                <h4>Root Canal Treatment</h4>
+                                <p>Single Sitting & Complex RCT</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-smile"></i>
+                                <h4>Cosmetic Dentistry</h4>
+                                <p>Smile Designing & Whitening</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-tools"></i>
+                                <h4>Prosthesis</h4>
+                                <p>Crowns, Bridges & Dentures</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-child"></i>
+                                <h4>Pediatric Dentistry</h4>
+                                <p>Child Dental Care</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +160,18 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Root Canal Treatment (Single Sitting & Complex RCT)</li>
+                            <li><i class="fas fa-check-circle"></i> Cosmetic Dentistry & Smile Designing</li>
+                            <li><i class="fas fa-check-circle"></i> Dental Fillings (Composite / Tooth-Colored)</li>
+                            <li><i class="fas fa-check-circle"></i> Tooth Extraction (Normal & Surgical)</li>
+                            <li><i class="fas fa-check-circle"></i> Dental Crowns & Bridges (Metal / Ceramic / Zirconia)</li>
+                            <li><i class="fas fa-check-circle"></i> Complete Dentures & Partial Dentures</li>
+                            <li><i class="fas fa-check-circle"></i> Scaling & Polishing (Gum Treatment)</li>
+                            <li><i class="fas fa-check-circle"></i> Dental Implant Consultation & Implant Supported Prosthesis</li>
+                            <li><i class="fas fa-check-circle"></i> Pediatric Dentistry (Child Dental Care)</li>
+                            <li><i class="fas fa-check-circle"></i> Teeth Whitening / Bleaching</li>
+                            <li><i class="fas fa-check-circle"></i> Treatment of Tooth Sensitivity & Dental Pain</li>
+                            <li><i class="fas fa-check-circle"></i> Management of Gum Disease (Gingivitis / Periodontitis)</li>
                         </ul>
                     </div>
 

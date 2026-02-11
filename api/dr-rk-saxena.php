@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-rk-saxena'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. R. K. Saxena is a highly experienced and trusted Senior Consultant Pathologist with expertise in advanced diagnostic pathology and laboratory medicine.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            He is known for delivering accurate and timely reports, ensuring quality control, and supporting clinicians with precise diagnosis for effective patient treatment. His strong knowledge in hematology, histopathology, cytopathology, and clinical biochemistry makes him a reliable specialist in comprehensive laboratory diagnostics.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -131,16 +131,7 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
+                                    <h4>DCP (Pathology)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -152,24 +143,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-microscope"></i>
+                                <h4>Histopathology</h4>
+                                <p>Biopsy & Specimen Reporting</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-vial"></i>
+                                <h4>Cytopathology</h4>
+                                <p>FNAC & Pap Smear</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-tint"></i>
+                                <h4>Hematology</h4>
+                                <p>Blood Disorder Diagnosis</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-check-double"></i>
+                                <h4>Quality Control</h4>
+                                <p>NABL Laboratory Standards</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +169,16 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Histopathology (Biopsy & Surgical Specimen Reporting)</li>
+                            <li><i class="fas fa-check-circle"></i> Cytopathology (FNAC & Pap Smear Reporting)</li>
+                            <li><i class="fas fa-check-circle"></i> Hematology & Blood Disorder Diagnosis</li>
+                            <li><i class="fas fa-check-circle"></i> Clinical Pathology & Routine Laboratory Investigations</li>
+                            <li><i class="fas fa-check-circle"></i> Biochemistry & Serology Interpretation</li>
+                            <li><i class="fas fa-check-circle"></i> Tumor Marker and Cancer Screening Tests</li>
+                            <li><i class="fas fa-check-circle"></i> Infectious Disease Diagnosis (Dengue, Typhoid, Malaria, TB, etc.)</li>
+                            <li><i class="fas fa-check-circle"></i> Blood Bank & Transfusion Medicine Support</li>
+                            <li><i class="fas fa-check-circle"></i> Quality Control and NABL Laboratory Standards</li>
+                            <li><i class="fas fa-check-circle"></i> Microbiology Coordination & Culture Sensitivity Reporting</li>
                         </ul>
                     </div>
 

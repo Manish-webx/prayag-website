@@ -387,8 +387,7 @@
                     <!-- Technology Card 1 -->
                     <div class="tech-card">
                         <div class="tech-image">
-                            <img src="https://raj-new.netlify.app/assets/home-img/crrt-raj-home.webp"
-                                alt="Advanced Technology">
+                            <img src="../assets/images/crrt-home.webp" alt="Advanced Technology">
                         </div>
                         <div class="tech-content">
                             <h3 class="tech-title">Advanced Surgical Suites</h3>
@@ -400,8 +399,7 @@
                     <!-- Technology Card 2 -->
                     <div class="tech-card">
                         <div class="tech-image">
-                            <img src="https://raj-new.netlify.app/assets/home-img/Complex-brain.webp"
-                                alt="Diagnostic Equipment">
+                            <img src="../assets/images/Complex-brain.webp" alt="Diagnostic Equipment">
                         </div>
                         <div class="tech-content">
                             <h3 class="tech-title">Modern Diagnostic Centers</h3>
@@ -413,8 +411,7 @@
                     <!-- Technology Card 3 -->
                     <div class="tech-card">
                         <div class="tech-image">
-                            <img src="https://raj-new.netlify.app/assets/About-img/Comprehensive-Neuro.webp"
-                                alt="ICU Facility">
+                            <img src="../assets/images/latest-mri.webp" alt="ICU Facility">
                         </div>
                         <div class="tech-content">
                             <h3 class="tech-title">Critical Care Units</h3>
@@ -900,8 +897,7 @@
                         <!-- Right Side: Doctor Image -->
                         <div class="col-md-6">
                             <div class="cta-image">
-                                <img src="https://www.maxhealthcare.in/img/doctor-consult-illustration.svg"
-                                    alt="Our Doctors">
+                                <img src="../assets/images/homepage-cta-img.webp" alt="Our Doctors">
                             </div>
                         </div>
                     </div>

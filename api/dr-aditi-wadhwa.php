@@ -1,10 +1,17 @@
 <?php
 /**
  * DOCTOR PROFILE PAGE TEMPLATE
+ * 
+ * Instructions:
+ * 1. Copy this file and rename it to match the doctor's slug (e.g., dr-ayushi-agarwal.php)
+ * 2. Update the $doctor_id variable below with the doctor's ID from doctors-data.php
+ * 3. Customize any additional content as needed
+ * 
+ * The page will automatically pull all doctor information from doctors-data.php
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-aditi-wadhwa'; // Example: Change to match the doctor's ID
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,19 +79,20 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Aditi Wadhwa is a highly experienced and compassionate Consultant Dermatologist with extensive expertise in the diagnosis and treatment of skin, hair, nail, and sexually transmitted diseases.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            With a patient-centric approach and strong clinical skills, Dr. Aditi Wadhwa is dedicated to providing evidence-based and ethical dermatological care. She specializes in managing both medical and cosmetic dermatology conditions, combining advanced technology with personalized treatment plans to achieve optimal outcomes.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
                                 <i class="fas fa-user-md"></i>
                                 <div>
-                                    <strong><?php echo $doctor['experience']; ?> Years</strong>
+                                    <strong><?php echo $doctor['experience']; ?>+ Years</strong>
                                     <span>Experience</span>
                                 </div>
                             </div>
+                            <!-- Removed generic surgery count as it might not apply directly or should be specific -->
                             <div class="profile-stat-item">
                                 <i class="fas fa-star"></i>
                                 <div>
@@ -123,7 +131,7 @@ if (!$doctor) {
                                 </div>
                                 <div class="education-content">
                                     <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <!-- <p class="institution">Reputed Medical Institution</p> -->
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,17 +139,8 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>MD (Dermatology)</h4>
+                                    <!-- <p class="institution">Certified Board of Specialists</p> -->
                                 </div>
                             </div>
                         </div>
@@ -152,24 +151,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-notes-medical"></i>
+                                <h4>Acne & Pigmentation</h4>
+                                <p>Acne, pigmentation & scar management</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-allergies"></i>
+                                <h4>Skin Disorders</h4>
+                                <p>Eczema, psoriasis & chronic skin disorders</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-cut"></i>
+                                <h4>Hair & Scalp</h4>
+                                <p>Hair fall, alopecia & scalp disorders</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-virus"></i>
+                                <h4>Infections</h4>
+                                <p>Fungal, bacterial & viral skin infections</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +177,15 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Nail disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Sexually transmitted diseases (STDs)</li>
+                            <li><i class="fas fa-check-circle"></i> Pediatric & geriatric dermatology</li>
+                            <li><i class="fas fa-check-circle"></i> Aesthetic & cosmetic dermatology procedures</li>
+                            <li><i class="fas fa-check-circle"></i> Chemical peels</li>
+                            <li><i class="fas fa-check-circle"></i> PRP therapy (Hair & Skin)</li>
+                            <li><i class="fas fa-check-circle"></i> Laser treatments</li>
+                            <li><i class="fas fa-check-circle"></i> Anti-aging treatments</li>
+                            <li><i class="fas fa-check-circle"></i> Skin rejuvenation & pigmentation therapy</li>
                         </ul>
                     </div>
 

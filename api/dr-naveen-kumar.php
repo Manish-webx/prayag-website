@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-naveen-kumar'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Naveen Kumar is a highly experienced and dedicated Consultant Medical Gastroenterologist, specialized in the diagnosis and treatment of diseases related to the digestive system, liver, pancreas, gall bladder, and intestines.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            With strong academic qualifications and vast clinical expertise, the doctor is known for providing advanced and evidence-based treatment for both acute and chronic gastrointestinal disorders. Dr. Naveen Kumar has excellent expertise in managing complex liver and digestive diseases with a patient-centric approach and compassionate care.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -131,7 +131,7 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
+                                    <h4>MD (Medicine)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ if (!$doctor) {
                                     <i class="fas fa-user-md"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
+                                    <h4>DM (Medical Gastroenterology)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -152,24 +152,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-utensils"></i>
+                                <h4>Digestive Health</h4>
+                                <p>GERD, Gastritis & Ulcers</p>
                             </div>
                             <div class="expertise-card">
+                                <i class="fas fa-flask"></i>
+                                <h4>Liver Care</h4>
+                                <p>Hepatitis, Fatty Liver & Cirrhosis</p>
+                            </div>
+                             <div class="expertise-card">
                                 <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <h4>Pancreas & Gall Bladder</h4>
+                                <p>Pancreatitis & Bile Duct Disorders</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-notes-medical"></i>
+                                <h4>Chronic Disorders</h4>
+                                <p>IBS, IBD & Constipation</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +178,18 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Acid reflux (GERD), Gastritis & Peptic ulcer</li>
+                            <li><i class="fas fa-check-circle"></i> Fatty liver disease & Liver cirrhosis management</li>
+                            <li><i class="fas fa-check-circle"></i> Hepatitis (A, B, C, E) treatment</li>
+                            <li><i class="fas fa-check-circle"></i> Jaundice evaluation and treatment</li>
+                            <li><i class="fas fa-check-circle"></i> Pancreatitis (acute & chronic)</li>
+                            <li><i class="fas fa-check-circle"></i> Gall bladder diseases and bile duct disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Irritable Bowel Syndrome (IBS) & Chronic constipation</li>
+                            <li><i class="fas fa-check-circle"></i> Inflammatory Bowel Disease (Ulcerative colitis, Crohn's disease)</li>
+                            <li><i class="fas fa-check-circle"></i> Gastrointestinal bleeding management</li>
+                            <li><i class="fas fa-check-circle"></i> Management of intestinal infections and malabsorption syndromes</li>
+                            <li><i class="fas fa-check-circle"></i> Alcoholic liver disease and liver failure care</li>
+                            <li><i class="fas fa-check-circle"></i> Gastrointestinal cancer screening & prevention</li>
                         </ul>
                     </div>
 

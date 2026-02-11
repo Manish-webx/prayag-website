@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-rajeev-rahi'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Rajeev Rahi is a highly experienced and well-reputed Senior Consultant General Surgeon specializing in advanced general surgery and minimally invasive laparoscopic procedures.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            He is known for managing emergency and elective surgical cases with precision, safety, and excellent post-operative outcomes. With expertise in abdominal surgeries, hernia repair, gallbladder surgery, and gastrointestinal procedures, he provides comprehensive surgical care with a patient-friendly approach.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -85,6 +85,7 @@ if (!$doctor) {
                                     <span>Experience</span>
                                 </div>
                             </div>
+                            <!-- Removed generic surgery count as it might not apply directly or should be specific -->
                             <div class="profile-stat-item">
                                 <i class="fas fa-star"></i>
                                 <div>
@@ -123,7 +124,7 @@ if (!$doctor) {
                                 </div>
                                 <div class="education-content">
                                     <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <!-- <p class="institution">Reputed Medical Institution</p> -->
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,17 +132,8 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>MS (General Surgery)</h4>
+                                    <!-- <p class="institution">Certified Board of Specialists</p> -->
                                 </div>
                             </div>
                         </div>
@@ -152,24 +144,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-microscope"></i>
+                                <h4>Laparoscopic Surgery</h4>
+                                <p>Keyhole Surgery, Gallbladder & Hernia</p>
                             </div>
                             <div class="expertise-card">
                                 <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <h4>General Surgery</h4>
+                                <p>Appendix, Piles, Fissure & Fistula</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-heartbeat"></i>
+                                <h4>Emergency Care</h4>
+                                <p>Trauma, Intestinal Obstruction & Abscess</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-user-md"></i>
+                                <h4>Specialized Procedures</h4>
+                                <p>Thyroid, Breast Lump & Diabetic Foot</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +170,18 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Laparoscopic Surgery (Keyhole Surgery)</li>
+                            <li><i class="fas fa-check-circle"></i> Gallbladder Surgery (Laparoscopic Cholecystectomy)</li>
+                            <li><i class="fas fa-check-circle"></i> Hernia Surgery (Inguinal, Umbilical, Incisional Hernia)</li>
+                            <li><i class="fas fa-check-circle"></i> Appendix Surgery (Appendectomy)</li>
+                            <li><i class="fas fa-check-circle"></i> Piles, Fissure & Fistula Treatment</li>
+                            <li><i class="fas fa-check-circle"></i> Thyroid Surgery and Lump Removal</li>
+                            <li><i class="fas fa-check-circle"></i> Breast Lump and Minor Surgical Procedures</li>
+                            <li><i class="fas fa-check-circle"></i> Diabetic Foot & Wound Debridement</li>
+                            <li><i class="fas fa-check-circle"></i> Intestinal Obstruction and Abdominal Emergency Surgery</li>
+                            <li><i class="fas fa-check-circle"></i> Trauma and Emergency Surgical Management</li>
+                            <li><i class="fas fa-check-circle"></i> Abscess Drainage and Soft Tissue Surgery</li>
+                            <li><i class="fas fa-check-circle"></i> Varicose Vein Surgery</li>
                         </ul>
                     </div>
 

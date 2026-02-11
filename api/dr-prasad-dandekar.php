@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-prasad-dandekar'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Prasad Dandekar is a highly skilled and reputed Consultant Nephrologist known for providing advanced treatment for all types of kidney diseases.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            With extensive experience in dialysis care, chronic kidney disease management, and renal transplant support, he is dedicated to delivering evidence-based and patient-focused kidney care with excellent clinical outcomes.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -131,7 +131,7 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
+                                    <h4>DNB (Medicine)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ if (!$doctor) {
                                     <i class="fas fa-user-md"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
+                                    <h4>DNB (Nephrology)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -152,24 +152,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-kidneys"></i>
+                                <h4>Kidney Disease</h4>
+                                <p>CKD & Acute Kidney Injury</p>
                             </div>
                             <div class="expertise-card">
                                 <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <h4>Dialysis</h4>
+                                <p>Hemodialysis & Peritoneal</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
+                                <i class="fas fa-heartbeat"></i>
                                 <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <p>High BP & Kidney Disorders</p>
+                            </div>
+                             <div class="expertise-card">
+                                <i class="fas fa-transplant"></i>
+                                <h4>Transplant Support</h4>
+                                <p>Pre & Post-Transplant Care</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +178,16 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Chronic Kidney Disease (CKD) Treatment & Long-Term Care</li>
+                            <li><i class="fas fa-check-circle"></i> Acute Kidney Injury (AKI) and Emergency Kidney Management</li>
+                            <li><i class="fas fa-check-circle"></i> Hemodialysis & Peritoneal Dialysis Supervision</li>
+                            <li><i class="fas fa-check-circle"></i> Kidney Failure (ESRD) Management and Dialysis Planning</li>
+                            <li><i class="fas fa-check-circle"></i> Hypertension (High BP) Related Kidney Disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Diabetic Kidney Disease (Diabetic Nephropathy)</li>
+                            <li><i class="fas fa-check-circle"></i> Nephrotic Syndrome & Glomerulonephritis Treatment</li>
+                            <li><i class="fas fa-check-circle"></i> Electrolyte Imbalance and Fluid Disorder Management</li>
+                            <li><i class="fas fa-check-circle"></i> Renal Transplant Pre-Transplant and Post-Transplant Care</li>
+                            <li><i class="fas fa-check-circle"></i> Medical Management of Kidney Stones & Prevention Guidance</li>
                         </ul>
                     </div>
 

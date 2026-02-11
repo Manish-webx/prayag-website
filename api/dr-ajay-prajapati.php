@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-ajay-prajapati'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Ajay Prajapati is a highly experienced and renowned Senior Consultant Neurosurgeon specializing in the surgical management of brain, spine, and nerve disorders.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            He is well-known for treating complex neurological conditions such as brain tumors, spinal disorders, head injuries, and stroke-related complications. With expertise in advanced neurosurgical techniques and minimally invasive spine procedures, he provides accurate diagnosis and high-quality surgical care with excellent patient outcomes.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -131,16 +131,16 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
+                                    <h4>M.S. (General Surgery)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
                              <div class="education-item">
                                 <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
+                                    <i class="fas fa-brain"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
+                                    <h4>M.Ch (Neuro Surgery)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -152,24 +152,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-brain"></i>
+                                <h4>Brain Surgery</h4>
+                                <p>Tumors & Trauma</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <i class="fas fa-bone"></i>
+                                <h4>Spine Surgery</h4>
+                                <p>Slip Disc & Sciatica</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-user-injured"></i>
+                                <h4>Stroke</h4>
+                                <p>Brain Hemorrhage</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-microscope"></i>
+                                <h4>Minimally Invasive</h4>
+                                <p>Advanced Techniques</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +178,18 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Brain Tumor Surgery & Neuro-Oncology</li>
+                            <li><i class="fas fa-check-circle"></i> Spine Surgery (Slip Disc, Sciatica, Spinal Stenosis)</li>
+                            <li><i class="fas fa-check-circle"></i> Head Injury & Trauma Neurosurgery</li>
+                            <li><i class="fas fa-check-circle"></i> Stroke (Brain Hemorrhage) Emergency Surgery</li>
+                            <li><i class="fas fa-check-circle"></i> Spine Fracture & Spinal Cord Injury Management</li>
+                            <li><i class="fas fa-check-circle"></i> Cervical & Lumbar Spondylosis Treatment</li>
+                            <li><i class="fas fa-check-circle"></i> Hydrocephalus (VP Shunt Surgery)</li>
+                            <li><i class="fas fa-check-circle"></i> Aneurysm & AVM Management</li>
+                            <li><i class="fas fa-check-circle"></i> Nerve Compression and Peripheral Nerve Surgery</li>
+                            <li><i class="fas fa-check-circle"></i> Pediatric Neurosurgery Disorders</li>
+                            <li><i class="fas fa-check-circle"></i> Neurosurgical ICU & Critical Neuro Care</li>
+                            <li><i class="fas fa-check-circle"></i> Minimally Invasive Brain & Spine Surgery</li>
                         </ul>
                     </div>
 

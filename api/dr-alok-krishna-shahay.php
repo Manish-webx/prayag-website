@@ -1,10 +1,17 @@
 <?php
 /**
  * DOCTOR PROFILE PAGE TEMPLATE
+ * 
+ * Instructions:
+ * 1. Copy this file and rename it to match the doctor's slug (e.g., dr-ayushi-agarwal.php)
+ * 2. Update the $doctor_id variable below with the doctor's ID from doctors-data.php
+ * 3. Customize any additional content as needed
+ * 
+ * The page will automatically pull all doctor information from doctors-data.php
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-alok-krishna-shahay'; // Example: Change to match the doctor's ID
 
 // Load doctor data
 include 'doctors-data.php';
@@ -71,17 +78,19 @@ if (!$doctor) {
                     <div class="doctor-profile-header">
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
+
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            A Senior General Physician & Diabetologist is a highly experienced medical doctor specializing in general internal medicine and the diagnosis, treatment, and long-term management of diabetes mellitus and related metabolic disorders.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            This professional often serves as both a primary care physician and a diabetes specialist, combining broad medical expertise with focused care for patients with diabetes and its complications.
                         </p>
+
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
                                 <i class="fas fa-user-md"></i>
                                 <div>
-                                    <strong><?php echo $doctor['experience']; ?> Years</strong>
+                                    <strong><?php echo $doctor['experience']; ?>+ Years</strong>
                                     <span>Experience</span>
                                 </div>
                             </div>
@@ -112,6 +121,7 @@ if (!$doctor) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
+                    <!-- Removed duplicate 'About' block -->
 
                     <!-- Education & Qualifications -->
                     <div class="content-section">
@@ -123,7 +133,7 @@ if (!$doctor) {
                                 </div>
                                 <div class="education-content">
                                     <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <!-- <p class="institution">Reputed Medical Institution</p> -->
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,17 +141,17 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>MD (Medicine)</h4>
+                                    <!-- <p class="institution">Certified Board of Specialists</p> -->
                                 </div>
                             </div>
-                             <div class="education-item">
+                            <div class="education-item">
                                 <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
+                                    <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>Certificate course in Diabetology</h4>
+                                    <!-- <p class="institution">Certified by [Institution Name]</p> -->
                                 </div>
                             </div>
                         </div>
@@ -153,43 +163,60 @@ if (!$doctor) {
                         <div class="expertise-grid">
                             <div class="expertise-card">
                                 <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <h4>Acute & Chronic Care</h4>
+                                <p>Management of acute and chronic medical conditions</p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
-                            </div>
-                             <div class="expertise-card">
                                 <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <h4>Multi-system Disorders</h4>
+                                <p>Handling of multi-system disorders (respiratory, cardiovascular, GI)</p>
+                            </div>
+                            <div class="expertise-card">
+                                <i class="fas fa-ambulance"></i>
+                                <h4>Emergency Care</h4>
+                                <p>Emergency assessment and stabilization</p>
+                            </div>
+                            <div class="expertise-card">
+                                <i class="fas fa-vial"></i>
+                                <h4>Diagnostics</h4>
+                                <p>Interpretation of laboratory data and diagnostic imaging</p>
+                            </div>
+                             <div class="expertise-card">
+                                <i class="fas fa-tint"></i>
+                                <h4>Diabetes Management</h4>
+                                <p>Type 1, Type 2, and gestational diabetes care</p>
+                            </div>
+                             <div class="expertise-card">
+                                <i class="fas fa-syringe"></i>
+                                <h4>Insulin Therapy</h4>
+                                <p>Expertise in insulin and advanced glucose-lowering medications</p>
+                            </div>
+                             <div class="expertise-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Glucose Monitoring</h4>
+                                <p>Education on SMBG and technology (CGM, insulin pumps)</p>
+                            </div>
+                             <div class="expertise-card">
+                                <i class="fas fa-user-clock"></i>
+                                <h4>Pre-diabetes</h4>
+                                <p>Early identification and management of pre-diabetes</p>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Specializations -->
-                    <div class="content-section">
-                        <h2 class="section-title">Specializations & Services</h2>
+
+                    <!-- Specializations List -->
+                     <div class="content-section">
+                        <h2 class="section-title">Detailed Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Comprehensive evaluation of acute and chronic conditions</li>
+                            <li><i class="fas fa-check-circle"></i> Multi-system disorder management (Respiratory, Cardiovascular, GI)</li>
+                            <li><i class="fas fa-check-circle"></i> Emergency assessment and stabilization</li>
+                            <li><i class="fas fa-check-circle"></i> Interpretation of laboratory data & diagnostic imaging</li>
+                            <li><i class="fas fa-check-circle"></i> Type 1, Type 2, & Gestational Diabetes management</li>
+                            <li><i class="fas fa-check-circle"></i> Insulin therapy & advanced glucose-lowering medications</li>
+                            <li><i class="fas fa-check-circle"></i> Monitoring based on HbA1c & glucose profiles</li>
+                            <li><i class="fas fa-check-circle"></i> Self-monitoring education (SMBG, CGM, Insulin pumps where applicable)</li>
+                             <li><i class="fas fa-check-circle"></i> Early identification & management of Pre-diabetes</li>
                         </ul>
                     </div>
 

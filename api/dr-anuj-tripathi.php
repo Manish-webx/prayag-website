@@ -4,7 +4,7 @@
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-ayushi-agarwal'; // ID in doctors-data.php
+$doctor_id = 'dr-anuj-tripathi'; // ID in doctors-data.php
 
 // Load doctor data
 include 'doctors-data.php';
@@ -72,10 +72,10 @@ if (!$doctor) {
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
                         <p class="lead-text">
-                            Dr. Ayushi Agarwal is a highly experienced and well-known Senior Consultant Cardiologist specializing in the diagnosis and treatment of heart-related diseases.
+                            Dr. Anuj Tripathi is a highly trained anesthetist responsible for the safe administration of anesthesia and comprehensive peri-operative care of patients.
                         </p>
                         <p>
-                            She is widely recognized for managing complex cardiac cases including hypertension, heart failure, coronary artery disease, and rhythm disorders. With expertise in advanced cardiac investigations and interventional cardiology procedures, she provides evidence-based and patient-centered treatment ensuring the best cardiac outcomes.
+                            They play a crucial role before, during, and after surgical, diagnostic, and therapeutic procedures. With expertise in critical care, pain management, and emergency resuscitation, he ensures patient safety and comfort throughout the surgical process.
                         </p>
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
@@ -131,16 +131,7 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (General Medicine)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
-                                </div>
-                            </div>
-                             <div class="education-item">
-                                <div class="education-icon">
-                                    <i class="fas fa-user-md"></i>
-                                </div>
-                                <div class="education-content">
-                                    <h4>DNB (Cardiology)</h4>
+                                    <h4>MD (Anaesthesiology)</h4>
                                     <!-- <p class="institution">Institution</p> -->
                                 </div>
                             </div>
@@ -152,24 +143,24 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-heartbeat"></i>
-                                <h4>Heart Disease</h4>
-                                <p>Coronary Artery Disease Management</p>
+                                <i class="fas fa-syringe"></i>
+                                <h4>Anesthesia</h4>
+                                <p>General, Regional & Local</p>
                             </div>
                             <div class="expertise-card">
                                 <i class="fas fa-procedures"></i>
-                                <h4>Heart Failure</h4>
-                                <p>Treatment & Management</p>
+                                <h4>Critical Care</h4>
+                                <p>ICU Management</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-file-medical-alt"></i>
-                                <h4>Angiography</h4>
-                                <p>& Angioplasty (PTCA)</p>
+                                <i class="fas fa-heartbeat"></i>
+                                <h4>Monitoring</h4>
+                                <p>Intra-operative Vitals</p>
                             </div>
                              <div class="expertise-card">
-                                <i class="fas fa-stethoscope"></i>
-                                <h4>Hypertension</h4>
-                                <p>High BP Treatment</p>
+                                <i class="fas fa-pills"></i>
+                                <h4>Pain Relief</h4>
+                                <p>Post-operative Management</p>
                             </div>
                         </div>
                     </div>
@@ -178,18 +169,16 @@ if (!$doctor) {
                     <div class="content-section">
                         <h2 class="section-title">Specializations & Services</h2>
                         <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> Coronary Artery Disease (CAD) Management</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Attack (Myocardial Infarction) Emergency Care</li>
-                            <li><i class="fas fa-check-circle"></i> Angiography & Angioplasty (PTCA)</li>
-                            <li><i class="fas fa-check-circle"></i> Hypertension (High Blood Pressure) Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Heart Failure & Cardiomyopathy Management</li>
-                            <li><i class="fas fa-check-circle"></i> ECG, Echo (2D Echo) and TMT Interpretation</li>
-                            <li><i class="fas fa-check-circle"></i> Arrhythmia (Irregular Heartbeat) Diagnosis & Treatment</li>
-                            <li><i class="fas fa-check-circle"></i> Pacemaker Evaluation & Follow-up</li>
-                            <li><i class="fas fa-check-circle"></i> Valvular Heart Disease (Heart Valve Disorders)</li>
-                            <li><i class="fas fa-check-circle"></i> Preventive Cardiology & Cardiac Risk Assessment</li>
-                            <li><i class="fas fa-check-circle"></i> Cholesterol Management & Lifestyle Counseling</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Pain & Breathlessness Evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Administration of General, Regional, and Local Anesthesia</li>
+                            <li><i class="fas fa-check-circle"></i> Pre-anesthetic evaluation and risk assessment of patients</li>
+                            <li><i class="fas fa-check-circle"></i> Intra-operative monitoring of vital parameters</li>
+                            <li><i class="fas fa-check-circle"></i> Post-operative pain management and recovery care</li>
+                            <li><i class="fas fa-check-circle"></i> Critical care and ICU management</li>
+                            <li><i class="fas fa-check-circle"></i> Emergency airway management and resuscitation</li>
+                            <li><i class="fas fa-check-circle"></i> Management of high-risk and critically ill patients</li>
+                            <li><i class="fas fa-check-circle"></i> Sedation services for diagnostic and therapeutic procedures</li>
+                            <li><i class="fas fa-check-circle"></i> Labor analgesia and obstetric anaesthesia</li>
+                            <li><i class="fas fa-check-circle"></i> Coordination with surgical and nursing teams to ensure patient safety</li>
                         </ul>
                     </div>
 
