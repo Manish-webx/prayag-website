@@ -1,10 +1,17 @@
 <?php
 /**
  * DOCTOR PROFILE PAGE TEMPLATE
+ * 
+ * Instructions:
+ * 1. Copy this file and rename it to match the doctor's slug (e.g., dr-ayushi-agarwal.php)
+ * 2. Update the $doctor_id variable below with the doctor's ID from doctors-data.php
+ * 3. Customize any additional content as needed
+ * 
+ * The page will automatically pull all doctor information from doctors-data.php
  */
 
 // Set the doctor ID - CHANGE THIS for each doctor
-$doctor_id = 'dr-saurabh-bhagat'; // ID in doctors-data.php
+$doctor_id = 'dr-anshu'; // Example: Change to match the doctor's ID
 
 // Load doctor data
 include 'doctors-data.php';
@@ -71,18 +78,21 @@ if (!$doctor) {
                     <div class="doctor-profile-header">
                         <h1 class="doctor-profile-name"><?php echo $doctor['name']; ?></h1>
                         <p class="doctor-profile-designation"><?php echo $doctor['specialty']; ?></p>
-                        <p class="lead-text">
-                            Dr. Saurabh Bhagat is a highly skilled and experienced Senior Consultant Radiologist specializing in advanced diagnostic imaging services.
-                        </p>
-                        <p>
-                            He is known for accurate reporting and timely diagnosis through modern radiology techniques including ultrasound, CT scan, MRI, and X-ray imaging. His expertise supports clinicians in early disease detection and precise treatment planning, ensuring high-quality patient care.
-                        </p>
+                        <p class="doctor-profile-department" style="color: var(--prayag-teal); font-weight: 500; margin-bottom: 20px;"><?php echo $doctor['department']; ?></p>
+
                         <div class="doctor-profile-stats">
                             <div class="profile-stat-item">
                                 <i class="fas fa-user-md"></i>
                                 <div>
-                                    <strong><?php echo $doctor['experience']; ?> Years</strong>
+                                    <strong><?php echo $doctor['experience']; ?>+ Years</strong>
                                     <span>Experience</span>
+                                </div>
+                            </div>
+                            <div class="profile-stat-item">
+                                <i class="fas fa-procedures"></i>
+                                <div>
+                                    <strong>500+</strong>
+                                    <span>Surgeries/Cases</span>
                                 </div>
                             </div>
                             <div class="profile-stat-item">
@@ -112,8 +122,18 @@ if (!$doctor) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
+                    <div class="content-section">
+                        <h2 class="section-title">About <?php echo $doctor['name']; ?></h2>
+                        <p class="lead-text">
+                            <?php echo $doctor['name']; ?> is a highly experienced <?php echo $doctor['specialty']; ?> with over <?php echo $doctor['experience']; ?> years of expertise in
+                            <?php echo $doctor['department']; ?>.
+                        </p>
+                        <p>
+                            Dedicated to providing the highest quality of care, <?php echo $doctor['name']; ?> specializes in patient-focused treatments and has a proven track record of successful medical outcomes. Known for compassionate care and clinical excellence, patients trust <?php echo $doctor['name']; ?> for their medical needs.
+                        </p>
+                    </div>
 
-                    <!-- Education & Qualifications -->
+                    <!-- Education & Qualifications (Generic Placeholder) -->
                     <div class="content-section">
                         <h2 class="section-title">Education & Qualifications</h2>
                         <div class="education-timeline">
@@ -122,8 +142,8 @@ if (!$doctor) {
                                     <i class="fas fa-graduation-cap"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MBBS</h4>
-                                    <!-- <p class="institution">University</p> -->
+                                    <h4>Medical Degree</h4>
+                                    <p class="institution">Reputed Medical Institution</p>
                                 </div>
                             </div>
                             <div class="education-item">
@@ -131,8 +151,8 @@ if (!$doctor) {
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="education-content">
-                                    <h4>MD (Radio)</h4>
-                                    <!-- <p class="institution">Institution</p> -->
+                                    <h4>Specialization in <?php echo $doctor['department']; ?></h4>
+                                    <p class="institution">Certified Board of Specialists</p>
                                 </div>
                             </div>
                         </div>
@@ -143,43 +163,16 @@ if (!$doctor) {
                         <h2 class="section-title">Areas of Expertise</h2>
                         <div class="expertise-grid">
                             <div class="expertise-card">
-                                <i class="fas fa-x-ray"></i>
-                                <h4>X-Ray</h4>
-                                <p>Digital Radiography</p>
+                                <i class="fas fa-user-md"></i>
+                                <h4><?php echo $doctor['department']; ?></h4>
+                                <p>Specialized care in <?php echo $doctor['specialty']; ?></p>
                             </div>
                             <div class="expertise-card">
-                                <i class="fas fa-wave-square"></i>
-                                <h4>Ultrasound</h4>
-                                <p>USG & Color Doppler</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-hdd"></i>
-                                <h4>CT Scan</h4>
-                                <p>Head, Chest, Abdomen</p>
-                            </div>
-                             <div class="expertise-card">
-                                <i class="fas fa-magnet"></i>
-                                <h4>MRI</h4>
-                                <p>Brain, Spine, Joints</p>
+                                <i class="fas fa-notes-medical"></i>
+                                <h4>Patient Consultation</h4>
+                                <p>Comprehensive diagnosis and treatment planning</p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Specializations -->
-                    <div class="content-section">
-                        <h2 class="section-title">Specializations & Services</h2>
-                        <ul class="specialization-list">
-                            <li><i class="fas fa-check-circle"></i> X-Ray Reporting (Digital Radiography)</li>
-                            <li><i class="fas fa-check-circle"></i> Ultrasound (USG) – Abdomen, Pelvis, Thyroid, Breast, Doppler</li>
-                            <li><i class="fas fa-check-circle"></i> Color Doppler Studies (Arterial & Venous Doppler)</li>
-                            <li><i class="fas fa-check-circle"></i> CT Scan Reporting (Head, Chest, Abdomen, Spine, Whole Body)</li>
-                            <li><i class="fas fa-check-circle"></i> MRI Reporting (Brain, Spine, Joint, Abdomen, Angiography)</li>
-                            <li><i class="fas fa-check-circle"></i> Obstetric Ultrasound (Pregnancy Scan / Level-II Scan)</li>
-                            <li><i class="fas fa-check-circle"></i> Trauma Imaging & Emergency Radiology</li>
-                            <li><i class="fas fa-check-circle"></i> Cancer Screening Imaging & Tumor Evaluation</li>
-                            <li><i class="fas fa-check-circle"></i> Chest Imaging (HRCT Chest, Lung Evaluation)</li>
-                            <li><i class="fas fa-check-circle"></i> Musculoskeletal Radiology (Joint, Sports Injury Imaging)</li>
-                        </ul>
                     </div>
 
                 </div>
