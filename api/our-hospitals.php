@@ -43,7 +43,7 @@
                 <!-- Noida Branch -->
                 <div class="col-lg-6 col-md-6">
                     <div class="hospital-card">
-                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=450&fit=crop" 
+                        <img src="../assets/images/prayag-hostipal-img.webp" 
                              alt="Prayag Hospital Noida" class="hospital-image">
                         <div class="hospital-details">
                             <h2 class="hospital-name">Prayag Hospital, Noida</h2>

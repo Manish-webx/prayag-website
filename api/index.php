@@ -27,7 +27,7 @@
             <div class="video-hero-container">
                 <div class="video-background">
                     <video autoplay muted loop playsinline class="hero-video">
-                        <source src="http://brandingpioneers.co.in/prayag/hero-video.mp4" type="video/mp4">
+                        <source src="http://brandingpioneers.co.in/prayag/lv_0_20260119114618.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                     <div class="video-overlay"></div>
