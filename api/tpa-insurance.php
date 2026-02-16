@@ -123,12 +123,12 @@
             <div class="row g-3">
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/anmol_logo.png" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/East-West-Assist-Insurance-TPA-Private-Limited.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/E-Meditek-Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Erecson-Logo.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
@@ -138,12 +138,27 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/Grand Insurance.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/HDFC-Ergo.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Happy-TPA.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
                         <h4 class="tpa-name"><img src="../assets/images/tpa/Heritage Health Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/ICICI-Lombard-General-Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Liberty-general-insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
@@ -158,11 +173,6 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/Medicare-Logo.jpg" class="img-fluid" style="max-height: 80px;"></h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 text-center">
-                    <div class="tpa-card">
                         <h4 class="tpa-name"><img src="../assets/images/tpa/Paramount Health Services & Insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
@@ -173,7 +183,12 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/Raksha-TPA-768x480-1-500x286-1.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Raksha-TPA.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/Star_Health.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
@@ -183,32 +198,47 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/Vidal-Insurance-Pvt-Ltd.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/aditya-capital.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/Vipul-Medcorp-tpa-Logo-1024x640.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/bajaj-alliance.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/fhpl.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/fhpl.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/good health TPA.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/future-generali.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-india-insurance-tpa.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/good-health-TPA.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
-                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-insurance-tpa.jpg" class="img-fluid" style="max-height: 80px;"></h4>
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-india-insurance-tpa.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/health-insurance-tpa.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/icici-prudential-life-insurance-original.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/iffco-tokio-logo-english.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
@@ -218,7 +248,22 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 text-center">
                     <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/navi-health.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/niva-health.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
                         <h4 class="tpa-name"><img src="../assets/images/tpa/safewaylogo.png" class="img-fluid" style="max-height: 80px;"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-center">
+                    <div class="tpa-card">
+                        <h4 class="tpa-name"><img src="../assets/images/tpa/universal-sompo-general-insurance.png" class="img-fluid" style="max-height: 80px;"></h4>
                     </div>
                 </div>
             </div>

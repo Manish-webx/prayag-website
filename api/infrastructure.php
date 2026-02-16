@@ -54,89 +54,179 @@
             transform: translateX(-50%);
         }
 
-        .facility-card {
-            background: #fff;
-            border-radius: 15px;
+        /* Gallery Grid Styles */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .gallery-item {
+            position: relative;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+            cursor: pointer;
+            aspect-ratio: 4/3;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            height: 100%;
-            border: 1px solid #eee;
         }
 
-        .facility-card:hover {
+        .gallery-item:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
 
-        .facility-image {
-            height: 250px;
-            overflow: hidden;
-        }
-
-        .facility-image img {
+        .gallery-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease;
         }
 
-        .facility-card:hover .facility-image img {
+        .gallery-item:hover img {
             transform: scale(1.1);
         }
 
-        .facility-content {
-            padding: 25px;
+        .gallery-item-overlay {
+            display: none;
         }
 
-        .facility-title {
-            font-size: 1.5rem;
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-weight: 600;
+        .gallery-item-title {
+            display: none;
         }
 
-        .facility-description {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 0;
+        /* Lightbox Styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
         }
 
-        .tech-highlight-section {
-            background-color: #f8f9fa;
-            padding: 80px 0;
-            margin-top: 50px;
-        }
-
-        .tech-list-item {
+        .lightbox.active {
             display: flex;
-            align-items: flex-start;
-            margin-bottom: 25px;
         }
 
-        .tech-list-icon {
-            background: #e67e22;
+        .lightbox-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-image {
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 40px;
             color: #fff;
-            width: 40px;
-            height: 40px;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.1);
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-right: 20px;
-            flex-shrink: 0;
+            transition: background 0.3s ease;
+            z-index: 10000;
         }
 
-        .tech-list-content h4 {
-            font-size: 1.2rem;
-            color: #2c3e50;
-            margin-bottom: 5px;
-            font-weight: 600;
+        .lightbox-close:hover {
+            background: rgba(255, 255, 255, 0.2);
         }
 
-        .tech-list-content p {
-            color: #666;
-            font-size: 0.95rem;
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 40px;
+            color: #fff;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.1);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+            user-select: none;
+        }
+
+        .lightbox-nav:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .lightbox-prev {
+            left: 30px;
+        }
+
+        .lightbox-next {
+            right: 30px;
+        }
+
+        .lightbox-caption {
+            display: none;
+        }
+
+        .lightbox-counter {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            color: #fff;
+            font-size: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 15px;
+            }
+
+            .lightbox-nav {
+                width: 50px;
+                height: 50px;
+                font-size: 30px;
+            }
+
+            .lightbox-prev {
+                left: 10px;
+            }
+
+            .lightbox-next {
+                right: 10px;
+            }
+
+            .lightbox-close {
+                top: 10px;
+                right: 10px;
+                width: 40px;
+                height: 40px;
+                font-size: 30px;
+            }
+
+
         }
     </style>
 </head>
@@ -159,190 +249,34 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <main>
-        <!-- Hero Section -->
-        <section class="infra-hero-section">
+    <main>      
+
+        <section class="blog-hero-section">
             <div class="container">
-                <div class="infra-hero-content">
-                    <h1 class="infra-hero-title">World Class Infrastructure</h1>
-                    <p class="text-white fs-5">Designed for Patient Comfort, Safety, and Healing</p>
+                <div class="blog-hero-content">
+                    <h1 class="blog-hero-title">World Class Infrastructure</h1>
+                    <p class="blog-hero-subtitle">Designed for Patient Comfort, Safety, and Healing</p>
                 </div>
             </div>
         </section>
-
-        <!-- Introduction Section -->
-        <section class="container mb-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="https://images.unsplash.com/photo-1587351021759-3e566b9af922?w=800&h=600&fit=crop"
-                        alt="Hospital Architecture" class="img-fluid rounded-4 shadow-lg">
-                </div>
-                <div class="col-lg-6">
-                    <div class="ps-lg-4">
-                        <h2 class="mb-4 text-primary-dark">Environment That Heals</h2>
-                        <p class="lead mb-4">Prayag Hospital blends state-of-the-art medical technology with a
-                            patient-friendly aesthetics to create an environment that promotes faster healing and well-being.</p>
-                        <p class="text-secondary">Our infrastructure is meticulously planned to ensure seamless patient flow,
-                            infection control, and maximum comfort. From spacious waiting areas to advanced critical care
-                            units, every corner of our hospital reflects our commitment to excellence. We maintain the highest standards of hygiene and safety, ensuring a sterile and secure environment for all procedures.</p>
-                        <p class="text-secondary">With 24/7 power backup, centralized medical gas systems, and advanced
-                            fire safety measures, our facility is equipped to handle any medical emergency with efficiency and precision.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Facilities Grid -->
+       
+        <!-- Infrastructure Gallery -->
         <section class="py-5 bg-light">
-            <div class="container">
-                <div class="infra-section-header">
-                    <h2 class="infra-section-title">Key Facilities</h2>
-                    <p class="text-muted mt-3">A glimpse into our advanced medical infrastructure.</p>
-                </div>
+            <div class="container">               
 
-                <div class="row g-4">
-                    <!-- Facility 1 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://images.unsplash.com/photo-1516549655169-df83a06745ed?w=800&h=500&fit=crop"
-                                    alt="Modular OT">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">Modular Operation Theaters</h3>
-                                <p class="facility-description">Ultra-modern modular OTs equipped with HEPA filters,
-                                    laminar airflow, and advanced surgical workstations to ensure zero-infection surgeries.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Facility 2 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://plus.unsplash.com/premium_photo-1661281397737-9b5d75902255?w=800&h=500&fit=crop"
-                                    alt="ICU">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">Advanced ICU & CCU</h3>
-                                <p class="facility-description">Dedicated Intensive Care Units with multi-para monitors,
-                                    ventilators, and 24/7 intensivist support for critical patients.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Facility 3 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop"
-                                    alt="Radiology">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">Diagnostic & Imaging Wing</h3>
-                                <p class="facility-description">Comprehensive diagnostic center featuring 1.5 Tesla MRI,
-                                    128-slice CT Scan, Digital X-Ray, and advanced ultrasound machines.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Facility 4 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?w=800&h=500&fit=crop"
-                                    alt="Patient Ward">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">Patient Rooms & Suites</h3>
-                                <p class="facility-description">Comfortable and hygienic wards, private rooms, and deluxe
-                                    suites designed to provide a home-like atmosphere for recovery.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Facility 5 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://images.unsplash.com/photo-1516574187841-693025292b83?w=800&h=500&fit=crop"
-                                    alt="Emergency">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">24/7 Emergency & Trauma</h3>
-                                <p class="facility-description">Fully equipped Level-1 Trauma Center capable of handling all
-                                    medical and surgical emergencies round the clock.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Facility 6 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="facility-card">
-                            <div class="facility-image">
-                                <img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&h=500&fit=crop"
-                                    alt="Pharmacy">
-                            </div>
-                            <div class="facility-content">
-                                <h3 class="facility-title">Pharmacy & Cafeteria</h3>
-                                <p class="facility-description">24/7 in-house pharmacy stocking all essential medicines and
-                                    a hygienic cafeteria serving healthy meals for visitors.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Technology Section -->
-        <section class="tech-highlight-section">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 mb-4 mb-lg-0">
-                        <h2 class="mb-4">Technology at the Core</h2>
-                        <p class="mb-4">We continually invest in the latest medical technology to ensure precise diagnosis
-                            and effective treatment.</p>
-                        
-                        <div class="tech-list-item">
-                            <div class="tech-list-icon">
-                                <i class="fas fa-robot"></i>
-                            </div>
-                            <div class="tech-list-content">
-                                <h4>Robotic Surgery System</h4>
-                                <p>For minimally invasive surgeries with higher precision and faster recovery.</p>
-                            </div>
-                        </div>
-
-                        <div class="tech-list-item">
-                            <div class="tech-list-icon">
-                                <i class="fas fa-microscope"></i>
-                            </div>
-                            <div class="tech-list-content">
-                                <h4>Advanced Cath Lab</h4>
-                                <p>Digital flat-panel Cath Lab for accurate cardiac interventions.</p>
-                            </div>
-                        </div>
-
-                        <div class="tech-list-item">
-                            <div class="tech-list-icon">
-                                <i class="fas fa-dna"></i>
-                            </div>
-                            <div class="tech-list-content">
-                                <h4>Molecular Pathology Lab</h4>
-                                <p>NABL accredited lab for high-end genetic and molecular testing.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row g-2">
-                            <div class="col-6">
-                                <img src="https://images.unsplash.com/photo-1576091160550-2187580016f3?w=600&h=800&fit=crop" class="img-fluid rounded shadow w-100" alt="Tech 1">
-                            </div>
-                            <div class="col-6">
-                                <img src="https://images.unsplash.com/photo-1617135092914-1145bc3d842d?w=600&h=800&fit=crop" class="img-fluid rounded shadow w-100" alt="Tech 2">
-                            </div>
-                        </div>
-                    </div>
+                <div class="gallery-grid" id="infrastructureGallery">
+                    <!-- Gallery items will be dynamically loaded here -->
+                    <?php
+                    // Loop through all 65 images
+                    for ($i = 1; $i <= 65; $i++) {
+                        echo '<div class="gallery-item" data-index="' . ($i - 1) . '">';
+                        echo '<img src="../assets/images/gallery/' . $i . '.webp" alt="Infrastructure Image ' . $i . '">';
+                        echo '<div class="gallery-item-overlay">';
+                        echo '<p class="gallery-item-title">Infrastructure ' . $i . '</p>';
+                        echo '</div>';
+                        echo '</div>';
+                    }
+                    ?>
                 </div>
             </div>
         </section>
@@ -350,7 +284,102 @@
         <?php include 'footer.php'; ?>
     </main>
 
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+        <span class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</span>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightboxImage">
+        </div>
+        <span class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</span>
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
     <?php include 'footer-links.php'; ?>
+
+    <script>
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxCaption = document.getElementById('lightboxCaption');
+        const lightboxCounter = document.getElementById('lightboxCounter');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        let currentIndex = 0;
+        const totalImages = galleryItems.length;
+
+        // Open lightbox
+        function openLightbox(index) {
+            currentIndex = index;
+            updateLightbox();
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Close lightbox
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Update lightbox content
+        function updateLightbox() {
+            const item = galleryItems[currentIndex];
+            const img = item.querySelector('img');
+            const title = item.querySelector('.gallery-item-title');
+
+            lightboxImage.src = img.src;
+            lightboxImage.alt = img.alt;
+            lightboxCaption.textContent = title ? title.textContent : img.alt;
+            lightboxCounter.textContent = `${currentIndex + 1} / ${totalImages}`;
+        }
+
+        // Navigate to next image
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % totalImages;
+            updateLightbox();
+        }
+
+        // Navigate to previous image
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateLightbox();
+        }
+
+        // Event listeners
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => openLightbox(index));
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxNext.addEventListener('click', nextImage);
+        lightboxPrev.addEventListener('click', prevImage);
+
+        // Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'ArrowLeft') prevImage();
+        });
+
+        // Prevent scrolling when lightbox is open
+        lightbox.addEventListener('wheel', (e) => {
+            e.preventDefault();
+        }, { passive: false });
+    </script>
 </body>
 
 </html>

@@ -45,7 +45,7 @@
                     <div class="col-lg-6 mb-4 mb-lg-0">
                         <div class="intro-image">
                             <!-- Placeholder for Hospital Building Image -->
-                            <img src="https://www.prayaghospital.in/images/banner1.jpg" alt="Prayag Hospital Building"
+                            <img src="../assets/images/gallery/38.webp" alt="Prayag Hospital Building"
                                 class="img-fluid w-100">
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 mt-3">
                         <div class="intro-content ps-lg-4">
                             <p>Prayag Hospital is envisioned as a centre of excellence as it is committed to ensure world class, innovative as well as unsurpassed care for patients in a most comfortable and safe environment. Our exceptionally talented panel lays emphasis on achieving the wellness of a person's overall health-his mind, body and soul while encouraging the patients to adopt healthier lifestyles for greater longevity. We keep our patients at the centre of everything we do and tailor care to their unique needs & goals. A team of extremely talented doctors, dedicated nurses, paramedical and non-medical staff deliver the highest standards of healthcare to patients while using the latest techniques and advanced equipments. We are proud to improve the lives of our patients by serving them unconditionally and earning their goodwill over the years.</p>
                             <p><strong>We deliver what we promise !!!</strong></p>
